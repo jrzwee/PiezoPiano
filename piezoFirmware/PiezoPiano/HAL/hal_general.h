@@ -23,9 +23,6 @@ Type:				HAL GENERAL
 #define BIT6				(0x40)
 #define BIT7				(0x80)
 
-#define ON					1
-#define	OFF					0
-
 // BTN PORT B
 #define BTN1 BIT0
 #define BTN2 BIT1
