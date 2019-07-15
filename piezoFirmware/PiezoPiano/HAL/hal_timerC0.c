@@ -10,27 +10,32 @@ Type:				HAL TC1
 #include "hal_general.h"
 
 // ********************************************* DEFINES ***************
-#define	T_BIT				1E-3
-#define F_TIMER				(1/T_BIT)
-#define TCA_PRESCALE		1
-#define TCA_LIM				(F_CPU/TCA_PRESCALE/F_TIMER-1)
+#define	F_CPU				8000000
+#define F_TIMER				44000
+#define TCA_LIM				((F_CPU/F_TIMER)+1)
 
-// NOTES
-#define C4 168/2
-#define D4 150/2
-#define E4 133/2
-#define F4 126/2
-#define G4 112/2
-#define A4 100/2
-#define H4 89/2
-#define C5 84/2
+// NOTES LOW
+#define C4 84
+#define D4 75
+#define E4 67
+#define F4 63
+#define G4 56
+#define A4 50
+#define H4 45
+#define C5 42
+
+// NOTES HIGH
+// #define C4 42
+// #define D4 37
+// #define E4 33
+// #define F4 31
+// #define G4 28
+// #define A4 25
+// #define H4 22
+// #define C5 21
 
 // ********************************************* GLOBAL VARIABLES ***************
-// Volatile -> Compiler is not optimizing count_
-// Compiler eliminates the count_ if not volatile
-volatile unsigned long long count_ = 0;
-
-volatile unsigned int notes[8] = {0};
+unsigned char notes[8] = {0};
 
 // ********************************************* OTHER FUNCTIONS ***************
 void HAL_TimerC0_Init()
@@ -38,31 +43,15 @@ void HAL_TimerC0_Init()
 	// Timer C0
 	TCCR0A |= (1<<WGM01);	// CTC Mode
 	TCCR0B |= (1<<CS00);	// Prescaler 0
-	OCR0A = 91;				// Compare Value
+	
 	TIMSK0 |= (1<<OCIE0A);	// Enable Compare Interrupt
+	OCR0A = TCA_LIM;		// Compare Value 181.818181
   
 	TCNT0 = 0;				// Reset Counter
 }
 
-
-// Return Up Time in Milliseconds
-unsigned long long millis()
-{
-	return count_;
-}
-
-// Return Up Time in Microseconds
-unsigned long long micros()
-{
-	// Timer Register Value / 20 because of the Main CLK
-	// 1/20E6*20 = 1E-6
-	return count_ * 1000 + (TCNT0 / 8);
-}
-
 ISR(TIMER0_COMPA_vect)
 {
-	count_++;
-	
 	notes[0]++;
 	notes[1]++;
 	notes[2]++;
@@ -72,8 +61,7 @@ ISR(TIMER0_COMPA_vect)
 	notes[6]++;
 	notes[7]++;
 		
-	
-	// NOTE 1
+	//NOTE 1
 	if(!(PINB & BTN1) && (notes[0] >= C4))
 	{
 		setBit(PIND, NTE1);
@@ -134,7 +122,4 @@ ISR(TIMER0_COMPA_vect)
 		setBit(PIND, NTE8);
 		notes[7] = 0;
 	}
-
-	
-
 }

@@ -10,8 +10,8 @@ Info:				None
 
 // ********************************************* INCLUDES ***************
 #include "hal_general.h"
-#define F_CPU 8000000UL  // 1 MHz
-#include <util/delay.h>
+// #define F_CPU 8000000UL  // 1 MHz
+// #include <util/delay.h>
 
 // ********************************************* DEFINES ***************
 
