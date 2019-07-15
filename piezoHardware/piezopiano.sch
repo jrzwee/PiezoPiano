@@ -1296,6 +1296,7 @@ P-Channel Logic Level Enhancement Mode Field Effect Transistor
 <rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
+<circle x="-3.9932" y="3.9932" radius="0.3" width="0" layer="21"/>
 </package>
 </packages>
 <packages3d>
