@@ -79,72 +79,72 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
 <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
 <layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -153,21 +153,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -181,14 +181,14 @@
 <wire x1="62.5" y1="67" x2="62.5" y2="50.5" width="0" layer="20"/>
 <wire x1="62.5" y1="50.5" x2="77.5" y2="35.5" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="69.5" x2="62.5" y2="67" width="0" layer="20" curve="-180.915249"/>
-<text x="78.5" y="32" size="1.9304" layer="25" font="vector" ratio="15" rot="R180">PCB Piano 1.1
+<text x="75" y="29.5" size="1.9304" layer="25" font="vector" ratio="15" rot="R180">PCB Piano 1.1
 Andreas Zapfl
 2019</text>
-<text x="88" y="2" size="1.9304" layer="26" font="vector" ratio="15" rot="MR0">PCB Piano
+<text x="88" y="2" size="1.9304" layer="26" font="vector" ratio="15" rot="MR0">PCB Piano 1.1
 Andreas Zapfl
 2019</text>
-<text x="38.5" y="94.5" size="1.016" layer="21" font="vector" ratio="15" align="center">+</text>
-<text x="35.5" y="94.5" size="1.016" layer="21" font="vector" ratio="15" align="center">-</text>
+<text x="40.5" y="96" size="1.016" layer="21" font="vector" ratio="15" align="center">+</text>
+<text x="33.5" y="96" size="1.016" layer="21" font="vector" ratio="15" align="center">-</text>
 </plain>
 <libraries>
 <library name="Custom">
@@ -684,35 +684,35 @@ Your Multi-CB Team
 </autorouter>
 <elements>
 <element name="S4" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="39.25" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.25" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="39.25" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="39.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S8" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="85.25" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.25" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="85.25" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="85.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S3" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="27.75" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.75" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="27.75" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="27.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S7" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="73.75" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="73.75" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="73.75" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="73.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S2" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="16.25" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.25" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="16.25" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="16.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S6" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="62.25" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.25" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="62.25" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="62.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S1" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="4.75" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.75" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="4.75" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="4.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="S5" library="zaan-Electromechanical" package="TACTILE_SWITCH_SMD_5.2MM" value="SKQGADE010" x="50.75" y="4.25" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.75" y="8" size="1.016" layer="25" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="50.75" y="8" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="50.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
 <element name="U1" library="zaan-IC-Microcontroller" package="TQFP32-08" package3d_urn="urn:adsk.eagle:package:4313/2" value="MEGA48A-AU" x="31.5" y="27.5" smashed="yes">
@@ -787,67 +787,67 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="SOT-23" x="47.5" y="38.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="47.5" y="36" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS6" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="24" y="86.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="24" y="86.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="24" y="86.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="24" y="86.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24" y="93.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="24" y="79.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS7" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="24" y="86" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="24" y="86" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="24" y="86" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="24" y="86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="24" y="93" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="24" y="79" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS1" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="30.5" y="74.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="30.5" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="30.5" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="30.5" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.5" y="81.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="30.5" y="67.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS3" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="30.5" y="74" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="30.5" y="74" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="30.5" y="74" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="30.5" y="74" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.5" y="81" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="30.5" y="67" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS2" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="11" y="81" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="11" y="81" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="11" y="81" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="11" y="81" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11" y="88" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="11" y="74" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS5" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="11" y="80.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="11" y="80.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="11" y="80.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="11" y="80.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11" y="87.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="11" y="73.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS4" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="17.5" y="69" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="17.5" y="69" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="17.5" y="69" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="17.5" y="69" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.5" y="76" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="17.5" y="62" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS2" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="17.5" y="68.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="17.5" y="68.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="17.5" y="68.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="17.5" y="68.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="17.5" y="75.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="17.5" y="61.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS7" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="37" y="86.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="37" y="86.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="37" y="86.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="37" y="86.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="37" y="93.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="37" y="79.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS8" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="37" y="86" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="37" y="86" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="37" y="86" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="37" y="86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="37" y="93" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="37" y="79" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS5" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="43.5" y="69.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="43.5" y="69.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="43.5" y="69.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="43.5" y="69.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.5" y="76.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="43.5" y="62.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS1" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="43.5" y="69" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="43.5" y="69" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="43.5" y="69" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="43.5" y="69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="43.5" y="76" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="43.5" y="62" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS8" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="54.5" y="62" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="54.5" y="62" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="54.5" y="62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="54.5" y="62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.5" y="69" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="54.5" y="55" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS4" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="54.5" y="61.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="54.5" y="61.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="54.5" y="61.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="54.5" y="61.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54.5" y="68.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="54.5" y="54.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS3" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="50" y="81.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="50" y="81.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="50" y="81.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="50" y="81.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50" y="88.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="50" y="74.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS6" library="zaan-Electromechanical" package="CM12P/5.0P" value="F/CM12P" x="50" y="81" smashed="yes">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="50" y="81" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ZLFY" x="50" y="81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="50" y="81" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50" y="88" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="50" y="74" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R3" library="zaan-Resistors" package="R0805" value="100R" x="21.5" y="43" smashed="yes" rot="R90">
+<element name="R6" library="zaan-Resistors" package="R0805" value="100R" x="21.5" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="21.5" y="46.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="21.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -855,11 +855,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="24.04" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="21.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R4" library="zaan-Resistors" package="R0805" value="100R" x="28" y="43" smashed="yes" rot="R90">
+<element name="R8" library="zaan-Resistors" package="R0805" value="100R" x="28" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="28" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -867,11 +867,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="30.54" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="28" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="zaan-Resistors" package="R0805" value="100R" x="8.5" y="43" smashed="yes" rot="R90">
+<element name="R2" library="zaan-Resistors" package="R0805" value="100R" x="8.5" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.5" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="8.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -879,11 +879,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="11.04" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="8.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="zaan-Resistors" package="R0805" value="100R" x="15" y="43" smashed="yes" rot="R90">
+<element name="R4" library="zaan-Resistors" package="R0805" value="100R" x="15" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="15" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="15" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -891,11 +891,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="17.54" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="15" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="zaan-Resistors" package="R0805" value="100R" x="34.5" y="43" smashed="yes" rot="R90">
+<element name="R10" library="zaan-Resistors" package="R0805" value="100R" x="34.5" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.5" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="34.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -903,11 +903,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="37.04" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="34.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="zaan-Resistors" package="R0805" value="100R" x="41" y="43" smashed="yes" rot="R90">
+<element name="R12" library="zaan-Resistors" package="R0805" value="100R" x="41" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="41" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="41" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -915,11 +915,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="43.54" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="41" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R8" library="zaan-Resistors" package="R0805" value="100R" x="54" y="43" smashed="yes" rot="R90">
+<element name="R16" library="zaan-Resistors" package="R0805" value="100R" x="54" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="54" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -927,11 +927,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="56.54" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="54" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="zaan-Resistors" package="R0805" value="100R" x="47.5" y="43" smashed="yes" rot="R90">
+<element name="R14" library="zaan-Resistors" package="R0805" value="100R" x="47.5" y="43" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="47.5" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="47.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.125W" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -939,150 +939,150 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="50.04" y="42.365" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="150V" x="47.5" y="43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C3" library="zaan-Capacitors" package="C0805" value="100n" x="23.5" y="28.5" smashed="yes">
+<element name="C1" library="zaan-Capacitors" package="C0805" value="100n" x="23.5" y="28.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20" y="28.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="20.5" y="28.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="2012" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="22.23" y="25.96" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="23.5" y="28.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="zaan-Capacitors" package="C0805" value="100n" x="39.25" y="17" smashed="yes">
+<element name="C6" library="zaan-Capacitors" package="C0805" value="100n" x="39.25" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="39.25" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.5" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="36.5" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="37.98" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="39.25" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="zaan-Capacitors" package="C0805" value="100n" x="85.25" y="17" smashed="yes">
+<element name="C10" library="zaan-Capacitors" package="C0805" value="100n" x="85.25" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="85.25" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="82.5" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="82.5" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="83.98" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="85.25" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="zaan-Capacitors" package="C0805" value="100n" x="27.75" y="17" smashed="yes">
+<element name="C5" library="zaan-Capacitors" package="C0805" value="100n" x="27.75" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="27.75" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="25" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="25" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="26.48" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="27.75" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="zaan-Capacitors" package="C0805" value="100n" x="73.75" y="17" smashed="yes">
+<element name="C9" library="zaan-Capacitors" package="C0805" value="100n" x="73.75" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="73.75" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="71" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="71" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="72.48" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="73.75" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="zaan-Capacitors" package="C0805" value="100n" x="16.25" y="17" smashed="yes">
+<element name="C4" library="zaan-Capacitors" package="C0805" value="100n" x="16.25" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="16.25" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.5" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="13.5" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="14.98" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="16.25" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="zaan-Capacitors" package="C0805" value="100n" x="62.25" y="17" smashed="yes">
+<element name="C8" library="zaan-Capacitors" package="C0805" value="100n" x="62.25" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="62.25" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.5" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="59.5" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="60.98" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="62.25" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="zaan-Capacitors" package="C0805" value="100n" x="4.75" y="17" smashed="yes">
+<element name="C3" library="zaan-Capacitors" package="C0805" value="100n" x="4.75" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="4.75" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="2" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="2" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="3.48" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="4.75" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="zaan-Capacitors" package="C0805" value="100n" x="50.75" y="17" smashed="yes">
+<element name="C7" library="zaan-Capacitors" package="C0805" value="100n" x="50.75" y="17" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="50.75" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48" y="17" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="48" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="2012" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100n" x="49.48" y="14.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="50.75" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="ICSP1" library="Custom" package="AVRISP-2.54" value="AVRISP2.54MM" x="58.5" y="45" smashed="yes">
-<attribute name="NAME" x="58.5" y="40.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<element name="ICSP1" library="Custom" package="AVRISP-2.54" value="AVRISP2.54MM" x="82" y="25.5" smashed="yes">
+<attribute name="NAME" x="82" y="21" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="J1" library="Custom" package="H2-2.54" value="CON2" x="37" y="96.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.5" y="96.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="37" y="98.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
+<element name="J1" library="Custom" package="H2-2.54" value="CON2" x="37" y="96" smashed="yes" rot="R90">
+<attribute name="NAME" x="37" y="98" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="37" y="98.25" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="C2" library="zaan-Capacitors" package="C0805" value="4.7u" x="35.5" y="92.5" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIELECTRIC" value="X5R" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="Murata" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="GRM21BR61H475KE51L" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="35.5" y="90" size="1.016" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
-<attribute name="PACKAGE" value="2012" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" value="4.7u" x="32.96" y="91.23" size="1.27" layer="28" rot="MR90"/>
-<attribute name="VOLTAGE" value="50V" x="35.5" y="92.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="C100" library="zaan-Capacitors" package="C0805" value="4.7u" x="35.5" y="92" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIELECTRIC" value="X5R" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Murata" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="GRM21BR61H475KE51L" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="35.5" y="89.5" size="1.016" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="PACKAGE" value="2012" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PACKAGE-IN" value="0805" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" value="4.7u" x="32.96" y="90.73" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VOLTAGE" value="50V" x="35.5" y="92" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C1" library="zaan-Capacitors" package="C0805" value="100n" x="21.75" y="94" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIELECTRIC" value="X7R" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="Yageo" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CC0805JRX7R9BB104" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="21.75" y="90.5" size="1.016" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
-<attribute name="PACKAGE" value="2012" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="5%" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" value="100n" x="19.21" y="92.73" size="1.27" layer="28" rot="MR90"/>
-<attribute name="VOLTAGE" value="50V" x="21.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="C102" library="zaan-Capacitors" package="C0805" value="100n" x="21.75" y="93.5" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIELECTRIC" value="X7R" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Yageo" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CC0805JRX7R9BB104" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="21.75" y="90" size="1.016" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<attribute name="PACKAGE" value="2012" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PACKAGE-IN" value="0805" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" value="100n" x="19.21" y="92.23" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VOLTAGE" value="50V" x="21.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R9" library="zaan-Resistors" package="R0805" value="10k" x="19.5" y="43" smashed="yes" rot="R270">
+<element name="R5" library="zaan-Resistors" package="R0805" value="10k" x="19.5" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="19.5" y="46.25" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="19.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1090,11 +1090,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="18" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="19.5" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R10" library="zaan-Resistors" package="R0805" value="10k" x="32.5" y="43" smashed="yes" rot="R270">
+<element name="R9" library="zaan-Resistors" package="R0805" value="10k" x="32.5" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="32.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="32.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="32.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.5" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="32.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="32.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="32.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="32.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1106,7 +1106,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1114,11 +1114,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="37.5" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="39" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R12" library="zaan-Resistors" package="R0805" value="10k" x="26" y="43" smashed="yes" rot="R270">
+<element name="R7" library="zaan-Resistors" package="R0805" value="10k" x="26" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="26" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="26" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1126,11 +1126,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="24.5" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="26" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R13" library="zaan-Resistors" package="R0805" value="10k" x="52" y="43" smashed="yes" rot="R270">
+<element name="R15" library="zaan-Resistors" package="R0805" value="10k" x="52" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="52" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="52" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1138,11 +1138,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="50.5" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="52" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R14" library="zaan-Resistors" package="R0805" value="10k" x="6.5" y="43" smashed="yes" rot="R270">
+<element name="R1" library="zaan-Resistors" package="R0805" value="10k" x="6.5" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.5" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="6.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1150,11 +1150,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="5" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="6.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="zaan-Resistors" package="R0805" value="10k" x="13" y="43" smashed="yes" rot="R270">
+<element name="R3" library="zaan-Resistors" package="R0805" value="10k" x="13" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="13" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1162,11 +1162,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="11.5" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="13" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R16" library="zaan-Resistors" package="R0805" value="10k" x="45.5" y="43" smashed="yes" rot="R270">
+<element name="R13" library="zaan-Resistors" package="R0805" value="10k" x="45.5" y="43" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Surface Mount Resistor" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="45.5" y="46.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="45.5" y="45" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="PACKAGE" value="2012" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POWER" value="0.125W" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1174,45 +1174,45 @@ Your Multi-CB Team
 <attribute name="VALUE" x="44" y="43" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="150V" x="45.5" y="42" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C12" library="zaan-Capacitors" package="C0805" value="100n" x="23.5" y="26.5" smashed="yes">
+<element name="C2" library="zaan-Capacitors" package="C0805" value="100n" x="23.5" y="26.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20" y="26.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="20.5" y="26.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="2012" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0805" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.5" y="25" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="24.5" y="26.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="zaan-IC-Power" package="SOT223" value="AZ1117H-5.0TRE1" x="29.5" y="94" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Low Dropout Regulator" x="29.5" y="94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="29.5" y="94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="AZ1117EH-5.0TRG1" x="29.5" y="94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="29.5" y="90" size="1.016" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
-<attribute name="PACKAGE" value="SOT-223" x="29.5" y="94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="34.5" y="94" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" align="center"/>
+<element name="U100" library="zaan-IC-Power" package="SOT223" value="AZ1117H-5.0TRE1" x="29.5" y="93.5" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Low Dropout Regulator" x="29.5" y="93.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="Diodes Incorporated" x="29.5" y="93.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="AZ1117EH-5.0TRG1" x="29.5" y="93.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="29.5" y="89.5" size="1.016" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="PACKAGE" value="SOT-223" x="29.5" y="93.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="34.5" y="93.5" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
-<element name="C13" library="zaan-Capacitors" package="C0805" value="10u" x="23.75" y="94" smashed="yes" rot="MR90">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIELECTRIC" value="X5R" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="Murata" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="GRJ21BR61E106KE01K" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="23.75" y="90.5" size="1.016" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="PACKAGE" value="2012" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="22.25" y="94" size="1.016" layer="28" font="vector" ratio="15" rot="MR90" align="center"/>
-<attribute name="VOLTAGE" value="25V" x="23.75" y="94" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="C101" library="zaan-Capacitors" package="C0805" value="10u" x="23.75" y="93.5" smashed="yes" rot="MR90">
+<attribute name="DESCRIPTION" value="Surface Mount Capacitor" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIELECTRIC" value="X5R" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="Murata" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="GRJ21BR61E106KE01K" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="23.75" y="90" size="1.016" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="PACKAGE" value="2012" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PACKAGE-IN" value="0805" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="22.25" y="93.5" size="1.016" layer="28" font="vector" ratio="15" rot="MR90" align="center"/>
+<attribute name="VOLTAGE" value="25V" x="23.75" y="93.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="Q9" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="DMP3099L" x="38.25" y="92.75" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="P-CHANNEL MOSFET" x="38.25" y="92.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="38.25" y="92.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="DMP3099L-7" x="38.25" y="92.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="38.25" y="90" size="1.016" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
-<attribute name="PACKAGE" value="SOT-23" x="38.25" y="92.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="38.25" y="90.25" size="1.016" layer="28" font="vector" ratio="15" rot="MR0" align="center"/>
+<element name="Q100" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:28738/2" value="DMP3099L" x="38.25" y="92.25" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="P-CHANNEL MOSFET" x="38.25" y="92.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="Diodes Incorporated" x="38.25" y="92.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="DMP3099L-7" x="38.25" y="92.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="40.5" y="92.25" size="1.016" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<attribute name="PACKAGE" value="SOT-23" x="38.25" y="92.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="38.25" y="89.75" size="1.016" layer="28" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1249,17 +1249,17 @@ Your Multi-CB Team
 <via x="54.95" y="36.25" extent="1-16" drill="0.35"/>
 <wire x1="48.45" y1="37.4" x2="48.45" y2="36.25" width="0.254" layer="1"/>
 <via x="48.45" y="36.25" extent="1-16" drill="0.35"/>
-<contactref element="C3" pad="2"/>
+<contactref element="C1" pad="2"/>
 <contactref element="S4" pad="3"/>
 <contactref element="S4" pad="4"/>
-<contactref element="C7" pad="2"/>
-<contactref element="C11" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C8" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C7" pad="2"/>
 <contactref element="S8" pad="3"/>
 <contactref element="S8" pad="4"/>
 <contactref element="S3" pad="3"/>
@@ -1327,13 +1327,12 @@ Your Multi-CB Team
 <via x="36.75" y="27.9" extent="1-16" drill="0.35"/>
 <wire x1="35.7926" y1="27.9" x2="34.75" y2="27.9" width="0.508" layer="1"/>
 <via x="34.75" y="27.9" extent="1-16" drill="0.35"/>
-<contactref element="C2" pad="2"/>
-<contactref element="C1" pad="2"/>
+<contactref element="C100" pad="2"/>
+<contactref element="C102" pad="2"/>
 <contactref element="J1" pad="1"/>
-<wire x1="21.75" y1="94.95" x2="22.25" y2="95.45" width="0.254" layer="16"/>
 <contactref element="U1" pad="3"/>
 <contactref element="U1" pad="5"/>
-<contactref element="C12" pad="2"/>
+<contactref element="C2" pad="2"/>
 <wire x1="27.2074" y1="28.7" x2="26.2" y2="28.7" width="0.508" layer="1"/>
 <wire x1="26.2" y1="28.7" x2="26" y2="28.5" width="0.508" layer="1"/>
 <wire x1="26" y1="28.5" x2="24.45" y2="28.5" width="0.508" layer="1"/>
@@ -1345,11 +1344,9 @@ Your Multi-CB Team
 <wire x1="24.45" y1="26.5" x2="24.5" y2="26.45" width="0.508" layer="1"/>
 <wire x1="24.5" y1="26.45" x2="24.5" y2="25.25" width="0.508" layer="1"/>
 <via x="24.5" y="25.25" extent="1-16" drill="0.35"/>
-<contactref element="U2" pad="1"/>
-<contactref element="C13" pad="2"/>
-<contactref element="Q9" pad="1"/>
-<wire x1="23.75" y1="94.95" x2="24.25" y2="95.45" width="0.254" layer="16"/>
-<wire x1="23.75" y1="94.95" x2="23.25" y2="95.45" width="0.254" layer="16"/>
+<contactref element="U100" pad="1"/>
+<contactref element="C101" pad="2"/>
+<contactref element="Q100" pad="1"/>
 </signal>
 <signal name="NOTE1">
 <contactref element="Q3" pad="1"/>
@@ -1402,15 +1399,15 @@ Your Multi-CB Team
 </signal>
 <signal name="NOTE7">
 <contactref element="Q8" pad="1"/>
-<via x="41.5" y="22.5" extent="1-16" drill="0.35"/>
+<via x="43.5" y="23" extent="1-16" drill="0.35"/>
 <contactref element="U1" pad="11"/>
 <wire x1="30.3" y1="23.2074" x2="30.3" y2="22" width="0.254" layer="1"/>
 <via x="30.3" y="22" extent="1-16" drill="0.35"/>
 <wire x1="30.3" y1="22" x2="30.8" y2="21.5" width="0.254" layer="16"/>
-<wire x1="40.5" y1="21.5" x2="41.5" y2="22.5" width="0.254" layer="16"/>
-<wire x1="30.8" y1="21.5" x2="40.5" y2="21.5" width="0.254" layer="16"/>
-<wire x1="41.5" y1="22.5" x2="53.05" y2="34.05" width="0.254" layer="1"/>
-<wire x1="53.05" y1="34.05" x2="53.05" y2="37.4" width="0.254" layer="1"/>
+<wire x1="42" y1="21.5" x2="43.5" y2="23" width="0.254" layer="16"/>
+<wire x1="30.8" y1="21.5" x2="42" y2="21.5" width="0.254" layer="16"/>
+<wire x1="43.5" y1="23" x2="53.05" y2="32.55" width="0.254" layer="1"/>
+<wire x1="53.05" y1="32.55" x2="53.05" y2="37.4" width="0.254" layer="1"/>
 </signal>
 <signal name="NOTE8">
 <contactref element="Q7" pad="1"/>
@@ -1427,39 +1424,39 @@ Your Multi-CB Team
 </signal>
 <signal name="N$9">
 <contactref element="Q3" pad="3"/>
-<contactref element="R3" pad="1"/>
+<contactref element="R6" pad="1"/>
 <wire x1="21.5" y1="39.6" x2="21.5" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="LS1" pad="-"/>
-<contactref element="R4" pad="2"/>
-<contactref element="R12" pad="1"/>
+<contactref element="LS3" pad="-"/>
+<contactref element="R8" pad="2"/>
+<contactref element="R7" pad="1"/>
 <wire x1="26" y1="43.95" x2="28" y2="43.95" width="0.254" layer="1"/>
-<wire x1="28" y1="43.95" x2="28" y2="74.5" width="0.508" layer="1"/>
+<wire x1="28" y1="43.95" x2="28" y2="74" width="0.508" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="LS2" pad="-"/>
-<contactref element="R1" pad="2"/>
-<contactref element="R14" pad="1"/>
-<wire x1="8.5" y1="43.95" x2="8.5" y2="81" width="0.508" layer="1"/>
-<wire x1="6.5" y1="43.95" x2="8.5" y2="43.95" width="0" layer="19" extent="1-1"/>
+<contactref element="LS5" pad="-"/>
+<contactref element="R2" pad="2"/>
+<contactref element="R1" pad="1"/>
+<wire x1="8.5" y1="43.95" x2="8.5" y2="80.5" width="0.508" layer="1"/>
+<wire x1="6.5" y1="43.95" x2="8.5" y2="43.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="Q2" pad="3"/>
-<contactref element="R2" pad="1"/>
+<contactref element="R4" pad="1"/>
 <wire x1="15" y1="39.6" x2="15" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="Q6" pad="3"/>
-<contactref element="R6" pad="1"/>
+<contactref element="R12" pad="1"/>
 <wire x1="41" y1="39.6" x2="41" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="LS8" pad="-"/>
-<contactref element="R8" pad="2"/>
-<contactref element="R13" pad="1"/>
+<contactref element="LS4" pad="-"/>
+<contactref element="R16" pad="2"/>
+<contactref element="R15" pad="1"/>
 <wire x1="52" y1="43.95" x2="54" y2="43.95" width="0.254" layer="1"/>
-<wire x1="52" y1="62" x2="52" y2="43.95" width="0.508" layer="1"/>
+<wire x1="52" y1="61.5" x2="52" y2="43.95" width="0.508" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="6"/>
@@ -1469,50 +1466,50 @@ Your Multi-CB Team
 <vertex x="90" y="100"/>
 <vertex x="90" y="0"/>
 </polygon>
-<contactref element="LS6" pad="+"/>
-<contactref element="LS1" pad="+"/>
-<contactref element="LS2" pad="+"/>
-<contactref element="LS4" pad="+"/>
 <contactref element="LS7" pad="+"/>
-<contactref element="LS5" pad="+"/>
-<contactref element="LS8" pad="+"/>
 <contactref element="LS3" pad="+"/>
-<contactref element="C3" pad="1"/>
+<contactref element="LS5" pad="+"/>
+<contactref element="LS2" pad="+"/>
+<contactref element="LS8" pad="+"/>
+<contactref element="LS1" pad="+"/>
+<contactref element="LS4" pad="+"/>
+<contactref element="LS6" pad="+"/>
+<contactref element="C1" pad="1"/>
 <contactref element="ICSP1" pad="2"/>
 <contactref element="U1" pad="18"/>
+<contactref element="R5" pad="2"/>
 <contactref element="R9" pad="2"/>
-<contactref element="R10" pad="2"/>
 <contactref element="R11" pad="2"/>
-<contactref element="R12" pad="2"/>
-<contactref element="R14" pad="2"/>
-<contactref element="R13" pad="2"/>
+<contactref element="R7" pad="2"/>
+<contactref element="R1" pad="2"/>
 <contactref element="R15" pad="2"/>
-<contactref element="R16" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R13" pad="2"/>
 <contactref element="U1" pad="4"/>
-<contactref element="C12" pad="1"/>
+<contactref element="C2" pad="1"/>
 <wire x1="27.2074" y1="26.3" x2="26.3" y2="26.3" width="0.508" layer="1"/>
-<contactref element="U2" pad="4"/>
-<contactref element="U2" pad="2"/>
-<contactref element="C13" pad="1"/>
-<contactref element="C1" pad="1"/>
-<wire x1="21.25" y1="92.55" x2="21.75" y2="93.05" width="0.508" layer="16"/>
-<wire x1="21.25" y1="92.55" x2="21.25" y2="92" width="0.508" layer="16"/>
-<via x="21.25" y="92" extent="1-16" drill="0.35"/>
-<wire x1="21.75" y1="93.05" x2="22.25" y2="92.55" width="0.508" layer="16"/>
-<wire x1="22.25" y1="92.55" x2="22.25" y2="92" width="0.508" layer="16"/>
-<via x="22.25" y="92" extent="1-16" drill="0.35"/>
-<wire x1="23.75" y1="93.05" x2="23.25" y2="92.55" width="0.508" layer="16"/>
-<wire x1="23.25" y1="92.55" x2="23.25" y2="92" width="0.508" layer="16"/>
-<via x="23.25" y="92" extent="1-16" drill="0.35"/>
-<wire x1="23.75" y1="93.05" x2="24.25" y2="92.55" width="0.508" layer="16"/>
-<wire x1="24.25" y1="92.55" x2="24.25" y2="92" width="0.508" layer="16"/>
-<via x="24.25" y="92" extent="1-16" drill="0.35"/>
-<wire x1="21.75" y1="93.05" x2="23.75" y2="93.05" width="0.508" layer="16"/>
-<wire x1="23.75" y1="93.05" x2="25.95" y2="93.05" width="0.508" layer="16"/>
-<wire x1="25.95" y1="93.05" x2="26" y2="93" width="0.508" layer="16"/>
-<wire x1="26" y1="93" x2="26.401" y2="93.401" width="0.508" layer="16"/>
-<wire x1="26.401" y1="93.401" x2="26.401" y2="94" width="0.508" layer="16"/>
-<wire x1="26.401" y1="94" x2="32.599" y2="94" width="0.508" layer="16"/>
+<contactref element="U100" pad="4"/>
+<contactref element="U100" pad="2"/>
+<contactref element="C101" pad="1"/>
+<contactref element="C102" pad="1"/>
+<wire x1="21.25" y1="92.05" x2="21.75" y2="92.55" width="0.508" layer="16"/>
+<wire x1="21.25" y1="92.05" x2="21.25" y2="91.5" width="0.508" layer="16"/>
+<via x="21.25" y="91.5" extent="1-16" drill="0.35"/>
+<wire x1="21.75" y1="92.55" x2="22.25" y2="92.05" width="0.508" layer="16"/>
+<wire x1="22.25" y1="92.05" x2="22.25" y2="91.5" width="0.508" layer="16"/>
+<via x="22.25" y="91.5" extent="1-16" drill="0.35"/>
+<wire x1="23.75" y1="92.55" x2="23.25" y2="92.05" width="0.508" layer="16"/>
+<wire x1="23.25" y1="92.05" x2="23.25" y2="91.5" width="0.508" layer="16"/>
+<via x="23.25" y="91.5" extent="1-16" drill="0.35"/>
+<wire x1="23.75" y1="92.55" x2="24.25" y2="92.05" width="0.508" layer="16"/>
+<wire x1="24.25" y1="92.05" x2="24.25" y2="91.5" width="0.508" layer="16"/>
+<via x="24.25" y="91.5" extent="1-16" drill="0.35"/>
+<wire x1="21.75" y1="92.55" x2="23.75" y2="92.55" width="0.508" layer="16"/>
+<wire x1="23.75" y1="92.55" x2="25.95" y2="92.55" width="0.508" layer="16"/>
+<wire x1="25.95" y1="92.55" x2="26" y2="92.5" width="0.508" layer="16"/>
+<wire x1="26" y1="92.5" x2="26.401" y2="92.901" width="0.508" layer="16"/>
+<wire x1="26.401" y1="92.901" x2="26.401" y2="93.5" width="0.508" layer="16"/>
+<wire x1="26.401" y1="93.5" x2="32.599" y2="93.5" width="0.508" layer="16"/>
 <wire x1="27.2074" y1="27.9" x2="28.4" y2="27.9" width="0.508" layer="1"/>
 <wire x1="28.4" y1="27.9" x2="29" y2="28.5" width="0.508" layer="1"/>
 <wire x1="29" y1="28.5" x2="29" y2="30" width="0.508" layer="1"/>
@@ -1523,69 +1520,69 @@ Your Multi-CB Team
 </signal>
 <signal name="N$2">
 <contactref element="Q4" pad="3"/>
-<contactref element="R4" pad="1"/>
+<contactref element="R8" pad="1"/>
 <wire x1="28" y1="39.6" x2="28" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="Q1" pad="3"/>
-<contactref element="R1" pad="1"/>
+<contactref element="R2" pad="1"/>
 <wire x1="8.5" y1="39.6" x2="8.5" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="LS4" pad="-"/>
-<contactref element="R2" pad="2"/>
-<contactref element="R15" pad="1"/>
-<wire x1="15" y1="69" x2="15" y2="43.95" width="0.508" layer="1"/>
-<wire x1="15" y1="43.95" x2="13" y2="43.95" width="0" layer="19" extent="1-1"/>
+<contactref element="LS2" pad="-"/>
+<contactref element="R4" pad="2"/>
+<contactref element="R3" pad="1"/>
+<wire x1="15" y1="68.5" x2="15" y2="43.95" width="0.508" layer="1"/>
+<wire x1="13" y1="43.95" x2="15" y2="43.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="R5" pad="1"/>
+<contactref element="R10" pad="1"/>
 <contactref element="Q5" pad="3"/>
 <wire x1="34.5" y1="39.6" x2="34.5" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="R5" pad="2"/>
-<contactref element="LS7" pad="-"/>
-<contactref element="R10" pad="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="LS8" pad="-"/>
+<contactref element="R9" pad="1"/>
 <wire x1="32.5" y1="43.95" x2="34.5" y2="43.95" width="0.254" layer="1"/>
-<wire x1="34.5" y1="43.95" x2="34.5" y2="72.5" width="0.508" layer="1"/>
-<wire x1="34.5" y1="72.5" x2="35.5" y2="73.5" width="0.508" layer="1"/>
-<wire x1="35.5" y1="73.5" x2="35.5" y2="75.5" width="0.508" layer="1"/>
-<wire x1="35.5" y1="75.5" x2="34.5" y2="76.5" width="0.508" layer="1"/>
-<wire x1="34.5" y1="76.5" x2="34.5" y2="86.5" width="0.508" layer="1"/>
+<wire x1="34.5" y1="43.95" x2="34.5" y2="72" width="0.508" layer="1"/>
+<wire x1="34.5" y1="72" x2="35.5" y2="73" width="0.508" layer="1"/>
+<wire x1="35.5" y1="73" x2="35.5" y2="75" width="0.508" layer="1"/>
+<wire x1="35.5" y1="75" x2="34.5" y2="76" width="0.508" layer="1"/>
+<wire x1="34.5" y1="76" x2="34.5" y2="86" width="0.508" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="R6" pad="2"/>
-<contactref element="LS5" pad="-"/>
+<contactref element="R12" pad="2"/>
+<contactref element="LS1" pad="-"/>
 <contactref element="R11" pad="1"/>
 <wire x1="39" y1="43.95" x2="41" y2="43.95" width="0.254" layer="1"/>
-<wire x1="41" y1="69.5" x2="41" y2="43.95" width="0.508" layer="1"/>
+<wire x1="41" y1="69" x2="41" y2="43.95" width="0.508" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="Q8" pad="3"/>
-<contactref element="R8" pad="1"/>
+<contactref element="R16" pad="1"/>
 <wire x1="54" y1="39.6" x2="54" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="Q7" pad="3"/>
-<contactref element="R7" pad="1"/>
+<contactref element="R14" pad="1"/>
 <wire x1="47.5" y1="39.6" x2="47.5" y2="42.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="R7" pad="2"/>
-<contactref element="LS3" pad="-"/>
-<contactref element="R16" pad="1"/>
+<contactref element="R14" pad="2"/>
+<contactref element="LS6" pad="-"/>
+<contactref element="R13" pad="1"/>
 <wire x1="45.5" y1="43.95" x2="47.5" y2="43.95" width="0.254" layer="1"/>
-<wire x1="47.5" y1="43.95" x2="47.5" y2="67.5" width="0.508" layer="1"/>
-<wire x1="47.5" y1="67.5" x2="48.5" y2="68.5" width="0.508" layer="1"/>
-<wire x1="48.5" y1="68.5" x2="48.5" y2="70.5" width="0.508" layer="1"/>
-<wire x1="48.5" y1="70.5" x2="47.5" y2="71.5" width="0.508" layer="1"/>
-<wire x1="47.5" y1="71.5" x2="47.5" y2="81.5" width="0.508" layer="1"/>
+<wire x1="47.5" y1="43.95" x2="47.5" y2="67" width="0.508" layer="1"/>
+<wire x1="47.5" y1="67" x2="48.5" y2="68" width="0.508" layer="1"/>
+<wire x1="48.5" y1="68" x2="48.5" y2="70" width="0.508" layer="1"/>
+<wire x1="48.5" y1="70" x2="47.5" y2="71" width="0.508" layer="1"/>
+<wire x1="47.5" y1="71" x2="47.5" y2="81" width="0.508" layer="1"/>
 </signal>
 <signal name="T1">
 <contactref element="S4" pad="2"/>
 <contactref element="S4" pad="1"/>
-<contactref element="C7" pad="1"/>
+<contactref element="C6" pad="1"/>
 <wire x1="38.3" y1="3.689" x2="36.956" y2="2.345" width="0.254" layer="1"/>
 <wire x1="36.35" y1="2.345" x2="36.956" y2="2.345" width="0.254" layer="1"/>
 <wire x1="38.3" y1="3.689" x2="38.3" y2="17" width="0.254" layer="1"/>
@@ -1594,11 +1591,19 @@ Your Multi-CB Team
 <wire x1="33.5" y1="20.5" x2="37" y2="17" width="0.254" layer="1"/>
 <wire x1="37" y1="17" x2="38.3" y2="17" width="0.254" layer="1"/>
 <contactref element="ICSP1" pad="4"/>
-<wire x1="33.5" y1="23.2074" x2="59.77" y2="45" width="0" layer="19" extent="1-1"/>
-<wire x1="42.15" y1="2.345" x2="38.3" y2="3.689" width="0" layer="19" extent="1-1"/>
+<wire x1="33.5" y1="23.2074" x2="33.5" y2="24.5" width="0.254" layer="1"/>
+<via x="33.5" y="24.5" extent="1-16" drill="0.35"/>
+<wire x1="33.5" y1="24.5" x2="35" y2="26" width="0.254" layer="16"/>
+<via x="53.25" y="26" extent="1-16" drill="0.35"/>
+<wire x1="35" y1="26" x2="53.25" y2="26" width="0.254" layer="16"/>
+<wire x1="53.25" y1="26" x2="56" y2="26" width="0.254" layer="1"/>
+<wire x1="83.27" y1="25.5" x2="82.02" y2="26.75" width="0.254" layer="1"/>
+<wire x1="56.75" y1="26.75" x2="56" y2="26" width="0.254" layer="1"/>
+<wire x1="82.02" y1="26.75" x2="56.75" y2="26.75" width="0.254" layer="1"/>
+<wire x1="38.3" y1="3.689" x2="42.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T2">
-<contactref element="C6" pad="1"/>
+<contactref element="C5" pad="1"/>
 <contactref element="S3" pad="1"/>
 <contactref element="S3" pad="2"/>
 <wire x1="26.8" y1="3.689" x2="25.456" y2="2.345" width="0.254" layer="1"/>
@@ -1613,7 +1618,7 @@ Your Multi-CB Team
 <wire x1="26.8" y1="3.689" x2="30.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T3">
-<contactref element="C5" pad="1"/>
+<contactref element="C4" pad="1"/>
 <contactref element="S2" pad="1"/>
 <contactref element="S2" pad="2"/>
 <wire x1="13.35" y1="2.345" x2="13.956" y2="2.345" width="0.254" layer="1"/>
@@ -1628,7 +1633,7 @@ Your Multi-CB Team
 <wire x1="15.3" y1="3.689" x2="19.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T4">
-<contactref element="C4" pad="1"/>
+<contactref element="C3" pad="1"/>
 <contactref element="S1" pad="1"/>
 <contactref element="S1" pad="2"/>
 <wire x1="1.85" y1="2.345" x2="2.456" y2="2.345" width="0.254" layer="1"/>
@@ -1643,7 +1648,7 @@ Your Multi-CB Team
 <wire x1="3.8" y1="3.689" x2="7.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T5">
-<contactref element="C11" pad="1"/>
+<contactref element="C10" pad="1"/>
 <contactref element="S8" pad="1"/>
 <contactref element="S8" pad="2"/>
 <wire x1="82.35" y1="2.345" x2="82.956" y2="2.345" width="0.254" layer="1"/>
@@ -1651,56 +1656,55 @@ Your Multi-CB Team
 <wire x1="84.3" y1="3.689" x2="84.3" y2="17" width="0.254" layer="1"/>
 <wire x1="77" y1="19" x2="83.5" y2="19" width="0.254" layer="16"/>
 <via x="83.5" y="19" extent="1-16" drill="0.35"/>
-<wire x1="42.5" y1="27" x2="69" y2="27" width="0.254" layer="16"/>
-<wire x1="69" y1="27" x2="77" y2="19" width="0.254" layer="16"/>
+<wire x1="37.75" y1="29.8" x2="66.2" y2="29.8" width="0.254" layer="16"/>
+<wire x1="66.2" y1="29.8" x2="77" y2="19" width="0.254" layer="16"/>
 <wire x1="84.3" y1="18.2" x2="84.3" y2="17" width="0.254" layer="1"/>
 <wire x1="83.5" y1="19" x2="84.3" y2="18.2" width="0.254" layer="1"/>
 <contactref element="U1" pad="24"/>
-<wire x1="35.7926" y1="30.3" x2="36.75" y2="30.3" width="0.254" layer="1"/>
-<via x="36.75" y="30.3" extent="1-16" drill="0.35"/>
-<wire x1="36.75" y1="30.3" x2="39.2" y2="30.3" width="0.254" layer="16"/>
-<wire x1="39.2" y1="30.3" x2="42.5" y2="27" width="0.254" layer="16"/>
+<wire x1="37.75" y1="29.8" x2="37.25" y2="30.3" width="0.254" layer="1"/>
+<wire x1="35.7926" y1="30.3" x2="37.25" y2="30.3" width="0.254" layer="1"/>
+<via x="37.75" y="29.8" extent="1-16" drill="0.35"/>
 <wire x1="84.3" y1="3.689" x2="88.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T6">
-<contactref element="C10" pad="1"/>
+<contactref element="C9" pad="1"/>
 <contactref element="S7" pad="1"/>
 <contactref element="S7" pad="2"/>
 <wire x1="70.85" y1="2.345" x2="71.456" y2="2.345" width="0.254" layer="1"/>
 <wire x1="72.8" y1="3.689" x2="71.456" y2="2.345" width="0.254" layer="1"/>
 <wire x1="72.8" y1="3.689" x2="72.8" y2="17" width="0.254" layer="1"/>
-<wire x1="63" y1="24" x2="68" y2="19" width="0.254" layer="16"/>
-<wire x1="68" y1="19" x2="72" y2="19" width="0.254" layer="16"/>
+<wire x1="62" y1="29" x2="72" y2="19" width="0.254" layer="16"/>
 <via x="72" y="19" extent="1-16" drill="0.35"/>
-<wire x1="43.5" y1="24" x2="63" y2="24" width="0.254" layer="16"/>
+<wire x1="37.25" y1="29" x2="62" y2="29" width="0.254" layer="16"/>
 <wire x1="72.8" y1="17" x2="72.8" y2="18.2" width="0.254" layer="1"/>
 <wire x1="72.8" y1="18.2" x2="72" y2="19" width="0.254" layer="1"/>
 <contactref element="U1" pad="23"/>
+<wire x1="37.25" y1="29" x2="36.75" y2="29.5" width="0.254" layer="1"/>
 <wire x1="35.7926" y1="29.5" x2="36.75" y2="29.5" width="0.254" layer="1"/>
-<via x="36.75" y="29.5" extent="1-16" drill="0.35"/>
-<wire x1="36.75" y1="29.5" x2="38" y2="29.5" width="0.254" layer="16"/>
-<wire x1="38" y1="29.5" x2="43.5" y2="24" width="0.254" layer="16"/>
+<via x="37.25" y="29" extent="1-16" drill="0.35"/>
 <wire x1="72.8" y1="3.689" x2="76.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T7">
-<contactref element="C9" pad="1"/>
+<contactref element="C8" pad="1"/>
 <contactref element="S6" pad="1"/>
 <contactref element="S6" pad="2"/>
 <wire x1="61.3" y1="3.939" x2="59.706" y2="2.345" width="0.254" layer="1"/>
 <wire x1="59.35" y1="2.345" x2="59.706" y2="2.345" width="0.254" layer="1"/>
 <wire x1="61.3" y1="3.939" x2="61.3" y2="17" width="0.254" layer="1"/>
 <contactref element="U1" pad="17"/>
-<wire x1="61.3" y1="17" x2="61.3" y2="18.5" width="0.254" layer="1"/>
-<wire x1="61.3" y1="18.5" x2="59.177" y2="20.623" width="0.254" layer="1"/>
-<wire x1="41.56455" y1="20.623" x2="59.177" y2="20.623" width="0.254" layer="1"/>
-<wire x1="37.48755" y1="24.7" x2="35.7926" y2="24.7" width="0.254" layer="1"/>
-<wire x1="37.48755" y1="24.7" x2="41.56455" y2="20.623" width="0.254" layer="1"/>
+<wire x1="38.48755" y1="24.7" x2="35.7926" y2="24.7" width="0.254" layer="1"/>
 <contactref element="ICSP1" pad="3"/>
-<wire x1="59.177" y1="20.623" x2="57.23" y2="45" width="0" layer="19" extent="1-1"/>
-<wire x1="65.15" y1="2.345" x2="61.3" y2="3.939" width="0" layer="19" extent="1-1"/>
+<wire x1="38.48755" y1="24.7" x2="42.18755" y2="21" width="0.254" layer="1"/>
+<wire x1="58.5" y1="21" x2="61.3" y2="18.2" width="0.254" layer="1"/>
+<wire x1="61.3" y1="17" x2="61.3" y2="18.2" width="0.254" layer="1"/>
+<wire x1="58.5" y1="21" x2="42.18755" y2="21" width="0.254" layer="1"/>
+<wire x1="61.3" y1="18.2" x2="64.1" y2="21" width="0.254" layer="1"/>
+<wire x1="76.23" y1="21" x2="64.1" y2="21" width="0.254" layer="1"/>
+<wire x1="76.23" y1="21" x2="80.73" y2="25.5" width="0.254" layer="1"/>
+<wire x1="61.3" y1="3.939" x2="65.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T8">
-<contactref element="C8" pad="1"/>
+<contactref element="C7" pad="1"/>
 <contactref element="S5" pad="1"/>
 <contactref element="S5" pad="2"/>
 <wire x1="49.8" y1="3.939" x2="48.206" y2="2.345" width="0.254" layer="1"/>
@@ -1712,42 +1716,53 @@ Your Multi-CB Team
 <wire x1="34.3" y1="21.7" x2="36.5" y2="19.5" width="0.254" layer="1"/>
 <wire x1="36.5" y1="19.5" x2="47.3" y2="19.5" width="0.254" layer="1"/>
 <contactref element="ICSP1" pad="1"/>
-<wire x1="47.3" y1="19.5" x2="57.23" y2="47.54" width="0" layer="19" extent="1-1"/>
-<wire x1="53.65" y1="2.345" x2="49.8" y2="3.939" width="0" layer="19" extent="1-1"/>
+<wire x1="34.3" y1="23.2074" x2="34.3" y2="24.25" width="0.254" layer="1"/>
+<via x="34.3" y="24.25" extent="1-16" drill="0.35"/>
+<wire x1="34.3" y1="24.25" x2="35.05" y2="25" width="0.254" layer="16"/>
+<via x="55.75" y="27.25" extent="1-16" drill="0.35"/>
+<wire x1="35.05" y1="25" x2="53.5" y2="25" width="0.254" layer="16"/>
+<wire x1="53.5" y1="25" x2="55.75" y2="27.25" width="0.254" layer="16"/>
+<wire x1="55.75" y1="27.25" x2="57.5" y2="29" width="0.254" layer="1"/>
+<wire x1="79.77" y1="29" x2="80.73" y2="28.04" width="0.254" layer="1"/>
+<wire x1="57.5" y1="29" x2="79.77" y2="29" width="0.254" layer="1"/>
+<wire x1="49.8" y1="3.939" x2="53.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RST">
 <contactref element="ICSP1" pad="5"/>
 <contactref element="U1" pad="29"/>
-<wire x1="31.1" y1="31.7926" x2="31.1" y2="32.75" width="0.254" layer="1"/>
-<via x="31.1" y="32.75" extent="1-16" drill="0.35"/>
-<wire x1="31.1" y1="32.75" x2="40.81" y2="42.46" width="0.254" layer="16"/>
-<wire x1="40.81" y1="42.46" x2="57.23" y2="42.46" width="0.254" layer="16"/>
+<wire x1="31.1" y1="31.7926" x2="31.1" y2="30.75" width="0.254" layer="1"/>
+<via x="31.1" y="30.75" extent="1-16" drill="0.35"/>
+<wire x1="80.73" y1="22.96" x2="72.44" y2="31.25" width="0.254" layer="16"/>
+<wire x1="72.44" y1="31.25" x2="34.1" y2="31.25" width="0.254" layer="16"/>
+<wire x1="34.1" y1="31.25" x2="33.1" y2="30.25" width="0.254" layer="16"/>
+<wire x1="31.1" y1="30.75" x2="31.6" y2="30.25" width="0.254" layer="16"/>
+<wire x1="33.1" y1="30.25" x2="31.6" y2="30.25" width="0.254" layer="16"/>
 </signal>
 <signal name="N$18">
-<contactref element="R9" pad="1"/>
-<contactref element="R3" pad="2"/>
-<contactref element="LS6" pad="-"/>
+<contactref element="R5" pad="1"/>
+<contactref element="R6" pad="2"/>
+<contactref element="LS7" pad="-"/>
 <wire x1="19.5" y1="43.95" x2="21.5" y2="43.95" width="0.254" layer="1"/>
-<wire x1="21.5" y1="86.5" x2="21.5" y2="71" width="0.508" layer="1"/>
-<wire x1="21.5" y1="71" x2="22.5" y2="70" width="0.508" layer="1"/>
-<wire x1="22.5" y1="67.5" x2="21.5" y2="66.5" width="0.508" layer="1"/>
-<wire x1="21.5" y1="66.5" x2="21.5" y2="43.95" width="0.508" layer="1"/>
-<wire x1="22.5" y1="70" x2="22.5" y2="67.5" width="0.508" layer="1"/>
+<wire x1="21.5" y1="86" x2="21.5" y2="70.5" width="0.508" layer="1"/>
+<wire x1="21.5" y1="70.5" x2="22.5" y2="69.5" width="0.508" layer="1"/>
+<wire x1="22.5" y1="67" x2="21.5" y2="66" width="0.508" layer="1"/>
+<wire x1="21.5" y1="66" x2="21.5" y2="43.95" width="0.508" layer="1"/>
+<wire x1="22.5" y1="69.5" x2="22.5" y2="67" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J1" pad="2"/>
-<contactref element="Q9" pad="3"/>
-<wire x1="38.25" y1="93.85" x2="38.27" y2="93.87" width="0.508" layer="16"/>
-<wire x1="38.27" y1="93.87" x2="38.27" y2="96.5" width="0.508" layer="16"/>
+<contactref element="Q100" pad="3"/>
+<wire x1="38.25" y1="93.35" x2="38.27" y2="93.37" width="0.508" layer="16"/>
+<wire x1="38.27" y1="93.37" x2="38.27" y2="96" width="0.508" layer="16"/>
 </signal>
 <signal name="N$17">
-<contactref element="Q9" pad="2"/>
-<contactref element="U2" pad="3"/>
-<contactref element="C2" pad="1"/>
-<wire x1="37.3" y1="91.65" x2="37.2" y2="91.55" width="0.508" layer="16"/>
-<wire x1="37.2" y1="91.55" x2="35.5" y2="91.55" width="0.508" layer="16"/>
-<wire x1="35.5" y1="91.55" x2="32.738" y2="91.55" width="0.508" layer="16"/>
-<wire x1="32.738" y1="91.55" x2="32.599" y2="91.689" width="0.508" layer="16"/>
+<contactref element="Q100" pad="2"/>
+<contactref element="U100" pad="3"/>
+<contactref element="C100" pad="1"/>
+<wire x1="37.3" y1="91.15" x2="37.2" y2="91.05" width="0.508" layer="16"/>
+<wire x1="37.2" y1="91.05" x2="35.5" y2="91.05" width="0.508" layer="16"/>
+<wire x1="35.5" y1="91.05" x2="32.738" y2="91.05" width="0.508" layer="16"/>
+<wire x1="32.738" y1="91.05" x2="32.599" y2="91.189" width="0.508" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -1766,6 +1781,8 @@ Your Multi-CB Team
 <approved hash="21,19,903bec39923991c5"/>
 <approved hash="21,19,16196a1b141b11e7"/>
 <approved hash="21,19,a921d521a921a8dd"/>
+<approved hash="23,1,b6b63d0fc882c56d"/>
+<approved hash="23,1,7e0d87fc14895838"/>
 </errors>
 </board>
 </drawing>
