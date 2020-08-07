@@ -2084,11 +2084,73 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <rectangle x1="-2.65" y1="3.405" x2="-2.25" y2="3.905" layer="51"/>
 <rectangle x1="-3.425" y1="3.405" x2="-3.025" y2="3.905" layer="51"/>
 </package>
+<package name="JST-PH-2-SMT-SE" urn="urn:adsk.eagle:footprint:16759018/1" library_version="7">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="0" y="4" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;Name</text>
+<text x="0" y="-7" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;Value</text>
+<text x="1" y="-0.75" size="0.8128" layer="51" font="vector" ratio="15" align="center">1</text>
+<text x="-1" y="-0.75" size="0.8128" layer="51" font="vector" ratio="15" align="center">2</text>
+<circle x="3.25" y="-1.25" radius="0.25" width="0" layer="21"/>
+</package>
+<package name="JST-PH-2-SMT-TE" urn="urn:adsk.eagle:footprint:16759017/1" library_version="7">
+<wire x1="-4" y1="4.25" x2="4" y2="4.25" width="0.2032" layer="51"/>
+<wire x1="4" y1="4.25" x2="4" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-1.25" x2="-4" y2="4.25" width="0.2032" layer="51"/>
+<wire x1="4" y1="-1.25" x2="-4" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="-4" y1="4.25" x2="4" y2="4.25" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="4" y1="-1.25" x2="1.75" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.25" x2="-4" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-4" y1="-1.25" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="4.25" x2="-4" y2="3.5" width="0.127" layer="21"/>
+<wire x1="4" y1="4.25" x2="4" y2="3.5" width="0.127" layer="21"/>
+<smd name="1" x="1" y="-0.95" dx="1" dy="5.5" layer="1"/>
+<smd name="NC1" x="-3.9" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.9" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="-0.95" dx="1" dy="5.5" layer="1"/>
+<text x="0" y="5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;Name</text>
+<text x="0" y="-4.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;Value</text>
+<text x="1" y="2.5" size="0.8128" layer="51" font="vector" ratio="15" align="center">1</text>
+<text x="-1" y="2.5" size="0.8128" layer="51" font="vector" ratio="15" align="center">2</text>
+<circle x="3.25" y="-0.75" radius="0.25" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/2" type="model" library_version="7">
 <packageinstances>
 <packageinstance name="USB-C-16P"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-PH-2-SMT-SE" urn="urn:adsk.eagle:package:16759071/1" type="box" library_version="7">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<packageinstances>
+<packageinstance name="JST-PH-2-SMT-SE"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-PH-2-SMT-TE" urn="urn:adsk.eagle:package:16759070/1" type="box" library_version="7">
+<packageinstances>
+<packageinstance name="JST-PH-2-SMT-TE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2110,6 +2172,18 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <pin name="D-" x="12.7" y="2.54" length="short" rot="R180"/>
 <pin name="CC2" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
 <pin name="SHLD" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="1X2-H" urn="urn:adsk.eagle:symbol:16759038/1" library_version="7">
+<wire x1="3.81" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
+<text x="-1.27" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="-5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2141,6 +2215,58 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="MF" value="Jing Extension"/>
 <attribute name="MPN" value="C167321"/>
 <attribute name="PACKAGE" value="USB-C 16P"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-PH-2" urn="urn:adsk.eagle:component:16759091/1" prefix="J" library_version="7">
+<description>&lt;b&gt;SMD Header 1x2&lt;/b&gt;
+&lt;br&gt;
+2mm Pitch JST-PH Header, 2 Circuits, PA Polyamide (Nylon)
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Pitch:&lt;/b&gt; 2.00mm
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; JST</description>
+<gates>
+<gate name="G$1" symbol="1X2-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMT-SE" package="JST-PH-2-SMT-SE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759071/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="JST-PH Header"/>
+<attribute name="MF" value="JST"/>
+<attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PITCH" value="2.0"/>
+<attribute name="POSITIONS" value="2"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMT-TE" package="JST-PH-2-SMT-TE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759070/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="JST-PH Header"/>
+<attribute name="MF" value="JST"/>
+<attribute name="MPN" value="B2B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PITCH" value="2.0"/>
+<attribute name="POSITIONS" value="2"/>
 </technology>
 </technologies>
 </device>
@@ -2268,6 +2394,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <part name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/2"/>
 <part name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="12p"/>
 <part name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="12p"/>
+<part name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="JST-PH-2" device="-SMT-SE" package3d_urn="urn:adsk.eagle:package:16759071/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2775,6 +2902,10 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="VOLTAGE" x="140.462" y="118.11" size="1.27" layer="96" align="center-left"/>
 <attribute name="TOLERANCE" x="140.462" y="116.586" size="1.27" layer="96" align="center-left"/>
 <attribute name="DIELECTRIC" x="140.462" y="115.062" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="J4" gate="G$1" x="81.28" y="45.72" smashed="yes">
+<attribute name="VALUE" x="80.01" y="40.64" size="1.27" layer="96"/>
+<attribute name="NAME" x="80.01" y="51.562" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -3616,6 +3747,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <pinref part="U2" gate="U1" pin="GND"/>
 <wire x1="73.66" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="88.9" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CC1" class="0">

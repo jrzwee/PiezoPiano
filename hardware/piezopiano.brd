@@ -766,11 +766,46 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <rectangle x1="-2.65" y1="3.405" x2="-2.25" y2="3.905" layer="51"/>
 <rectangle x1="-3.425" y1="3.405" x2="-3.025" y2="3.905" layer="51"/>
 </package>
+<package name="JST-PH-2-SMT-SE" urn="urn:adsk.eagle:footprint:16759018/1" library_version="7">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="0" y="4" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;Name</text>
+<text x="0" y="-7" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;Value</text>
+<text x="1" y="-0.75" size="0.8128" layer="51" font="vector" ratio="15" align="center">1</text>
+<text x="-1" y="-0.75" size="0.8128" layer="51" font="vector" ratio="15" align="center">2</text>
+<circle x="3.25" y="-1.25" radius="0.25" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/2" type="model" library_version="7">
 <packageinstances>
 <packageinstance name="USB-C-16P"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-PH-2-SMT-SE" urn="urn:adsk.eagle:package:16759071/1" type="box" library_version="7">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<packageinstances>
+<packageinstance name="JST-PH-2-SMT-SE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1576,6 +1611,15 @@ Your Multi-CB Team
 <attribute name="TOLERANCE" value="5%" x="11.5" y="23" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.5" y="21.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="11.5" y="23" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="JST-PH-2-SMT-SE" package3d_urn="urn:adsk.eagle:package:16759071/1" value="JST-PH-2-SMT-SE" x="66" y="90.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="JST-PH Header" x="66" y="90.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="JST" x="66" y="90.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)" x="66" y="90.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="66" y="86.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="PITCH" value="2.0" x="66" y="90.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POSITIONS" value="2" x="66" y="90.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="66" y="97.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
