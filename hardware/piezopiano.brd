@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -79,10 +79,10 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
@@ -186,13 +186,14 @@ Andreas Zapfl
 <text x="88" y="2" size="1.9304" layer="26" font="vector" ratio="15" rot="MR0">PCB Piano 1.1
 Andreas Zapfl
 2020</text>
-<text x="-6" y="112.5" size="1.016" layer="21" font="vector" ratio="15" align="center">+</text>
-<text x="-13" y="112.5" size="1.016" layer="21" font="vector" ratio="15" align="center">-</text>
+<text x="13" y="89" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center">+</text>
+<text x="11" y="87" size="1.016" layer="21" font="vector" ratio="15" align="center">-</text>
 <wire x1="62" y1="68.5" x2="31.25" y2="68.5" width="0.0762" layer="51"/>
 <wire x1="31.25" y1="68.5" x2="0.5" y2="68.5" width="0.0762" layer="51"/>
 <wire x1="31.25" y1="99.25" x2="31.25" y2="68.5" width="0.0762" layer="51"/>
 <wire x1="31.25" y1="100" x2="31.25" y2="102.75" width="0.0762" layer="51"/>
-<wire x1="0" y1="68.5" x2="62.5" y2="68.5" width="0" layer="20" curve="-180"/>
+<wire x1="0" y1="68.5" x2="31.25" y2="99.75" width="0" layer="20" curve="-90"/>
+<wire x1="31.25" y1="99.75" x2="62.5" y2="68.5" width="0" layer="20" curve="-90"/>
 <wire x1="31.25" y1="68.5" x2="53" y2="90.25" width="0.0762" layer="51"/>
 <wire x1="9.5" y1="90.25" x2="31.25" y2="68.5" width="0.0762" layer="51"/>
 <wire x1="9.5" y1="46.75" x2="31.25" y2="68.5" width="0.0762" layer="51"/>
@@ -207,6 +208,17 @@ Andreas Zapfl
 <wire x1="62.5" y1="68.5" x2="62.5" y2="50.5" width="0" layer="51"/>
 <wire x1="62.5" y1="50.5" x2="77.5" y2="35.5" width="0" layer="51" curve="90"/>
 <wire x1="0" y1="68.5" x2="62.5" y2="68.5" width="0" layer="51" curve="-180"/>
+<wire x1="113" y1="60.5" x2="144.25" y2="91.75" width="0" layer="20" curve="-90"/>
+<wire x1="144.25" y1="91.75" x2="175.5" y2="60.5" width="0" layer="20" curve="-90"/>
+<wire x1="175" y1="60.5" x2="144.25" y2="60.5" width="0.0762" layer="51"/>
+<wire x1="144.25" y1="60.5" x2="113.5" y2="60.5" width="0.0762" layer="51"/>
+<wire x1="144.25" y1="91.25" x2="144.25" y2="60.5" width="0.0762" layer="51"/>
+<wire x1="144.25" y1="60.5" x2="166" y2="82.25" width="0.0762" layer="51"/>
+<wire x1="122.5" y1="82.25" x2="144.25" y2="60.5" width="0.0762" layer="51"/>
+<wire x1="144.25" y1="60.5" x2="166" y2="38.75" width="0.0762" layer="51"/>
+<wire x1="144.25" y1="60.5" x2="144.25" y2="29.75" width="0.0762" layer="51"/>
+<wire x1="165.5" y1="81.75" x2="165.5" y2="83.5" width="0.0762" layer="104"/>
+<wire x1="165.5" y1="81.75" x2="167.25" y2="81.75" width="0.0762" layer="104"/>
 </plain>
 <libraries>
 <library name="Custom">
@@ -1545,9 +1557,9 @@ Your Multi-CB Team
 <element name="ICSP1" library="Custom" package="AVRISP-2.54" value="AVRISP2.54MM" x="82" y="25.5" smashed="yes">
 <attribute name="NAME" x="82" y="21" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="J1" library="Custom" package="H2-2.54" value="CON2" x="-9.5" y="112.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="-9.5" y="114.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="-9.5" y="114.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
+<element name="J1" library="Custom" package="H2-2.54" value="CON2" x="10.5" y="89.25" smashed="yes" rot="R135">
+<attribute name="NAME" x="12.8357875" y="91.5857875" size="1.016" layer="25" font="vector" ratio="15" rot="R135" align="center"/>
+<attribute name="VALUE" x="8.9090125" y="90.8409875" size="1.016" layer="27" font="vector" ratio="13" rot="R225" align="center"/>
 </element>
 <element name="C100" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0805" package3d_urn="urn:adsk.eagle:package:16758952/3" value="4.7u" x="82" y="76" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="82" y="76" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1741,14 +1753,14 @@ Your Multi-CB Team
 <attribute name="VALUE" x="11.5" y="21.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="11.5" y="23" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="JST-PH-2-SMT-SE" package3d_urn="urn:adsk.eagle:package:16759071/1" value="JST-PH-2-SMT-SE" x="50.5" y="87.75" smashed="yes" rot="R315">
-<attribute name="DESCRIPTION" value="JST-PH Header" x="50.5" y="87.75" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MF" value="JST" x="50.5" y="87.75" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)" x="50.5" y="87.75" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="48.171571875" y="92.578425" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
-<attribute name="PITCH" value="2.0" x="50.5" y="87.75" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="POSITIONS" value="2" x="50.5" y="87.75" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="VALUE" x="45.55025" y="82.800253125" size="1.016" layer="27" font="vector" ratio="15" rot="R315" align="center"/>
+<element name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="JST-PH-2-SMT-SE" package3d_urn="urn:adsk.eagle:package:16759071/1" value="JST-PH-2-SMT-SE" x="49.5" y="86.75" smashed="yes" rot="R315">
+<attribute name="DESCRIPTION" value="JST-PH Header" x="49.5" y="86.75" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MF" value="JST" x="49.5" y="86.75" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)" x="49.5" y="86.75" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="47.171571875" y="91.578425" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
+<attribute name="PITCH" value="2.0" x="49.5" y="86.75" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="POSITIONS" value="2" x="49.5" y="86.75" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="VALUE" x="44.55025" y="81.800253125" size="1.016" layer="27" font="vector" ratio="15" rot="R315" align="center"/>
 </element>
 <element name="U3" library="zaan-IC-Power" library_urn="urn:adsk.eagle:library:16759262" package="SO8" package3d_urn="urn:adsk.eagle:package:16759279/1" value="TP4333" x="75.5" y="62.5" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="Battery Management Controller" x="75.5" y="62.5" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2016,13 +2028,12 @@ Your Multi-CB Team
 <wire x1="73" y1="106.85" x2="78" y2="106.85" width="0" layer="19" extent="1-1"/>
 <wire x1="63.5" y1="108.45" x2="73" y2="106.85" width="0" layer="19" extent="1-1"/>
 <wire x1="58.5" y1="105.95" x2="63.5" y2="108.45" width="0" layer="19" extent="1-1"/>
-<wire x1="48.590809375" y1="84.426596875" x2="58.5" y2="105.95" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="93.915" x2="48.590809375" y2="84.426596875" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="35.57" y1="98.095" x2="58.5" y2="105.95" width="0" layer="19" extent="1-1"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
+<wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-1"/>
+<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="28.025" y1="92.99" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="40.5" y1="27.7" x2="38.55" y2="27.75" width="0" layer="19" extent="1-1"/>
 <wire x1="29" y1="89" x2="28.025" y2="92.99" width="0" layer="19" extent="1-1"/>
@@ -2030,9 +2041,9 @@ Your Multi-CB Team
 <wire x1="14.0375" y1="26.2625" x2="12.35" y2="23" width="0" layer="19" extent="1-1"/>
 <wire x1="12.35" y1="27.5" x2="14.0375" y2="26.2625" width="0" layer="19" extent="1-1"/>
 <wire x1="15.9625" y1="24.7375" x2="14.0375" y2="26.2625" width="0" layer="19" extent="1-1"/>
-<wire x1="60" y1="68.75" x2="48.590809375" y2="84.426596875" width="0" layer="19" extent="1-1"/>
+<wire x1="47.590809375" y1="83.426596875" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="60" y1="68.75" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
 <wire x1="76.25" y1="72.55" x2="60" y2="68.75" width="0" layer="19" extent="1-16"/>
-<wire x1="-10.77" y1="112.5" x2="26.93" y2="98.095" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="NOTE1">
 <contactref element="Q3" pad="1"/>
@@ -2411,7 +2422,7 @@ Your Multi-CB Team
 <contactref element="J4" pad="2"/>
 <contactref element="C101" pad="1"/>
 <wire x1="72.55" y1="53.25" x2="78.35" y2="63.135" width="0" layer="19" extent="16-16"/>
-<wire x1="47.176596875" y1="85.840809375" x2="78.35" y2="63.135" width="0" layer="19" extent="1-16"/>
+<wire x1="46.176596875" y1="84.840809375" x2="78.35" y2="63.135" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="U3" pad="3"/>
