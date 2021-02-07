@@ -2582,6 +2582,28 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
 <rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
 </package>
+<package name="WL-SFCX_1210" urn="urn:adsk.eagle:footprint:16759399/1" library_version="3">
+<smd name="2" x="1.45" y="-1" dx="1.1" dy="1.6" layer="1" rot="R180"/>
+<smd name="1" x="-1.45" y="-1" dx="1.1" dy="1.6" layer="1" rot="R180"/>
+<smd name="4" x="-1.45" y="1" dx="1.1" dy="1.6" layer="1" rot="R180"/>
+<smd name="3" x="1.45" y="1" dx="1.1" dy="1.6" layer="1" rot="R180"/>
+<text x="0" y="2.5" size="1.016" layer="25" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.5" size="1.016" layer="27" font="vector" ratio="13" align="center">&gt;VALUE</text>
+<text x="-0.4" y="-1.1" size="0.6096" layer="21">1</text>
+<text x="-0.4" y="-1.1" size="0.6096" layer="51">1</text>
+<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="-1.6" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.35" x2="-1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="0.72" y1="-1.35" x2="-0.7" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="0.71" y1="1.35" x2="-0.68" y2="1.35" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="2.2" y="-2"/>
+<vertex x="-2.2" y="-2"/>
+<vertex x="-2.2" y="2"/>
+<vertex x="2.2" y="2"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:16759426/3" type="model" library_version="3">
@@ -2589,6 +2611,11 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_0805"/>
+</packageinstances>
+</package3d>
+<package3d name="WL-SFCX_1210" urn="urn:adsk.eagle:package:16759422/1" type="box" library_version="3">
+<packageinstances>
+<packageinstance name="WL-SFCX_1210"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2616,6 +2643,80 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <vertex x="-3.302" y="-3.302"/>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="WL-SFCX" urn="urn:adsk.eagle:symbol:16759406/1" library_version="3">
+<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="7.112" x2="-2.159" y2="8.509" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="6.985" x2="-3.302" y2="8.382" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.032" x2="-2.159" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-3.302" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="0" y1="-6.35" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-3.048" x2="-2.159" y2="-1.651" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-3.175" x2="-3.302" y2="-1.778" width="0.1524" layer="94"/>
+<text x="-5.29" y="9.482" size="1.27" layer="95">&gt;NAME</text>
+<text x="-4.63" y="-8.368" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-5.92" y="1.84" size="1.27" layer="94">G</text>
+<text x="-5.86" y="6.84" size="1.27" layer="94">R</text>
+<text x="-5.72" y="-3.2" size="1.27" layer="94">B</text>
+<text x="3.16" y="-2.28" size="1.778" layer="94">+</text>
+<pin name="4" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="R" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="G" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="B" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.159" y="8.509"/>
+<vertex x="-1.27" y="8.128"/>
+<vertex x="-1.778" y="7.62"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="8.382"/>
+<vertex x="-2.413" y="8.001"/>
+<vertex x="-2.921" y="7.493"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.159" y="3.429"/>
+<vertex x="-1.27" y="3.048"/>
+<vertex x="-1.778" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="3.302"/>
+<vertex x="-2.413" y="2.921"/>
+<vertex x="-2.921" y="2.413"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.159" y="-1.651"/>
+<vertex x="-1.27" y="-2.032"/>
+<vertex x="-1.778" y="-2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-1.778"/>
+<vertex x="-2.413" y="-2.159"/>
+<vertex x="-2.921" y="-2.667"/>
 </polygon>
 </symbol>
 </symbols>
@@ -2647,6 +2748,35 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <attribute name="PACKAGE" value="2012"/>
 <attribute name="PACKAGE-IN" value="0805"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="150121" urn="urn:adsk.eagle:component:16759438/1" prefix="D" uservalue="yes" library_version="3">
+<description>&lt;b&gt;WL-SFCW SMD Full-color Chip LED Waterclear
+&lt;br&gt;
+&lt;br&gt;
+
+Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://katalog.we-online.de/en/led/WL-SFCW&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Created By Yingchun,Shan&lt;br&gt;
+&lt;/b&gt;2016 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-SFCX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="M173000" package="WL-SFCX_1210">
+<connects>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759422/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2873,6 +3003,7 @@ chip</description>
 <part name="U4" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="MEGA328" device="PB-AU" package3d_urn="urn:adsk.eagle:package:16759254/1"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:16759422/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3473,6 +3604,10 @@ chip</description>
 </instance>
 <instance part="GND41" gate="1" x="55.88" y="91.44" smashed="yes">
 <attribute name="VALUE" x="53.34" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="D3" gate="G$1" x="139.7" y="104.14" smashed="yes">
+<attribute name="NAME" x="134.41" y="113.622" size="1.27" layer="95"/>
+<attribute name="VALUE" x="135.07" y="95.772" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
