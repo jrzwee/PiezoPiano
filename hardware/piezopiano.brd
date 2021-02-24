@@ -185,8 +185,8 @@ ZAAN
 2021</text>
 <text x="13" y="89" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center">+</text>
 <text x="11" y="87" size="1.016" layer="21" font="vector" ratio="15" align="center">-</text>
-<wire x1="62" y1="68.5" x2="31.25" y2="67" width="0.0762" layer="51"/>
-<wire x1="31.25" y1="67" x2="0.5" y2="68.5" width="0.0762" layer="51"/>
+<wire x1="62" y1="67" x2="31.25" y2="67" width="0.0762" layer="51"/>
+<wire x1="31.25" y1="67" x2="0.5" y2="67" width="0.0762" layer="51"/>
 <wire x1="31.25" y1="99.25" x2="31.25" y2="67" width="0.0762" layer="51"/>
 <wire x1="31.25" y1="100" x2="31.25" y2="102.75" width="0.0762" layer="51"/>
 <wire x1="0" y1="68.5" x2="31.25" y2="99.75" width="0" layer="20" curve="-90"/>
@@ -1356,61 +1356,61 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="SOT-23" x="52.25" y="37" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.25" y="34.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="24.5" y="80" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="24.5" y="80" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="24.5" y="80" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="24.5" y="80" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.5" y="87" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="24.5" y="73" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="38" y="53" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="38" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="38" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="38" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="43" y="48" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
+<attribute name="VALUE" x="38" y="60" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="68.25" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="68.25" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="31.25" y="68.25" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="68.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.25" y="75.25" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="31.25" y="61.25" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="64.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="64.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="31.25" y="64.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="64.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="31.25" y="57.25" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="31.25" y="71.25" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="12" y="74.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="12" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="12" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="12" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12" y="81.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="12" y="67.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="50.5" y="57.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="50.5" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="50.5" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="50.5" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="55.5" y="52.5" size="1.016" layer="25" font="vector" ratio="15" rot="R225" align="center"/>
+<attribute name="VALUE" x="50.5" y="64.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="18.5" y="62.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="18.5" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="18.5" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="18.5" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.5" y="69.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="18.5" y="55.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="43.5" y="68.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="43.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="43.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="43.5" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="50.5" y="68.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="43.5" y="75.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="38" y="80" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="38" y="80" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="38" y="80" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="38" y="80" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38" y="87" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="38" y="73" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="24.5" y="53" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="24.5" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="24.5" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="24.5" y="53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="29.5" y="48" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
+<attribute name="VALUE" x="24.5" y="60" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="44" y="62.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="44" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="44" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="44" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44" y="69.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="44" y="55.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="19" y="68.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="19" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="19" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="19" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="12" y="68.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="19" y="75.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="54.25" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="54.25" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="31.25" y="54.25" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="54.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.25" y="61.25" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="31.25" y="47.25" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="77.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="77.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="31.25" y="77.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="77.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="38.25" y="77.25" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="31.25" y="84.25" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="LS6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="50.5" y="74.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Piezo Buzzer" x="50.5" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ZLFY" x="50.5" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="50.5" y="74.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.5" y="81.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="50.5" y="67.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="LS6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="12" y="57.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Piezo Buzzer" x="12" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="ZLFY" x="12" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="12" y="57.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="17" y="52.5" size="1.016" layer="25" font="vector" ratio="15" rot="R225" align="center"/>
+<attribute name="VALUE" x="12" y="64.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/6" value="100R" x="21.75" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2213,14 +2213,14 @@ Your Multi-CB Team
 <contactref element="R8" pad="2"/>
 <contactref element="R7" pad="1"/>
 <wire x1="26.25" y1="42.5" x2="28.25" y2="42.5" width="0.254" layer="1"/>
-<wire x1="28.25" y1="42.5" x2="28.75" y2="68.25" width="0" layer="19" extent="1-1"/>
+<wire x1="28.25" y1="42.5" x2="33.75" y2="64.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="LS5" pad="-"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="1"/>
 <wire x1="6.75" y1="42.5" x2="8.75" y2="42.5" width="0.254" layer="1"/>
-<wire x1="8.75" y1="42.5" x2="9.5" y2="74.5" width="0" layer="19" extent="1-1"/>
+<wire x1="8.75" y1="42.5" x2="53" y2="57.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="Q2" pad="3"/>
@@ -2237,7 +2237,7 @@ Your Multi-CB Team
 <contactref element="R16" pad="2"/>
 <contactref element="R15" pad="1"/>
 <wire x1="56.75" y1="42.5" x2="58.75" y2="42.5" width="0.254" layer="1"/>
-<wire x1="28.75" y1="54.25" x2="56.75" y2="42.5" width="0" layer="19" extent="1-1"/>
+<wire x1="33.75" y1="77.25" x2="56.75" y2="42.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <polygon width="0.2" layer="1" isolate="0.15">
@@ -2272,7 +2272,7 @@ Your Multi-CB Team
 <contactref element="U4" pad="18"/>
 <wire x1="35.7926" y1="24" x2="38.2" y2="24" width="0.254" layer="1"/>
 <wire x1="38.2" y1="24" x2="38.5" y2="24.3" width="0.254" layer="1"/>
-<wire x1="53" y1="74.5" x2="67.65" y2="61.905" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="57.5" x2="67.65" y2="61.905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q4" pad="3"/>
@@ -2289,7 +2289,7 @@ Your Multi-CB Team
 <contactref element="R4" pad="2"/>
 <contactref element="R3" pad="1"/>
 <wire x1="13.25" y1="42.5" x2="15.25" y2="42.5" width="0.254" layer="1"/>
-<wire x1="15.25" y1="42.5" x2="16" y2="62.5" width="0" layer="19" extent="1-1"/>
+<wire x1="15.25" y1="42.5" x2="46" y2="68.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R10" pad="1"/>
@@ -2301,14 +2301,14 @@ Your Multi-CB Team
 <contactref element="LS8" pad="-"/>
 <contactref element="R9" pad="1"/>
 <wire x1="37.25" y1="42.5" x2="39.25" y2="42.5" width="0.254" layer="1"/>
-<wire x1="37.25" y1="42.5" x2="35.5" y2="80" width="0" layer="19" extent="1-1"/>
+<wire x1="37.25" y1="42.5" x2="27" y2="53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R12" pad="2"/>
 <contactref element="LS1" pad="-"/>
 <contactref element="R11" pad="1"/>
 <wire x1="43.75" y1="42.5" x2="45.75" y2="42.5" width="0.254" layer="1"/>
-<wire x1="43.75" y1="42.5" x2="41.5" y2="62.5" width="0" layer="19" extent="1-1"/>
+<wire x1="43.75" y1="42.5" x2="21.5" y2="68.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="Q8" pad="3"/>
@@ -2325,7 +2325,7 @@ Your Multi-CB Team
 <contactref element="LS6" pad="-"/>
 <contactref element="R13" pad="1"/>
 <wire x1="50.25" y1="42.5" x2="52.25" y2="42.5" width="0.254" layer="1"/>
-<wire x1="50.25" y1="42.5" x2="48" y2="74.5" width="0" layer="19" extent="1-1"/>
+<wire x1="50.25" y1="42.5" x2="14.5" y2="57.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T1">
 <contactref element="S4" pad="2"/>
@@ -2482,7 +2482,7 @@ Your Multi-CB Team
 <contactref element="R6" pad="2"/>
 <contactref element="LS7" pad="-"/>
 <wire x1="19.75" y1="42.5" x2="21.75" y2="42.5" width="0.254" layer="1"/>
-<wire x1="21.75" y1="42.5" x2="22" y2="80" width="0" layer="19" extent="1-1"/>
+<wire x1="21.75" y1="42.5" x2="40.5" y2="53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J1" pad="2"/>
