@@ -174,57 +174,6 @@
 <library name="Custom">
 <description>Custom parts library by Andreas Zapfl. zapflandreas@gmail.com</description>
 <packages>
-<package name="AVRISP-2.54">
-<wire x1="-2.54" y1="3.048" x2="-1.778" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="1.778" width="0.127" layer="21"/>
-<wire x1="2.54" y1="1.778" x2="2.54" y2="0.762" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.778" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.778" x2="-2.54" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0.762" x2="-2.54" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.048" width="0.127" layer="21"/>
-<pad name="3" x="-1.27" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="4" x="1.27" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="2" x="1.27" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="1" x="-1.27" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="5" x="-1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
-<pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
-<text x="3.5" y="0" size="1.016" layer="25" font="vector" ratio="13" rot="R270" align="center">&gt;NAME</text>
-<text x="-3.048" y="3.556" size="1.016" layer="21" font="vector" ratio="13">1</text>
-</package>
-<package name="AVRISP-X">
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<pad name="3" x="-0.635" y="0" drill="0.65" diameter="1.016"/>
-<pad name="4" x="0.635" y="0" drill="0.65" diameter="1.016"/>
-<pad name="2" x="0.635" y="1.27" drill="0.65" diameter="1.016"/>
-<pad name="1" x="-0.635" y="1.27" drill="0.65" diameter="1.016"/>
-<pad name="5" x="-0.635" y="-1.27" drill="0.65" diameter="1.016"/>
-<pad name="6" x="0.635" y="-1.27" drill="0.65" diameter="1.016"/>
-<text x="2.5" y="0" size="1.016" layer="25" font="vector" ratio="13" rot="R270" align="center">&gt;NAME</text>
-<circle x="-1.875" y="2.375" radius="0.15" width="0.3" layer="21"/>
-</package>
-<package name="AVRISP-POGO">
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<pad name="3" x="-0.635" y="0" drill="1.05" diameter="1.15" shape="offset" rot="R180"/>
-<pad name="4" x="0.635" y="0" drill="1.05" diameter="1.15" shape="offset"/>
-<pad name="2" x="0.635" y="1.27" drill="1.05" diameter="1.15" shape="offset"/>
-<pad name="1" x="-0.635" y="1.27" drill="1.05" diameter="1.15" shape="offset" rot="R180" stop="no" thermals="no"/>
-<pad name="5" x="-0.635" y="-1.27" drill="1.05" diameter="1.15" shape="offset" rot="R180"/>
-<pad name="6" x="0.635" y="-1.27" drill="1.05" diameter="1.15" shape="offset"/>
-<text x="2.5" y="0" size="1.016" layer="25" font="vector" ratio="13" rot="R270" align="center">&gt;NAME</text>
-<circle x="-1.875" y="2.375" radius="0.15" width="0.3" layer="21"/>
-</package>
 <package name="H2-2.54">
 <wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
@@ -241,19 +190,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="AVRISP">
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="MISO" x="-15.24" y="2.54" length="middle" direction="in"/>
-<pin name="SCK" x="-15.24" y="0" length="middle" direction="out"/>
-<pin name="RST" x="-15.24" y="-2.54" length="middle" direction="out"/>
-<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="MOSI" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
-</symbol>
 <symbol name="CON2">
 <wire x1="1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
@@ -268,52 +204,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AVRISP" prefix="ICSP">
-<gates>
-<gate name="&gt;NAME" symbol="AVRISP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2.54MM" package="AVRISP-2.54">
-<connects>
-<connect gate="&gt;NAME" pin="GND" pad="6"/>
-<connect gate="&gt;NAME" pin="MISO" pad="1"/>
-<connect gate="&gt;NAME" pin="MOSI" pad="4"/>
-<connect gate="&gt;NAME" pin="RST" pad="5"/>
-<connect gate="&gt;NAME" pin="SCK" pad="3"/>
-<connect gate="&gt;NAME" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1.27MM" package="AVRISP-X">
-<connects>
-<connect gate="&gt;NAME" pin="GND" pad="6"/>
-<connect gate="&gt;NAME" pin="MISO" pad="1"/>
-<connect gate="&gt;NAME" pin="MOSI" pad="4"/>
-<connect gate="&gt;NAME" pin="RST" pad="5"/>
-<connect gate="&gt;NAME" pin="SCK" pad="3"/>
-<connect gate="&gt;NAME" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POGO-1.27" package="AVRISP-POGO">
-<connects>
-<connect gate="&gt;NAME" pin="GND" pad="6"/>
-<connect gate="&gt;NAME" pin="MISO" pad="1"/>
-<connect gate="&gt;NAME" pin="MOSI" pad="4"/>
-<connect gate="&gt;NAME" pin="RST" pad="5"/>
-<connect gate="&gt;NAME" pin="SCK" pad="3"/>
-<connect gate="&gt;NAME" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CON2" prefix="J">
 <gates>
 <gate name="&gt;NAME" symbol="CON2" x="0" y="0"/>
@@ -2320,6 +2210,84 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <text x="-1" y="2.5" size="0.8128" layer="51" font="vector" ratio="15" align="center">2</text>
 <circle x="3.25" y="-0.75" radius="0.25" width="0" layer="21"/>
 </package>
+<package name="490107670612_DEBUGGING" urn="urn:adsk.eagle:footprint:16760566/1" library_version="8">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<hole x="-4.405" y="1.27" drill="2.2"/>
+<hole x="4.405" y="-1.27" drill="2.6"/>
+<pad name="5" x="-1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="-3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="-0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-7.605" y1="2.8" x2="7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="2.8" x2="7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="-2.8" x2="-7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-7.605" y1="-2.8" x2="-7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-7.705" y1="2.9" x2="7.705" y2="2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="2.9" x2="7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="-2.9" x2="-7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-7.705" y1="-2.9" x2="-7.705" y2="2.9" width="0.2" layer="21"/>
+<wire x1="-8" y1="-3.25" x2="-8" y2="3.25" width="0.0762" layer="39"/>
+<wire x1="-8" y1="3.25" x2="8" y2="3.25" width="0.0762" layer="39"/>
+<wire x1="8" y1="3.25" x2="8" y2="-3.25" width="0.0762" layer="39"/>
+<wire x1="8" y1="-3.25" x2="-8" y2="-3.25" width="0.0762" layer="39"/>
+<circle x="4.5" y="2.2" radius="0.25" width="0" layer="21"/>
+<text x="0" y="4" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-4" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<text x="6.75" y="0" size="0.4064" layer="51" font="vector" ratio="15" rot="R90" align="center">Debugging</text>
+</package>
+<package name="AVRISP-2.54" urn="urn:adsk.eagle:footprint:16759050/1" library_version="8">
+<wire x1="-2.54" y1="3.048" x2="-1.778" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.778" x2="2.54" y2="0.762" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.778" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.778" x2="-2.54" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="1.778" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.048" width="0.127" layer="21"/>
+<pad name="3" x="-1.27" y="0" drill="0.9" diameter="1.6256"/>
+<pad name="4" x="1.27" y="0" drill="0.9" diameter="1.6256"/>
+<pad name="2" x="1.27" y="2.54" drill="0.9" diameter="1.6256"/>
+<pad name="1" x="-1.27" y="2.54" drill="0.9" diameter="1.6256"/>
+<pad name="5" x="-1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
+<pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
+<text x="3.5" y="0" size="1.016" layer="25" font="vector" ratio="13" rot="R270" align="center">&gt;NAME</text>
+<text x="-3.048" y="3.556" size="1.016" layer="21" font="vector" ratio="13">1</text>
+</package>
+<package name="AVRISP-1.27" urn="urn:adsk.eagle:footprint:16759051/2" library_version="8">
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
+<pad name="3" x="-0.635" y="0" drill="0.35" diameter="0.7"/>
+<pad name="4" x="0.635" y="0" drill="0.35" diameter="0.7"/>
+<pad name="2" x="0.635" y="1.27" drill="0.35" diameter="0.7"/>
+<pad name="1" x="-0.635" y="1.27" drill="0.35" diameter="0.7"/>
+<pad name="5" x="-0.635" y="-1.27" drill="0.35" diameter="0.7"/>
+<pad name="6" x="0.635" y="-1.27" drill="0.35" diameter="0.7"/>
+<text x="2.5" y="0" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
+<circle x="-1.25" y="1.75" radius="0.15" width="0" layer="21"/>
+</package>
+<package name="AVRISP-1.27-SMD" urn="urn:adsk.eagle:footprint:17075153/1" library_version="8">
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
+<text x="2.5" y="0" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
+<circle x="-1.25" y="1.75" radius="0.15" width="0" layer="21"/>
+<smd name="1" x="-0.635" y="1.27" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="0.635" y="1.27" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="3" x="-0.635" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="4" x="0.635" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="5" x="-0.635" y="-1.27" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="6" x="0.635" y="-1.27" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/2" type="model" library_version="7">
@@ -2336,6 +2304,27 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <package3d name="JST-PH-2-SMT-TE" urn="urn:adsk.eagle:package:16759070/1" type="box" library_version="7">
 <packageinstances>
 <packageinstance name="JST-PH-2-SMT-TE"/>
+</packageinstances>
+</package3d>
+<package3d name="490107670612_DEBUGGING" urn="urn:adsk.eagle:package:16760574/1" type="model" library_version="8">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
+<packageinstances>
+<packageinstance name="490107670612_DEBUGGING"/>
+</packageinstances>
+</package3d>
+<package3d name="AVRISP-2.54" urn="urn:adsk.eagle:package:16759053/1" type="box" library_version="8">
+<packageinstances>
+<packageinstance name="AVRISP-2.54"/>
+</packageinstances>
+</package3d>
+<package3d name="AVRISP-1.27" urn="urn:adsk.eagle:package:16759052/2" type="box" library_version="8">
+<packageinstances>
+<packageinstance name="AVRISP-1.27"/>
+</packageinstances>
+</package3d>
+<package3d name="AVRISP-1.27-SMD" urn="urn:adsk.eagle:package:17075154/1" type="box" library_version="8">
+<packageinstances>
+<packageinstance name="AVRISP-1.27-SMD"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2369,6 +2358,19 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="-5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="2" x="-5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="AVR-ISP" urn="urn:adsk.eagle:symbol:16759023/1" library_version="8">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+<pin name="MISO" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="SCK" x="-15.24" y="0" length="middle" direction="out"/>
+<pin name="RST" x="-15.24" y="-2.54" length="middle" direction="out"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="MOSI" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2453,6 +2455,77 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="PITCH" value="2.0"/>
 <attribute name="POSITIONS" value="2"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/4" prefix="ICSP" library_version="8">
+<gates>
+<gate name="G$1" symbol="AVR-ISP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2.54MM" package="AVRISP-2.54">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="RST" pad="5"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759053/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.27MM" package="AVRISP-1.27">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="RST" pad="5"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759052/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SKEDD" package="490107670612_DEBUGGING">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="RST" pad="5"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16760574/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD" package="AVRISP-1.27-SMD">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="RST" pad="5"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17075154/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3033,7 +3106,7 @@ Very Small, Shielded Inductors
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0805-50V-5%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="100n"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="ICSP1" library="Custom" deviceset="AVRISP" device="2.54MM"/>
+<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16760574/1"/>
 <part name="J1" library="Custom" deviceset="CON2" device=""/>
 <part name="C100" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="4.7UF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="4.7u"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3429,7 +3502,7 @@ Very Small, Shielded Inductors
 <instance part="GND25" gate="1" x="345.44" y="66.04" smashed="yes">
 <attribute name="VALUE" x="342.9" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="ICSP1" gate="&gt;NAME" x="101.6" y="172.72" smashed="yes">
+<instance part="ICSP1" gate="G$1" x="101.6" y="172.72" smashed="yes">
 <attribute name="NAME" x="91.44" y="180.34" size="1.778" layer="95" align="top-left"/>
 </instance>
 <instance part="J1" gate="&gt;NAME" x="-63.5" y="116.84" smashed="yes">
@@ -4015,7 +4088,7 @@ Very Small, Shielded Inductors
 <segment>
 <wire x1="116.84" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
 <label x="121.92" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="ICSP1" gate="&gt;NAME" pin="GND"/>
+<pinref part="ICSP1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C100" gate="G$1" pin="2"/>
@@ -4205,7 +4278,7 @@ Very Small, Shielded Inductors
 <segment>
 <wire x1="116.84" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 <label x="121.92" y="175.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="ICSP1" gate="&gt;NAME" pin="VCC"/>
+<pinref part="ICSP1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
@@ -4337,7 +4410,7 @@ Very Small, Shielded Inductors
 <segment>
 <wire x1="116.84" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <label x="121.92" y="172.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="ICSP1" gate="&gt;NAME" pin="MOSI"/>
+<pinref part="ICSP1" gate="G$1" pin="MOSI"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="170.18" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
@@ -4467,7 +4540,7 @@ Very Small, Shielded Inductors
 <segment>
 <wire x1="86.36" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
 <label x="81.28" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="ICSP1" gate="&gt;NAME" pin="SCK"/>
+<pinref part="ICSP1" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="165.1" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
@@ -4492,7 +4565,7 @@ Very Small, Shielded Inductors
 <segment>
 <wire x1="86.36" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
 <label x="81.28" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="ICSP1" gate="&gt;NAME" pin="MISO"/>
+<pinref part="ICSP1" gate="G$1" pin="MISO"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
@@ -4503,7 +4576,7 @@ Very Small, Shielded Inductors
 <segment>
 <wire x1="86.36" y1="170.18" x2="81.28" y2="170.18" width="0.1524" layer="91"/>
 <label x="81.28" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="ICSP1" gate="&gt;NAME" pin="RST"/>
+<pinref part="ICSP1" gate="G$1" pin="RST"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="238.76" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
