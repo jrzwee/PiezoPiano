@@ -3151,8 +3151,6 @@ Very Small, Shielded Inductors
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R21" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R22" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3162,6 +3160,8 @@ Very Small, Shielded Inductors
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:16759422/2" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes"/>
 <part name="L1" library="zaan-Inductors" library_urn="urn:adsk.eagle:library:16759304" deviceset="WE-LQS" device="-L3015-1.5U" package3d_urn="urn:adsk.eagle:package:26750094/2" value="1.5u"/>
+<part name="R21" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R22" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3729,20 +3729,6 @@ Very Small, Shielded Inductors
 <instance part="P+14" gate="1" x="35.56" y="142.24" smashed="yes">
 <attribute name="VALUE" x="33.02" y="142.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R21" gate="G$1" x="157.48" y="220.98" smashed="yes">
-<attribute name="NAME" x="153.67" y="223.52" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="161.29" y="228.6" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="161.29" y="227.076" size="1.27" layer="96" align="center-left"/>
-<attribute name="POWER" x="161.29" y="225.552" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="161.29" y="224.028" size="1.27" layer="96" align="center-left"/>
-</instance>
-<instance part="R22" gate="G$1" x="157.48" y="218.44" smashed="yes">
-<attribute name="NAME" x="153.67" y="215.9" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="161.29" y="215.9" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="161.29" y="214.376" size="1.27" layer="96" align="center-left"/>
-<attribute name="POWER" x="161.29" y="212.852" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="161.29" y="211.328" size="1.27" layer="96" align="center-left"/>
-</instance>
 <instance part="GND36" gate="1" x="20.32" y="218.44" smashed="yes">
 <attribute name="VALUE" x="17.78" y="215.9" size="1.778" layer="96"/>
 </instance>
@@ -3773,11 +3759,25 @@ Very Small, Shielded Inductors
 <attribute name="PACKAGE-IN" x="49.53" y="41.148" size="1.27" layer="96"/>
 <attribute name="CURRENT" x="49.53" y="39.37" size="1.27" layer="96"/>
 </instance>
+<instance part="R21" gate="G$1" x="170.18" y="220.98" smashed="yes">
+<attribute name="NAME" x="166.37" y="223.52" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="173.99" y="228.6" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="173.99" y="227.076" size="1.27" layer="96" align="center-left"/>
+<attribute name="POWER" x="173.99" y="225.552" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="173.99" y="224.028" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="R22" gate="G$1" x="170.18" y="218.44" smashed="yes">
+<attribute name="NAME" x="166.37" y="215.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="173.99" y="215.9" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="173.99" y="214.376" size="1.27" layer="96" align="center-left"/>
+<attribute name="POWER" x="173.99" y="212.852" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="173.99" y="211.328" size="1.27" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="NOTE1" class="0">
+<net name="D2" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="198.12" y1="210.82" x2="193.04" y2="210.82" width="0.1524" layer="91"/>
@@ -3800,7 +3800,7 @@ Very Small, Shielded Inductors
 <label x="162.56" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NOTE3" class="0">
+<net name="D4" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="198.12" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
@@ -3812,7 +3812,7 @@ Very Small, Shielded Inductors
 <pinref part="U4" gate="G$1" pin="PD4(XCK0/T0/PTCXY)"/>
 </segment>
 </net>
-<net name="NOTE4" class="0">
+<net name="D3" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="198.12" y1="25.4" x2="193.04" y2="25.4" width="0.1524" layer="91"/>
@@ -3835,7 +3835,7 @@ Very Small, Shielded Inductors
 <label x="162.56" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NOTE6" class="0">
+<net name="D5" class="0">
 <segment>
 <wire x1="139.7" y1="208.28" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
 <label x="142.24" y="208.28" size="1.27" layer="95" xref="yes"/>
@@ -3847,7 +3847,7 @@ Very Small, Shielded Inductors
 <label x="238.76" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="NOTE7" class="0">
+<net name="D7" class="0">
 <segment>
 <pinref part="Q8" gate="G$1" pin="G"/>
 <wire x1="243.84" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
@@ -3859,7 +3859,7 @@ Very Small, Shielded Inductors
 <pinref part="U4" gate="G$1" pin="PD7(PTCXY/AIN1)"/>
 </segment>
 </net>
-<net name="NOTE8" class="0">
+<net name="D6" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="243.84" y1="25.4" x2="238.76" y2="25.4" width="0.1524" layer="91"/>
@@ -4417,7 +4417,7 @@ Very Small, Shielded Inductors
 <label x="154.94" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="T2" class="0">
+<net name="D10" class="0">
 <segment>
 <wire x1="304.8" y1="167.64" x2="299.72" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="167.64" x2="299.72" y2="170.18" width="0.1524" layer="91"/>
@@ -4438,7 +4438,7 @@ Very Small, Shielded Inductors
 <pinref part="U4" gate="G$1" pin="PB2(!SS0!/OC1B/PTCXY)"/>
 </segment>
 </net>
-<net name="T3" class="0">
+<net name="D9" class="0">
 <segment>
 <wire x1="304.8" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="121.92" x2="299.72" y2="124.46" width="0.1524" layer="91"/>
@@ -4459,7 +4459,7 @@ Very Small, Shielded Inductors
 <pinref part="U4" gate="G$1" pin="PB1(OC1A/PTCXY)"/>
 </segment>
 </net>
-<net name="T4" class="0">
+<net name="D8" class="0">
 <segment>
 <wire x1="304.8" y1="76.2" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="76.2" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
@@ -4480,7 +4480,7 @@ Very Small, Shielded Inductors
 <pinref part="U4" gate="G$1" pin="PB0(ICP1/CLKO/PTCXY)"/>
 </segment>
 </net>
-<net name="T5" class="0">
+<net name="A1" class="0">
 <segment>
 <wire x1="358.14" y1="213.36" x2="353.06" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="213.36" x2="353.06" y2="215.9" width="0.1524" layer="91"/>
@@ -4501,7 +4501,7 @@ Very Small, Shielded Inductors
 <pinref part="U4" gate="G$1" pin="PC1(ADC1/PTCY/SCK1)"/>
 </segment>
 </net>
-<net name="T6" class="0">
+<net name="A0" class="0">
 <segment>
 <wire x1="358.14" y1="167.64" x2="353.06" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="167.64" x2="353.06" y2="170.18" width="0.1524" layer="91"/>
@@ -4673,46 +4673,32 @@ Very Small, Shielded Inductors
 <wire x1="99.06" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="139.7" y1="220.98" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="U4" gate="G$1" pin="PD0(PTCXY/OC3A/RXD0)"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<wire x1="139.7" y1="218.44" x2="152.4" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="U4" gate="G$1" pin="PD1(PTCXY/OC4A/TXD0)"/>
-</segment>
-</net>
 <net name="TXD" class="0">
-<segment>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="220.98" x2="165.1" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="220.98" x2="167.64" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="218.44" x2="170.18" y2="218.44" width="0.1524" layer="91"/>
-<label x="170.18" y="218.44" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U2" gate="U1" pin="TXD"/>
 <wire x1="93.98" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
 <label x="96.52" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="220.98" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="220.98" x2="180.34" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="218.44" x2="182.88" y2="218.44" width="0.1524" layer="91"/>
+<label x="182.88" y="218.44" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="RXD" class="0">
-<segment>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="218.44" x2="167.64" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="220.98" x2="170.18" y2="220.98" width="0.1524" layer="91"/>
-<label x="170.18" y="220.98" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U2" gate="U1" pin="RXD"/>
 <wire x1="93.98" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="218.44" x2="177.8" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="218.44" x2="180.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="220.98" x2="182.88" y2="220.98" width="0.1524" layer="91"/>
+<label x="182.88" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -4789,6 +4775,79 @@ Very Small, Shielded Inductors
 <pinref part="J2" gate="J1" pin="D-"/>
 <pinref part="U2" gate="U1" pin="UD-"/>
 <wire x1="27.94" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D11/MOSI" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB3(MOSI0/TXD1/OC2A/PTCXY)"/>
+<wire x1="139.7" y1="190.5" x2="142.24" y2="190.5" width="0.1524" layer="91"/>
+<label x="142.24" y="190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="D12/MISO" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB4(MISO0/RXD1/PTCXY)"/>
+<wire x1="139.7" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
+<label x="142.24" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="D13/SCK" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB5(PTCXY/XCK1/SCK0)"/>
+<wire x1="139.7" y1="185.42" x2="142.24" y2="185.42" width="0.1524" layer="91"/>
+<label x="142.24" y="185.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PC5(ADC5/PTCY/SCL0)"/>
+<wire x1="139.7" y1="226.06" x2="142.24" y2="226.06" width="0.1524" layer="91"/>
+<label x="142.24" y="226.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PC4(ADC4/PTCY/SDA0)"/>
+<wire x1="139.7" y1="228.6" x2="142.24" y2="228.6" width="0.1524" layer="91"/>
+<label x="142.24" y="228.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A3" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PC3(ADC3/PTCY)"/>
+<wire x1="139.7" y1="231.14" x2="142.24" y2="231.14" width="0.1524" layer="91"/>
+<label x="142.24" y="231.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PC2(ADC2/PTCY)"/>
+<wire x1="139.7" y1="233.68" x2="142.24" y2="233.68" width="0.1524" layer="91"/>
+<label x="142.24" y="233.68" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="D0/RX" class="0">
+<segment>
+<wire x1="162.56" y1="220.98" x2="165.1" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<label x="162.56" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="220.98" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
+<label x="142.24" y="220.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="G$1" pin="PD0(PTCXY/OC3A/RXD0)"/>
+</segment>
+</net>
+<net name="D1/TX" class="0">
+<segment>
+<wire x1="162.56" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<label x="162.56" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="218.44" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
+<label x="142.24" y="218.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="G$1" pin="PD1(PTCXY/OC4A/TXD0)"/>
 </segment>
 </net>
 </nets>
