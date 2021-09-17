@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="59" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -220,8 +220,6 @@ ZAAN
 <wire x1="62.5" y1="68.5" x2="62.5" y2="50.5" width="0" layer="51"/>
 <wire x1="62.5" y1="50.5" x2="77.5" y2="35.5" width="0" layer="51" curve="90"/>
 <wire x1="0" y1="68.5" x2="62.5" y2="68.5" width="0" layer="51" curve="-180"/>
-<wire x1="165.5" y1="81.75" x2="165.5" y2="83.5" width="0.0762" layer="104"/>
-<wire x1="165.5" y1="81.75" x2="167.25" y2="81.75" width="0.0762" layer="104"/>
 <wire x1="-5" y1="80" x2="75" y2="80" width="0.1524" layer="51"/>
 <wire x1="-8.5" y1="74.5" x2="69.5" y2="74.5" width="0.1524" layer="51"/>
 <dimension x1="38" y1="80" x2="50.5" y2="80" x3="44.25" y3="51.5" textsize="1.778" layer="51"/>
@@ -351,24 +349,6 @@ ZAAN
 </library>
 <library name="zaan-Resistors" urn="urn:adsk.eagle:library:16759442">
 <packages>
-<package name="R0805" urn="urn:adsk.eagle:footprint:29277634/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<smd name="1" x="-0.95" y="0" dx="1.1" dy="1.35" layer="1" roundness="22"/>
-<smd name="2" x="0.95" y="0" dx="1.1" dy="1.35" layer="1" roundness="22"/>
-<text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-1.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<rectangle x1="-1" y1="-0.6" x2="-0.4" y2="0.6" layer="51"/>
-<rectangle x1="0.4" y1="-0.6" x2="1" y2="0.6" layer="51"/>
-<wire x1="-1.848" y1="0.973" x2="1.848" y2="0.973" width="0.04" layer="39"/>
-<wire x1="1.848" y1="-0.973" x2="-1.848" y2="-0.973" width="0.04" layer="39"/>
-<wire x1="-1.848" y1="-0.973" x2="-1.848" y2="0.973" width="0.04" layer="39"/>
-<wire x1="1.848" y1="0.973" x2="1.848" y2="-0.973" width="0.04" layer="39"/>
-<wire x1="-0.15" y1="0.79" x2="0.15" y2="0.79" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="-0.79" x2="0.15" y2="-0.79" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="0.55" x2="0.4" y2="0.55" width="0.1" layer="51"/>
-<wire x1="-0.4" y1="-0.55" x2="0.4" y2="-0.55" width="0.1016" layer="51"/>
-</package>
 <package name="R0603" urn="urn:adsk.eagle:footprint:29277633/1" library_version="7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <smd name="1" x="-0.75" y="0" dx="0.85" dy="0.95" layer="1" roundness="25"/>
@@ -389,12 +369,6 @@ ZAAN
 </package>
 </packages>
 <packages3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/7" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
-</package3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:16759452/3" type="model" library_version="7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <packageinstances>
@@ -668,7 +642,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </library>
 <library name="zaan-Connectors" urn="urn:adsk.eagle:library:16759010">
 <packages>
-<package name="USB-C-16P" urn="urn:adsk.eagle:footprint:16672512/1" library_version="7">
+<package name="USB-C-16P" urn="urn:adsk.eagle:footprint:16672512/3" library_version="10">
 <smd name="B6" x="0.75" y="4.01" dx="0.3" dy="1.7" layer="1"/>
 <smd name="A7" x="0.25" y="4.01" dx="0.3" dy="1.7" layer="1"/>
 <smd name="GND2" x="3.225" y="4.01" dx="0.6" dy="1.7" layer="1"/>
@@ -877,7 +851,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/2" type="model" library_version="7">
+<package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/4" type="model" library_version="10">
 <packageinstances>
 <packageinstance name="USB-C-16P"/>
 </packageinstances>
@@ -1089,8 +1063,8 @@ chip</description>
 <wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
 <wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
-<text x="-0.75" y="0" size="1.016" layer="1" font="vector" ratio="15" align="center">1</text>
-<text x="0.75" y="0" size="1.016" layer="16" font="vector" ratio="15" align="center">2</text>
+<text x="-0.75" y="0" size="1.1" layer="1" font="vector" ratio="20" align="center">1</text>
+<text x="0.75" y="0" size="1.1" layer="16" font="vector" ratio="20" align="center">2</text>
 <wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.75" x2="0" y2="0.75" width="0.127" layer="21"/>
 <text x="0" y="1" size="0.3048" layer="51" font="vector" ratio="15" align="center">Layer Stackup Info</text>
@@ -1103,6 +1077,102 @@ chip</description>
 <wire x1="-2.5" y1="-1.25" x2="2.5" y2="-1.25" width="0.127" layer="51" style="shortdash"/>
 </package>
 </packages>
+</library>
+<library name="zaan-No-Category" urn="urn:adsk.eagle:library:16759360">
+<packages>
+<package name="S07K150" urn="urn:adsk.eagle:footprint:16759363/1" library_version="1">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.397" y1="4.572" x2="1.397" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.397" x2="-1.524" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.524" y1="-2.54" x2="1.524" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.667" y1="-0.635" x2="2.667" y2="1.413" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="0.635" x2="-2.667" y2="-1.413" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.5" x2="-2.032" y2="-3.5" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="1.5" x2="2.032" y2="3.5" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="0.635" x2="-2.032" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.667" y1="-2.413" x2="-2.032" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.032" y1="3.048" x2="2.667" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.032" y1="-1.27" x2="2.667" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.032" y1="-3.937" x2="2.032" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.032" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="-4.572" x2="2.032" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-3.937" x2="-1.397" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="3.937" x2="-1.397" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.397" y1="4.572" x2="2.032" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="-4.572" x2="1.397" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="3.45" x2="2.032" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-3.937" x2="-2.032" y2="-3.45" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="1.365" x2="2.667" y2="2.413" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="-1.365" x2="-2.667" y2="-2.413" width="0.1524" layer="51"/>
+<pad name="1" x="-0.75" y="-2.5" drill="0.9144" shape="long"/>
+<pad name="2" x="0.75" y="2.5" drill="0.9144" shape="long"/>
+<text x="0" y="5.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-5.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center">&gt;VALUE</text>
+</package>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.635" y1="1.27" x2="-4.365" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-4.365" y1="1.27" x2="-3.73" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.73" y1="-0.635" x2="-4.365" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-6.27" y1="0.635" x2="-6.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.635" y1="1.27" x2="-6.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-6.27" y1="-0.635" x2="-5.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.365" y1="-1.27" x2="-5.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@1" x="-5" y="0" drill="1.016"/>
+<text x="-7" y="0" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-5.254" y1="-0.254" x2="-4.746" y2="0.254" layer="51"/>
+<wire x1="-3.135" y1="1.27" x2="-1.865" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.865" y1="1.27" x2="-1.23" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.23" y1="-0.635" x2="-1.865" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.135" y1="1.27" x2="-3.77" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.77" y1="-0.635" x2="-3.135" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.865" y1="-1.27" x2="-3.135" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@2" x="-2.5" y="0" drill="1.016"/>
+<rectangle x1="-2.754" y1="-0.254" x2="-2.246" y2="0.254" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@3" x="0" y="0" drill="1.016"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<wire x1="1.865" y1="1.27" x2="3.135" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.135" y1="1.27" x2="3.77" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.77" y1="-0.635" x2="3.135" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.865" y1="1.27" x2="1.23" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.23" y1="-0.635" x2="1.865" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.135" y1="-1.27" x2="1.865" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@4" x="2.5" y="0" drill="1.016"/>
+<rectangle x1="2.246" y1="-0.254" x2="2.754" y2="0.254" layer="51"/>
+<wire x1="4.365" y1="1.27" x2="5.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.635" y1="1.27" x2="6.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="6.27" y1="0.635" x2="6.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="6.27" y1="-0.635" x2="5.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.365" y1="1.27" x2="3.73" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.73" y1="-0.635" x2="4.365" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.635" y1="-1.27" x2="4.365" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@5" x="5" y="0" drill="1.016"/>
+<rectangle x1="4.746" y1="-0.254" x2="5.254" y2="0.254" layer="51"/>
+<smd name="1@6" x="0" y="0" dx="10" dy="0.5" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="S07K150" urn="urn:adsk.eagle:package:16759379/1" type="box" library_version="1">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="S07K150"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model" library_version="1" library_locally_modified="yes">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1480,101 +1550,101 @@ Your Multi-CB Team
 <attribute name="NAME" x="17" y="52.5" size="1.016" layer="25" font="vector" ratio="15" rot="R225" align="center"/>
 <attribute name="VALUE" x="12" y="64.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="21.75" y="41.5" smashed="yes" rot="R90">
+<element name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="21.75" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="24.29" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="21.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="28.25" y="41.5" smashed="yes" rot="R90">
+<element name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="28.25" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="30.79" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="28.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="8.75" y="41.5" smashed="yes" rot="R90">
+<element name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="8.75" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="11.29" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="8.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="15.25" y="41.5" smashed="yes" rot="R90">
+<element name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="15.25" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="17.79" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="15.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="39.25" y="41.5" smashed="yes" rot="R90">
+<element name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="39.25" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="41.79" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="39.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="45.75" y="41.5" smashed="yes" rot="R90">
+<element name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="45.75" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="45.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="48.29" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="45.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="58.75" y="41.5" smashed="yes" rot="R90">
+<element name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="58.75" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="61.29" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="58.75" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R" x="52.25" y="41.5" smashed="yes" rot="R90">
+<element name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="52.25" y="41.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0805FR-07100RL" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="52.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="0.125W" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="1608" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER" value="0.1W" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100R" x="54.79" y="40.865" size="1.27" layer="27" rot="R90"/>
-<attribute name="VOLTAGE" value="150V" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="52.25" y="41.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="25" y="27" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="25" y="27" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1712,101 +1782,101 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="72.71" y="71.77" size="1.27" layer="27" rot="R270"/>
 <attribute name="VOLTAGE" value="50V" x="75.25" y="70.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="19.75" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="19.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="18.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="19.75" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="20.25" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="18.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="20.25" y="41.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="37.25" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="37.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="35.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="37.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="37.75" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="37.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="36.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="37.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="43.75" y="41.5" smashed="yes" rot="R270">
+<element name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="43.75" y="41.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="43.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="1608" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="42.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="75V" x="43.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="26.25" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="26.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="24.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="26.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="26.75" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="26.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="25.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="26.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="56.75" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="55.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="56.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="57.25" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="57.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="55.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="57.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="6.75" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="5.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="6.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="7.25" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="7.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="13.25" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="11.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="13.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="13.75" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="13.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="13.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k" x="50.25" y="41.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0805FR-0710KL" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="50.25" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
-<attribute name="PACKAGE" value="2012" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POWER" value="0.125W" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="48.75" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VOLTAGE" value="150V" x="50.25" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="50.75" y="41.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="50.75" y="43.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.1W" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="49.25" y="41.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="50.75" y="40.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="33" y="32" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="32" y="32" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1840,7 +1910,7 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="MSOP-10" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.25" y="86.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="USB-C-16P" package3d_urn="urn:adsk.eagle:package:16672513/2" value="" x="31.25" y="97" smashed="yes" rot="R180">
+<element name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="USB-C-16P" package3d_urn="urn:adsk.eagle:package:16672513/4" value="" x="31.25" y="97" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="USB Type C Female" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Jing Extension" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="C167321" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1903,13 +1973,13 @@ Your Multi-CB Team
 <attribute name="PACKAGE-IN" value="0805" x="70" y="96" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="68.5" y="96" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" package="F0805" package3d_urn="urn:adsk.eagle:package:17200786/3" value="MF-PSMF035X-2" x="37.5" y="94" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="PTC Fuse" x="37.5" y="94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Bourns" x="37.5" y="94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="MF-PSMF035X-2" x="37.5" y="94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39" y="94" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="PACKAGE" value="2012" x="37.5" y="94" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="36" y="94" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
+<element name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" package="F0805" package3d_urn="urn:adsk.eagle:package:17200786/3" value="MF-PSMF035X-2" x="37.25" y="94.75" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="PTC Fuse" x="37.25" y="94.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Bourns" x="37.25" y="94.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MF-PSMF035X-2" x="37.25" y="94.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.75" y="94.75" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="2012" x="37.25" y="94.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="35.75" y="94.75" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="R18" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k" x="84.5" y="92.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="84.5" y="92.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1947,9 +2017,9 @@ Your Multi-CB Team
 <attribute name="VALUE" x="73" y="92.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="74.5" y="92.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WL-SFCX_1210" package3d_urn="urn:adsk.eagle:package:16759422/2" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes" value="" x="6" y="25" smashed="yes">
-<attribute name="NAME" x="6" y="27.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="6" y="22.5" size="1.016" layer="27" font="vector" ratio="13" align="center"/>
+<element name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WL-SFCX_1210" package3d_urn="urn:adsk.eagle:package:16759422/2" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes" value="" x="81" y="41.5" smashed="yes">
+<attribute name="NAME" x="81" y="44" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="81" y="39" size="1.016" layer="27" font="vector" ratio="13" align="center"/>
 </element>
 <element name="L1" library="zaan-Inductors" library_urn="urn:adsk.eagle:library:16759304" package="WE-LQS_3015" package3d_urn="urn:adsk.eagle:package:26750094/2" value="1.5u" x="83" y="62.5" smashed="yes" rot="R270">
 <attribute name="CURRENT" value="2.3A" x="83" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2015,6 +2085,118 @@ Your Multi-CB Team
 <attribute name="VALUE" x="31" y="18.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="31" y="20" size="1.778" layer="27" display="off"/>
 </element>
+<element name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:16759426/5" value="LTST-C171KSKT" x="-63.5" y="-4.5" smashed="yes">
+<attribute name="DESCRIPTION" value="Surface Mount LED" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Lite-On" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LTST-C171KSKT" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-65" y="-4.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PACKAGE" value="2012" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE-IN" value="0805" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-62" y="-4.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+</element>
+<element name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="-63" y="-13" smashed="yes">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-071KL" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63" y="-11.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PACKAGE" value="1608" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.1W" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63" y="-14.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="-63.5" y="-18" smashed="yes">
+<attribute name="DESCRIPTION" value="Chip Capacitor" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="DIELECTRIC" value="X7R" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0603JRX7R9BB104" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63.5" y="-16.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PACKAGE" value="1606" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.5" y="-19.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VOLTAGE" value="50V" x="-63" y="-18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="S07K150" package3d_urn="urn:adsk.eagle:package:16759379/1" value="820572711" x="-69" y="-13.75" smashed="yes">
+<attribute name="DESCRIPTION" value="Varistor" x="-69" y="-13.75" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Wurth Electronics" x="-69" y="-13.75" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="820572711" x="-69" y="-13.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-69" y="-8.25" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="PACKAGE" value="" x="-69" y="-13.75" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-69" y="-19.25" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="VOLTAGE" value="275V" x="-69" y="-13.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="PINROW-1X5" x="-15.25" y="19.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-8.25" y="19.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="-15.25" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="PINROW-1X5" x="-15.25" y="22" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-8.25" y="22" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="-15.25" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="PINROW-1X5" x="-15.25" y="24.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-8.25" y="24.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="-15.25" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="PINROW-1X5" x="-15.25" y="27" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-8.25" y="27" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="-15.25" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="PINROW-1X5" x="-15.25" y="29.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-8.25" y="29.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="-15.25" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2026,7 +2208,7 @@ Your Multi-CB Team
 <contactref element="Q1" pad="2"/>
 <contactref element="Q4" pad="2"/>
 <contactref element="Q3" pad="2"/>
-<polygon width="0.2" layer="16" isolate="0.15">
+<polygon width="0.2" layer="16" isolate="0.15" rank="3">
 <vertex x="0" y="0"/>
 <vertex x="0" y="100"/>
 <vertex x="90" y="100"/>
@@ -2162,32 +2344,36 @@ Your Multi-CB Team
 <via x="24" y="26.25" extent="1-16" drill="0.3"/>
 <wire x1="31.75" y1="20" x2="31.75" y2="19" width="0.254" layer="1"/>
 <via x="31.75" y="19" extent="1-16" drill="0.3"/>
+<contactref element="D4" pad="C"/>
+<contactref element="C11" pad="2"/>
+<wire x1="28.025" y1="92.99" x2="28.025" y2="91.75" width="0.6" layer="1"/>
+<via x="28.025" y="91.75" extent="1-16" drill="0.3"/>
+<wire x1="34.475" y1="92.99" x2="34.475" y2="91.75" width="0.6" layer="1"/>
+<via x="34.475" y="91.75" extent="1-16" drill="0.3"/>
 <wire x1="79.5" y1="93.25" x2="84.5" y2="93.25" width="0" layer="19" extent="1-1"/>
 <wire x1="70" y1="94.95" x2="79.5" y2="93.25" width="0" layer="19" extent="1-1"/>
 <wire x1="65" y1="92.45" x2="70" y2="94.95" width="0" layer="19" extent="1-1"/>
 <wire x1="47.590809375" y1="83.426596875" x2="65" y2="92.45" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="93.915" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="34.475" y1="91.75" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
+<wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-1"/>
-<wire x1="28.025" y1="92.99" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="29" y1="89" x2="28.025" y2="92.99" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="89" x2="28.025" y2="91.75" width="0" layer="19" extent="1-1"/>
 <wire x1="60" y1="68.75" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
 <wire x1="67.65" y1="58.095" x2="60" y2="68.75" width="0" layer="19" extent="1-1"/>
 <wire x1="74.55" y1="55.25" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
 <wire x1="75.25" y1="69.55" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
 <wire x1="77.5" y1="71.45" x2="75.25" y2="69.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.5" y1="-3.45" x2="0.75" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.75" y1="-18" x2="-63.5" y2="-3.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="Q3" pad="1"/>
-<wire x1="21.7" y1="32.5" x2="22.2" y2="32" width="0.254" layer="1"/>
+<wire x1="20.8" y1="33.25" x2="22.125" y2="31.925" width="0.254" layer="1"/>
 <wire x1="20.8" y1="35.9" x2="20.8" y2="33.25" width="0.254" layer="1"/>
-<wire x1="20.8" y1="33.25" x2="21.55" y2="32.5" width="0.254" layer="1"/>
-<wire x1="21.55" y1="32.5" x2="21.7" y2="32.5" width="0.254" layer="1"/>
 <contactref element="U1" pad="44"/>
-<wire x1="31.75" y1="21.725" x2="22.2" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="21.725" x2="22.125" y2="31.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NOTE2">
 <contactref element="Q4" pad="1"/>
@@ -2198,19 +2384,19 @@ Your Multi-CB Team
 </signal>
 <signal name="D4">
 <contactref element="Q1" pad="1"/>
-<wire x1="10.45" y1="29.5" x2="7.8" y2="32.15" width="0.254" layer="1"/>
-<wire x1="7.8" y1="35.9" x2="7.8" y2="32.15" width="0.254" layer="1"/>
-<wire x1="18.4574" y1="29.5" x2="10.45" y2="29.5" width="0.254" layer="1"/>
-<wire x1="19.4574" y1="28.5" x2="18.4574" y2="29.5" width="0.254" layer="1"/>
+<wire x1="10.45" y1="31.5" x2="7.8" y2="34.15" width="0.254" layer="1"/>
+<wire x1="7.8" y1="35.9" x2="7.8" y2="34.15" width="0.254" layer="1"/>
+<wire x1="18.4574" y1="31.5" x2="10.45" y2="31.5" width="0.254" layer="1"/>
+<wire x1="19.4574" y1="30.5" x2="18.4574" y2="31.5" width="0.254" layer="1"/>
 <contactref element="U1" pad="18"/>
-<wire x1="19.4574" y1="28.5" x2="31.25" y2="30.275" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4574" y1="30.5" x2="31.25" y2="30.275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="Q2" pad="1"/>
-<wire x1="19.7074" y1="29.3" x2="18.7074" y2="30.3" width="0.254" layer="1"/>
-<wire x1="18.7074" y1="30.3" x2="15.7" y2="30.3" width="0.254" layer="1"/>
-<wire x1="15.7" y1="30.3" x2="14.3" y2="31.7" width="0.254" layer="1"/>
-<wire x1="14.3" y1="31.7" x2="14.3" y2="35.9" width="0.254" layer="1"/>
+<wire x1="19.7074" y1="31.3" x2="18.7074" y2="32.3" width="0.254" layer="1"/>
+<wire x1="18.7074" y1="32.3" x2="15.7" y2="32.3" width="0.254" layer="1"/>
+<wire x1="15.7" y1="32.3" x2="14.3" y2="33.7" width="0.254" layer="1"/>
+<wire x1="14.3" y1="33.7" x2="14.3" y2="35.9" width="0.254" layer="1"/>
 </signal>
 <signal name="NOTE5">
 <contactref element="Q5" pad="1"/>
@@ -2237,41 +2423,41 @@ Your Multi-CB Team
 <signal name="N$9">
 <contactref element="Q3" pad="3"/>
 <contactref element="R6" pad="1"/>
-<wire x1="21.75" y1="38.1" x2="21.75" y2="40.55" width="0.254" layer="1"/>
+<wire x1="21.75" y1="38.1" x2="21.75" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="LS3" pad="-"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="26.25" y1="42.45" x2="28.25" y2="42.45" width="0.254" layer="1"/>
-<wire x1="28.25" y1="42.45" x2="33.75" y2="64.25" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="42.25" x2="28.25" y2="42.25" width="0.254" layer="1"/>
+<wire x1="28.25" y1="42.25" x2="33.75" y2="64.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="LS5" pad="-"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="1"/>
-<wire x1="6.75" y1="42.45" x2="8.75" y2="42.45" width="0.254" layer="1"/>
-<wire x1="8.75" y1="42.45" x2="53" y2="57.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="42.25" x2="8.75" y2="42.25" width="0.254" layer="1"/>
+<wire x1="8.75" y1="42.25" x2="53" y2="57.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="Q2" pad="3"/>
 <contactref element="R4" pad="1"/>
-<wire x1="15.25" y1="38.1" x2="15.25" y2="40.55" width="0.254" layer="1"/>
+<wire x1="15.25" y1="38.1" x2="15.25" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="Q6" pad="3"/>
 <contactref element="R12" pad="1"/>
-<wire x1="45.75" y1="38.1" x2="45.75" y2="40.55" width="0.254" layer="1"/>
+<wire x1="45.75" y1="38.1" x2="45.75" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="LS4" pad="-"/>
 <contactref element="R16" pad="2"/>
 <contactref element="R15" pad="1"/>
-<wire x1="56.75" y1="42.45" x2="58.75" y2="42.45" width="0.254" layer="1"/>
-<wire x1="56.75" y1="42.45" x2="33.75" y2="77.25" width="0" layer="19" extent="1-1"/>
+<wire x1="57.25" y1="42.25" x2="58.75" y2="42.25" width="0.254" layer="1"/>
+<wire x1="57.25" y1="42.25" x2="33.75" y2="77.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
-<polygon width="0.2" layer="1" isolate="0.15">
+<polygon width="0.2" layer="1" isolate="0.15" rank="3">
 <vertex x="0" y="0"/>
 <vertex x="0" y="100"/>
 <vertex x="90" y="100"/>
@@ -2315,55 +2501,55 @@ Your Multi-CB Team
 <signal name="N$2">
 <contactref element="Q4" pad="3"/>
 <contactref element="R8" pad="1"/>
-<wire x1="28.25" y1="38.1" x2="28.25" y2="40.55" width="0.254" layer="1"/>
+<wire x1="28.25" y1="38.1" x2="28.25" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="Q1" pad="3"/>
 <contactref element="R2" pad="1"/>
-<wire x1="8.75" y1="38.1" x2="8.75" y2="40.55" width="0.254" layer="1"/>
+<wire x1="8.75" y1="38.1" x2="8.75" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LS2" pad="-"/>
 <contactref element="R4" pad="2"/>
 <contactref element="R3" pad="1"/>
-<wire x1="13.25" y1="42.45" x2="15.25" y2="42.45" width="0.254" layer="1"/>
-<wire x1="15.25" y1="42.45" x2="46" y2="68.5" width="0" layer="19" extent="1-1"/>
+<wire x1="13.75" y1="42.25" x2="15.25" y2="42.25" width="0.254" layer="1"/>
+<wire x1="15.25" y1="42.25" x2="46" y2="68.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R10" pad="1"/>
 <contactref element="Q5" pad="3"/>
-<wire x1="39.25" y1="38.1" x2="39.25" y2="40.55" width="0.254" layer="1"/>
+<wire x1="39.25" y1="38.1" x2="39.25" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R10" pad="2"/>
 <contactref element="LS8" pad="-"/>
 <contactref element="R9" pad="1"/>
-<wire x1="37.25" y1="42.45" x2="39.25" y2="42.45" width="0.254" layer="1"/>
-<wire x1="37.25" y1="42.45" x2="27" y2="53" width="0" layer="19" extent="1-1"/>
+<wire x1="37.75" y1="42.25" x2="39.25" y2="42.25" width="0.254" layer="1"/>
+<wire x1="37.75" y1="42.25" x2="27" y2="53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R12" pad="2"/>
 <contactref element="LS1" pad="-"/>
 <contactref element="R11" pad="1"/>
-<wire x1="43.75" y1="42.45" x2="45.75" y2="42.45" width="0.254" layer="1"/>
-<wire x1="43.75" y1="42.45" x2="21.5" y2="68.5" width="0" layer="19" extent="1-1"/>
+<wire x1="43.75" y1="42.25" x2="45.75" y2="42.25" width="0.254" layer="1"/>
+<wire x1="43.75" y1="42.25" x2="21.5" y2="68.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="Q8" pad="3"/>
 <contactref element="R16" pad="1"/>
-<wire x1="58.75" y1="38.1" x2="58.75" y2="40.55" width="0.254" layer="1"/>
+<wire x1="58.75" y1="38.1" x2="58.75" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="Q7" pad="3"/>
 <contactref element="R14" pad="1"/>
-<wire x1="52.25" y1="38.1" x2="52.25" y2="40.55" width="0.254" layer="1"/>
+<wire x1="52.25" y1="38.1" x2="52.25" y2="40.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R14" pad="2"/>
 <contactref element="LS6" pad="-"/>
 <contactref element="R13" pad="1"/>
-<wire x1="50.25" y1="42.45" x2="52.25" y2="42.45" width="0.254" layer="1"/>
-<wire x1="14.5" y1="57.5" x2="50.25" y2="42.45" width="0" layer="19" extent="1-1"/>
+<wire x1="50.75" y1="42.25" x2="52.25" y2="42.25" width="0.254" layer="1"/>
+<wire x1="14.5" y1="57.5" x2="50.75" y2="42.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T1">
 <contactref element="S4" pad="2"/>
@@ -2479,8 +2665,8 @@ Your Multi-CB Team
 <contactref element="R5" pad="1"/>
 <contactref element="R6" pad="2"/>
 <contactref element="LS7" pad="-"/>
-<wire x1="19.75" y1="42.45" x2="21.75" y2="42.45" width="0.254" layer="1"/>
-<wire x1="21.75" y1="42.45" x2="40.5" y2="53" width="0" layer="19" extent="1-1"/>
+<wire x1="20.25" y1="42.25" x2="21.75" y2="42.25" width="0.254" layer="1"/>
+<wire x1="21.75" y1="42.25" x2="40.5" y2="53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J1" pad="2"/>
@@ -2496,8 +2682,13 @@ Your Multi-CB Team
 <contactref element="J2" pad="VBUS1"/>
 <contactref element="J2" pad="VBUS2"/>
 <contactref element="F1" pad="1"/>
-<wire x1="33.7" y1="92.99" x2="37.5" y2="95" width="0" layer="19" extent="1-1"/>
-<wire x1="28.8" y1="92.99" x2="33.7" y2="92.99" width="0" layer="19" extent="1-1"/>
+<wire x1="28.8" y1="92.99" x2="28.8" y2="93.8" width="0.45" layer="1"/>
+<wire x1="32.75" y1="94.75" x2="33.75" y2="95.75" width="0.45" layer="1"/>
+<wire x1="28.8" y1="93.8" x2="29.75" y2="94.75" width="0.45" layer="1"/>
+<wire x1="29.75" y1="94.75" x2="32.75" y2="94.75" width="0.45" layer="1"/>
+<wire x1="33.7" y1="92.99" x2="33.7" y2="93.8" width="0.45" layer="1"/>
+<wire x1="33.7" y1="93.8" x2="32.75" y2="94.75" width="0.45" layer="1"/>
+<wire x1="37.25" y1="95.75" x2="33.75" y2="95.75" width="0.45" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U3" pad="2"/>
@@ -2541,7 +2732,7 @@ Your Multi-CB Team
 <signal name="RXD">
 <contactref element="U2" pad="9"/>
 <contactref element="R22" pad="2"/>
-<wire x1="33.5" y1="89.5" x2="67.5" y2="46.25" width="0" layer="19" extent="1-1"/>
+<wire x1="67.5" y1="46.25" x2="33.5" y2="89.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="J2" pad="B5"/>
@@ -2682,6 +2873,21 @@ Your Multi-CB Team
 <signal name="N$28">
 <contactref element="DBG1" pad="6"/>
 </signal>
+<signal name="N$19">
+<contactref element="U2" pad="6"/>
+<contactref element="R23" pad="1"/>
+<wire x1="-63.75" y1="-13" x2="33.5" y2="88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="R23" pad="2"/>
+<contactref element="D4" pad="A"/>
+<wire x1="-63.5" y1="-5.55" x2="-62.25" y2="-13" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="V3">
+<contactref element="U2" pad="10"/>
+<contactref element="C11" pad="1"/>
+<wire x1="-64.25" y1="-18" x2="33.5" y2="90" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC82A2A2A"/>
@@ -2690,18 +2896,6 @@ Your Multi-CB Team
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="21,19,561b2a19541959e5"/>
-<approved hash="21,19,50192c1b521b51e7"/>
-<approved hash="21,19,a878d47aaa7aa986"/>
-<approved hash="21,19,3ac246c23ac2393e"/>
-<approved hash="21,19,b239ce3bb03bb1c7"/>
-<approved hash="21,19,903bec39923991c5"/>
-<approved hash="21,19,16196a1b141b11e7"/>
-<approved hash="21,19,a921d521a921a8dd"/>
-<approved hash="23,1,b6b63d0fc882c56d"/>
-<approved hash="23,1,7e0d87fc14895838"/>
-</errors>
 </board>
 </drawing>
 <compatibility>

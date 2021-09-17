@@ -1853,7 +1853,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:16759585/1" prefix="FRAME" uservalue="yes" library_version="4">
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:16759585/1" prefix="FRAME" uservalue="yes" library_version="5">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -1973,7 +1973,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </library>
 <library name="zaan-Connectors" urn="urn:adsk.eagle:library:16759010">
 <packages>
-<package name="USB-C-16P" urn="urn:adsk.eagle:footprint:16672512/1" library_version="7">
+<package name="USB-C-16P" urn="urn:adsk.eagle:footprint:16672512/3" library_version="10">
 <smd name="B6" x="0.75" y="4.01" dx="0.3" dy="1.7" layer="1"/>
 <smd name="A7" x="0.25" y="4.01" dx="0.3" dy="1.7" layer="1"/>
 <smd name="GND2" x="3.225" y="4.01" dx="0.6" dy="1.7" layer="1"/>
@@ -2218,7 +2218,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/2" type="model" library_version="7">
+<package3d name="USB-C-16P" urn="urn:adsk.eagle:package:16672513/4" type="model" library_version="10">
 <packageinstances>
 <packageinstance name="USB-C-16P"/>
 </packageinstances>
@@ -2292,7 +2292,7 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB_C" urn="urn:adsk.eagle:component:16759074/2" prefix="J" uservalue="yes" library_version="7">
+<deviceset name="USB_C" urn="urn:adsk.eagle:component:16759074/4" prefix="J" uservalue="yes" library_version="10">
 <description>&lt;b&gt;USB Type C 16 Pin Connector&lt;/b&gt; 
 &lt;br&gt;Female 16 Pin Connector&lt;li&gt; &lt;br&gt;&lt;b&gt;Footprint:&lt;/b&gt; USB-C 16P &lt;br&gt;&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="https://datasheet.lcsc.com/szlcsc/1811101520_Jing-Extension-of-the-Electronic-Co-C167321_C167321.pdf"&gt;Datasheet&lt;/a&gt; &lt;br&gt;&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Jing Extension of the Electronic Co. &lt;br&gt;
 &lt;br&gt;
@@ -2312,7 +2312,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="J1" pin="VBUS" pad="VBUS1 VBUS2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16672513/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16672513/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2902,6 +2902,184 @@ Very Small, Shielded Inductors
 </deviceset>
 </devicesets>
 </library>
+<library name="zaan-No-Category" urn="urn:adsk.eagle:library:16759360">
+<packages>
+<package name="S07K150" urn="urn:adsk.eagle:footprint:16759363/1" library_version="1">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.397" y1="4.572" x2="1.397" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.397" x2="-1.524" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.524" y1="-2.54" x2="1.524" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.667" y1="-0.635" x2="2.667" y2="1.413" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="0.635" x2="-2.667" y2="-1.413" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.5" x2="-2.032" y2="-3.5" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="1.5" x2="2.032" y2="3.5" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="0.635" x2="-2.032" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.667" y1="-2.413" x2="-2.032" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.032" y1="3.048" x2="2.667" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.032" y1="-1.27" x2="2.667" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.032" y1="-3.937" x2="2.032" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.032" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="-4.572" x2="2.032" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-3.937" x2="-1.397" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="3.937" x2="-1.397" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.397" y1="4.572" x2="2.032" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="-4.572" x2="1.397" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="3.45" x2="2.032" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-3.937" x2="-2.032" y2="-3.45" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="1.365" x2="2.667" y2="2.413" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="-1.365" x2="-2.667" y2="-2.413" width="0.1524" layer="51"/>
+<pad name="1" x="-0.75" y="-2.5" drill="0.9144" shape="long"/>
+<pad name="2" x="0.75" y="2.5" drill="0.9144" shape="long"/>
+<text x="0" y="5.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-5.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center">&gt;VALUE</text>
+</package>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.635" y1="1.27" x2="-4.365" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-4.365" y1="1.27" x2="-3.73" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.73" y1="-0.635" x2="-4.365" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-6.27" y1="0.635" x2="-6.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.635" y1="1.27" x2="-6.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-6.27" y1="-0.635" x2="-5.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.365" y1="-1.27" x2="-5.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@1" x="-5" y="0" drill="1.016"/>
+<text x="-7" y="0" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<rectangle x1="-5.254" y1="-0.254" x2="-4.746" y2="0.254" layer="51"/>
+<wire x1="-3.135" y1="1.27" x2="-1.865" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.865" y1="1.27" x2="-1.23" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.23" y1="-0.635" x2="-1.865" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.135" y1="1.27" x2="-3.77" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.77" y1="-0.635" x2="-3.135" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.865" y1="-1.27" x2="-3.135" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@2" x="-2.5" y="0" drill="1.016"/>
+<rectangle x1="-2.754" y1="-0.254" x2="-2.246" y2="0.254" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@3" x="0" y="0" drill="1.016"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<wire x1="1.865" y1="1.27" x2="3.135" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.135" y1="1.27" x2="3.77" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.77" y1="-0.635" x2="3.135" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.865" y1="1.27" x2="1.23" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.23" y1="-0.635" x2="1.865" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.135" y1="-1.27" x2="1.865" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@4" x="2.5" y="0" drill="1.016"/>
+<rectangle x1="2.246" y1="-0.254" x2="2.754" y2="0.254" layer="51"/>
+<wire x1="4.365" y1="1.27" x2="5.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.635" y1="1.27" x2="6.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="6.27" y1="0.635" x2="6.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="6.27" y1="-0.635" x2="5.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.365" y1="1.27" x2="3.73" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.73" y1="-0.635" x2="4.365" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.635" y1="-1.27" x2="4.365" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1@5" x="5" y="0" drill="1.016"/>
+<rectangle x1="4.746" y1="-0.254" x2="5.254" y2="0.254" layer="51"/>
+<smd name="1@6" x="0" y="0" dx="10" dy="0.5" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="S07K150" urn="urn:adsk.eagle:package:16759379/1" type="box" library_version="1">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="S07K150"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model" library_version="1" library_locally_modified="yes">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="VARISTOR" urn="urn:adsk.eagle:symbol:16759366/1" library_version="1">
+<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="2.032" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="2.032" x2="-2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.032" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="PINHD1" library_version="1" library_locally_modified="yes">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="82057" urn="urn:adsk.eagle:component:16759393/1" library_version="1">
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2711" package="S07K150">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759379/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Varistor"/>
+<attribute name="MF" value="Wurth Electronics"/>
+<attribute name="MPN" value="820572711"/>
+<attribute name="PACKAGE" value=""/>
+<attribute name="VOLTAGE" value="275V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINROW-1X5" prefix="JP" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1@1 1@2 1@3 1@4 1@5 1@6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="CONNECTOR" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
@@ -2950,14 +3128,14 @@ Very Small, Shielded Inductors
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
-<part name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="100R"/>
+<part name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -2998,14 +3176,14 @@ Very Small, Shielded Inductors
 <part name="C102" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0805-50V-5%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="100n"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" deviceset="A3L-LOC" device=""/>
-<part name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
-<part name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:16759454/7" value="10k"/>
+<part name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
 <part name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -3013,7 +3191,7 @@ Very Small, Shielded Inductors
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="zaan-IC-General" library_urn="urn:adsk.eagle:library:16759200" deviceset="CH340E" device="_MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/1"/>
-<part name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/2"/>
+<part name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/4"/>
 <part name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="JST-PH-2" device="-SMT-SE" package3d_urn="urn:adsk.eagle:package:16759071/2"/>
 <part name="U3" library="zaan-IC-Power" library_urn="urn:adsk.eagle:library:16759262" deviceset="TP4333" device="" package3d_urn="urn:adsk.eagle:package:16759279/3"/>
 <part name="S9" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1101-C" device="-W" package3d_urn="urn:adsk.eagle:package:16760026/2"/>
@@ -3044,6 +3222,17 @@ Very Small, Shielded Inductors
 <part name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/5"/>
+<part name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="82057" device="2711" package3d_urn="urn:adsk.eagle:package:16759379/1"/>
+<part name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -3594,9 +3783,9 @@ Very Small, Shielded Inductors
 <instance part="GND41" gate="1" x="55.88" y="91.44" smashed="yes">
 <attribute name="VALUE" x="53.34" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="139.7" y="104.14" smashed="yes">
-<attribute name="NAME" x="134.41" y="113.622" size="1.27" layer="95"/>
-<attribute name="VALUE" x="135.07" y="95.772" size="1.27" layer="96"/>
+<instance part="D3" gate="G$1" x="154.94" y="109.22" smashed="yes">
+<attribute name="NAME" x="149.65" y="118.702" size="1.27" layer="95"/>
+<attribute name="VALUE" x="150.31" y="100.852" size="1.27" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="53.34" y="45.72" smashed="yes">
 <attribute name="NAME" x="49.53" y="48.26" size="1.778" layer="95"/>
@@ -3638,6 +3827,55 @@ Very Small, Shielded Inductors
 </instance>
 <instance part="P+15" gate="1" x="48.26" y="243.84" smashed="yes">
 <attribute name="VALUE" x="45.72" y="243.84" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="D4" gate="G$1" x="114.3" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.84" y="118.11" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="116.84" y="119.888" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="R23" gate="G$1" x="104.14" y="114.3" smashed="yes">
+<attribute name="NAME" x="100.33" y="116.84" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="100.33" y="111.76" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="100.33" y="110.236" size="1.27" layer="96" align="center-left"/>
+<attribute name="POWER" x="100.33" y="108.712" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="100.33" y="107.188" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="GND36" gate="1" x="121.92" y="106.68" smashed="yes">
+<attribute name="VALUE" x="119.38" y="104.14" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="15.24" y="86.36" smashed="yes">
+<attribute name="NAME" x="13.97" y="87.884" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="18.542" y="88.138" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="18.542" y="86.614" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="18.542" y="85.09" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="18.542" y="83.566" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="18.542" y="82.042" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="GND37" gate="1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$1" x="116.84" y="-33.02" smashed="yes">
+<attribute name="NAME" x="114.3" y="-30.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="114.3" y="-36.83" size="1.27" layer="96"/>
+</instance>
+<instance part="JP1" gate="G$1" x="167.64" y="-20.32" smashed="yes">
+<attribute name="NAME" x="161.29" y="-17.145" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="-25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="JP2" gate="G$1" x="167.64" y="-30.48" smashed="yes">
+<attribute name="NAME" x="161.29" y="-27.305" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="-35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="JP3" gate="G$1" x="167.64" y="-40.64" smashed="yes">
+<attribute name="NAME" x="161.29" y="-37.465" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="-45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="JP4" gate="G$1" x="167.64" y="-50.8" smashed="yes">
+<attribute name="NAME" x="161.29" y="-47.625" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="-55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="JP5" gate="G$1" x="167.64" y="-60.96" smashed="yes">
+<attribute name="NAME" x="161.29" y="-57.785" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="-66.04" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4033,6 +4271,17 @@ Very Small, Shielded Inductors
 <wire x1="48.26" y1="231.14" x2="48.26" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND42" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="119.38" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="114.3" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="15.24" y1="81.28" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -4822,6 +5071,32 @@ Very Small, Shielded Inductors
 <segment>
 <pinref part="DBG1" gate="G$1" pin="NSRST"/>
 <wire x1="48.26" y1="205.74" x2="50.8" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="TNOW"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="109.22" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V3" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="V3"/>
+<wire x1="68.58" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<label x="66.04" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="88.9" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
+<label x="15.24" y="91.44" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
