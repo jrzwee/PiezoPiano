@@ -220,8 +220,6 @@ ZAAN
 <wire x1="62.5" y1="68.5" x2="62.5" y2="50.5" width="0" layer="51"/>
 <wire x1="62.5" y1="50.5" x2="77.5" y2="35.5" width="0" layer="51" curve="90"/>
 <wire x1="0" y1="68.5" x2="62.5" y2="68.5" width="0" layer="51" curve="-180"/>
-<wire x1="165.5" y1="81.75" x2="165.5" y2="83.5" width="0.0762" layer="104"/>
-<wire x1="165.5" y1="81.75" x2="167.25" y2="81.75" width="0.0762" layer="104"/>
 <wire x1="-5" y1="80" x2="75" y2="80" width="0.1524" layer="51"/>
 <wire x1="-8.5" y1="74.5" x2="69.5" y2="74.5" width="0.1524" layer="51"/>
 <dimension x1="38" y1="80" x2="50.5" y2="80" x3="44.25" y3="51.5" textsize="1.778" layer="51"/>
@@ -417,7 +415,7 @@ ZAAN
 <text x="0" y="7" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-7" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:16672563/2" library_version="15">
+<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:16672563/2" library_version="16">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
@@ -440,7 +438,7 @@ ZAAN
 <text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="SPST-6X3.6" urn="urn:adsk.eagle:footprint:16760024/1" library_version="13">
+<package name="SPST-6X3.6" urn="urn:adsk.eagle:footprint:16760024/2" library_version="16">
 <wire x1="3" y1="1.7" x2="3" y2="-1.7" width="0.127" layer="51"/>
 <wire x1="3" y1="-1.7" x2="2.9" y2="-1.8" width="0.127" layer="51" curve="-90"/>
 <wire x1="2.9" y1="-1.8" x2="-2.9" y2="-1.8" width="0.127" layer="51"/>
@@ -467,8 +465,8 @@ ZAAN
 <wire x1="-1.25" y1="0.65" x2="-1.15" y2="0.75" width="0.127" layer="51" curve="-90"/>
 <wire x1="3" y1="-1.7" x2="3" y2="-1" width="0.127" layer="21"/>
 <wire x1="3" y1="1" x2="3" y2="1.7" width="0.127" layer="21"/>
-<smd name="1" x="-3.75" y="0" dx="1.5" dy="1.5" layer="1"/>
-<smd name="2" x="3.75" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="1" x="-3.75" y="0" dx="1.5" dy="1.5" layer="1" roundness="10"/>
+<smd name="2" x="3.75" y="0" dx="1.5" dy="1.5" layer="1" roundness="10"/>
 <rectangle x1="-4.25" y1="-0.5" x2="-3" y2="0.5" layer="51"/>
 <rectangle x1="3" y1="-0.5" x2="4.25" y2="0.5" layer="51" rot="R180"/>
 <text x="0" y="2.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
@@ -476,7 +474,7 @@ ZAAN
 </package>
 </packages>
 <packages3d>
-<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:16672570/3" type="model" library_version="15">
+<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:16672570/3" type="model" library_version="16">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
@@ -490,7 +488,7 @@ ZAAN
 <packageinstance name="CM12P/5.0P"/>
 </packageinstances>
 </package3d>
-<package3d name="SPST-6X3.6" urn="urn:adsk.eagle:package:16760026/2" type="model" library_version="13">
+<package3d name="SPST-6X3.6" urn="urn:adsk.eagle:package:16760026/3" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="SPST-6X3.6"/>
 </packageinstances>
@@ -1865,13 +1863,13 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="SOIC-8" x="70.5" y="60" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="70.5" y="56.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="S9" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="SPST-6X3.6" package3d_urn="urn:adsk.eagle:package:16760026/2" value="TS-1101-C-W" x="60" y="65" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Tactile Button" x="60" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Korean Hroparts Elec" x="60" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="K2-1107ST-A4SW-06" x="60" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="57.5" y="65" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="6.1X3.6X2.5" x="60" y="65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="62.5" y="65" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="S9" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="SPST-6X3.6" package3d_urn="urn:adsk.eagle:package:16760026/3" value="TS-1101-C-W" x="14" y="85.5" smashed="yes" rot="R45">
+<attribute name="DESCRIPTION" value="Tactile Button" x="14" y="85.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MF" value="Korean Hroparts Elec" x="14" y="85.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MPN" value="K2-1107ST-A4SW-06" x="14" y="85.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="NAME" x="16.23223125" y="83.767765625" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
+<attribute name="PACKAGE" value="6.1X3.6X2.5" x="14" y="85.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="VALUE" x="15.767765625" y="83.73223125" size="1.016" layer="27" font="vector" ratio="15" rot="R45" align="center"/>
 </element>
 <element name="R17" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="59" y="94.5" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="59" y="94.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1987,7 +1985,7 @@ Your Multi-CB Team
 <attribute name="VOLTAGE" value="75V" x="67.5" y="47" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$1" library="EET-Symbols" package="JLC_UID" value="" x="4.75" y="1" smashed="yes" rot="MR0"/>
-<element name="U$2" library="EET-Symbols" package="QR-SPACE" value="" x="19.5" y="92.5" smashed="yes" rot="R180"/>
+<element name="U$2" library="EET-Symbols" package="QR-SPACE" value="" x="3.5" y="67" smashed="yes" rot="R180"/>
 <element name="U$3" library="EET-Symbols" package="STACKUP-2L" value="" x="88.75" y="19" smashed="yes" rot="R270"/>
 <element name="U1" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="TQFP48" package3d_urn="urn:adsk.eagle:package:30825331/1" value="ATMEGA4809" x="31" y="26" smashed="yes" rot="R180">
 <attribute name="CODE-ARDUINO" value="ATMEGA4809" x="31" y="26" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1999,9 +1997,9 @@ Your Multi-CB Team
 <attribute name="NAME" x="35" y="22" size="1.016" layer="25" ratio="15" rot="R225" align="center"/>
 <attribute name="VALUE" x="33.695" y="28.7551" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="DBG1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="490107670612_DEBUGGING" package3d_urn="urn:adsk.eagle:package:16760574/1" value="AVR-UPDI-6-SKEDD" x="78.5" y="26" smashed="yes">
-<attribute name="NAME" x="78.5" y="30" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="78.5" y="22" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<element name="DBG1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="490107670612_DEBUGGING" package3d_urn="urn:adsk.eagle:package:16760574/1" value="AVR-UPDI-6-SKEDD" x="77.5" y="26" smashed="yes">
+<attribute name="NAME" x="77.5" y="30" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="77.5" y="22" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
 <element name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="31" y="20" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="31" y="20" size="1.778" layer="27" display="off"/>
@@ -2166,19 +2164,59 @@ Your Multi-CB Team
 <wire x1="70" y1="94.95" x2="79.5" y2="93.25" width="0" layer="19" extent="1-1"/>
 <wire x1="65" y1="92.45" x2="70" y2="94.95" width="0" layer="19" extent="1-1"/>
 <wire x1="47.590809375" y1="83.426596875" x2="65" y2="92.45" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="93.915" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
+<wire x1="35.57" y1="93.915" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-16"/>
 <wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="35.57" y1="98.095" x2="35.57" y2="93.915" width="0" layer="19" extent="16-16"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
+<wire x1="28.025" y1="92.99" x2="34.475" y2="92.99" width="0" layer="19" extent="1-1"/>
+<wire x1="26.93" y1="93.915" x2="28.025" y2="92.99" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-1"/>
-<wire x1="28.025" y1="92.99" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="29" y1="89" x2="28.025" y2="92.99" width="0" layer="19" extent="1-1"/>
-<wire x1="60" y1="68.75" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
-<wire x1="67.65" y1="58.095" x2="60" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="26.93" y1="98.095" x2="26.93" y2="93.915" width="0" layer="19" extent="16-16"/>
+<wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
+<wire x1="16.65165" y1="88.15165" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="9.601971875" y1="88.351971875" x2="16.65165" y2="88.15165" width="0" layer="19" extent="1-1"/>
+<wire x1="77.5" y1="71.45" x2="79.5" y2="93.25" width="0" layer="19" extent="1-1"/>
+<wire x1="75.25" y1="69.55" x2="77.5" y2="71.45" width="0" layer="19" extent="1-1"/>
+<wire x1="67.65" y1="58.095" x2="75.25" y2="69.55" width="0" layer="19" extent="1-1"/>
 <wire x1="74.55" y1="55.25" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
-<wire x1="75.25" y1="69.55" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
-<wire x1="77.5" y1="71.45" x2="75.25" y2="69.55" width="0" layer="19" extent="1-1"/>
+<wire x1="59.7" y1="35.9" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
+<wire x1="53.2" y1="35.9" x2="59.7" y2="35.9" width="0" layer="19" extent="1-1"/>
+<wire x1="46.7" y1="35.9" x2="53.2" y2="35.9" width="0" layer="19" extent="1-1"/>
+<wire x1="40.2" y1="35.9" x2="46.7" y2="35.9" width="0" layer="19" extent="1-1"/>
+<wire x1="32.25" y1="33" x2="40.2" y2="34.75" width="0" layer="19" extent="1-1"/>
+<wire x1="29.2" y1="34.75" x2="32.25" y2="33" width="0" layer="19" extent="1-1"/>
+<wire x1="22.75" y1="34.75" x2="29.2" y2="34.75" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2" y1="35.9" x2="22.7" y2="35.9" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7" y1="35.9" x2="16.2" y2="35.9" width="0" layer="19" extent="1-1"/>
+<wire x1="26.725" y1="26.75" x2="32.75" y2="30.275" width="0" layer="19" extent="1-1"/>
+<wire x1="31.25" y1="21.725" x2="26.725" y2="26.75" width="0" layer="19" extent="1-1"/>
+<wire x1="29.75" y1="15.5" x2="31.75" y2="19" width="0" layer="19" extent="1-1"/>
+<wire x1="40.2" y1="15.5" x2="31.75" y2="19" width="0" layer="19" extent="1-1"/>
+<wire x1="42.15" y1="6.155" x2="41.25" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="46.75" y1="6.155" x2="43.25" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="53.65" y1="6.155" x2="47.85" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="58.25" y1="6.155" x2="54.75" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="65.15" y1="6.155" x2="59.35" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="69.75" y1="6.155" x2="66.25" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="76.65" y1="6.155" x2="70.85" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="81.25" y1="6.155" x2="77.75" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="88.15" y1="6.155" x2="82.35" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="36.35" y1="6.155" x2="42.15" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="6.155" x2="35.25" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="24.85" y1="6.155" x2="30.65" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="20.25" y1="6.155" x2="23.75" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="13.35" y1="6.155" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="8.75" y1="6.155" x2="12.25" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="1.85" y1="6.155" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="87.25" y1="15.5" x2="88.15" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="75.75" y1="15.5" x2="76.65" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="64.25" y1="15.5" x2="65.15" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="52.75" y1="15.5" x2="53.65" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="18.25" y1="15.5" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="6.75" y1="15.5" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
+<wire x1="79.405" y1="24.73" x2="75.75" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="Q3" pad="1"/>
@@ -2521,7 +2559,7 @@ Your Multi-CB Team
 <signal name="N$24">
 <contactref element="R17" pad="2"/>
 <contactref element="S9" pad="1"/>
-<wire x1="60" y1="61.25" x2="58.25" y2="94.5" width="0" layer="19" extent="1-1"/>
+<wire x1="11.348346875" y1="82.848346875" x2="58.25" y2="94.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="U3" pad="8"/>
@@ -2677,7 +2715,7 @@ Your Multi-CB Team
 <signal name="UDPI">
 <contactref element="DBG1" pad="3"/>
 <contactref element="U1" pad="41"/>
-<wire x1="30.25" y1="21.725" x2="79.135" y2="27.27" width="0" layer="19" extent="1-1"/>
+<wire x1="30.25" y1="21.725" x2="78.135" y2="27.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="DBG1" pad="6"/>

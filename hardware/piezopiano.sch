@@ -1331,7 +1331,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <text x="0" y="7" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-7" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:16672563/2" library_version="15">
+<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:16672563/2" library_version="16">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
@@ -1354,7 +1354,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="SPST-6X3.6" urn="urn:adsk.eagle:footprint:16760024/1" library_version="13">
+<package name="SPST-6X3.6" urn="urn:adsk.eagle:footprint:16760024/2" library_version="16">
 <wire x1="3" y1="1.7" x2="3" y2="-1.7" width="0.127" layer="51"/>
 <wire x1="3" y1="-1.7" x2="2.9" y2="-1.8" width="0.127" layer="51" curve="-90"/>
 <wire x1="2.9" y1="-1.8" x2="-2.9" y2="-1.8" width="0.127" layer="51"/>
@@ -1381,8 +1381,8 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <wire x1="-1.25" y1="0.65" x2="-1.15" y2="0.75" width="0.127" layer="51" curve="-90"/>
 <wire x1="3" y1="-1.7" x2="3" y2="-1" width="0.127" layer="21"/>
 <wire x1="3" y1="1" x2="3" y2="1.7" width="0.127" layer="21"/>
-<smd name="1" x="-3.75" y="0" dx="1.5" dy="1.5" layer="1"/>
-<smd name="2" x="3.75" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="1" x="-3.75" y="0" dx="1.5" dy="1.5" layer="1" roundness="10"/>
+<smd name="2" x="3.75" y="0" dx="1.5" dy="1.5" layer="1" roundness="10"/>
 <rectangle x1="-4.25" y1="-0.5" x2="-3" y2="0.5" layer="51"/>
 <rectangle x1="3" y1="-0.5" x2="4.25" y2="0.5" layer="51" rot="R180"/>
 <text x="0" y="2.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
@@ -1396,7 +1396,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <packageinstance name="CM12P/5.0P"/>
 </packageinstances>
 </package3d>
-<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:16672570/3" type="model" library_version="15">
+<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:16672570/3" type="model" library_version="16">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
@@ -1404,7 +1404,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <packageinstance name="TACTILE_SWITCH_SMD_5.2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="SPST-6X3.6" urn="urn:adsk.eagle:package:16760026/2" type="model" library_version="13">
+<package3d name="SPST-6X3.6" urn="urn:adsk.eagle:package:16760026/3" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="SPST-6X3.6"/>
 </packageinstances>
@@ -1505,7 +1505,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </device>
 </devices>
 </deviceset>
-<deviceset name="SKQGADE010" urn="urn:adsk.eagle:component:16759171/3" prefix="S" library_version="15">
+<deviceset name="SKQGADE010" urn="urn:adsk.eagle:component:16759171/3" prefix="S" library_version="16">
 <gates>
 <gate name="G$1" symbol="TS2" x="0" y="0"/>
 </gates>
@@ -1526,7 +1526,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </device>
 </devices>
 </deviceset>
-<deviceset name="TS-1101-C" urn="urn:adsk.eagle:component:16760027/5" prefix="S" library_version="13">
+<deviceset name="TS-1101-C" urn="urn:adsk.eagle:component:16760027/6" prefix="S" library_version="16">
 <description>&lt;b&gt;Tactile Button&lt;/b&gt; 
 &lt;br&gt;SPST&lt;li&gt; &lt;br&gt;&lt;b&gt;Footprint:&lt;/b&gt; 6.1X3.6X2.5 &lt;br&gt;&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="https://datasheet.lcsc.com/szlcsc/1811082126_Korean-Hroparts-Elec-K2-1107ST-A4SW-06_C118141.pdf"&gt;Datasheet&lt;/a&gt; &lt;br&gt;&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; ON Semiconductor</description>
 <gates>
@@ -1539,7 +1539,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16760026/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16760026/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3016,7 +3016,7 @@ Very Small, Shielded Inductors
 <part name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/2"/>
 <part name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="JST-PH-2" device="-SMT-SE" package3d_urn="urn:adsk.eagle:package:16759071/2"/>
 <part name="U3" library="zaan-IC-Power" library_urn="urn:adsk.eagle:library:16759262" deviceset="TP4333" device="" package3d_urn="urn:adsk.eagle:package:16759279/3"/>
-<part name="S9" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1101-C" device="-W" package3d_urn="urn:adsk.eagle:package:16760026/2"/>
+<part name="S9" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1101-C" device="-W" package3d_urn="urn:adsk.eagle:package:16760026/3"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
