@@ -248,7 +248,6 @@ ZAAN
 <circle x="31.25" y="64.25" radius="1.11803125" width="0.254" layer="51"/>
 <text x="13.75" y="32.25" size="1.016" layer="25" font="vector" ratio="15" align="center-left">+5V</text>
 <text x="13.75" y="29.75" size="1.016" layer="25" font="vector" ratio="15" align="center-left">GND</text>
-<wire x1="98.75" y1="-58.25" x2="98.75" y2="31.25" width="0.4064" layer="21" style="shortdash"/>
 <wire x1="0.25" y1="10.5" x2="0.25" y2="12" width="0.1" layer="21" style="shortdash"/>
 <wire x1="0.25" y1="12" x2="89.75" y2="12" width="0.1" layer="21" style="shortdash"/>
 <wire x1="89.75" y1="12" x2="89.75" y2="10.5" width="0.1" layer="21" style="shortdash"/>
