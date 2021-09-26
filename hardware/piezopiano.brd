@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
@@ -2085,26 +2085,26 @@ Your Multi-CB Team
 <attribute name="VALUE" x="31" y="18.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="31" y="20" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:16759426/5" value="LTST-C171KSKT" x="-63.5" y="-4.5" smashed="yes">
-<attribute name="DESCRIPTION" value="Surface Mount LED" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Lite-On" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LTST-C171KSKT" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-65" y="-4.5" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="2012" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE-IN" value="0805" x="-63.5" y="-4.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-62" y="-4.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:16759426/5" value="LTST-C171KSKT" x="37.25" y="89.75" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Surface Mount LED" x="37.25" y="89.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Lite-On" x="37.25" y="89.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LTST-C171KSKT" x="37.25" y="89.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="39.25" y="89.75" size="1.016" layer="25" font="vector" ratio="15" align="center-left"/>
+<attribute name="PACKAGE" value="2012" x="37.25" y="89.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE-IN" value="0805" x="37.25" y="89.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="37.25" y="91.25" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="-63" y="-13" smashed="yes">
-<attribute name="DESCRIPTION" value="Chip Resistor" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Yageo" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-63" y="-11.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="PACKAGE" value="1608" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE-IN" value="0603" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.1W" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="-63" y="-13" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-63" y="-14.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VOLTAGE" value="75V" x="-63" y="-13" size="1.778" layer="27" display="off"/>
+<element name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="37.25" y="88" smashed="yes">
+<attribute name="DESCRIPTION" value="Chip Resistor" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-071KL" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.25" y="88" size="1.016" layer="25" font="vector" ratio="15" align="center-left"/>
+<attribute name="PACKAGE" value="1608" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE-IN" value="0603" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.1W" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="37.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="37.25" y="86.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VOLTAGE" value="75V" x="37.25" y="88" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="-63.5" y="-18" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="-63" y="-18" size="1.778" layer="27" display="off"/>
@@ -2350,66 +2350,24 @@ Your Multi-CB Team
 <via x="28.025" y="91.75" extent="1-16" drill="0.3"/>
 <wire x1="34.475" y1="92.99" x2="34.475" y2="91.75" width="0.6" layer="1"/>
 <via x="34.475" y="91.75" extent="1-16" drill="0.3"/>
+<wire x1="36.2" y1="89.75" x2="35.25" y2="89.75" width="0.254" layer="1"/>
+<via x="35.25" y="89.75" extent="1-16" drill="0.3"/>
 <wire x1="79.5" y1="93.25" x2="84.5" y2="93.25" width="0" layer="19" extent="1-1"/>
 <wire x1="70" y1="94.95" x2="79.5" y2="93.25" width="0" layer="19" extent="1-1"/>
 <wire x1="65" y1="92.45" x2="70" y2="94.95" width="0" layer="19" extent="1-1"/>
 <wire x1="47.590809375" y1="83.426596875" x2="65" y2="92.45" width="0" layer="19" extent="1-1"/>
-
-
-<wire x1="35.57" y1="93.915" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-16"/>
-<wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="35.57" y1="98.095" x2="35.57" y2="93.915" width="0" layer="19" extent="16-16"/>
+<wire x1="36.2" y1="89.75" x2="47.590809375" y2="83.426596875" width="0" layer="19" extent="1-1"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="28.025" y1="92.99" x2="34.475" y2="92.99" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="93.915" x2="28.025" y2="92.99" width="0" layer="19" extent="1-16"/>
-<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="29" y1="89" x2="28.025" y2="92.99" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="98.095" x2="26.93" y2="93.915" width="0" layer="19" extent="16-16"/>
+<wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="16.65165" y1="88.15165" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="9.601971875" y1="88.351971875" x2="16.65165" y2="88.15165" width="0" layer="19" extent="1-1"/>
+<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
+<wire x1="29" y1="89" x2="28.025" y2="91.75" width="0" layer="19" extent="1-1"/>
+<wire x1="16.65165" y1="88.15165" x2="9.601971875" y2="88.351971875" width="0" layer="19" extent="1-1"/>
 <wire x1="77.5" y1="71.45" x2="79.5" y2="93.25" width="0" layer="19" extent="1-1"/>
 <wire x1="75.25" y1="69.55" x2="77.5" y2="71.45" width="0" layer="19" extent="1-1"/>
 <wire x1="67.65" y1="58.095" x2="75.25" y2="69.55" width="0" layer="19" extent="1-1"/>
 <wire x1="74.55" y1="55.25" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
-<wire x1="59.7" y1="35.9" x2="67.65" y2="58.095" width="0" layer="19" extent="1-1"/>
-<wire x1="53.2" y1="35.9" x2="59.7" y2="35.9" width="0" layer="19" extent="1-1"/>
-<wire x1="46.7" y1="35.9" x2="53.2" y2="35.9" width="0" layer="19" extent="1-1"/>
-<wire x1="40.2" y1="35.9" x2="46.7" y2="35.9" width="0" layer="19" extent="1-1"/>
-<wire x1="32.25" y1="33" x2="40.2" y2="34.75" width="0" layer="19" extent="1-1"/>
-<wire x1="29.2" y1="34.75" x2="32.25" y2="33" width="0" layer="19" extent="1-1"/>
-<wire x1="22.75" y1="34.75" x2="29.2" y2="34.75" width="0" layer="19" extent="1-1"/>
-<wire x1="16.2" y1="35.9" x2="22.7" y2="35.9" width="0" layer="19" extent="1-1"/>
-<wire x1="9.7" y1="35.9" x2="16.2" y2="35.9" width="0" layer="19" extent="1-1"/>
-<wire x1="26.725" y1="26.75" x2="32.75" y2="30.275" width="0" layer="19" extent="1-1"/>
-<wire x1="31.25" y1="21.725" x2="26.725" y2="26.75" width="0" layer="19" extent="1-1"/>
-<wire x1="29.75" y1="15.5" x2="31.75" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="40.2" y1="15.5" x2="31.75" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="42.15" y1="6.155" x2="41.25" y2="15.5" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="6.155" x2="43.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.65" y1="6.155" x2="47.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="58.25" y1="6.155" x2="54.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="65.15" y1="6.155" x2="59.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="69.75" y1="6.155" x2="66.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="76.65" y1="6.155" x2="70.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="81.25" y1="6.155" x2="77.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="88.15" y1="6.155" x2="82.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="36.35" y1="6.155" x2="42.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="6.155" x2="35.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="24.85" y1="6.155" x2="30.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="6.155" x2="23.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.35" y1="6.155" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="8.75" y1="6.155" x2="12.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="1.85" y1="6.155" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="87.25" y1="15.5" x2="88.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="75.75" y1="15.5" x2="76.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="64.25" y1="15.5" x2="65.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="52.75" y1="15.5" x2="53.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="18.25" y1="15.5" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="6.75" y1="15.5" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="79.405" y1="24.73" x2="75.75" y2="15.5" width="0" layer="19" extent="1-1"/>
-
+<wire x1="-62.75" y1="-18" x2="0.75" y2="6.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="Q3" pad="1"/>
@@ -2539,7 +2497,7 @@ Your Multi-CB Team
 <wire x1="30.75" y1="20.5" x2="30.75" y2="21.725" width="0.254" layer="1"/>
 <wire x1="26.725" y1="27.25" x2="25.5" y2="27.25" width="0.254" layer="1"/>
 <wire x1="25.5" y1="27.25" x2="25" y2="27.75" width="0.254" layer="1"/>
-<wire x1="67.65" y1="61.905" x2="48" y2="57.5" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="57.5" x2="67.65" y2="61.905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q4" pad="3"/>
@@ -2919,12 +2877,13 @@ Your Multi-CB Team
 <signal name="N$19">
 <contactref element="U2" pad="6"/>
 <contactref element="R23" pad="1"/>
-<wire x1="-63.75" y1="-13" x2="33.5" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="33.5" y1="88" x2="36.5" y2="88" width="0.254" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="R23" pad="2"/>
 <contactref element="D4" pad="A"/>
-<wire x1="-63.5" y1="-5.55" x2="-62.25" y2="-13" width="0" layer="19" extent="1-1"/>
+<wire x1="38.3" y1="89.75" x2="38.3" y2="88.3" width="0.254" layer="1"/>
+<wire x1="38.3" y1="88.3" x2="38" y2="88" width="0.254" layer="1"/>
 </signal>
 <signal name="V3">
 <contactref element="U2" pad="10"/>
