@@ -2807,40 +2807,8 @@ chip</description>
 </library>
 <library name="zaan-No-Category" urn="urn:adsk.eagle:library:16759360">
 <packages>
-<package name="1X01" urn="urn:adsk.eagle:footprint:31104795/4" locally_modified="yes" library_version="1" library_locally_modified="yes">
+<package name="1X01" urn="urn:adsk.eagle:footprint:31104795/6" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-5.635" y1="1.27" x2="-4.365" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.365" y1="1.27" x2="-3.73" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.73" y1="-0.635" x2="-4.365" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-6.27" y1="0.635" x2="-6.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.635" y1="1.27" x2="-6.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-6.27" y1="-0.635" x2="-5.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.365" y1="-1.27" x2="-5.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.135" y1="1.27" x2="-1.865" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.865" y1="1.27" x2="-1.23" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.23" y1="-0.635" x2="-1.865" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.135" y1="1.27" x2="-3.77" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.77" y1="-0.635" x2="-3.135" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.865" y1="-1.27" x2="-3.135" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.865" y1="1.27" x2="3.135" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.135" y1="1.27" x2="3.77" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.77" y1="-0.635" x2="3.135" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.865" y1="1.27" x2="1.23" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.23" y1="-0.635" x2="1.865" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.135" y1="-1.27" x2="1.865" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.365" y1="1.27" x2="5.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="5.635" y1="1.27" x2="6.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.27" y1="0.635" x2="6.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="6.27" y1="-0.635" x2="5.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.365" y1="1.27" x2="3.73" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.73" y1="-0.635" x2="4.365" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.635" y1="-1.27" x2="4.365" y2="-1.27" width="0.1524" layer="21"/>
 <pad name="1@1" x="-5" y="0" drill="0.9"/>
 <pad name="1@2" x="-2.5" y="0" drill="0.9"/>
 <pad name="1@3" x="0" y="0" drill="0.9"/>
@@ -2857,10 +2825,34 @@ chip</description>
 <vertex x="-5" y="-0.25"/>
 <vertex x="-5" y="0"/>
 </polygon>
+<polygon width="0.05" layer="21">
+<vertex x="-3.3" y="-0.5"/>
+<vertex x="-4.2" y="-0.5" curve="90"/>
+<vertex x="-4.2" y="0.5"/>
+<vertex x="-3.3" y="0.5" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="21">
+<vertex x="-0.8" y="-0.5"/>
+<vertex x="-1.7" y="-0.5" curve="90"/>
+<vertex x="-1.7" y="0.5"/>
+<vertex x="-0.8" y="0.5" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="21">
+<vertex x="1.7" y="-0.5"/>
+<vertex x="0.8" y="-0.5" curve="90"/>
+<vertex x="0.8" y="0.5"/>
+<vertex x="1.7" y="0.5" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="21">
+<vertex x="4.2" y="-0.5"/>
+<vertex x="3.3" y="-0.5" curve="90"/>
+<vertex x="3.3" y="0.5"/>
+<vertex x="4.2" y="0.5" curve="90"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X01" urn="urn:adsk.eagle:package:31104797/4" type="model" library_version="5" library_locally_modified="yes">
+<package3d name="1X01" urn="urn:adsk.eagle:package:31104797/6" type="model" library_version="7">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="1X01"/>
@@ -2879,7 +2871,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINROW-1X5" urn="urn:adsk.eagle:component:31104798/4" prefix="JP" library_version="5" library_locally_modified="yes">
+<deviceset name="PINROW-1X5" urn="urn:adsk.eagle:component:31104798/6" prefix="JP" library_version="7">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD1" x="0" y="0"/>
@@ -2890,7 +2882,7 @@ chip</description>
 <connect gate="G$1" pin="1" pad="1@1 1@2 1@3 1@4 1@5 1@6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31104797/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31104797/6"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3031,7 +3023,7 @@ chip</description>
 <part name="R21" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R22" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="U1" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="ATMEGA4809" device="" package3d_urn="urn:adsk.eagle:package:30825331/1" value="ATMEGA4809"/>
-<part name="DBG1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-UPDI-6" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16760574/1"/>
+<part name="DEBUG" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-UPDI-6" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16760574/1"/>
 <part name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -3040,11 +3032,11 @@ chip</description>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/4"/>
-<part name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/4"/>
-<part name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/4"/>
-<part name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/4"/>
-<part name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/4"/>
+<part name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/6"/>
+<part name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/6"/>
+<part name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/6"/>
+<part name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/6"/>
+<part name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/6"/>
 <part name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u"/>
@@ -3061,7 +3053,7 @@ chip</description>
 <part name="D8" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
 <part name="D9" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
 <part name="D10" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/4"/>
+<part name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/6"/>
 <part name="D11" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:31106145/1"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3562,7 +3554,7 @@ chip</description>
 <attribute name="NAME" x="124.46" y="238.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="236.22" size="1.778" layer="96"/>
 </instance>
-<instance part="DBG1" gate="G$1" x="33.02" y="208.28" smashed="yes">
+<instance part="DEBUG" gate="G$1" x="33.02" y="208.28" smashed="yes">
 <attribute name="NAME" x="22.86" y="214.63" size="1.27" layer="95" align="center-left"/>
 </instance>
 <instance part="C13" gate="G$1" x="48.26" y="236.22" smashed="yes">
@@ -4097,7 +4089,7 @@ chip</description>
 <pinref part="U1" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
-<pinref part="DBG1" gate="G$1" pin="GND"/>
+<pinref part="DEBUG" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="210.82" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
 <label x="50.8" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4277,7 +4269,7 @@ chip</description>
 <pinref part="U1" gate="G$1" pin="VDD@1"/>
 </segment>
 <segment>
-<pinref part="DBG1" gate="G$1" pin="VTG"/>
+<pinref part="DEBUG" gate="G$1" pin="VTG"/>
 <wire x1="48.26" y1="208.28" x2="50.8" y2="208.28" width="0.1524" layer="91"/>
 <label x="50.8" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4872,7 +4864,7 @@ chip</description>
 </net>
 <net name="UDPI" class="0">
 <segment>
-<pinref part="DBG1" gate="G$1" pin="UDPI"/>
+<pinref part="DEBUG" gate="G$1" pin="UDPI"/>
 <wire x1="17.78" y1="208.28" x2="15.24" y2="208.28" width="0.1524" layer="91"/>
 <label x="15.24" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
