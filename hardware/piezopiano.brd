@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -269,6 +269,41 @@ WL-SFCX-1210</text>
 <text x="70.75" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center-right">0805</text>
 <text x="63.5" y="15.25" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">BGA80</text>
 <text x="67.75" y="23" size="1.016" layer="25" font="vector" ratio="15" align="center">Reference Sizes</text>
+<text x="-0.5" y="-0.5" size="2.1844" layer="26" font="vector" ratio="15" distance="70" rot="MR138" align="center-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non est pellentesque, 
+maximus urna a, tincidunt lorem. Sed ultrices dui nulla, venenatis placerat sem iaculis 
+et. Nunc sit amet malesuada dolor, vel porta velit. In hac habitasse platea dictumst. 
+Duis vulputate lorem ipsum, eu tincidunt risus placerat eget. Phasellus condimentum 
+ipsum quis nunc hendrerit, sit amet tempor risus vehicula. Donec placerat efficitur nisi, 
+id efficitur lorem eleifend et. Aenean risus turpis, iaculis quis pharetra a, maximus at erat. 
+Sed porta ipsum quis magna consequat semper. Maecenas quis porta nibh, id fermentum 
+arcu. Vestibulum vel lacus at eros pharetra dictum. Integer non lectus odio. Nullam a 
+lacus porttitor, molestie tortor ornare, auctor dolor. Ut consectetur nibh arcu, in ultrices 
+diam elementum ac. Nulla mauris leo, malesuada quis pharetra eget, ornare vel velit. 
+Fusce tempor malesuada sapien vel tempus. Nunc eu velit ut leo dictum tempus ac 
+aliquam ipsum. Integer eget justo sit amet massa posuere convallis et eget massa. 
+Aenean ac consectetur mi. Cras est enim, feugiat sagittis ante eu, aliquam vehicula 
+tellus. Cras ullamcorper augue sodales mattis volutpat. Nam quis sagittis lectus, eu 
+aliquam quam. Cras odio turpis, consectetur id placerat eget, cursus nec nunc. Cras 
+sodales ornare nisi quis gravida. Vivamus velit nunc, lobortis a venenatis nec,  
+a tellus. Donec dapibus sed augue eu aliquam. Integer ligula nulla, pellentesque 
+consequat eu, imperdiet at dolor. Etiam fringilla urna tortor. Donec pharetra ex 
+vehicula, et rhoncus neque mattis. Vivamus leo risus, congue ut accumsan et, suscipit 
+in erat. Pellentesque vitae risus sit amet urna tempus ultrices. Maecenas molestie elit 
+tortor, ac sagittis nisi dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Donec non hendrerit ex. Duis et vestibulum augue. Aenean eget arcu rutrum tortor 
+euismod porta quis at magna. Suspendisse potenti. Integer nunc magna, mattis vitae 
+suscipit sed, ultricies id sem. In posuere nisl iaculis massa efficitur, eget eleifend massa 
+sollicitudin. Donec enim massa, sagittis sed efficitur vel, sollicitudin et tellus. Mauris sed 
+ante in dui porttitor consequat. In hac habitasse platea dictumst. Donec auctor nibh 
+vel elit tristique hendrerit. Pellentesque et faucibus quam. Vivamus at turpis laoreet, 
+ornare magna eget, malesuada nunc. Fusce malesuada massa felis, cursus finibus dui 
+viverra ut. Duis commodo finibus commodo. Morbi sodales vulputate mauris, eget 
+molestie ex gravida quis. Phasellus tempus velit eu orci lacinia imperdiet. Proin eget 
+ipsum non lectus mattis mollis vitae id arcu. Curabitur semper tempus dignissim. Nunc 
+efficitur magna vel nisi maximus, rhoncus laoreet leo vestibulum. Proin maximus convallis 
+est ut eleifend. Etiam sollicitudin sem id congue rutrum. Integer suscipit, ante in 
+consequat condimentum, est erat tempus purus, sed fringilla tortor augue sed justo. 
+Ut non nisl sit amet arcu cursus commodo eget et metus.</text>
 </plain>
 <libraries>
 <library name="Custom">
