@@ -269,7 +269,7 @@ WL-SFCX-1210</text>
 <text x="70.75" y="17" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center-right">0805</text>
 <text x="63.5" y="15.25" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">BGA80</text>
 <text x="67.75" y="23" size="1.016" layer="25" font="vector" ratio="15" align="center">Reference Sizes</text>
-<text x="-0.5" y="-0.5" size="2.1844" layer="26" font="vector" ratio="15" distance="70" rot="MR138" align="center-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non est pellentesque, 
+<text x="0" y="0" size="2.1844" layer="26" font="vector" ratio="15" distance="70" rot="MR138" align="center-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non est pellentesque, 
 maximus urna a, tincidunt lorem. Sed ultrices dui nulla, venenatis placerat sem iaculis 
 et. Nunc sit amet malesuada dolor, vel porta velit. In hac habitasse platea dictumst. 
 Duis vulputate lorem ipsum, eu tincidunt risus placerat eget. Phasellus condimentum 
@@ -284,11 +284,11 @@ aliquam ipsum. Integer eget justo sit amet massa posuere convallis et eget massa
 Aenean ac consectetur mi. Cras est enim, feugiat sagittis ante eu, aliquam vehicula 
 tellus. Cras ullamcorper augue sodales mattis volutpat. Nam quis sagittis lectus, eu 
 aliquam quam. Cras odio turpis, consectetur id placerat eget, cursus nec nunc. Cras 
-sodales ornare nisi quis gravida. Vivamus velit nunc, lobortis a venenatis nec,  
+sodales ornare nisi quis gravida. Ut non nisl sit amet arcu cursus commodo eget et.  
 a tellus. Donec dapibus sed augue eu aliquam. Integer ligula nulla, pellentesque 
 consequat eu, imperdiet at dolor. Etiam fringilla urna tortor. Donec pharetra ex 
-vehicula, et rhoncus neque mattis. Vivamus leo risus, congue ut accumsan et, suscipit 
-in erat. Pellentesque vitae risus sit amet urna tempus ultrices. Maecenas molestie elit 
+vehicula, et rhoncus neque mattis. Vivamus leo risus, congue ut accumsan et, in al.
+erat. Pellentesque vitae risus sit amet urna tempus ultrices. Maecenas molestie erat 
 tortor, ac sagittis nisi dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Donec non hendrerit ex. Duis et vestibulum augue. Aenean eget arcu rutrum tortor 
 euismod porta quis at magna. Suspendisse potenti. Integer nunc magna, mattis vitae 
