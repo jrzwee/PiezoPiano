@@ -5219,12 +5219,22 @@ chip</description>
 <wire x1="73.66" y1="212.09" x2="68.58" y2="212.09" width="0.1524" layer="91"/>
 <label x="68.58" y="212.09" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D11" gate="G$1" pin="DIN"/>
+<wire x1="195.58" y1="218.44" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
+<label x="198.12" y="218.44" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="D10~" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB01"/>
 <wire x1="73.66" y1="214.63" x2="68.58" y2="214.63" width="0.1524" layer="91"/>
 <label x="68.58" y="214.63" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="233.68" y1="83.82" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
+<label x="228.6" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D9~" class="0">
@@ -5559,13 +5569,6 @@ chip</description>
 <label x="276.86" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="233.68" y1="83.82" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
-<label x="228.6" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -5659,13 +5662,6 @@ chip</description>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
 <label x="170.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="D11" gate="G$1" pin="DIN"/>
-<wire x1="195.58" y1="218.44" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
-<label x="198.12" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

@@ -240,23 +240,23 @@
 <circle x="50.5" y="57.5" radius="1.11803125" width="0.254" layer="47"/>
 <circle x="24.5" y="53" radius="1.11803125" width="0.254" layer="51"/>
 <circle x="31.25" y="64.25" radius="1.11803125" width="0.254" layer="51"/>
-<text x="13.5" y="29.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">+5V</text>
-<text x="13.5" y="27" size="1.016" layer="25" font="vector" ratio="15" align="center-left">GND</text>
+<text x="13.5" y="28.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">+5V</text>
+<text x="13.5" y="26" size="1.016" layer="25" font="vector" ratio="15" align="center-left">GND</text>
 <wire x1="0.25" y1="10.6" x2="0.25" y2="11.9" width="0.1" layer="21" style="shortdash"/>
 <wire x1="0.25" y1="11.9" x2="89.75" y2="11.9" width="0.1" layer="21" style="shortdash"/>
 <wire x1="89.75" y1="11.9" x2="89.75" y2="10.6" width="0.1" layer="21" style="shortdash"/>
 <wire x1="89.75" y1="10.6" x2="0.25" y2="10.6" width="0.1" layer="21" style="shortdash"/>
 <text x="45" y="11.25" size="0.8128" layer="21" font="vector" ratio="15" align="center">Needed space for mounting</text>
 <text x="45" y="13.25" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">ZAAN 2021</text>
-<text x="13.5" y="24.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="13.5" y="22" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="13.5" y="19.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="13.5" y="17" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="18" y="23.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center">Prototype Area</text>
-<wire x1="18" y1="29" x2="18" y2="29.5" width="0.127" layer="25"/>
-<wire x1="18" y1="29.5" x2="17" y2="29.5" width="0.127" layer="25"/>
-<wire x1="18" y1="17.5" x2="18" y2="17" width="0.127" layer="25"/>
-<wire x1="18" y1="17" x2="17" y2="17" width="0.127" layer="25"/>
+<text x="13.5" y="23.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
+<text x="13.5" y="21" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
+<text x="13.5" y="18.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
+<text x="13.5" y="16" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
+<text x="18" y="22.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center">Prototype Area</text>
+<wire x1="18" y1="28" x2="18" y2="28.5" width="0.127" layer="25"/>
+<wire x1="18" y1="28.5" x2="17" y2="28.5" width="0.127" layer="25"/>
+<wire x1="18" y1="16.5" x2="18" y2="16" width="0.127" layer="25"/>
+<wire x1="18" y1="16" x2="17" y2="16" width="0.127" layer="25"/>
 <text x="37" y="23.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">Microcontroller
 ATmega4809</text>
 <text x="5" y="45" size="1.016" layer="25" font="vector" ratio="15" align="center">RGB LED
@@ -303,8 +303,23 @@ efficitur magna vel nisi maximus, rhoncus laoreet leo vestibulum. Proin maximus 
 est ut eleifend. Etiam sollicitudin sem id congue rutrum. Integer suscipit, ante in 
 consequat condimentum, est erat tempus purus, sed fringilla tortor augue sed justo. 
 Ut non nisl sit amet arcu cursus commodo eget et metus.</text>
-<text x="78.75" y="33.5" size="1.016" layer="21" font="vector" ratio="15" rot="R135" align="center">V1.2</text>
+<text x="88.75" y="19" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">V1.2</text>
 <text x="57.25" y="27.25" size="1.27" layer="21" ratio="15">Piezo Piano</text>
+<text x="10.5" y="51" size="1.016" layer="21" font="vector" ratio="15" align="center-left">For starting, try:
+D5   = WS2812B
+D10 = Buzzer
+D4   = First Button</text>
+<wire x1="8.5" y1="51" x2="9.5" y2="52" width="0.15" layer="21" curve="90"/>
+<wire x1="9.5" y1="52" x2="9.5" y2="53.23" width="0.15" layer="21"/>
+<wire x1="9.5" y1="53.23" x2="10.77" y2="54.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="10.77" y1="54.5" x2="22.48" y2="54.5" width="0.15" layer="21"/>
+<wire x1="22.48" y1="54.5" x2="23.75" y2="53.23" width="0.15" layer="21" curve="-90"/>
+<wire x1="23.75" y1="53.23" x2="23.75" y2="48.77" width="0.15" layer="21"/>
+<wire x1="23.75" y1="48.77" x2="22.48" y2="47.5" width="0.15" layer="21" curve="-90"/>
+<wire x1="22.48" y1="47.5" x2="10.77" y2="47.5" width="0.15" layer="21"/>
+<wire x1="10.77" y1="47.5" x2="9.5" y2="48.77" width="0.15" layer="21" curve="-90"/>
+<wire x1="9.5" y1="48.77" x2="9.5" y2="50" width="0.15" layer="21"/>
+<wire x1="9.5" y1="50" x2="8.5" y2="51" width="0.15" layer="21" curve="90"/>
 </plain>
 <libraries>
 <library name="Custom">
@@ -22553,70 +22568,70 @@ Your Multi-CB Team
 <attribute name="VALUE" x="37.25" y="89" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="37.75" y="90.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="17" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="CONNECTOR" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="7" y="17" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="16" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="7" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="19.5" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="CONNECTOR" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="7" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="18.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="7" y="18.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="22" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="CONNECTOR" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="7" y="22" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="21" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="7" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="24.5" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="CONNECTOR" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="7" y="24.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="23.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="7" y="23.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="27" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="CONNECTOR" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="7" y="27" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="26" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="7" y="26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="31.25" y="86.5" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="30.25" y="86.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22782,34 +22797,34 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="20" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="29.5" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="CONNECTOR" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OPERATING_TEMP" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="" x="7" y="30.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="28.5" smashed="yes" rot="R180">
+<attribute name="CATEGORY" value="CONNECTOR" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_STATUS" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SERIES" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SUB-CATEGORY" value="PIN-HEADER" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="THERMALLOSS" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TYPE" value="" x="7" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D11" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WS2812B" package3d_urn="urn:adsk.eagle:package:31106145/1" value="WS2812B" x="5" y="39.5" smashed="yes" rot="R90">
-<attribute name="CATEGORY" value="LED" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COLOR" value="RGB" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="LED integrated light source" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Worldsemi" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="WS2812B" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5" y="35" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="OPERATING_TEMP" value="-25 ℃ to +80℃(TJ)" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_STATUS" value="Active" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SERIES" value="" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUB_CATEGORY" value="RGB" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="THERMALLOSS" value="" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TYPE" value="" x="5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="8.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<element name="D11" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WS2812B" package3d_urn="urn:adsk.eagle:package:31106145/1" value="WS2812B" x="5" y="39.5" smashed="yes" rot="R270">
+<attribute name="CATEGORY" value="LED" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COLOR" value="RGB" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="LED integrated light source" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Worldsemi" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="WS2812B" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="5" y="35.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="OPERATING_TEMP" value="-25 ℃ to +80℃(TJ)" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_STATUS" value="Active" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SERIES" value="" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUB_CATEGORY" value="RGB" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="THERMALLOSS" value="" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TYPE" value="" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="D12" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="20.25" y="95.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="20.25" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23003,7 +23018,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="53" y="18" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="53" y="19.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$7" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="WIZARD-6MM" value="" x="3.5" y="48.5" smashed="yes"/>
+<element name="U$7" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="WIZARD-6MM" value="" x="2" y="48" smashed="yes"/>
 <element name="U$8" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="PIANO-10MM" value="" x="57" y="29" smashed="yes"/>
 <element name="U$5" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="CATICORN-7MM" value="" x="46" y="81.5" smashed="yes"/>
 </elements>
@@ -23024,22 +23039,22 @@ Your Multi-CB Team
 <vertex x="90" y="0"/>
 </polygon>
 <wire x1="24.7" y1="33.9" x2="24.75" y2="33.9" width="0.254" layer="1"/>
-<wire x1="24.75" y1="33.9" x2="24.75" y2="32.75" width="0.254" layer="1"/>
-<via x="24.75" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="30.2" y1="33.9" x2="30.2" y2="32.75" width="0.254" layer="1"/>
-<via x="30.2" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="41.2" y1="33.9" x2="41.2" y2="32.75" width="0.254" layer="1"/>
-<via x="41.2" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="35.7" y1="33.9" x2="35.7" y2="32.75" width="0.254" layer="1"/>
-<via x="35.7" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="19.2" y1="33.9" x2="19.2" y2="32.75" width="0.254" layer="1"/>
-<via x="19.2" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="13.7" y1="33.9" x2="13.7" y2="32.75" width="0.254" layer="1"/>
-<via x="13.7" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="52.2" y1="33.9" x2="52.2" y2="32.75" width="0.254" layer="1"/>
-<via x="52.2" y="32.75" extent="1-16" drill="0.3"/>
-<wire x1="46.7" y1="33.9" x2="46.7" y2="32.75" width="0.254" layer="1"/>
-<via x="46.7" y="32.75" extent="1-16" drill="0.3"/>
+<wire x1="24.75" y1="33.9" x2="24.75" y2="35" width="0.254" layer="1"/>
+<via x="24.75" y="35" extent="1-16" drill="0.3"/>
+<wire x1="30.2" y1="33.9" x2="30.2" y2="35" width="0.254" layer="1"/>
+<via x="30.2" y="35" extent="1-16" drill="0.3"/>
+<wire x1="41.2" y1="33.9" x2="41.2" y2="35" width="0.254" layer="1"/>
+<via x="41.2" y="35" extent="1-16" drill="0.3"/>
+<wire x1="35.7" y1="33.9" x2="35.7" y2="35" width="0.254" layer="1"/>
+<via x="35.7" y="35" extent="1-16" drill="0.3"/>
+<wire x1="19.2" y1="33.9" x2="19.2" y2="35" width="0.254" layer="1"/>
+<via x="19.2" y="35" extent="1-16" drill="0.3"/>
+<wire x1="13.7" y1="33.9" x2="13.7" y2="35" width="0.254" layer="1"/>
+<via x="13.7" y="35" extent="1-16" drill="0.3"/>
+<wire x1="52.2" y1="33.9" x2="52.2" y2="35" width="0.254" layer="1"/>
+<via x="52.2" y="35" extent="1-16" drill="0.3"/>
+<wire x1="46.7" y1="33.9" x2="46.7" y2="35" width="0.254" layer="1"/>
+<via x="46.7" y="35" extent="1-16" drill="0.3"/>
 <contactref element="C1" pad="2"/>
 <contactref element="S4" pad="3"/>
 <contactref element="S4" pad="4"/>
@@ -23184,8 +23199,8 @@ Your Multi-CB Team
 <contactref element="JP5" pad="1@2"/>
 <contactref element="JP5" pad="1@5"/>
 <contactref element="D11" pad="3"/>
-<wire x1="6.65" y1="41.95" x2="6.65" y2="43.25" width="0.254" layer="1"/>
-<via x="6.65" y="43.25" extent="1-16" drill="0.35"/>
+<wire x1="3.35" y1="37.05" x2="3.35" y2="35.75" width="0.254" layer="1"/>
+<via x="3.35" y="35.75" extent="1-16" drill="0.35"/>
 <contactref element="D12" pad="C"/>
 <wire x1="20.25" y1="95" x2="20.25" y2="94.25" width="0.254" layer="1"/>
 <via x="20.25" y="94.25" extent="1-16" drill="0.35"/>
@@ -23459,11 +23474,11 @@ Your Multi-CB Team
 <contactref element="JP2" pad="1@5"/>
 <wire x1="82.35" y1="2.345" x2="88.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 <wire x1="29.214553125" y1="19.23968125" x2="82.35" y2="2.345" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="19.5" x2="29.214553125" y2="19.23968125" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="19.5" x2="12" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="19.5" x2="9.5" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="19.5" x2="7" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="19.5" x2="4.5" y2="19.5" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="18.5" x2="29.214553125" y2="19.23968125" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="18.5" x2="12" y2="18.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="18.5" x2="9.5" y2="18.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="18.5" x2="7" y2="18.5" width="0" layer="19" extent="1-1"/>
+<wire x1="2" y1="18.5" x2="4.5" y2="18.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A0">
 <contactref element="C9" pad="1"/>
@@ -23481,11 +23496,11 @@ Your Multi-CB Team
 <contactref element="JP1" pad="1@5"/>
 <wire x1="70.85" y1="2.345" x2="76.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 <wire x1="29.56810625" y1="18.886128125" x2="70.85" y2="2.345" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="17" x2="29.56810625" y2="18.886128125" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="17" x2="12" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="17" x2="9.5" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="17" x2="7" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="17" x2="4.5" y2="17" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="16" x2="29.56810625" y2="18.886128125" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="16" x2="12" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="16" x2="9.5" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="16" x2="7" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="2" y1="16" x2="4.5" y2="16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T7">
 <contactref element="C8" pad="1"/>
@@ -23607,11 +23622,11 @@ Your Multi-CB Team
 <contactref element="JP4" pad="1@4"/>
 <contactref element="JP4" pad="1@2"/>
 <contactref element="JP4" pad="1@5"/>
-<wire x1="12" y1="24.5" x2="28.507446875" y2="19.9467875" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="24.5" x2="12" y2="24.5" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="24.5" x2="9.5" y2="24.5" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="24.5" x2="7" y2="24.5" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="24.5" x2="4.5" y2="24.5" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="23.5" x2="28.507446875" y2="19.9467875" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="23.5" x2="12" y2="23.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="23.5" x2="9.5" y2="23.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="23.5" x2="7" y2="23.5" width="0" layer="19" extent="1-1"/>
+<wire x1="2" y1="23.5" x2="4.5" y2="23.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A2">
 <contactref element="U1" pad="21"/>
@@ -23621,11 +23636,11 @@ Your Multi-CB Team
 <contactref element="JP3" pad="1@4"/>
 <contactref element="JP3" pad="1@2"/>
 <contactref element="JP3" pad="1@5"/>
-<wire x1="12" y1="22" x2="28.861" y2="19.593234375" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="22" x2="12" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="22" x2="9.5" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="22" x2="7" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="22" x2="4.5" y2="22" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="21" x2="28.861" y2="19.593234375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5" y1="21" x2="12" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="21" x2="9.5" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="21" x2="7" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="2" y1="21" x2="4.5" y2="21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A6">
 <contactref element="U1" pad="24"/>
@@ -23635,11 +23650,21 @@ Your Multi-CB Team
 </signal>
 <signal name="D5~">
 <contactref element="U1" pad="6"/>
-<wire x1="28.15389375" y1="26.69965625" x2="26.934134375" y2="27.919415625" width="0.254" layer="1"/>
+<wire x1="28.15389375" y1="26.69965625" x2="24.39644375" y2="30.45710625" width="0.254" layer="1"/>
+<wire x1="24.39644375" y1="30.45710625" x2="23.6893375" y2="30.75" width="0.254" layer="1" curve="45"/>
+<wire x1="23.6893375" y1="30.75" x2="7.65" y2="30.75" width="0.254" layer="1"/>
+<contactref element="D11" pad="4"/>
+<wire x1="7.65" y1="30.75" x2="6.65" y2="31.75" width="0.254" layer="1" curve="-90"/>
+<wire x1="6.65" y1="31.75" x2="6.65" y2="37.05" width="0.254" layer="1"/>
 </signal>
 <signal name="D10~">
 <contactref element="U1" pad="5"/>
-<wire x1="28.507446875" y1="27.053209375" x2="27.2876875" y2="28.27296875" width="0.254" layer="1"/>
+<contactref element="Q1" pad="1"/>
+<wire x1="11.8" y1="33.9" x2="11.8" y2="32.25" width="0.254" layer="1"/>
+<wire x1="11.8" y1="32.25" x2="12.8" y2="31.25" width="0.254" layer="1" curve="90"/>
+<wire x1="12.8" y1="31.25" x2="23.89644375" y2="31.25" width="0.254" layer="1"/>
+<wire x1="23.89644375" y1="31.25" x2="24.60355" y2="30.95710625" width="0.254" layer="1" curve="-45"/>
+<wire x1="24.60355" y1="30.95710625" x2="28.507446875" y2="27.053209375" width="0.254" layer="1"/>
 </signal>
 <signal name="D9~">
 <contactref element="U1" pad="4"/>
@@ -23659,8 +23684,8 @@ Your Multi-CB Team
 <contactref element="R22" pad="1"/>
 <wire x1="6.5" y1="64" x2="5" y2="65.5" width="0.254" layer="1" curve="90"/>
 <wire x1="3.5" y1="58.5" x2="1.5" y2="56.5" width="0.254" layer="1" curve="90"/>
-<wire x1="1.5" y1="33.5" x2="3.5" y2="31.5" width="0.254" layer="1" curve="90"/>
-<wire x1="1.5" y1="56.5" x2="1.5" y2="33.5" width="0.254" layer="1"/>
+<wire x1="1.5" y1="32.25" x2="3.5" y2="30.25" width="0.254" layer="1" curve="90"/>
+<wire x1="1.5" y1="56.5" x2="1.5" y2="32.25" width="0.254" layer="1"/>
 <wire x1="22.75" y1="87.25" x2="22.25" y2="87.75" width="0.254" layer="1"/>
 <wire x1="6.5" y1="60" x2="5" y2="58.5" width="0.254" layer="1" curve="-90"/>
 <wire x1="5" y1="58.5" x2="3.5" y2="58.5" width="0.254" layer="1"/>
@@ -23674,18 +23699,18 @@ Your Multi-CB Team
 <wire x1="1.5" y1="67.555825" x2="6" y2="83.5" width="0.254" layer="1" curve="-31.520386"/>
 <wire x1="6" y1="83.5" x2="8.5" y2="85" width="0.254" layer="1" curve="-55.029202"/>
 <wire x1="8.5" y1="85" x2="11" y2="85" width="0.254" layer="1"/>
-<wire x1="3.5" y1="31.5" x2="19.88604375" y2="31.5" width="0.254" layer="1"/>
-<wire x1="19.88604375" y1="31.5" x2="23.421578125" y2="30.035534375" width="0.254" layer="1" curve="-45"/>
-<wire x1="23.421578125" y1="30.035534375" x2="27.4467875" y2="26.010325" width="0.254" layer="1"/>
-<wire x1="27.4467875" y1="26.010325" x2="27.4467875" y2="25.99255" width="0.254" layer="1"/>
+<wire x1="27.4467875" y1="26.010325" x2="23.50000625" y2="29.95710625" width="0.254" layer="1"/>
+<wire x1="23.50000625" y1="29.95710625" x2="22.7929" y2="30.25" width="0.254" layer="1" curve="45"/>
+<wire x1="22.7929" y1="30.25" x2="3.5" y2="30.25" width="0.254" layer="1"/>
+<wire x1="27.4467875" y1="25.99255" x2="27.4467875" y2="26.010325" width="0.254" layer="1"/>
 </signal>
 <signal name="RX0">
 <contactref element="U1" pad="9"/>
 <contactref element="R21" pad="1"/>
 <wire x1="6" y1="64" x2="5" y2="65" width="0.254" layer="1" curve="90"/>
 <wire x1="3.5" y1="59" x2="1" y2="56.5" width="0.254" layer="1" curve="90"/>
-<wire x1="1" y1="33.5" x2="3.5" y2="31" width="0.254" layer="1" curve="90"/>
-<wire x1="1" y1="56.5" x2="1" y2="33.5" width="0.254" layer="1"/>
+<wire x1="1" y1="32.25" x2="3.5" y2="29.75" width="0.254" layer="1" curve="90"/>
+<wire x1="1" y1="56.5" x2="1" y2="32.25" width="0.254" layer="1"/>
 <wire x1="22.75" y1="88.75" x2="22.25" y2="88.25" width="0.254" layer="1"/>
 <wire x1="6" y1="60" x2="5" y2="59" width="0.254" layer="1" curve="-90"/>
 <wire x1="5" y1="59" x2="3.5" y2="59" width="0.254" layer="1"/>
@@ -23700,10 +23725,10 @@ Your Multi-CB Team
 <wire x1="5.573775" y1="83.7614125" x2="8.4699125" y2="85.4991" width="0.254" layer="1" curve="-55.02905"/>
 <wire x1="8.4699125" y1="85.4991" x2="8.4708125" y2="85.5" width="0.254" layer="1"/>
 <wire x1="8.4708125" y1="85.5" x2="11" y2="85.5" width="0.254" layer="1"/>
-<wire x1="3.5" y1="31" x2="19.67893125" y2="31" width="0.254" layer="1"/>
-<wire x1="19.67893125" y1="31" x2="23.214465625" y2="29.535534375" width="0.254" layer="1" curve="-45"/>
-<wire x1="23.214465625" y1="29.535534375" x2="27.093234375" y2="25.656765625" width="0.254" layer="1"/>
-<wire x1="27.093234375" y1="25.656765625" x2="27.093234375" y2="25.638996875" width="0.254" layer="1"/>
+<wire x1="27.093234375" y1="25.656765625" x2="23.29289375" y2="29.45710625" width="0.254" layer="1"/>
+<wire x1="23.29289375" y1="29.45710625" x2="22.5857875" y2="29.75" width="0.254" layer="1" curve="45"/>
+<wire x1="22.5857875" y1="29.75" x2="3.5" y2="29.75" width="0.254" layer="1"/>
+<wire x1="27.093234375" y1="25.638996875" x2="27.093234375" y2="25.656765625" width="0.254" layer="1"/>
 </signal>
 <signal name="PC00">
 <contactref element="U1" pad="10"/>
@@ -23891,9 +23916,6 @@ Your Multi-CB Team
 <signal name="Y">
 <contactref element="Q8" pad="1"/>
 </signal>
-<signal name="N$21">
-<contactref element="Q1" pad="1"/>
-</signal>
 <signal name="N$22">
 <contactref element="D2" pad="A"/>
 <contactref element="R24" pad="1"/>
@@ -24000,9 +24022,6 @@ Your Multi-CB Team
 </signal>
 <signal name="N$39">
 <contactref element="R36" pad="1"/>
-</signal>
-<signal name="N$1">
-<contactref element="D11" pad="4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
