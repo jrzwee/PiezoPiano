@@ -2122,7 +2122,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="MSOP10" urn="urn:adsk.eagle:package:16759223/1" type="model" library_version="3">
+<package3d name="MSOP10" urn="urn:adsk.eagle:package:16759223/2" type="model" library_version="5" library_locally_modified="yes">
 <description>&lt;b&gt;10-Lead Mini Small Outline Package [MSOP]&lt;/b&gt; (RM-10)&lt;p&gt;
 Source: http://www.analog.com/UploadedFiles/Data_Sheets/35641221898805SSM2167_b.pdf&lt;br&gt;
 COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
@@ -2152,7 +2152,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CH340E" urn="urn:adsk.eagle:component:16759227/2" prefix="U" library_version="4">
+<deviceset name="CH340E" urn="urn:adsk.eagle:component:16759227/2" locally_modified="yes" prefix="U" library_version="5" library_locally_modified="yes">
 <description>&lt;b&gt;CH340E&lt;/b&gt;&lt;br&gt;USB to serial chip&lt;li&gt;&lt;br&gt;&lt;b&gt;Footprint:&lt;/b&gt; MSOP-10 &lt;br&gt;&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="https://www.mpja.com/download/35227cpdata.pdf"&gt;Datasheet&lt;/a&gt; &lt;br&gt;&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Jiangsu Qin Heng</description>
 <gates>
 <gate name="U1" symbol="CH340E" x="0" y="0"/>
@@ -2172,7 +2172,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <connect gate="U1" pin="VCC" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759223/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759223/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2447,7 +2447,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <packageinstance name="AVRISP-1.27"/>
 </packageinstances>
 </package3d>
-<package3d name="1X04_1MM_RA" urn="urn:adsk.eagle:package:31106542/2" type="model" library_version="13">
+<package3d name="1X04_1MM_RA" urn="urn:adsk.eagle:package:31106542/3" type="model" library_version="14">
 <description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
@@ -2595,7 +2595,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:31106544/2" prefix="J" uservalue="yes" library_version="13">
+<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:31106544/3" prefix="J" uservalue="yes" library_version="14">
 <description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
 An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
 
@@ -2614,7 +2614,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <connect gate="J1" pin="VCC" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31106542/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31106542/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3452,7 +3452,7 @@ chip</description>
 <part name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U2" library="zaan-IC-General" library_urn="urn:adsk.eagle:library:16759200" deviceset="CH340E" device="_MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/1"/>
+<part name="U2" library="zaan-IC-General" library_urn="urn:adsk.eagle:library:16759200" deviceset="CH340E" device="_MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/2"/>
 <part name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/4"/>
 <part name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" deviceset="MF-PSMF" device="035X-2" package3d_urn="urn:adsk.eagle:package:17200786/3"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3505,8 +3505,8 @@ chip</description>
 <part name="R17" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J3" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/2"/>
-<part name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/2"/>
+<part name="J3" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/3"/>
+<part name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/3"/>
 <part name="R20" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R24" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R25" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
