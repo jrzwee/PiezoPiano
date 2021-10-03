@@ -186,7 +186,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:wrSTytUWShWvSD5_4HioLQ" pcbguid="9b567df2-9422-494b-8919-3f782ec38421" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="dbf269fd-684d-046b-16e3-4aa6f524ce11" lastpushedtime="2021-10-03T19:18:18Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:wrSTytUWShWvSD5_4HioLQ" pcbguid="9b567df2-9422-494b-8919-3f782ec38421" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="15c32cc1-cbc1-c710-7d3e-fd5d793af174" lastpushedtime="2021-10-03T19:30:06Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="90" y2="0" width="0" layer="20"/>
 <wire x1="77.5" y1="35.5" x2="90" y2="23" width="0" layer="20" curve="-90"/>
