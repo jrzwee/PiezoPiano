@@ -2152,7 +2152,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CH340E" urn="urn:adsk.eagle:component:16759227/2" locally_modified="yes" prefix="U" library_version="5" library_locally_modified="yes">
+<deviceset name="CH340E" urn="urn:adsk.eagle:component:16759227/3" prefix="U" library_version="6">
 <description>&lt;b&gt;CH340E&lt;/b&gt;&lt;br&gt;USB to serial chip&lt;li&gt;&lt;br&gt;&lt;b&gt;Footprint:&lt;/b&gt; MSOP-10 &lt;br&gt;&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="https://www.mpja.com/download/35227cpdata.pdf"&gt;Datasheet&lt;/a&gt; &lt;br&gt;&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Jiangsu Qin Heng</description>
 <gates>
 <gate name="U1" symbol="CH340E" x="0" y="0"/>
