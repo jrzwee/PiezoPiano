@@ -248,10 +248,10 @@
 <wire x1="89.75" y1="10.6" x2="0.25" y2="10.6" width="0.1" layer="21" style="shortdash"/>
 <text x="45" y="11.25" size="0.8128" layer="21" font="vector" ratio="15" align="center">Needed space for mounting</text>
 <text x="45" y="13.25" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">ZAAN 2021</text>
-<text x="13.5" y="23" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="13.5" y="20.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="13.5" y="18" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
-<text x="13.5" y="15.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">DX</text>
+<text x="13.5" y="23" size="1.016" layer="25" font="vector" ratio="15" align="center-left">A3</text>
+<text x="13.5" y="20.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">A2</text>
+<text x="13.5" y="18" size="1.016" layer="25" font="vector" ratio="15" align="center-left">A1</text>
+<text x="13.5" y="15.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left">A0</text>
 <text x="18" y="21.75" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center">Prototype Area</text>
 <wire x1="18" y1="27.5" x2="18" y2="28" width="0.127" layer="25"/>
 <wire x1="18" y1="28" x2="17" y2="28" width="0.127" layer="25"/>
