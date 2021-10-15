@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -80,87 +80,87 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Gehäuse" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Mittellin" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="Accent_neu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Gehäuse" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="Accent_neu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="NXP" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="NXP_2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="KASTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="KASTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="FRNTTEKEN" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="NXP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="NXP_2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="KASTMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="KASTMAAT2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="FRNTTEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
 <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="118" name="BACKMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="BACKMAAT2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
 <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="BIFRNTTEK" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="BIFRNTMAT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="BIFRNTTEK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="BIFRNTMAT" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
 <layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="216" name="BottomExtra" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="BottomExtra" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -182,8 +182,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:wrSTytUWShWvSD5_4HioLQ" pcbguid="9b567df2-9422-494b-8919-3f782ec38421" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="fc2ca8b3-8fb1-8a06-4c00-37782fcab7bb" lastpushedtime="2021-10-03T19:34:37Z" linktopcb3d="false"/>
@@ -22080,42 +22080,42 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="SOT-23" x="45.75" y="35" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.75" y="32.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="24.5" y="77.5" smashed="yes">
+<element name="LS1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="24.5" y="77.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.5" y="82.5" size="1.016" layer="25" font="vector" ratio="15" rot="R225" align="center"/>
 <attribute name="VALUE" x="24.5" y="70.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="53.25" smashed="yes">
+<element name="LS8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="53.25" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.25" y="58.25" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
 <attribute name="VALUE" x="31.25" y="46.25" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="12" y="73" smashed="yes">
+<element name="LS3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="12" y="73" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="12" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="12" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="12" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7" y="78" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
 <attribute name="VALUE" x="12" y="66" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="19" y="62" smashed="yes">
+<element name="LS6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="19" y="62" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="19" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="19" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="19" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12" y="62" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="19" y="55" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="66.25" smashed="yes">
+<element name="LS5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="66.25" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.25" y="73.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="31.25" y="59.25" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="38" y="77.5" smashed="yes">
+<element name="LS2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="38" y="77.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="38" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="38" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="38" y="77.5" size="1.778" layer="27" display="off"/>
@@ -22129,14 +22129,14 @@ Your Multi-CB Team
 <attribute name="NAME" x="45.5" y="78" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
 <attribute name="VALUE" x="50.5" y="66" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LS6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="43.5" y="62" smashed="yes">
+<element name="LS7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="43.5" y="62" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="43.5" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="43.5" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="43.5" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="50.5" y="62" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="43.5" y="55" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="23.75" y="39.5" smashed="yes" rot="R90">
+<element name="R20" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="23.75" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="23.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="23.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="23.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22148,7 +22148,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="26.29" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="23.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="29.25" y="39.5" smashed="yes" rot="R90">
+<element name="R22" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="29.25" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="29.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="29.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="29.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22160,7 +22160,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="31.79" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="29.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="12.75" y="39.5" smashed="yes" rot="R90">
+<element name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="12.75" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="12.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="12.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="12.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22172,7 +22172,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="15.29" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="12.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="18.25" y="39.5" smashed="yes" rot="R90">
+<element name="R18" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="18.25" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="18.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="18.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="18.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22184,7 +22184,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="20.79" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="18.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="34.75" y="39.5" smashed="yes" rot="R90">
+<element name="R24" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="34.75" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="34.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="34.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="34.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22196,7 +22196,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="37.29" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="34.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="40.25" y="39.5" smashed="yes" rot="R90">
+<element name="R26" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="40.25" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="40.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="40.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="40.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22208,7 +22208,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="42.79" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="40.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="51.25" y="39.5" smashed="yes" rot="R90">
+<element name="R30" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="51.25" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="51.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="51.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="51.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22220,7 +22220,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="53.79" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="51.25" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="45.75" y="39.5" smashed="yes" rot="R90">
+<element name="R28" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R" x="45.75" y="39.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="45.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="45.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07100RL" x="45.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22232,7 +22232,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100R" x="48.29" y="38.865" size="1.27" layer="27" rot="R90"/>
 <attribute name="VOLTAGE" value="75V" x="45.75" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C1" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="34.712309375" y="18.373475" smashed="yes" rot="R45">
+<element name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="34.712309375" y="18.373475" smashed="yes" rot="R45">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="34.712309375" y="18.373475" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="34.712309375" y="18.373475" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MF" value="Yageo" x="34.712309375" y="18.373475" size="1.778" layer="27" rot="R45" display="off"/>
@@ -22244,7 +22244,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="35.610334375" y="15.679396875" size="1.27" layer="27" rot="R45"/>
 <attribute name="VOLTAGE" value="50V" x="34.712309375" y="18.373475" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="C6" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="39.5" y="8" smashed="yes">
+<element name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="39.5" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="39.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="39.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="39.5" y="8" size="1.778" layer="27" display="off"/>
@@ -22256,7 +22256,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="38.23" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="39.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="85.5" y="8" smashed="yes">
+<element name="C15" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="85.5" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="85.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="85.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="85.5" y="8" size="1.778" layer="27" display="off"/>
@@ -22268,7 +22268,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="84.23" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="85.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="28" y="8" smashed="yes">
+<element name="C10" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="28" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="28" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="28" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="28" y="8" size="1.778" layer="27" display="off"/>
@@ -22280,7 +22280,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="26.73" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="28" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="74" y="8" smashed="yes">
+<element name="C14" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="74" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="74" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="74" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="74" y="8" size="1.778" layer="27" display="off"/>
@@ -22292,7 +22292,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="72.73" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="74" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="16.5" y="8" smashed="yes">
+<element name="C9" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="16.5" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="16.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="16.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="16.5" y="8" size="1.778" layer="27" display="off"/>
@@ -22304,7 +22304,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="15.23" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="16.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="62.5" y="8" smashed="yes">
+<element name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="62.5" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="62.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="62.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="62.5" y="8" size="1.778" layer="27" display="off"/>
@@ -22316,7 +22316,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="61.23" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="62.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="5" y="8" smashed="yes">
+<element name="C8" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="5" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="5" y="8" size="1.778" layer="27" display="off"/>
@@ -22328,7 +22328,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="3.73" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="5" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="51" y="8" smashed="yes">
+<element name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="51" y="8" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="51" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="51" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="51" y="8" size="1.778" layer="27" display="off"/>
@@ -22340,11 +22340,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="49.73" y="5.46" size="1.27" layer="27"/>
 <attribute name="VOLTAGE" value="50V" x="51" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="Custom" package="H2-2.54" value="CON2" x="10.5" y="89.25" smashed="yes" rot="R135">
+<element name="J2" library="Custom" package="H2-2.54" value="CON2" x="10.5" y="89.25" smashed="yes" rot="R135">
 <attribute name="NAME" x="12.8357875" y="91.5857875" size="1.016" layer="25" font="vector" ratio="15" rot="R135" align="center"/>
 <attribute name="VALUE" x="8.9090125" y="90.8409875" size="1.016" layer="27" font="vector" ratio="13" rot="R225" align="center"/>
 </element>
-<element name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="22.25" y="39.5" smashed="yes" rot="R270">
+<element name="R19" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="22.25" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="22.25" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="22.25" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="22.25" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22356,7 +22356,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="20.75" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="22.25" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="33.25" y="39.5" smashed="yes" rot="R270">
+<element name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="33.25" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="33.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="33.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="33.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22368,7 +22368,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="31.75" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="33.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="38.75" y="39.5" smashed="yes" rot="R270">
+<element name="R25" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="38.75" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="38.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="38.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="38.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22380,7 +22380,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="37.25" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="38.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="27.75" y="39.5" smashed="yes" rot="R270">
+<element name="R21" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="27.75" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="27.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="27.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="27.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22392,7 +22392,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="26.25" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="27.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="49.75" y="39.5" smashed="yes" rot="R270">
+<element name="R29" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="49.75" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="49.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="49.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="49.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22404,7 +22404,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="48.25" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="49.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="11.25" y="39.5" smashed="yes" rot="R270">
+<element name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="11.25" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="11.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="11.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="11.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22416,7 +22416,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="9.75" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="11.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="16.75" y="39.5" smashed="yes" rot="R270">
+<element name="R17" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="16.75" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="16.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="16.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="16.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22428,7 +22428,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="15.25" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="16.75" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="44.25" y="39.5" smashed="yes" rot="R270">
+<element name="R27" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k" x="44.25" y="39.5" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="44.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="44.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="44.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22440,7 +22440,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="42.75" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="44.25" y="38.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="25.16636875" y="20.49479375" smashed="yes" rot="R315">
+<element name="C6" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="25.16636875" y="20.49479375" smashed="yes" rot="R315">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="25.873475" y="19.7876875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="25.873475" y="19.7876875" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MF" value="Yageo" x="25.873475" y="19.7876875" size="1.778" layer="27" rot="R315" display="off"/>
@@ -22452,7 +22452,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="24.10570625" y="19.434134375" size="1.016" layer="27" font="vector" ratio="15" rot="R315" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="25.873475" y="19.7876875" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="U2" library="zaan-IC-General" library_urn="urn:adsk.eagle:library:16759200" package="MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/2" value="CH340E_MSOP10" x="31.25" y="89" smashed="yes">
+<element name="U1" library="zaan-IC-General" library_urn="urn:adsk.eagle:library:16759200" package="MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/2" value="CH340E_MSOP10" x="31.25" y="89" smashed="yes">
 <attribute name="DESCRIPTION" value="UART Converter" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Jiangsu Qin Heng" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CH340E" x="31.25" y="89" size="1.778" layer="27" display="off"/>
@@ -22460,7 +22460,7 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="MSOP-10" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.25" y="86.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="J2" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="USB-C-16P" package3d_urn="urn:adsk.eagle:package:16672513/4" value="" x="31.25" y="97" smashed="yes" rot="R180">
+<element name="J1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="USB-C-16P" package3d_urn="urn:adsk.eagle:package:16672513/4" value="" x="31.25" y="97" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="USB Type C Female" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Jing Extension" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="C167321" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22476,7 +22476,7 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="2012" x="37.25" y="94.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="35.75" y="94.75" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R18" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k" x="25" y="95.75" smashed="yes" rot="R270">
+<element name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k" x="25" y="95.75" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="25" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="25" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-075K1L" x="25" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22488,7 +22488,7 @@ Your Multi-CB Team
 <attribute name="VALUE" value="5.1k" x="23.5" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="25" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R19" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k" x="23.5" y="95.75" smashed="yes" rot="R270">
+<element name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k" x="23.5" y="95.75" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="23.5" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="23.5" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-075K1L" x="23.5" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22500,11 +22500,11 @@ Your Multi-CB Team
 <attribute name="VALUE" value="5.1k" x="22" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="23.5" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WL-SFCX_1210" package3d_urn="urn:adsk.eagle:package:16759422/3" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes" value="" x="57" y="19.5" smashed="yes" rot="R270">
+<element name="D12" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WL-SFCX_1210" package3d_urn="urn:adsk.eagle:package:16759422/3" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes" value="" x="57" y="19.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.5" y="19.5" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="54.5" y="19.5" size="1.016" layer="27" font="vector" ratio="13" rot="R270" align="center"/>
 </element>
-<element name="R21" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="23.5" y="88.75" smashed="yes">
+<element name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="23.5" y="88.75" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="25" y="88.75" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="25" y="88.75" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="25" y="88.75" size="1.778" layer="27" display="off"/>
@@ -22516,7 +22516,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="23.5" y="87.25" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="25" y="88.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R22" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="23.5" y="87.25" smashed="yes">
+<element name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="23.5" y="87.25" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="25" y="87.25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="25" y="87.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="25" y="87.25" size="1.778" layer="27" display="off"/>
@@ -22528,10 +22528,10 @@ Your Multi-CB Team
 <attribute name="VALUE" x="23.5" y="85.75" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="25" y="87.25" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="EET-Symbols" package="JLC_UID" value="" x="5.25" y="1" smashed="yes" rot="MR0"/>
+<element name="U$100" library="EET-Symbols" package="JLC_UID" value="" x="5.25" y="1" smashed="yes" rot="MR0"/>
 <element name="U$2" library="EET-Symbols" package="QR-SPACE" value="" x="3" y="62" smashed="yes" rot="R270"/>
-<element name="U$3" library="EET-Symbols" package="STACKUP-2L" value="" x="88.75" y="15" smashed="yes" rot="R90"/>
-<element name="U1" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="TQFP48" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809" x="31" y="23.5" smashed="yes" rot="R315">
+<element name="U$6" library="EET-Symbols" package="STACKUP-2L" value="" x="88.75" y="15" smashed="yes" rot="R90"/>
+<element name="U2" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="TQFP48" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809" x="31" y="23.5" smashed="yes" rot="R315">
 <attribute name="CODE-ARDUINO" value="ATMEGA4809" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
@@ -22545,7 +22545,7 @@ Your Multi-CB Team
 <attribute name="NAME" x="83.328425" y="28.828428125" size="1.016" layer="25" font="vector" ratio="15" rot="R315" align="center"/>
 <attribute name="VALUE" x="77.671571875" y="23.171575" size="1.016" layer="27" font="vector" ratio="15" rot="R315" align="center"/>
 </element>
-<element name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="35.419415625" y="27.919415625" smashed="yes" rot="R135">
+<element name="C5" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="35.419415625" y="27.919415625" smashed="yes" rot="R135">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="35.419415625" y="27.919415625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="35.419415625" y="27.919415625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MF" value="Yageo" x="35.419415625" y="27.919415625" size="1.778" layer="27" rot="R135" display="off"/>
@@ -22557,7 +22557,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="36.480075" y="28.980075" size="1.016" layer="27" font="vector" ratio="15" rot="R135" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="35.419415625" y="27.919415625" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="37.25" y="86.25" smashed="yes">
+<element name="D2" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="37.25" y="86.25" smashed="yes">
 <attribute name="CATEGORY" value="LED" x="37.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="37.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="37.25" y="86.25" size="1.778" layer="27" display="off"/>
@@ -22573,7 +22573,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="37.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="LED_YELLOW" x="38.75" y="86.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="37.25" y="88" smashed="yes">
+<element name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="37.25" y="88" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="37.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="37.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="37.25" y="88" size="1.778" layer="27" display="off"/>
@@ -22585,7 +22585,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="37.25" y="86.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="37.25" y="88" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="37.25" y="90.5" smashed="yes">
+<element name="C3" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="37.25" y="90.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="37.75" y="90.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="37.75" y="90.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="37.75" y="90.5" size="1.778" layer="27" display="off"/>
@@ -22597,7 +22597,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="37.25" y="89" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="37.75" y="90.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="15.5" smashed="yes" rot="R180">
+<element name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="15.5" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="CONNECTOR" x="7" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="" x="7" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22610,7 +22610,7 @@ Your Multi-CB Team
 <attribute name="THERMALLOSS" value="" x="7" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="7" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="18" smashed="yes" rot="R180">
+<element name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="18" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="CONNECTOR" x="7" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="" x="7" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7" y="18" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22623,7 +22623,7 @@ Your Multi-CB Team
 <attribute name="THERMALLOSS" value="" x="7" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="7" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="20.5" smashed="yes" rot="R180">
+<element name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="20.5" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="CONNECTOR" x="7" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="" x="7" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22636,7 +22636,7 @@ Your Multi-CB Team
 <attribute name="THERMALLOSS" value="" x="7" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="7" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="23" smashed="yes" rot="R180">
+<element name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="23" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="CONNECTOR" x="7" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="" x="7" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7" y="23" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22649,7 +22649,7 @@ Your Multi-CB Team
 <attribute name="THERMALLOSS" value="" x="7" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="7" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="25.5" smashed="yes" rot="R180">
+<element name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="25.5" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="CONNECTOR" x="7" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="" x="7" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22662,7 +22662,7 @@ Your Multi-CB Team
 <attribute name="THERMALLOSS" value="" x="7" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="7" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="31.25" y="86.5" smashed="yes" rot="R180">
+<element name="C4" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="31.25" y="86.5" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="30.25" y="86.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIELECTRIC" value="X7R" x="30.25" y="86.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="30.25" y="86.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22674,7 +22674,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="31.25" y="88" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="30.25" y="86.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C14" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0805" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u" x="39.25" y="94.75" smashed="yes" rot="R90">
+<element name="C1" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0805" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u" x="39.25" y="94.75" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="39.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIELECTRIC" value="X5R" x="39.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata" x="39.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22686,7 +22686,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="40.75" y="94.75" size="0.8128" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="25V" x="39.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C15" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0805" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u" x="41.25" y="94.75" smashed="yes" rot="R90">
+<element name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" package="C0805" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u" x="41.25" y="94.75" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Capacitor" x="41.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIELECTRIC" value="X5R" x="41.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata" x="41.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22698,7 +22698,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="42.75" y="94.75" size="0.8128" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="25V" x="41.25" y="94.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="14.5" y="39.5" smashed="yes" rot="R90">
+<element name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="14.5" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="14.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="14.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="14.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22714,7 +22714,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="14.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D2" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="25.5" y="39.5" smashed="yes" rot="R90">
+<element name="D6" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="25.5" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="25.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="25.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="25.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22730,7 +22730,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="25.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D5" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="36.5" y="39.5" smashed="yes" rot="R90">
+<element name="D8" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="36.5" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="36.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="36.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="36.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22746,7 +22746,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="36.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="38" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D6" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="31" y="39.5" smashed="yes" rot="R90">
+<element name="D7" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="31" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="31" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="31" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="31" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22762,7 +22762,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="31" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="32.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D7" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="42" y="39.5" smashed="yes" rot="R90">
+<element name="D9" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="42" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="42" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="42" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="42" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22778,7 +22778,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="42" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D8" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="53" y="39.5" smashed="yes" rot="R90">
+<element name="D11" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="53" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="53" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="53" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="53" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22794,7 +22794,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="53" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="54.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D9" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="47.5" y="39.5" smashed="yes" rot="R90">
+<element name="D10" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="47.5" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="47.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="47.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="47.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22810,7 +22810,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="47.5" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="49" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D10" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="20" y="39.5" smashed="yes" rot="R90">
+<element name="D5" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="20" y="39.5" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="20" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="20" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="20" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22826,7 +22826,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="20" y="39.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="28" smashed="yes" rot="R180">
+<element name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" package="1X01" package3d_urn="urn:adsk.eagle:package:31104797/7" value="PINROW-1X5" x="7" y="28" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="CONNECTOR" x="7" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="" x="7" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="7" y="29" size="1.778" layer="27" rot="R180" display="off"/>
@@ -22839,7 +22839,7 @@ Your Multi-CB Team
 <attribute name="THERMALLOSS" value="" x="7" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="" x="7" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D11" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WS2812B" package3d_urn="urn:adsk.eagle:package:31106145/1" value="WS2812B" x="5" y="39.5" smashed="yes" rot="R270">
+<element name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="WS2812B" package3d_urn="urn:adsk.eagle:package:31106145/1" value="WS2812B" x="5" y="39.5" smashed="yes" rot="R270">
 <attribute name="CATEGORY" value="LED" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COLOR" value="RGB" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="LED integrated light source" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -22855,7 +22855,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="" x="5" y="39.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.5" y="39.5" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="D12" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="20.25" y="95.75" smashed="yes" rot="R90">
+<element name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="20.25" y="95.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="20.25" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="20.25" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="20.25" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22871,7 +22871,7 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="20.25" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.75" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R17" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="22" y="95.75" smashed="yes" rot="R90">
+<element name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="22" y="95.75" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="22" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="22" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="22" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22883,16 +22883,16 @@ Your Multi-CB Team
 <attribute name="VALUE" x="23.5" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="22" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J3" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="55" smashed="yes" rot="R90">
+<element name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="55" smashed="yes" rot="R90">
 <attribute name="NAME" x="56" y="55" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="63" y="55" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="64" smashed="yes" rot="R90">
+<element name="J3" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="64" smashed="yes" rot="R90">
 <attribute name="NAME" x="56" y="64" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="63" y="64" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="U$4" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="GITHUB-JRZ-10" package3d_urn="urn:adsk.eagle:package:26343044/1" value="" x="10.25" y="1.25" smashed="yes" rot="MR0"/>
-<element name="R20" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="31" y="42.25" smashed="yes" rot="R90">
+<element name="U$101" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="GITHUB-JRZ-10" package3d_urn="urn:adsk.eagle:package:26343044/1" value="" x="10.25" y="1.25" smashed="yes" rot="MR0"/>
+<element name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="31" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="31" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="31" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="31" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22904,7 +22904,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="32.5" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="31" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R24" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="25.5" y="42.25" smashed="yes" rot="R90">
+<element name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="25.5" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="25.5" y="43.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="25.5" y="43.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="25.5" y="43.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22916,7 +22916,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="27" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="25.5" y="43.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R25" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="20" y="42.25" smashed="yes" rot="R90">
+<element name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="20" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="20" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="20" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="20" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22928,7 +22928,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="21.5" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="20" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R26" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="47.5" y="42.25" smashed="yes" rot="R90">
+<element name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="47.5" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="47.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="47.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="47.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22940,7 +22940,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="49" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="47.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R27" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="42.25" smashed="yes" rot="R90">
+<element name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="53" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="53" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="53" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22952,7 +22952,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="54.5" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="53" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R28" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="14.5" y="42.25" smashed="yes" rot="R90">
+<element name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="14.5" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="14.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="14.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="14.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22964,7 +22964,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="16" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="14.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R29" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="36.5" y="42.25" smashed="yes" rot="R90">
+<element name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="36.5" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="36.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="36.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="36.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22976,7 +22976,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="38" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="36.5" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R30" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="42" y="42.25" smashed="yes" rot="R90">
+<element name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="42" y="42.25" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="42" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="42" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="42" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22988,11 +22988,11 @@ Your Multi-CB Team
 <attribute name="VALUE" x="43.5" y="42.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="42" y="42.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R31" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="DNP" x="70.25" y="16" smashed="yes" rot="R180">
+<element name="R35" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="DNP" x="70.25" y="16" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="70.25" y="16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="70.25" y="17.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="R32" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="DNP" x="70.25" y="18" smashed="yes" rot="R180">
+<element name="R34" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="DNP" x="70.25" y="18" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="70.25" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="70.25" y="19.5" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
@@ -23003,7 +23003,7 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="SOT-23" x="70.25" y="21" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="70.25" y="18.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="U5" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="BGA80" package3d_urn="urn:adsk.eagle:package:31294788/1" value="MSP432P401RIZXHR" x="65" y="19.5" smashed="yes">
+<element name="U3" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="BGA80" package3d_urn="urn:adsk.eagle:package:31294788/1" value="MSP432P401RIZXHR" x="65" y="19.5" smashed="yes">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="65" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PARTNO" value="296-45566-6-ND" x="65" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="65" y="19.5" size="1.778" layer="27" display="off"/>
@@ -23011,7 +23011,7 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="80-NFBGA" x="65" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65" y="16" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R34" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="18" smashed="yes">
+<element name="R33" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="18" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="53" y="18" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="53" y="18" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="53" y="18" size="1.778" layer="27" display="off"/>
@@ -23023,7 +23023,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="53" y="16.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="53" y="18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R35" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="21" smashed="yes">
+<element name="R31" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="21" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="53" y="21" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="53" y="21" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="53" y="21" size="1.778" layer="27" display="off"/>
@@ -23035,7 +23035,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="53" y="19.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="53" y="21" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R36" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="19.5" smashed="yes">
+<element name="R32" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="53" y="19.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="53" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="53" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="53" y="19.5" size="1.778" layer="27" display="off"/>
@@ -23047,10 +23047,10 @@ Your Multi-CB Team
 <attribute name="VALUE" x="53" y="18" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="53" y="19.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$7" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="WIZARD-6MM" value="" x="2" y="48" smashed="yes"/>
-<element name="U$8" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="PIANO-10MM" value="" x="57" y="29" smashed="yes"/>
-<element name="U$5" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="CATICORN-7MM" value="" x="46" y="81.5" smashed="yes"/>
-<element name="U$6" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="EXPLANATION-2MM" value="" x="49.5" y="51" smashed="yes" rot="R180"/>
+<element name="U$4" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="WIZARD-6MM" value="" x="2" y="48" smashed="yes"/>
+<element name="U$5" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="PIANO-10MM" value="" x="57" y="29" smashed="yes"/>
+<element name="U$1" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="CATICORN-7MM" value="" x="46" y="81.5" smashed="yes"/>
+<element name="U$3" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="EXPLANATION-2MM" value="" x="49.5" y="51" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -23085,17 +23085,17 @@ Your Multi-CB Team
 <via x="52.2" y="35" extent="1-16" drill="0.3"/>
 <wire x1="46.7" y1="33.9" x2="46.7" y2="35" width="0.254" layer="1"/>
 <via x="46.7" y="35" extent="1-16" drill="0.3"/>
-<contactref element="C1" pad="2"/>
+<contactref element="C7" pad="2"/>
 <contactref element="S4" pad="3"/>
 <contactref element="S4" pad="4"/>
-<contactref element="C6" pad="2"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C15" pad="2"/>
 <contactref element="C10" pad="2"/>
-<contactref element="C5" pad="2"/>
+<contactref element="C14" pad="2"/>
 <contactref element="C9" pad="2"/>
-<contactref element="C4" pad="2"/>
+<contactref element="C13" pad="2"/>
 <contactref element="C8" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="C7" pad="2"/>
+<contactref element="C12" pad="2"/>
 <contactref element="S8" pad="3"/>
 <contactref element="S8" pad="4"/>
 <contactref element="S3" pad="3"/>
@@ -23158,25 +23158,25 @@ Your Multi-CB Team
 <via x="75.5" y="8" extent="1-16" drill="0.3"/>
 <wire x1="87" y1="8" x2="86.25" y2="8" width="0.254" layer="1"/>
 <via x="87" y="8" extent="1-16" drill="0.3"/>
-<contactref element="C2" pad="2"/>
-<contactref element="J2" pad="GND"/>
-<contactref element="J2" pad="GND2"/>
-<contactref element="J2" pad="SHLD7"/>
-<contactref element="J2" pad="SHLD4"/>
-<contactref element="J2" pad="SHLD3"/>
-<contactref element="J2" pad="SHLD8"/>
-<contactref element="J2" pad="SHLD1"/>
-<contactref element="J2" pad="SHLD2"/>
-<contactref element="J2" pad="SHLD6"/>
-<contactref element="J2" pad="SHLD5"/>
-<contactref element="U2" pad="3"/>
-<contactref element="R18" pad="1"/>
-<contactref element="R19" pad="1"/>
-<contactref element="U1" pad="15"/>
-<contactref element="U1" pad="29"/>
-<contactref element="U1" pad="43"/>
+<contactref element="C6" pad="2"/>
+<contactref element="J1" pad="GND"/>
+<contactref element="J1" pad="GND2"/>
+<contactref element="J1" pad="SHLD7"/>
+<contactref element="J1" pad="SHLD4"/>
+<contactref element="J1" pad="SHLD3"/>
+<contactref element="J1" pad="SHLD8"/>
+<contactref element="J1" pad="SHLD1"/>
+<contactref element="J1" pad="SHLD2"/>
+<contactref element="J1" pad="SHLD6"/>
+<contactref element="J1" pad="SHLD5"/>
+<contactref element="U1" pad="3"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R2" pad="1"/>
+<contactref element="U2" pad="15"/>
+<contactref element="U2" pad="29"/>
+<contactref element="U2" pad="43"/>
 <contactref element="DEBUG" pad="2"/>
-<contactref element="C13" pad="2"/>
+<contactref element="C5" pad="2"/>
 <wire x1="26.73968125" y1="21.714553125" x2="25.696696875" y2="20.671571875" width="0.254" layer="1"/>
 <wire x1="25.696696875" y1="20.671571875" x2="25.696696875" y2="19.9644625" width="0.254" layer="1"/>
 <wire x1="25.696696875" y1="19.9644625" x2="25.16636875" y2="19.434134375" width="0.254" layer="1"/>
@@ -23187,8 +23187,8 @@ Your Multi-CB Team
 <wire x1="34.53553125" y1="18.903803125" x2="33.49255" y2="19.9467875" width="0.254" layer="1"/>
 <wire x1="35.2426375" y1="18.903803125" x2="35.77296875" y2="18.373475" width="0.254" layer="1"/>
 <via x="35.77296875" y="18.373475" extent="1-16" drill="0.3"/>
-<contactref element="D4" pad="C"/>
-<contactref element="C11" pad="2"/>
+<contactref element="D2" pad="C"/>
+<contactref element="C3" pad="2"/>
 <wire x1="28.025" y1="92.99" x2="28.025" y2="91.75" width="0.6" layer="1"/>
 <via x="28.025" y="91.75" extent="1-16" drill="0.3"/>
 <wire x1="34.475" y1="92.99" x2="34.475" y2="91.75" width="0.6" layer="1"/>
@@ -23203,11 +23203,11 @@ Your Multi-CB Team
 <wire x1="29" y1="89" x2="28" y2="89" width="0.3" layer="1"/>
 <wire x1="29" y1="89" x2="30" y2="89" width="0.3" layer="1"/>
 <via x="30" y="89" extent="1-16" drill="0.3"/>
-<contactref element="C12" pad="2"/>
+<contactref element="C4" pad="2"/>
 <wire x1="30.5" y1="86.5" x2="29.75" y2="86.5" width="0.3" layer="1"/>
 <via x="29.75" y="86.5" extent="1-16" drill="0.3"/>
-<contactref element="C14" pad="2"/>
-<contactref element="C15" pad="2"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
 <via x="38.75" y="96.5" extent="1-16" drill="0.3"/>
 <via x="39.75" y="96.5" extent="1-16" drill="0.3"/>
 <via x="40.75" y="96.5" extent="1-16" drill="0.3"/>
@@ -23222,93 +23222,34 @@ Your Multi-CB Team
 <wire x1="41.75" y1="96.2" x2="41.75" y2="96.5" width="0.254" layer="1"/>
 <wire x1="36.5" y1="86.25" x2="35.75" y2="86.25" width="0.254" layer="1"/>
 <via x="35.75" y="86.25" extent="1-16" drill="0.3"/>
-<contactref element="JP5" pad="1@3"/>
-<contactref element="JP5" pad="1@6"/>
-<contactref element="JP5" pad="1@1"/>
-<contactref element="JP5" pad="1@4"/>
-<contactref element="JP5" pad="1@2"/>
-<contactref element="JP5" pad="1@5"/>
-<contactref element="D11" pad="3"/>
+<contactref element="JP2" pad="1@3"/>
+<contactref element="JP2" pad="1@6"/>
+<contactref element="JP2" pad="1@1"/>
+<contactref element="JP2" pad="1@4"/>
+<contactref element="JP2" pad="1@2"/>
+<contactref element="JP2" pad="1@5"/>
+<contactref element="D3" pad="3"/>
 <wire x1="3.35" y1="37.05" x2="3.35" y2="35.75" width="0.254" layer="1"/>
 <via x="3.35" y="35.75" extent="1-16" drill="0.3"/>
-<contactref element="D12" pad="C"/>
+<contactref element="D1" pad="C"/>
 <wire x1="20.25" y1="95" x2="20.25" y2="94.25" width="0.254" layer="1"/>
 <via x="20.25" y="94.25" extent="1-16" drill="0.3"/>
 <wire x1="34.889084375" y1="28.44974375" x2="35.419415625" y2="28.980075" width="0.254" layer="1"/>
 <via x="35.419415625" y="28.980075" extent="1-16" drill="0.3"/>
-<contactref element="J3" pad="1"/>
 <contactref element="J4" pad="1"/>
+<contactref element="J3" pad="1"/>
 <wire x1="57.5" y1="62.5" x2="56.5" y2="62.5" width="0.254" layer="1"/>
 <via x="56.5" y="62.5" extent="1-16" drill="0.3"/>
 <wire x1="57.5" y1="53.5" x2="56.5" y2="53.5" width="0.254" layer="1"/>
 <via x="56.5" y="53.5" extent="1-16" drill="0.3"/>
-<contactref element="J1" pad="1"/>
-<wire x1="39.75" y1="96.5" x2="40.75" y2="96.5" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="98.095" x2="38.75" y2="96.5" width="0" layer="19" extent="16-16"/>
+<contactref element="J2" pad="1"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="35.57" y1="93.915" x2="39.25" y2="95.7" width="0" layer="19" extent="1-16"/>
 <wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="38" y1="90.5" x2="34.475" y2="91.75" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5" y1="86.25" x2="38" y2="90.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="89" x2="34.475" y2="91.75" width="0" layer="19" extent="1-1"/>
-<wire x1="29.75" y1="86.5" x2="30" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="28.025" y1="91.75" x2="28" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="93.915" x2="28.025" y2="92.99" width="0" layer="19" extent="1-16"/>
-<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="25" y1="96.5" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="23.5" y1="97.25" x2="25" y2="97.25" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="98.095" x2="25" y2="97.25" width="0" layer="19" extent="16-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="20.25" y1="95" x2="23.5" y2="96.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.601971875" y1="88.351971875" x2="20.25" y2="94.25" width="0" layer="19" extent="1-1"/>
-<wire x1="56.5" y1="62.5" x2="36.5" y2="86.25" width="0" layer="19" extent="1-1"/>
-<wire x1="57.5" y1="53.5" x2="57.5" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="52.2" y1="35" x2="56.5" y2="53.5" width="0" layer="19" extent="1-1"/>
-<wire x1="46.7" y1="33.9" x2="52.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="41.2" y1="33.9" x2="46.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="35.7" y1="33.9" x2="41.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="35.419415625" y1="28.980075" x2="35.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="30.2" y1="33.9" x2="35.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="24.75" y1="35" x2="30.2" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="19.2" y1="33.9" x2="24.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="33.9" x2="19.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33.49255" y1="19.9467875" x2="33.846103125" y2="26.69965625" width="0" layer="19" extent="1-1"/>
-<wire x1="26.73968125" y1="21.714553125" x2="33.49255" y2="19.9467875" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="25.5" x2="13.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="25.5" x2="12" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="25.5" x2="9.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="25.5" x2="7" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="25.5" x2="4.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="3.35" y1="35.75" x2="4.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="40.25" y1="8" x2="35.77296875" y2="18.373475" width="0" layer="19" extent="1-1"/>
-<wire x1="42.15" y1="6.155" x2="41" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="6.155" x2="43.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="51.75" y1="8" x2="47.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.65" y1="6.155" x2="52.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="58.25" y1="6.155" x2="54.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="63.25" y1="8" x2="59.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="65.15" y1="6.155" x2="64" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="69.75" y1="6.155" x2="66.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="74.75" y1="8" x2="70.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="76.65" y1="6.155" x2="75.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="81.25" y1="6.155" x2="77.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="86.25" y1="8" x2="82.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="88.15" y1="6.155" x2="87" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="36.35" y1="6.155" x2="40.25" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="6.155" x2="35.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="29.5" y1="8" x2="30.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="24.85" y1="6.155" x2="28.75" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="6.155" x2="23.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="18" y1="8" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.35" y1="6.155" x2="17.25" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="8.75" y1="6.155" x2="12.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="6.5" y1="8" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="1.85" y1="6.155" x2="5.75" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="80.9490125" y1="23.754934375" x2="86.25" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D2">
-<contactref element="U1" pad="44"/>
+<contactref element="U2" pad="44"/>
 <wire x1="33.49255" y1="27.053209375" x2="34.282171875" y2="27.84283125" width="0.254" layer="1"/>
 <via x="34.282171875" y="27.84283125" extent="1-16" drill="0.3"/>
 <wire x1="34.282171875" y1="27.84283125" x2="34.92861875" y2="27.84283125" width="0.254" layer="16"/>
@@ -23323,8 +23264,8 @@ Your Multi-CB Team
 <wire x1="49.3" y1="29.5" x2="37.828428125" y2="29.5" width="0.254" layer="1"/>
 </signal>
 <signal name="D4">
-<contactref element="U1" pad="18"/>
-<contactref element="C3" pad="1"/>
+<contactref element="U2" pad="18"/>
+<contactref element="C8" pad="1"/>
 <contactref element="S1" pad="1"/>
 <contactref element="S1" pad="2"/>
 <wire x1="1.85" y1="2.345" x2="3.75" y2="2.345" width="0.254" layer="1"/>
@@ -23338,7 +23279,7 @@ Your Multi-CB Team
 <wire x1="1.85" y1="2.345" x2="7.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
-<contactref element="U1" pad="45"/>
+<contactref element="U2" pad="45"/>
 <wire x1="33.138996875" y1="27.4067625" x2="33.67861875" y2="27.946384375" width="0.254" layer="1"/>
 <via x="33.67861875" y="27.946384375" extent="1-16" drill="0.3"/>
 <wire x1="33.67861875" y1="27.946384375" x2="35.36611875" y2="29.633884375" width="0.254" layer="16"/>
@@ -23352,15 +23293,15 @@ Your Multi-CB Team
 </signal>
 <signal name="N$9">
 <contactref element="Q3" pad="3"/>
-<contactref element="R6" pad="1"/>
+<contactref element="R20" pad="1"/>
 <wire x1="23.75" y1="38.75" x2="23.75" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D2" pad="C"/>
+<contactref element="D6" pad="C"/>
 <wire x1="23.75" y1="38.75" x2="25.5" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="LS3" pad="-"/>
-<contactref element="R8" pad="2"/>
-<contactref element="R7" pad="1"/>
+<contactref element="LS8" pad="-"/>
+<contactref element="R22" pad="2"/>
+<contactref element="R21" pad="1"/>
 <wire x1="27.75" y1="40.25" x2="29.25" y2="40.25" width="0.254" layer="1"/>
 <wire x1="29.25" y1="40.25" x2="29.25" y2="50.3357875" width="0.254" layer="1"/>
 <wire x1="29.25" y1="50.3357875" x2="28.95710625" y2="51.04289375" width="0.254" layer="1" curve="45"/>
@@ -23368,9 +23309,9 @@ Your Multi-CB Team
 <wire x1="28.75" y1="51.54289375" x2="28.75" y2="53.25" width="0.254" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="LS5" pad="-"/>
-<contactref element="R2" pad="2"/>
-<contactref element="R1" pad="1"/>
+<contactref element="LS3" pad="-"/>
+<contactref element="R16" pad="2"/>
+<contactref element="R15" pad="1"/>
 <wire x1="11.25" y1="40.25" x2="12.75" y2="40.25" width="0.254" layer="1"/>
 <wire x1="12.75" y1="40.25" x2="12.75" y2="69.3357875" width="0.254" layer="1"/>
 <wire x1="12.75" y1="69.3357875" x2="12.45710625" y2="70.04289375" width="0.254" layer="1" curve="45"/>
@@ -23378,22 +23319,22 @@ Your Multi-CB Team
 </signal>
 <signal name="N$12">
 <contactref element="Q2" pad="3"/>
-<contactref element="R4" pad="1"/>
+<contactref element="R18" pad="1"/>
 <wire x1="18.25" y1="38.75" x2="18.25" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D10" pad="C"/>
+<contactref element="D5" pad="C"/>
 <wire x1="18.25" y1="38.75" x2="20" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="Q6" pad="3"/>
-<contactref element="R12" pad="1"/>
+<contactref element="R26" pad="1"/>
 <wire x1="40.25" y1="38.75" x2="40.25" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D7" pad="C"/>
+<contactref element="D9" pad="C"/>
 <wire x1="40.25" y1="38.75" x2="42" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="LS4" pad="-"/>
-<contactref element="R16" pad="2"/>
-<contactref element="R15" pad="1"/>
+<contactref element="R30" pad="2"/>
+<contactref element="R29" pad="1"/>
 <wire x1="49.75" y1="40.25" x2="51.25" y2="40.25" width="0.254" layer="1"/>
 <wire x1="51.25" y1="40.25" x2="51.25" y2="69.3357875" width="0.254" layer="1"/>
 <wire x1="51.25" y1="69.3357875" x2="50.95710625" y2="70.04289375" width="0.254" layer="1" curve="45"/>
@@ -23406,96 +23347,96 @@ Your Multi-CB Team
 <vertex x="90" y="100"/>
 <vertex x="90" y="0"/>
 </polygon>
-<contactref element="LS7" pad="+"/>
+<contactref element="LS1" pad="+"/>
+<contactref element="LS8" pad="+"/>
 <contactref element="LS3" pad="+"/>
+<contactref element="LS6" pad="+"/>
 <contactref element="LS5" pad="+"/>
 <contactref element="LS2" pad="+"/>
-<contactref element="LS8" pad="+"/>
-<contactref element="LS1" pad="+"/>
 <contactref element="LS4" pad="+"/>
-<contactref element="LS6" pad="+"/>
-<contactref element="C1" pad="1"/>
-<contactref element="R5" pad="2"/>
-<contactref element="R9" pad="2"/>
-<contactref element="R11" pad="2"/>
-<contactref element="R7" pad="2"/>
-<contactref element="R1" pad="2"/>
+<contactref element="LS7" pad="+"/>
+<contactref element="C7" pad="1"/>
+<contactref element="R19" pad="2"/>
+<contactref element="R23" pad="2"/>
+<contactref element="R25" pad="2"/>
+<contactref element="R21" pad="2"/>
 <contactref element="R15" pad="2"/>
-<contactref element="R3" pad="2"/>
-<contactref element="R13" pad="2"/>
-<contactref element="C2" pad="1"/>
-<contactref element="U2" pad="7"/>
+<contactref element="R29" pad="2"/>
+<contactref element="R17" pad="2"/>
+<contactref element="R27" pad="2"/>
+<contactref element="C6" pad="1"/>
+<contactref element="U1" pad="7"/>
 <contactref element="F1" pad="2"/>
-<contactref element="U1" pad="14"/>
-<contactref element="U1" pad="28"/>
-<contactref element="U1" pad="42"/>
+<contactref element="U2" pad="14"/>
+<contactref element="U2" pad="28"/>
+<contactref element="U2" pad="42"/>
 <contactref element="DEBUG" pad="4"/>
-<contactref element="C13" pad="1"/>
+<contactref element="C5" pad="1"/>
 <wire x1="25.34314375" y1="21.025125" x2="26.386128125" y2="22.06810625" width="0.254" layer="1"/>
 <wire x1="35.94974375" y1="27.389084375" x2="35.242640625" y2="27.389084375" width="0.254" layer="1"/>
 <wire x1="35.242640625" y1="27.389084375" x2="34.19965625" y2="26.346103125" width="0.254" layer="1"/>
 <wire x1="33.138996875" y1="19.593234375" x2="34.181978125" y2="18.55025" width="0.254" layer="1"/>
 <wire x1="34.181978125" y1="18.55025" x2="34.181978125" y2="17.84314375" width="0.254" layer="1"/>
-<contactref element="C12" pad="1"/>
-<contactref element="C14" pad="1"/>
-<contactref element="C15" pad="1"/>
-<contactref element="JP6" pad="1@3"/>
-<contactref element="JP6" pad="1@6"/>
-<contactref element="JP6" pad="1@1"/>
-<contactref element="JP6" pad="1@4"/>
-<contactref element="JP6" pad="1@2"/>
-<contactref element="JP6" pad="1@5"/>
-<contactref element="D11" pad="1"/>
-<contactref element="R17" pad="1"/>
-<contactref element="J4" pad="2"/>
+<contactref element="C4" pad="1"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="JP1" pad="1@3"/>
+<contactref element="JP1" pad="1@6"/>
+<contactref element="JP1" pad="1@1"/>
+<contactref element="JP1" pad="1@4"/>
+<contactref element="JP1" pad="1@2"/>
+<contactref element="JP1" pad="1@5"/>
+<contactref element="D3" pad="1"/>
+<contactref element="R1" pad="1"/>
 <contactref element="J3" pad="2"/>
+<contactref element="J4" pad="2"/>
 <wire x1="24.6360375" y1="21.025121875" x2="25.343140625" y2="21.025121875" width="0.254" layer="1"/>
 <wire x1="25.343140625" y1="21.025121875" x2="25.34314375" y2="21.025125" width="0.254" layer="1"/>
-<contactref element="R24" pad="2"/>
-<contactref element="R20" pad="2"/>
-<contactref element="R29" pad="2"/>
-<contactref element="R30" pad="2"/>
-<contactref element="R27" pad="2"/>
-<contactref element="R28" pad="2"/>
-<contactref element="R25" pad="2"/>
-<contactref element="R26" pad="2"/>
-<contactref element="D3" pad="4"/>
-<contactref element="J1" pad="2"/>
+<contactref element="R9" pad="2"/>
+<contactref element="R10" pad="2"/>
+<contactref element="R11" pad="2"/>
+<contactref element="R12" pad="2"/>
+<contactref element="R14" pad="2"/>
+<contactref element="R7" pad="2"/>
+<contactref element="R8" pad="2"/>
+<contactref element="R13" pad="2"/>
+<contactref element="D12" pad="4"/>
+<contactref element="J2" pad="2"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q4" pad="3"/>
-<contactref element="R8" pad="1"/>
+<contactref element="R22" pad="1"/>
 <wire x1="29.25" y1="38.75" x2="29.25" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D6" pad="C"/>
+<contactref element="D7" pad="C"/>
 <wire x1="29.25" y1="38.75" x2="31" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="Q1" pad="3"/>
-<contactref element="R2" pad="1"/>
+<contactref element="R16" pad="1"/>
 <wire x1="12.75" y1="38.75" x2="12.75" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D1" pad="C"/>
+<contactref element="D4" pad="C"/>
 <wire x1="12.75" y1="38.75" x2="14.5" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="LS2" pad="-"/>
-<contactref element="R4" pad="2"/>
-<contactref element="R3" pad="1"/>
+<contactref element="LS6" pad="-"/>
+<contactref element="R18" pad="2"/>
+<contactref element="R17" pad="1"/>
 <wire x1="16.75" y1="40.25" x2="18.25" y2="40.25" width="0.254" layer="1"/>
 <wire x1="18.25" y1="40.25" x2="18.25" y2="59.8357875" width="0.254" layer="1"/>
 <wire x1="18.25" y1="59.8357875" x2="17.95710625" y2="60.54289375" width="0.254" layer="1" curve="45"/>
 <wire x1="17.95710625" y1="60.54289375" x2="16.5" y2="62" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="R10" pad="1"/>
+<contactref element="R24" pad="1"/>
 <contactref element="Q5" pad="3"/>
 <wire x1="34.75" y1="38.75" x2="34.75" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D5" pad="C"/>
+<contactref element="D8" pad="C"/>
 <wire x1="34.75" y1="38.75" x2="36.5" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="R10" pad="2"/>
-<contactref element="LS8" pad="-"/>
-<contactref element="R9" pad="1"/>
+<contactref element="R24" pad="2"/>
+<contactref element="LS5" pad="-"/>
+<contactref element="R23" pad="1"/>
 <wire x1="33.25" y1="40.25" x2="34.75" y2="40.25" width="0.254" layer="1"/>
 <wire x1="34.75" y1="40.25" x2="34.75" y2="48.3357875" width="0.254" layer="1"/>
 <wire x1="34.75" y1="48.3357875" x2="34.45710625" y2="49.04289375" width="0.254" layer="1" curve="45"/>
@@ -23506,9 +23447,9 @@ Your Multi-CB Team
 <wire x1="30.95710625" y1="64.04289375" x2="28.75" y2="66.25" width="0.254" layer="1"/>
 </signal>
 <signal name="N$6">
-<contactref element="R12" pad="2"/>
-<contactref element="LS1" pad="-"/>
-<contactref element="R11" pad="1"/>
+<contactref element="R26" pad="2"/>
+<contactref element="LS2" pad="-"/>
+<contactref element="R25" pad="1"/>
 <wire x1="38.75" y1="40.25" x2="40.25" y2="40.25" width="0.254" layer="1"/>
 <wire x1="40.25" y1="40.25" x2="40.25" y2="57.8357875" width="0.254" layer="1"/>
 <wire x1="40.25" y1="57.8357875" x2="39.95710625" y2="58.54289375" width="0.254" layer="1" curve="45"/>
@@ -23520,23 +23461,23 @@ Your Multi-CB Team
 </signal>
 <signal name="N$7">
 <contactref element="Q8" pad="3"/>
-<contactref element="R16" pad="1"/>
+<contactref element="R30" pad="1"/>
 <wire x1="51.25" y1="38.75" x2="51.25" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D8" pad="C"/>
+<contactref element="D11" pad="C"/>
 <wire x1="51.25" y1="38.75" x2="53" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="R14" pad="2"/>
-<contactref element="LS6" pad="-"/>
-<contactref element="R13" pad="1"/>
+<contactref element="R28" pad="2"/>
+<contactref element="LS7" pad="-"/>
+<contactref element="R27" pad="1"/>
 <wire x1="44.25" y1="40.25" x2="45.75" y2="40.25" width="0.254" layer="1"/>
 <wire x1="45.75" y1="40.25" x2="45.75" y2="56.8357875" width="0.254" layer="1"/>
 <wire x1="45.75" y1="56.8357875" x2="45.45710625" y2="57.54289375" width="0.254" layer="1" curve="45"/>
 <wire x1="45.45710625" y1="57.54289375" x2="41" y2="62" width="0.254" layer="1"/>
 </signal>
 <signal name="D8">
-<contactref element="U1" pad="33"/>
-<contactref element="C8" pad="1"/>
+<contactref element="U2" pad="33"/>
+<contactref element="C13" pad="1"/>
 <contactref element="S6" pad="1"/>
 <contactref element="S6" pad="2"/>
 <wire x1="59.35" y1="2.345" x2="61.25" y2="2.345" width="0.254" layer="1"/>
@@ -23552,13 +23493,13 @@ Your Multi-CB Team
 <wire x1="59.35" y1="2.345" x2="65.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A1">
-<contactref element="U1" pad="22"/>
-<contactref element="JP2" pad="1@3"/>
-<contactref element="JP2" pad="1@6"/>
-<contactref element="JP2" pad="1@1"/>
-<contactref element="JP2" pad="1@4"/>
-<contactref element="JP2" pad="1@2"/>
-<contactref element="JP2" pad="1@5"/>
+<contactref element="U2" pad="22"/>
+<contactref element="JP5" pad="1@3"/>
+<contactref element="JP5" pad="1@6"/>
+<contactref element="JP5" pad="1@1"/>
+<contactref element="JP5" pad="1@4"/>
+<contactref element="JP5" pad="1@2"/>
+<contactref element="JP5" pad="1@5"/>
 <wire x1="29.214553125" y1="19.23968125" x2="28.2374375" y2="18.262565625" width="0.254" layer="1"/>
 <via x="28.2374375" y="18.262565625" extent="1-16" drill="0.3"/>
 <wire x1="28.2374375" y1="18.262565625" x2="27.267765625" y2="17.29289375" width="0.254" layer="16"/>
@@ -23574,13 +23515,13 @@ Your Multi-CB Team
 <wire x1="2" y1="18" x2="4.5" y2="18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A0">
-<contactref element="U1" pad="23"/>
-<contactref element="JP1" pad="1@3"/>
-<contactref element="JP1" pad="1@6"/>
-<contactref element="JP1" pad="1@1"/>
-<contactref element="JP1" pad="1@4"/>
-<contactref element="JP1" pad="1@2"/>
-<contactref element="JP1" pad="1@5"/>
+<contactref element="U2" pad="23"/>
+<contactref element="JP6" pad="1@3"/>
+<contactref element="JP6" pad="1@6"/>
+<contactref element="JP6" pad="1@1"/>
+<contactref element="JP6" pad="1@4"/>
+<contactref element="JP6" pad="1@2"/>
+<contactref element="JP6" pad="1@5"/>
 <wire x1="29.56810625" y1="18.886128125" x2="28.965990625" y2="18.2840125" width="0.254" layer="1"/>
 <via x="28.965990625" y="18.2840125" extent="1-16" drill="0.3"/>
 <wire x1="28.965990625" y1="18.2840125" x2="27.474871875" y2="16.79289375" width="0.254" layer="16"/>
@@ -23596,17 +23537,17 @@ Your Multi-CB Team
 <wire x1="2" y1="15.5" x2="4.5" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
-<contactref element="R5" pad="1"/>
-<contactref element="R6" pad="2"/>
-<contactref element="LS7" pad="-"/>
+<contactref element="R19" pad="1"/>
+<contactref element="R20" pad="2"/>
+<contactref element="LS1" pad="-"/>
 <wire x1="22.25" y1="40.25" x2="23.75" y2="40.25" width="0.254" layer="1"/>
 <wire x1="23.75" y1="40.25" x2="23.75" y2="75.3357875" width="0.254" layer="1"/>
 <wire x1="23.75" y1="75.3357875" x2="23.45710625" y2="76.04289375" width="0.254" layer="1" curve="45"/>
 <wire x1="23.45710625" y1="76.04289375" x2="22" y2="77.5" width="0.254" layer="1"/>
 </signal>
 <signal name="VBUS">
-<contactref element="J2" pad="VBUS1"/>
-<contactref element="J2" pad="VBUS2"/>
+<contactref element="J1" pad="VBUS1"/>
+<contactref element="J1" pad="VBUS2"/>
 <contactref element="F1" pad="1"/>
 <wire x1="28.8" y1="92.99" x2="28.8" y2="93.8" width="0.45" layer="1"/>
 <wire x1="37.25" y1="95.75" x2="34.1642125" y2="95.75" width="0.45" layer="1"/>
@@ -23618,8 +23559,8 @@ Your Multi-CB Team
 <wire x1="33.7" y1="93.8" x2="32.75" y2="94.75" width="0.45" layer="1"/>
 </signal>
 <signal name="TXD">
-<contactref element="U2" pad="8"/>
-<contactref element="R21" pad="2"/>
+<contactref element="U1" pad="8"/>
+<contactref element="R4" pad="2"/>
 <wire x1="33.5" y1="89" x2="38.75" y2="89" width="0.254" layer="1"/>
 <wire x1="38.75" y1="89" x2="39.5" y2="88.25" width="0.254" layer="1" curve="-90"/>
 <wire x1="39.5" y1="85.5" x2="39" y2="85" width="0.254" layer="1" curve="-90"/>
@@ -23632,8 +23573,8 @@ Your Multi-CB Team
 <wire x1="39" y1="85" x2="27.5" y2="85" width="0.254" layer="1"/>
 </signal>
 <signal name="RXD">
-<contactref element="U2" pad="9"/>
-<contactref element="R22" pad="2"/>
+<contactref element="U1" pad="9"/>
+<contactref element="R6" pad="2"/>
 <wire x1="38.75" y1="89.5" x2="33.5" y2="89.5" width="0.254" layer="1"/>
 <wire x1="38.75" y1="89.5" x2="40" y2="88.25" width="0.254" layer="1" curve="-90"/>
 <wire x1="40" y1="85.5" x2="39" y2="84.5" width="0.254" layer="1" curve="-90"/>
@@ -23646,8 +23587,8 @@ Your Multi-CB Team
 <wire x1="39" y1="84.5" x2="27.5" y2="84.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$29">
-<contactref element="J2" pad="B5"/>
-<contactref element="R18" pad="2"/>
+<contactref element="J1" pad="B5"/>
+<contactref element="R3" pad="2"/>
 <wire x1="25" y1="95" x2="25" y2="94.25" width="0.254" layer="1"/>
 <via x="25" y="94.25" extent="1-16" drill="0.3"/>
 <wire x1="29.5" y1="92.99" x2="29.5" y2="91.75" width="0.254" layer="1"/>
@@ -23661,8 +23602,8 @@ Your Multi-CB Team
 <wire x1="26.6642125" y1="91" x2="25.95710625" y2="91.29289375" width="0.254" layer="16" curve="-45"/>
 </signal>
 <signal name="N$30">
-<contactref element="J2" pad="A5"/>
-<contactref element="R19" pad="2"/>
+<contactref element="J1" pad="A5"/>
+<contactref element="R2" pad="2"/>
 <wire x1="23.5" y1="95" x2="23.5" y2="94.25" width="0.254" layer="1"/>
 <via x="23.5" y="94.25" extent="1-16" drill="0.3"/>
 <wire x1="32.5" y1="92.99" x2="32.5" y2="94.175" width="0.254" layer="1"/>
@@ -23674,9 +23615,9 @@ Your Multi-CB Team
 <wire x1="24.70710625" y1="95.45710625" x2="23.5" y2="94.25" width="0.254" layer="16"/>
 </signal>
 <signal name="N$31">
-<contactref element="J2" pad="B6"/>
-<contactref element="J2" pad="A6"/>
-<contactref element="U2" pad="1"/>
+<contactref element="J1" pad="B6"/>
+<contactref element="J1" pad="A6"/>
+<contactref element="U1" pad="1"/>
 <wire x1="29" y1="90" x2="30" y2="90" width="0.254" layer="1"/>
 <wire x1="30" y1="90" x2="30.5" y2="90.5" width="0.254" layer="1" curve="90"/>
 <wire x1="30.5" y1="90.5" x2="30.5" y2="92.99" width="0.254" layer="1"/>
@@ -23687,9 +23628,9 @@ Your Multi-CB Team
 <wire x1="30.5" y1="93.9325" x2="30.5" y2="92.99" width="0.254" layer="1"/>
 </signal>
 <signal name="N$32">
-<contactref element="J2" pad="B7"/>
-<contactref element="J2" pad="A7"/>
-<contactref element="U2" pad="2"/>
+<contactref element="J1" pad="B7"/>
+<contactref element="J1" pad="A7"/>
+<contactref element="U1" pad="2"/>
 <wire x1="29" y1="89.5" x2="30" y2="89.5" width="0.254" layer="1"/>
 <wire x1="30" y1="89.5" x2="31" y2="90.5" width="0.254" layer="1" curve="90"/>
 <wire x1="31" y1="90.5" x2="31" y2="91.5" width="0.254" layer="1"/>
@@ -23699,13 +23640,13 @@ Your Multi-CB Team
 <wire x1="31.6825" y1="91.5" x2="31" y2="91.5" width="0.254" layer="1"/>
 </signal>
 <signal name="A3">
-<contactref element="U1" pad="20"/>
-<contactref element="JP4" pad="1@3"/>
-<contactref element="JP4" pad="1@6"/>
-<contactref element="JP4" pad="1@1"/>
-<contactref element="JP4" pad="1@4"/>
-<contactref element="JP4" pad="1@2"/>
-<contactref element="JP4" pad="1@5"/>
+<contactref element="U2" pad="20"/>
+<contactref element="JP3" pad="1@3"/>
+<contactref element="JP3" pad="1@6"/>
+<contactref element="JP3" pad="1@1"/>
+<contactref element="JP3" pad="1@4"/>
+<contactref element="JP3" pad="1@2"/>
+<contactref element="JP3" pad="1@5"/>
 <wire x1="28.507446875" y1="19.9467875" x2="27.53033125" y2="18.969671875" width="0.254" layer="1"/>
 <via x="27.53033125" y="18.969671875" extent="1-16" drill="0.3"/>
 <wire x1="27.53033125" y1="18.969671875" x2="27.353553125" y2="18.79289375" width="0.254" layer="16"/>
@@ -23719,13 +23660,13 @@ Your Multi-CB Team
 <wire x1="2" y1="23" x2="4.5" y2="23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A2">
-<contactref element="U1" pad="21"/>
-<contactref element="JP3" pad="1@3"/>
-<contactref element="JP3" pad="1@6"/>
-<contactref element="JP3" pad="1@1"/>
-<contactref element="JP3" pad="1@4"/>
-<contactref element="JP3" pad="1@2"/>
-<contactref element="JP3" pad="1@5"/>
+<contactref element="U2" pad="21"/>
+<contactref element="JP4" pad="1@3"/>
+<contactref element="JP4" pad="1@6"/>
+<contactref element="JP4" pad="1@1"/>
+<contactref element="JP4" pad="1@4"/>
+<contactref element="JP4" pad="1@2"/>
+<contactref element="JP4" pad="1@5"/>
 <wire x1="28.861" y1="19.593234375" x2="28.258884375" y2="18.99111875" width="0.254" layer="1"/>
 <via x="28.258884375" y="18.99111875" extent="1-16" drill="0.3"/>
 <wire x1="28.258884375" y1="18.99111875" x2="27.560659375" y2="18.29289375" width="0.254" layer="16"/>
@@ -23741,8 +23682,8 @@ Your Multi-CB Team
 <wire x1="2" y1="20.5" x2="4.5" y2="20.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A6">
-<contactref element="U1" pad="24"/>
-<contactref element="C5" pad="1"/>
+<contactref element="U2" pad="24"/>
+<contactref element="C10" pad="1"/>
 <contactref element="S3" pad="1"/>
 <contactref element="S3" pad="2"/>
 <wire x1="24.85" y1="2.345" x2="26.75" y2="2.345" width="0.254" layer="1"/>
@@ -23754,7 +23695,7 @@ Your Multi-CB Team
 <wire x1="24.85" y1="2.345" x2="30.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB03">
-<contactref element="U1" pad="7"/>
+<contactref element="U2" pad="7"/>
 <wire x1="27.800340625" y1="26.346103125" x2="24.073221875" y2="30.073221875" width="0.254" layer="1"/>
 <via x="24.073221875" y="30.073221875" extent="1-16" drill="0.3"/>
 <contactref element="Q2" pad="1"/>
@@ -23765,16 +23706,16 @@ Your Multi-CB Team
 <wire x1="20.80520625" y1="30.073221875" x2="24.073221875" y2="30.073221875" width="0.254" layer="16"/>
 </signal>
 <signal name="D5~">
-<contactref element="U1" pad="6"/>
+<contactref element="U2" pad="6"/>
 <wire x1="28.15389375" y1="26.69965625" x2="24.39644375" y2="30.45710625" width="0.254" layer="1"/>
 <wire x1="24.39644375" y1="30.45710625" x2="23.6893375" y2="30.75" width="0.254" layer="1" curve="45"/>
 <wire x1="23.6893375" y1="30.75" x2="7.65" y2="30.75" width="0.254" layer="1"/>
-<contactref element="D11" pad="4"/>
+<contactref element="D3" pad="4"/>
 <wire x1="7.65" y1="30.75" x2="6.65" y2="31.75" width="0.254" layer="1" curve="-90"/>
 <wire x1="6.65" y1="31.75" x2="6.65" y2="37.05" width="0.254" layer="1"/>
 </signal>
 <signal name="D10~">
-<contactref element="U1" pad="5"/>
+<contactref element="U2" pad="5"/>
 <contactref element="Q1" pad="1"/>
 <wire x1="11.8" y1="33.9" x2="11.8" y2="32.25" width="0.254" layer="1"/>
 <wire x1="11.8" y1="32.25" x2="12.8" y2="31.25" width="0.254" layer="1" curve="90"/>
@@ -23783,8 +23724,8 @@ Your Multi-CB Team
 <wire x1="24.60355" y1="30.95710625" x2="28.507446875" y2="27.053209375" width="0.254" layer="1"/>
 </signal>
 <signal name="D9~">
-<contactref element="U1" pad="4"/>
-<contactref element="R34" pad="1"/>
+<contactref element="U2" pad="4"/>
+<contactref element="R33" pad="1"/>
 <wire x1="28.861" y1="27.4067625" x2="29.38388125" y2="26.88388125" width="0.254" layer="1"/>
 <via x="29.38388125" y="26.88388125" extent="1-16" drill="0.3"/>
 <wire x1="29.38388125" y1="26.88388125" x2="37.97486875" y2="18.29289375" width="0.254" layer="16"/>
@@ -23794,7 +23735,7 @@ Your Multi-CB Team
 <wire x1="51.5" y1="18" x2="52.25" y2="18" width="0.254" layer="1"/>
 </signal>
 <signal name="PA07">
-<contactref element="U1" pad="3"/>
+<contactref element="U2" pad="3"/>
 <contactref element="Q3" pad="1"/>
 <wire x1="23.4727375" y1="32" x2="24.56065625" y2="32" width="0.254" layer="1"/>
 <wire x1="24.56065625" y1="32" x2="25.2677625" y2="31.70710625" width="0.254" layer="1" curve="-45"/>
@@ -23803,14 +23744,14 @@ Your Multi-CB Team
 <wire x1="22.8" y1="32.6727375" x2="23.4727375" y2="32" width="0.254" layer="1" curve="90"/>
 </signal>
 <signal name="PA06">
-<contactref element="U1" pad="2"/>
+<contactref element="U2" pad="2"/>
 <contactref element="Q4" pad="1"/>
 <wire x1="29.56810625" y1="28.11386875" x2="28.59289375" y2="29.08908125" width="0.254" layer="1"/>
 <wire x1="28.59289375" y1="29.08908125" x2="28.3" y2="29.7961875" width="0.254" layer="1" curve="-45"/>
 <wire x1="28.3" y1="29.7961875" x2="28.3" y2="33.9" width="0.254" layer="1"/>
 </signal>
 <signal name="PA05">
-<contactref element="U1" pad="1"/>
+<contactref element="U2" pad="1"/>
 <contactref element="Q5" pad="1"/>
 <wire x1="33.8" y1="33.9" x2="33.8" y2="32.7142125" width="0.254" layer="1"/>
 <wire x1="33.8" y1="32.7142125" x2="33.50710625" y2="32.00710625" width="0.254" layer="1" curve="-45"/>
@@ -23823,8 +23764,8 @@ Your Multi-CB Team
 <wire x1="29.814340625" y1="30.008884375" x2="31" y2="30.5" width="0.254" layer="1" curve="-45"/>
 </signal>
 <signal name="TX0">
-<contactref element="U1" pad="8"/>
-<contactref element="R22" pad="1"/>
+<contactref element="U2" pad="8"/>
+<contactref element="R6" pad="1"/>
 <wire x1="6.5" y1="64" x2="5" y2="65.5" width="0.254" layer="1" curve="90"/>
 <wire x1="3.5" y1="58.5" x2="1.5" y2="56.5" width="0.254" layer="1" curve="90"/>
 <wire x1="1.5" y1="32.25" x2="3.5" y2="30.25" width="0.254" layer="1" curve="90"/>
@@ -23848,8 +23789,8 @@ Your Multi-CB Team
 <wire x1="27.4467875" y1="25.99255" x2="27.4467875" y2="26.010325" width="0.254" layer="1"/>
 </signal>
 <signal name="RX0">
-<contactref element="U1" pad="9"/>
-<contactref element="R21" pad="1"/>
+<contactref element="U2" pad="9"/>
+<contactref element="R4" pad="1"/>
 <wire x1="6" y1="64" x2="5" y2="65" width="0.254" layer="1" curve="90"/>
 <wire x1="3.5" y1="59" x2="1" y2="56.5" width="0.254" layer="1" curve="90"/>
 <wire x1="1" y1="32.25" x2="3.5" y2="29.75" width="0.254" layer="1" curve="90"/>
@@ -23874,17 +23815,17 @@ Your Multi-CB Team
 <wire x1="27.093234375" y1="25.638996875" x2="27.093234375" y2="25.656765625" width="0.254" layer="1"/>
 </signal>
 <signal name="PC00">
-<contactref element="U1" pad="10"/>
+<contactref element="U2" pad="10"/>
 </signal>
 <signal name="PC01">
-<contactref element="U1" pad="11"/>
+<contactref element="U2" pad="11"/>
 </signal>
 <signal name="PC02">
-<contactref element="U1" pad="12"/>
+<contactref element="U2" pad="12"/>
 </signal>
 <signal name="PC07">
-<contactref element="U1" pad="19"/>
-<contactref element="C4" pad="1"/>
+<contactref element="U2" pad="19"/>
+<contactref element="C9" pad="1"/>
 <contactref element="S2" pad="1"/>
 <contactref element="S2" pad="2"/>
 <wire x1="13.35" y1="2.345" x2="15.25" y2="2.345" width="0.254" layer="1"/>
@@ -23898,26 +23839,26 @@ Your Multi-CB Team
 <wire x1="13.35" y1="2.345" x2="19.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX1">
-<contactref element="U1" pad="17"/>
+<contactref element="U2" pad="17"/>
 </signal>
 <signal name="TX1">
-<contactref element="U1" pad="16"/>
+<contactref element="U2" pad="16"/>
 </signal>
 <signal name="PC03">
-<contactref element="U1" pad="13"/>
+<contactref element="U2" pad="13"/>
 </signal>
 <signal name="MISO">
-<contactref element="U1" pad="31"/>
+<contactref element="U2" pad="31"/>
 </signal>
 <signal name="MOSI">
-<contactref element="U1" pad="30"/>
+<contactref element="U2" pad="30"/>
 </signal>
 <signal name="AREF">
-<contactref element="U1" pad="27"/>
+<contactref element="U2" pad="27"/>
 </signal>
 <signal name="PD06">
-<contactref element="U1" pad="26"/>
-<contactref element="C7" pad="1"/>
+<contactref element="U2" pad="26"/>
+<contactref element="C12" pad="1"/>
 <contactref element="S5" pad="1"/>
 <contactref element="S5" pad="2"/>
 <wire x1="47.85" y1="2.345" x2="49.75" y2="2.345" width="0.254" layer="1"/>
@@ -23937,10 +23878,10 @@ Your Multi-CB Team
 <wire x1="47.85" y1="2.345" x2="53.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A7">
-<contactref element="U1" pad="25"/>
+<contactref element="U2" pad="25"/>
 <contactref element="S4" pad="2"/>
 <contactref element="S4" pad="1"/>
-<contactref element="C6" pad="1"/>
+<contactref element="C11" pad="1"/>
 <wire x1="36.35" y1="2.345" x2="38.25" y2="2.345" width="0.254" layer="1"/>
 <wire x1="38.25" y1="2.345" x2="38.75" y2="2.845" width="0.254" layer="1" curve="90"/>
 <wire x1="38.75" y1="2.845" x2="38.75" y2="8" width="0.254" layer="1"/>
@@ -23950,11 +23891,11 @@ Your Multi-CB Team
 <wire x1="36.35" y1="2.345" x2="42.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
-<contactref element="U1" pad="32"/>
+<contactref element="U2" pad="32"/>
 </signal>
 <signal name="PF00">
-<contactref element="U1" pad="34"/>
-<contactref element="C9" pad="1"/>
+<contactref element="U2" pad="34"/>
+<contactref element="C14" pad="1"/>
 <contactref element="S7" pad="1"/>
 <contactref element="S7" pad="2"/>
 <wire x1="70.85" y1="2.345" x2="72.75" y2="2.345" width="0.254" layer="1"/>
@@ -23972,8 +23913,8 @@ Your Multi-CB Team
 <wire x1="70.85" y1="2.345" x2="76.65" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PF01">
-<contactref element="U1" pad="35"/>
-<contactref element="C10" pad="1"/>
+<contactref element="U2" pad="35"/>
+<contactref element="C15" pad="1"/>
 <contactref element="S8" pad="1"/>
 <contactref element="S8" pad="2"/>
 <wire x1="82.35" y1="2.345" x2="84.25" y2="2.345" width="0.254" layer="1"/>
@@ -23991,11 +23932,11 @@ Your Multi-CB Team
 <wire x1="82.35" y1="2.345" x2="88.15" y2="2.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESETN">
-<contactref element="U1" pad="40"/>
+<contactref element="U2" pad="40"/>
 </signal>
 <signal name="D3~">
-<contactref element="U1" pad="39"/>
-<contactref element="R35" pad="1"/>
+<contactref element="U2" pad="39"/>
+<contactref element="R31" pad="1"/>
 <wire x1="35.260315625" y1="25.28544375" x2="35.681978125" y2="25.70710625" width="0.254" layer="1"/>
 <wire x1="35.681978125" y1="25.70710625" x2="38.542896875" y2="25.70710625" width="0.254" layer="1" curve="-90"/>
 <wire x1="38.542896875" y1="25.70710625" x2="42.6642125" y2="21.5857875" width="0.254" layer="1"/>
@@ -24003,8 +23944,8 @@ Your Multi-CB Team
 <wire x1="44.078428125" y1="21" x2="52.25" y2="21" width="0.254" layer="1"/>
 </signal>
 <signal name="D6~">
-<contactref element="U1" pad="38"/>
-<contactref element="R36" pad="1"/>
+<contactref element="U2" pad="38"/>
+<contactref element="R32" pad="1"/>
 <wire x1="35.61386875" y1="24.931890625" x2="36.098346875" y2="25.41636875" width="0.254" layer="1"/>
 <wire x1="36.098346875" y1="25.41636875" x2="38.083634375" y2="25.41636875" width="0.254" layer="1" curve="-90"/>
 <wire x1="38.083634375" y1="25.41636875" x2="43.4142125" y2="20.0857875" width="0.254" layer="1"/>
@@ -24012,9 +23953,9 @@ Your Multi-CB Team
 <wire x1="44.828428125" y1="19.5" x2="52.25" y2="19.5" width="0.254" layer="1"/>
 </signal>
 <signal name="A4/SDA">
-<contactref element="U1" pad="46"/>
-<contactref element="J3" pad="3"/>
+<contactref element="U2" pad="46"/>
 <contactref element="J4" pad="3"/>
+<contactref element="J3" pad="3"/>
 <wire x1="56.5" y1="66.25" x2="58.75" y2="66.25" width="0.254" layer="1"/>
 <wire x1="58.75" y1="66.25" x2="59.5" y2="65.5" width="0.254" layer="1" curve="-90"/>
 <wire x1="59.5" y1="65.5" x2="59.5" y2="56.06065625" width="0.254" layer="1"/>
@@ -24039,9 +23980,9 @@ Your Multi-CB Team
 <wire x1="54.012565625" y1="48.9874375" x2="54.353559375" y2="49.35355" width="0.254" layer="16" curve="4.06896"/>
 </signal>
 <signal name="A5/SCL">
-<contactref element="U1" pad="47"/>
-<contactref element="J3" pad="4"/>
+<contactref element="U2" pad="47"/>
 <contactref element="J4" pad="4"/>
+<contactref element="J3" pad="4"/>
 <wire x1="57.5" y1="65.5" x2="58.5" y2="65.5" width="0.254" layer="1"/>
 <wire x1="58.5" y1="65.5" x2="59" y2="65" width="0.254" layer="1" curve="-90"/>
 <wire x1="59" y1="65" x2="59" y2="57" width="0.254" layer="1"/>
@@ -24060,7 +24001,7 @@ Your Multi-CB Team
 <wire x1="53.762565625" y1="49.44454375" x2="33.1590125" y2="28.840990625" width="0.254" layer="16"/>
 </signal>
 <signal name="PA04">
-<contactref element="U1" pad="48"/>
+<contactref element="U2" pad="48"/>
 <contactref element="Q6" pad="1"/>
 <wire x1="32.0783375" y1="28.467425" x2="35.31801875" y2="31.70710625" width="0.254" layer="1"/>
 <wire x1="35.31801875" y1="31.70710625" x2="36.025125" y2="32" width="0.254" layer="1" curve="-45"/>
@@ -24070,7 +24011,7 @@ Your Multi-CB Team
 </signal>
 <signal name="UDPI">
 <contactref element="DEBUG" pad="3"/>
-<contactref element="U1" pad="41"/>
+<contactref element="U2" pad="41"/>
 <wire x1="81.8470375" y1="26.4490125" x2="81.8470375" y2="29.19585625" width="0.254" layer="16"/>
 <wire x1="81.8470375" y1="29.19585625" x2="81.700590625" y2="29.549409375" width="0.254" layer="16" curve="45"/>
 <wire x1="81.700590625" y1="29.549409375" x2="77.479703125" y2="33.770296875" width="0.254" layer="16"/>
@@ -24084,18 +24025,18 @@ Your Multi-CB Team
 <via x="35.15533125" y="26.594671875" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$19">
-<contactref element="U2" pad="6"/>
-<contactref element="R23" pad="1"/>
+<contactref element="U1" pad="6"/>
+<contactref element="R5" pad="1"/>
 <wire x1="33.5" y1="88" x2="36.5" y2="88" width="0.254" layer="1"/>
 </signal>
 <signal name="N$20">
-<contactref element="R23" pad="2"/>
-<contactref element="D4" pad="A"/>
+<contactref element="R5" pad="2"/>
+<contactref element="D2" pad="A"/>
 <wire x1="38" y1="88" x2="38" y2="86.25" width="0.254" layer="1"/>
 </signal>
 <signal name="V3">
-<contactref element="U2" pad="10"/>
-<contactref element="C11" pad="1"/>
+<contactref element="U1" pad="10"/>
+<contactref element="C3" pad="1"/>
 <wire x1="33.5" y1="90" x2="34.5857875" y2="90" width="0.254" layer="1"/>
 <wire x1="34.5857875" y1="90" x2="35.29289375" y2="90.29289375" width="0.254" layer="1" curve="45"/>
 <wire x1="35.29289375" y1="90.29289375" x2="35.79289375" y2="90.5" width="0.254" layer="1" curve="-45"/>
@@ -24103,116 +24044,116 @@ Your Multi-CB Team
 </signal>
 <signal name="N$17">
 <contactref element="Q7" pad="3"/>
-<contactref element="R14" pad="1"/>
+<contactref element="R28" pad="1"/>
 <wire x1="45.75" y1="38.75" x2="45.75" y2="36.1" width="0.254" layer="1"/>
-<contactref element="D9" pad="C"/>
+<contactref element="D10" pad="C"/>
 <wire x1="45.75" y1="38.75" x2="47.5" y2="38.75" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="R17" pad="2"/>
-<contactref element="D12" pad="A"/>
+<contactref element="R1" pad="2"/>
+<contactref element="D1" pad="A"/>
 <wire x1="22" y1="96.5" x2="20.25" y2="96.5" width="0.254" layer="1"/>
 </signal>
 <signal name="PF03">
-<contactref element="U1" pad="37"/>
+<contactref element="U2" pad="37"/>
 </signal>
 <signal name="PF02">
-<contactref element="U1" pad="36"/>
+<contactref element="U2" pad="36"/>
 </signal>
 <signal name="N$22">
-<contactref element="D2" pad="A"/>
-<contactref element="R24" pad="1"/>
+<contactref element="D6" pad="A"/>
+<contactref element="R9" pad="1"/>
 <wire x1="25.5" y1="40.25" x2="25.5" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="D6" pad="A"/>
-<contactref element="R20" pad="1"/>
+<contactref element="D7" pad="A"/>
+<contactref element="R10" pad="1"/>
 <wire x1="31" y1="40.25" x2="31" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="R29" pad="1"/>
-<contactref element="D5" pad="A"/>
+<contactref element="R11" pad="1"/>
+<contactref element="D8" pad="A"/>
 <wire x1="36.5" y1="40.25" x2="36.5" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$24">
-<contactref element="R30" pad="1"/>
-<contactref element="D7" pad="A"/>
+<contactref element="R12" pad="1"/>
+<contactref element="D9" pad="A"/>
 <wire x1="42" y1="40.25" x2="42" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$26">
-<contactref element="R27" pad="1"/>
-<contactref element="D8" pad="A"/>
+<contactref element="R14" pad="1"/>
+<contactref element="D11" pad="A"/>
 <wire x1="53" y1="40.25" x2="53" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$27">
-<contactref element="D1" pad="A"/>
-<contactref element="R28" pad="1"/>
+<contactref element="D4" pad="A"/>
+<contactref element="R7" pad="1"/>
 <wire x1="14.5" y1="40.25" x2="14.5" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$33">
-<contactref element="R25" pad="1"/>
-<contactref element="D10" pad="A"/>
+<contactref element="R8" pad="1"/>
+<contactref element="D5" pad="A"/>
 <wire x1="20" y1="41.5" x2="20" y2="40.25" width="0.254" layer="1"/>
 </signal>
 <signal name="N$34">
-<contactref element="D9" pad="A"/>
-<contactref element="R26" pad="1"/>
+<contactref element="D10" pad="A"/>
+<contactref element="R13" pad="1"/>
 <wire x1="47.5" y1="40.25" x2="47.5" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="VCORE">
-<contactref element="U5" pad="C2"/>
+<contactref element="U3" pad="C2"/>
 </signal>
 <signal name="DVCC1">
-<contactref element="U5" pad="D2"/>
+<contactref element="U3" pad="D2"/>
 </signal>
 <signal name="DCOR">
-<contactref element="U5" pad="J8"/>
+<contactref element="U3" pad="J8"/>
 </signal>
 <signal name="DVCC2">
-<contactref element="U5" pad="C6"/>
+<contactref element="U3" pad="C6"/>
 </signal>
 <signal name="DVSS3">
-<contactref element="U5" pad="C7"/>
+<contactref element="U3" pad="C7"/>
 </signal>
 <signal name="AVCC1">
-<contactref element="U5" pad="F6"/>
+<contactref element="U3" pad="F6"/>
 </signal>
 <signal name="AVCC2">
-<contactref element="U5" pad="D5"/>
+<contactref element="U3" pad="D5"/>
 </signal>
 <signal name="AVSS2">
-<contactref element="U5" pad="D6"/>
+<contactref element="U3" pad="D6"/>
 </signal>
 <signal name="AVSS1">
-<contactref element="U5" pad="F5"/>
+<contactref element="U3" pad="F5"/>
 </signal>
 <signal name="DVSS1">
-<contactref element="U5" pad="F2"/>
+<contactref element="U3" pad="F2"/>
 </signal>
 <signal name="DVSS2">
-<contactref element="U5" pad="E6"/>
+<contactref element="U3" pad="E6"/>
 </signal>
 <signal name="VSW">
-<contactref element="U5" pad="E2"/>
+<contactref element="U3" pad="E2"/>
 </signal>
 <signal name="AVSS3">
-<contactref element="U5" pad="E5"/>
+<contactref element="U3" pad="E5"/>
 </signal>
 <signal name="N$28">
-<contactref element="D3" pad="1"/>
-<contactref element="R35" pad="2"/>
+<contactref element="D12" pad="1"/>
+<contactref element="R31" pad="2"/>
 <wire x1="53.75" y1="21" x2="55.95" y2="21" width="0.254" layer="1"/>
 <wire x1="55.95" y1="21" x2="56" y2="20.95" width="0.254" layer="1"/>
 </signal>
 <signal name="N$35">
-<contactref element="D3" pad="2"/>
-<contactref element="R34" pad="2"/>
+<contactref element="D12" pad="2"/>
+<contactref element="R33" pad="2"/>
 <wire x1="53.75" y1="18" x2="53.8" y2="18.05" width="0.254" layer="1"/>
 <wire x1="53.8" y1="18.05" x2="56" y2="18.05" width="0.254" layer="1"/>
 </signal>
 <signal name="N$36">
-<contactref element="D3" pad="3"/>
-<contactref element="R36" pad="2"/>
+<contactref element="D12" pad="3"/>
+<contactref element="R32" pad="2"/>
 <wire x1="58" y1="18.05" x2="58" y2="19.0857875" width="0.254" layer="1"/>
 <wire x1="58" y1="19.0857875" x2="57.5857875" y2="19.5" width="0.254" layer="1" curve="90"/>
 <wire x1="57.5857875" y1="19.5" x2="53.75" y2="19.5" width="0.254" layer="1"/>
