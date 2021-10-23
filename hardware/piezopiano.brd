@@ -321,7 +321,7 @@ D10 = Buzzer</text>
 <wire x1="10.77" y1="47.5" x2="9.5" y2="48.77" width="0.15" layer="21" curve="-90"/>
 <wire x1="9.5" y1="48.77" x2="9.5" y2="50" width="0.15" layer="21"/>
 <wire x1="9.5" y1="50" x2="8.5" y2="51" width="0.15" layer="21" curve="90"/>
-<text x="54.25" y="59.5" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">QWICC</text>
+<text x="54.25" y="59.5" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">QWIIC</text>
 <wire x1="54.25" y1="63" x2="54.25" y2="66" width="0.1524" layer="25"/>
 <wire x1="54.25" y1="66" x2="55.25" y2="66" width="0.1524" layer="25"/>
 <wire x1="54.25" y1="56" x2="54.25" y2="53" width="0.1524" layer="25"/>
