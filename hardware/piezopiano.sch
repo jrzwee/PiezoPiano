@@ -1369,7 +1369,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </device>
 </devices>
 </deviceset>
-<deviceset name="SKQGADE010" urn="urn:adsk.eagle:component:16759171/3" prefix="S" library_version="17">
+<deviceset name="TS-1187A-B-A-B" urn="urn:adsk.eagle:component:16759171/4" prefix="S" library_version="18">
 <gates>
 <gate name="G$1" symbol="TS2" x="0" y="0"/>
 </gates>
@@ -1385,7 +1385,12 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <package3dinstance package3d_urn="urn:adsk.eagle:package:16672570/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tactile Button SMD"/>
+<attribute name="LCSC" value="C318884"/>
+<attribute name="MF" value="XKB Connectivity"/>
+<attribute name="MPN" value="TS-1187A-B-A-B"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1844,7 +1849,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA4809" urn="urn:adsk.eagle:component:30825333/2" prefix="U" library_version="8">
+<deviceset name="ATMEGA4809" urn="urn:adsk.eagle:component:30825333/2" locally_modified="yes" prefix="U" library_version="8" library_locally_modified="yes">
 <description>ATMEGA4809</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA4809" x="0" y="0"/>
@@ -1906,13 +1911,11 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CODE-ARDUINO" value="ATMEGA4809" constant="no"/>
-<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf" constant="no"/>
-<attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756" constant="no"/>
-<attribute name="DISTRIBUTOR-PN" value="ATMEGA4809-AFRCT-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Microchip" constant="no"/>
-<attribute name="MANUFACTURER-PN" value="ATMEGA4809-AFR" constant="no"/>
-<attribute name="VALUE" value="ATMEGA4809" constant="no"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf"/>
+<attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756"/>
+<attribute name="DISTRIBUTOR-PN" value="ATMEGA4809-AFRCT-ND"/>
+<attribute name="MANUFACTURER" value="Microchip"/>
+<attribute name="MPN" value="ATMEGA4809-AFR"/>
 </technology>
 </technologies>
 </device>
@@ -2595,13 +2598,8 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:31106544/3" prefix="J" uservalue="yes" library_version="14">
-<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
-An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
-
-&lt;br&gt;&lt;br&gt;
-
-We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14205”&gt;100mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14206”&gt;50mm&lt;/a&gt;, and &lt;a href=”https://www.sparkfun.com/products/14207”&gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href=”https://www.sparkfun.com/products/14323”&gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
+<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:31106544/4" prefix="J" uservalue="yes" library_version="15">
+<description>&lt;b&gt;SMD Header 1MM 4Pin&lt;/b&gt;</description>
 <gates>
 <gate name="J1" symbol="I2C_STANDARD-1" x="2.54" y="0"/>
 </gates>
@@ -2617,7 +2615,11 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31106542/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Header SMD 1MM 4Pin"/>
+<attribute name="MF" value="BOOMELE"/>
+<attribute name="MPN" value="C145956"/>
+</technology>
 </technologies>
 </device>
 <device name="SR" package="1X04_1MM_RA_STRESSRELIEF">
@@ -3364,14 +3366,14 @@ chip</description>
 </class>
 </classes>
 <parts>
-<part name="S4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="SKQGADE010" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
 <part name="Q3" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
 <part name="Q4" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
 <part name="Q1" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
@@ -3518,7 +3520,7 @@ chip</description>
 <part name="R35" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="DNP" device="-0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="DNP"/>
 <part name="R34" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="DNP" device="-0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="DNP"/>
 <part name="Q9" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DNP"/>
-<part name="U3" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="MSP432P401RIZXHR" device="" package3d_urn="urn:adsk.eagle:package:31294788/1"/>
+<part name="U3" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="MSP432P401RIZXHR" device="" package3d_urn="urn:adsk.eagle:package:31294788/1" value="DNP"/>
 <part name="R33" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R31" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R32" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
@@ -3535,35 +3537,35 @@ chip</description>
 <instances>
 <instance part="S4" gate="G$1" x="363.22" y="236.22" smashed="yes">
 <attribute name="NAME" x="355.219" y="234.315" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="232.41" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="232.41" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S8" gate="G$1" x="363.22" y="210.82" smashed="yes">
 <attribute name="NAME" x="355.219" y="208.915" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="207.01" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="207.01" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S3" gate="G$1" x="363.22" y="160.02" smashed="yes">
 <attribute name="NAME" x="355.219" y="158.115" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="156.21" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="156.21" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S7" gate="G$1" x="363.22" y="185.42" smashed="yes">
 <attribute name="NAME" x="355.219" y="183.515" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="181.61" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="181.61" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S2" gate="G$1" x="363.22" y="109.22" smashed="yes">
 <attribute name="NAME" x="355.219" y="107.315" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="105.41" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="105.41" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S6" gate="G$1" x="363.22" y="134.62" smashed="yes">
 <attribute name="NAME" x="355.219" y="132.715" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="130.81" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="130.81" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S1" gate="G$1" x="363.22" y="58.42" smashed="yes">
 <attribute name="NAME" x="355.219" y="56.515" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="54.61" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="54.61" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S5" gate="G$1" x="363.22" y="83.82" smashed="yes">
 <attribute name="NAME" x="355.219" y="81.915" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="367.411" y="80.01" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="357.251" y="80.01" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="Q3" gate="G$1" x="238.76" y="205.74" smashed="yes">
 <attribute name="NAME" x="241.3" y="208.28" size="1.778" layer="95" align="center-left"/>
@@ -4013,7 +4015,6 @@ chip</description>
 </instance>
 <instance part="U2" gate="G$1" x="101.6" y="210.82" smashed="yes">
 <attribute name="NAME" x="124.46" y="238.76" size="1.778" layer="95"/>
-<attribute name="VALUE" x="124.46" y="236.22" size="1.778" layer="96"/>
 </instance>
 <instance part="DEBUG" gate="G$1" x="33.02" y="208.28" smashed="yes">
 <attribute name="NAME" x="22.86" y="214.63" size="1.27" layer="95" align="center-left"/>

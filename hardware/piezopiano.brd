@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -21735,7 +21735,7 @@ chip</description>
 <rectangle x1="3.98045" y1="8.638640625" x2="4.05045" y2="8.645" layer="21"/>
 <rectangle x1="4.005909375" y1="8.645" x2="4.025" y2="8.651359375" layer="21"/>
 </package>
-<package name="EXPLANATION-2-2MM" urn="urn:adsk.eagle:footprint:31668744/1" locally_modified="yes" library_version="9" library_locally_modified="yes">
+<package name="EXPLANATION-2-2MM" urn="urn:adsk.eagle:footprint:31668744/2" library_version="10">
 <rectangle x1="-1" y1="1" x2="1" y2="3" layer="21"/>
 <rectangle x1="-1" y1="-3" x2="1" y2="-1" layer="1"/>
 <rectangle x1="-1" y1="-3" x2="1" y2="-1" layer="29"/>
@@ -21772,7 +21772,7 @@ chip</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="EXPLANATION-2-2MM" urn="urn:adsk.eagle:package:31668745/1" type="empty" library_version="9">
+<package3d name="EXPLANATION-2-2MM" urn="urn:adsk.eagle:package:31668745/2" type="empty" library_version="10">
 <packageinstances>
 <packageinstance name="EXPLANATION-2-2MM"/>
 </packageinstances>
@@ -22003,35 +22003,67 @@ Your Multi-CB Team
 </pass>
 </autorouter>
 <elements>
-<element name="S4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="39.25" y="4.25" smashed="yes" rot="R180">
+<element name="S4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="39.25" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="39.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="39.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="39.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="39.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.75" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="39.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="85.25" y="4.25" smashed="yes" rot="R180">
+<element name="S8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="85.25" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="85.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="85.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="85.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="85.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="88.75" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="85.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="27.75" y="4.25" smashed="yes" rot="R180">
+<element name="S3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="27.75" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="27.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="27.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="27.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="27.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="31.25" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="27.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="73.75" y="4.25" smashed="yes" rot="R180">
+<element name="S7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="73.75" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="73.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="73.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="73.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="73.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="77.25" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="73.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="16.25" y="4.25" smashed="yes" rot="R180">
+<element name="S2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="16.25" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="16.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="16.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="16.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="16.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.75" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="16.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="62.25" y="4.25" smashed="yes" rot="R180">
+<element name="S6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="62.25" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="62.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="62.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="62.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="62.25" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="65.75" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="62.25" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="4.75" y="4.25" smashed="yes" rot="R180">
+<element name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="4.75" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="4.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="4.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="4.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="4.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.25" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="4.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="S5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="SKQGADE010" x="50.75" y="4.25" smashed="yes" rot="R180">
+<element name="S5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" package="TACTILE_SWITCH_SMD_5.2MM" package3d_urn="urn:adsk.eagle:package:16672570/3" value="TS-1187A-B-A-B" x="50.75" y="4.25" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Tactile Button SMD" x="50.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C318884" x="50.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="XKB Connectivity" x="50.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TS-1187A-B-A-B" x="50.75" y="4.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="54.25" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="50.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
@@ -22551,14 +22583,12 @@ Your Multi-CB Team
 <element name="U$2" library="EET-Symbols" package="QR-SPACE" value="" x="3" y="62" smashed="yes" rot="R270"/>
 <element name="U$6" library="EET-Symbols" package="STACKUP-2L" value="" x="88.75" y="15" smashed="yes" rot="R90"/>
 <element name="U2" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="TQFP48" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809" x="31" y="23.5" smashed="yes" rot="R315">
-<attribute name="CODE-ARDUINO" value="ATMEGA4809" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTRIBUTOR-PN" value="ATMEGA4809-AFRCT-ND" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MANUFACTURER" value="Microchip" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MANUFACTURER-PN" value="ATMEGA4809-AFR" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="ATMEGA4809-AFR" x="31" y="23.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="31" y="29.156853125" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE" x="27.146196875" y="23.4575" size="1.016" layer="27" rot="R315"/>
 </element>
 <element name="DEBUG" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="490107670612_DEBUGGING" package3d_urn="urn:adsk.eagle:package:16760574/1" value="AVR-UPDI-6-SKEDD" x="80.5" y="26" smashed="yes" rot="R315">
 <attribute name="NAME" x="83.328425" y="28.828428125" size="1.016" layer="25" font="vector" ratio="15" rot="R315" align="center"/>
@@ -22903,10 +22933,16 @@ Your Multi-CB Team
 <attribute name="VOLTAGE" value="75V" x="22" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="55" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Header SMD 1MM 4Pin" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="BOOMELE" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C145956" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="56" y="55" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="63" y="55" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="J3" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="64" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Header SMD 1MM 4Pin" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="BOOMELE" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C145956" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="56" y="64" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="63" y="64" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
@@ -23022,7 +23058,7 @@ Your Multi-CB Team
 <attribute name="PACKAGE" value="SOT-23" x="70.25" y="21" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="70.25" y="18.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="U3" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="BGA80" package3d_urn="urn:adsk.eagle:package:31294788/1" value="MSP432P401RIZXHR" x="65" y="19.5" smashed="yes">
+<element name="U3" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" package="BGA80" package3d_urn="urn:adsk.eagle:package:31294788/1" value="DNP" x="65" y="19.5" smashed="yes">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="65" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PARTNO" value="296-45566-6-ND" x="65" y="19.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="65" y="19.5" size="1.778" layer="27" display="off"/>
@@ -23069,7 +23105,7 @@ Your Multi-CB Team
 <element name="U$4" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" package="WIZARD-6MM" value="" x="2" y="48" smashed="yes"/>
 <element name="U$5" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="PIANO-10MM" value="" x="57" y="29" smashed="yes"/>
 <element name="U$1" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="CATICORN-7MM" value="" x="46" y="81.5" smashed="yes"/>
-<element name="U$8" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="EXPLANATION-2-2MM" package3d_urn="urn:adsk.eagle:package:31668745/1" value="" x="49.25" y="51" smashed="yes" rot="R180"/>
+<element name="U$8" library="zaan-Symbol-Artwork" library_urn="urn:adsk.eagle:library:31336299" package="EXPLANATION-2-2MM" package3d_urn="urn:adsk.eagle:package:31668745/2" value="" x="49.25" y="51" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -23262,69 +23298,10 @@ Your Multi-CB Team
 <wire x1="57.5" y1="53.5" x2="56.5" y2="53.5" width="0.254" layer="1"/>
 <via x="56.5" y="53.5" extent="1-16" drill="0.3"/>
 <contactref element="J2" pad="1"/>
-<wire x1="39.75" y1="96.5" x2="40.75" y2="96.5" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="98.095" x2="38.75" y2="96.5" width="0" layer="19" extent="16-16"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="35.57" y1="93.915" x2="39.25" y2="95.7" width="0" layer="19" extent="1-16"/>
 <wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="38" y1="90.5" x2="34.475" y2="91.75" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5" y1="86.25" x2="38" y2="90.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="89" x2="34.475" y2="91.75" width="0" layer="19" extent="1-1"/>
-<wire x1="29.75" y1="86.5" x2="30" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="28.025" y1="91.75" x2="28" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="93.915" x2="28.025" y2="92.99" width="0" layer="19" extent="1-16"/>
-<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="25" y1="96.5" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="23.5" y1="97.25" x2="25" y2="97.25" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="98.095" x2="25" y2="97.25" width="0" layer="19" extent="16-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="20.25" y1="95" x2="23.5" y2="96.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.601971875" y1="88.351971875" x2="20.25" y2="94.25" width="0" layer="19" extent="1-1"/>
-<wire x1="56.5" y1="62.5" x2="36.5" y2="86.25" width="0" layer="19" extent="1-1"/>
-<wire x1="57.5" y1="53.5" x2="57.5" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="52.2" y1="35" x2="56.5" y2="53.5" width="0" layer="19" extent="1-1"/>
-<wire x1="46.7" y1="33.9" x2="52.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="41.2" y1="33.9" x2="46.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="35.7" y1="33.9" x2="41.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="35.419415625" y1="28.980075" x2="35.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="30.2" y1="33.9" x2="35.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="24.75" y1="35" x2="30.2" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="19.2" y1="33.9" x2="24.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="33.9" x2="19.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33.49255" y1="19.9467875" x2="33.846103125" y2="26.69965625" width="0" layer="19" extent="1-1"/>
-<wire x1="26.73968125" y1="21.714553125" x2="33.49255" y2="19.9467875" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="25.5" x2="13.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="25.5" x2="12" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="25.5" x2="9.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="25.5" x2="7" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="25.5" x2="4.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="3.35" y1="35.75" x2="4.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="40.25" y1="8" x2="35.77296875" y2="18.373475" width="0" layer="19" extent="1-1"/>
-<wire x1="42.15" y1="6.155" x2="41" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="6.155" x2="43.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="51.75" y1="8" x2="47.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.65" y1="6.155" x2="52.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="58.25" y1="6.155" x2="54.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="63.25" y1="8" x2="59.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="65.15" y1="6.155" x2="64" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="69.75" y1="6.155" x2="66.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="74.75" y1="8" x2="70.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="76.65" y1="6.155" x2="75.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="81.25" y1="6.155" x2="77.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="86.25" y1="8" x2="82.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="88.15" y1="6.155" x2="87" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="36.35" y1="6.155" x2="40.25" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="6.155" x2="35.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="29.5" y1="8" x2="30.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="24.85" y1="6.155" x2="28.75" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="6.155" x2="23.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="18" y1="8" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.35" y1="6.155" x2="17.25" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="8.75" y1="6.155" x2="12.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="6.5" y1="8" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="1.85" y1="6.155" x2="5.75" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="80.9490125" y1="23.754934375" x2="86.25" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D2">
 <contactref element="U2" pad="44"/>
