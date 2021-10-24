@@ -28,7 +28,7 @@ This code snippet gives an insight how the waveform is generated. The algorithm 
 TBD as there is a refactoring in the making.
 
 ## Renders
-![PCB Piano](/hardware/renders/20200423_PiezoPiano_V1.1.png)
+![PCB Piano](/hardware/renders/20211024_PiezoPiano_A_V1.2.png)
 
 ## License
 [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
