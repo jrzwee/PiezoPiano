@@ -290,7 +290,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Discrete" urn="urn:adsk.eagle:library:16759095">
+<library name="zaan-Discrete">
 <packages>
 <package name="SOT23" urn="urn:adsk.eagle:footprint:29281360/1" library_version="2">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
@@ -401,7 +401,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Capacitors" urn="urn:adsk.eagle:library:16758934">
+<library name="zaan-Capacitors">
 <packages>
 <package name="C0805" urn="urn:adsk.eagle:footprint:29277623/1" library_version="8">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
@@ -667,7 +667,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Resistors" urn="urn:adsk.eagle:library:16759442">
+<library name="zaan-Resistors">
 <packages>
 <package name="R0603" urn="urn:adsk.eagle:footprint:29277633/1" library_version="7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -1237,7 +1237,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Electromechanical" urn="urn:adsk.eagle:library:16759157">
+<library name="zaan-Electromechanical">
 <packages>
 <package name="CM12P/5.0P" urn="urn:adsk.eagle:footprint:16672564/1">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
@@ -1251,7 +1251,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <text x="0" y="7" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-7" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:16672563/2" library_version="17">
+<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:16672563/2">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
@@ -1282,7 +1282,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <packageinstance name="CM12P/5.0P"/>
 </packageinstances>
 </package3d>
-<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:16672570/3" type="model" library_version="17">
+<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:16672570/3" type="model">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
@@ -1369,7 +1369,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </device>
 </devices>
 </deviceset>
-<deviceset name="TS-1187A-B-A-B" urn="urn:adsk.eagle:component:16759171/4" prefix="S" library_version="18">
+<deviceset name="TS-1187A-B-A-B" urn="urn:adsk.eagle:component:16759171/4" prefix="S">
 <gates>
 <gate name="G$1" symbol="TS2" x="0" y="0"/>
 </gates>
@@ -1397,7 +1397,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-IC-Microcontroller" urn="urn:adsk.eagle:library:16759236">
+<library name="zaan-IC-Microcontroller">
 <packages>
 <package name="TQFP48" urn="urn:adsk.eagle:footprint:30825326/1" library_version="4">
 <circle x="-2.75" y="2.75" radius="0.2827" width="0.254" layer="21"/>
@@ -1849,7 +1849,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA4809" urn="urn:adsk.eagle:component:30825333/2" locally_modified="yes" prefix="U" library_version="8" library_locally_modified="yes">
+<deviceset name="ATMEGA4809" urn="urn:adsk.eagle:component:30825333/2" locally_modified="yes" prefix="U">
 <description>ATMEGA4809</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA4809" x="0" y="0"/>
@@ -1912,6 +1912,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf"/>
+<attribute name="DESCRIPTION" value="ATmega4809 Microcontroller"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756"/>
 <attribute name="DISTRIBUTOR-PN" value="ATMEGA4809-AFRCT-ND"/>
 <attribute name="MANUFACTURER" value="Microchip"/>
@@ -2029,7 +2030,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Symbols" urn="urn:adsk.eagle:library:16759578">
+<library name="zaan-Symbols">
 <packages>
 </packages>
 <symbols>
@@ -2072,7 +2073,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:16759585/1" prefix="FRAME" uservalue="yes" library_version="13">
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:16759585/1" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -2088,7 +2089,7 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-IC-General" urn="urn:adsk.eagle:library:16759200">
+<library name="zaan-IC-General">
 <packages>
 <package name="MSOP10" urn="urn:adsk.eagle:footprint:16759212/1" library_version="3">
 <description>&lt;b&gt;10-Lead Mini Small Outline Package [MSOP]&lt;/b&gt; (RM-10)&lt;p&gt;
@@ -2190,7 +2191,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Connectors" urn="urn:adsk.eagle:library:16759010">
+<library name="zaan-Connectors">
 <packages>
 <package name="USB-C-16P" urn="urn:adsk.eagle:footprint:16672512/3" library_version="10">
 <smd name="B6" x="0.75" y="4.01" dx="0.3" dy="1.7" layer="1"/>
@@ -2559,7 +2560,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR-UPDI-6" urn="urn:adsk.eagle:component:16759075/3" prefix="DBG" library_version="8">
+<deviceset name="AVR-UPDI-6" urn="urn:adsk.eagle:component:16759075/3" locally_modified="yes" prefix="DBG">
 <gates>
 <gate name="G$1" symbol="AVR-UPDI-6" x="0" y="0"/>
 </gates>
@@ -2593,7 +2594,9 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <package3dinstance package3d_urn="urn:adsk.eagle:package:16760574/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="DNP"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2640,7 +2643,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Optoelectronics" urn="urn:adsk.eagle:library:16759395">
+<library name="zaan-Optoelectronics">
 <packages>
 <package name="WL-SFCX_1210" urn="urn:adsk.eagle:footprint:16759399/3" library_version="11">
 <smd name="2" x="1.45" y="-1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
@@ -3137,7 +3140,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 </device>
 </devices>
 </deviceset>
-<deviceset name="WS2812B" urn="urn:adsk.eagle:component:31106146/1" prefix="D" library_version="10" library_locally_modified="yes">
+<deviceset name="WS2812B" urn="urn:adsk.eagle:component:31106146/2" prefix="D">
 <description>Intelligent control LED integrated light source&lt;p&gt;
 
 &lt;a href="http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -3159,7 +3162,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <technology name="">
 <attribute name="CATEGORY" value="LED" constant="no"/>
 <attribute name="COLOR" value="RGB" constant="no"/>
-<attribute name="DESCRIPTION" value="LED integrated light source" constant="no"/>
+<attribute name="DESCRIPTION" value="WS2812 RGB LED" constant="no"/>
 <attribute name="MANUFACTURER" value="Worldsemi" constant="no"/>
 <attribute name="MPN" value="WS2812B" constant="no"/>
 <attribute name="OPERATING_TEMP" value="-25 ℃ to +80℃(TJ)" constant="no"/>
@@ -3176,7 +3179,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-Fuses" urn="urn:adsk.eagle:library:16759178">
+<library name="zaan-Fuses">
 <packages>
 <package name="F0805" urn="urn:adsk.eagle:footprint:17200785/2" library_version="10">
 <description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
@@ -3252,7 +3255,7 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="zaan-No-Category" urn="urn:adsk.eagle:library:16759360">
+<library name="zaan-No-Category">
 <packages>
 <package name="1X01" urn="urn:adsk.eagle:footprint:31104795/6" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -3318,7 +3321,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINROW-1X5" urn="urn:adsk.eagle:component:31104798/7" prefix="JP" library_version="8">
+<deviceset name="PINROW-1X5" urn="urn:adsk.eagle:component:31104798/7" locally_modified="yes" prefix="JP">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD1" x="0" y="0"/>
@@ -3344,6 +3347,7 @@ chip</description>
 <attribute name="SUB-CATEGORY" value="PIN-HEADER" constant="no"/>
 <attribute name="THERMALLOSS" value="" constant="no"/>
 <attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="DNP" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3366,30 +3370,30 @@ chip</description>
 </class>
 </classes>
 <parts>
-<part name="S4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="S5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
-<part name="Q3" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q4" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q1" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q2" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q5" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q6" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q8" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="Q7" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
-<part name="LS1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS8" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS3" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS6" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS5" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS2" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS4" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
-<part name="LS7" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="S4" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S8" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S3" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S7" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S2" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S6" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S1" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="S5" library="zaan-Electromechanical" deviceset="TS-1187A-B-A-B" device="" package3d_urn="urn:adsk.eagle:package:16672570/3"/>
+<part name="Q3" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q4" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q1" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q2" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q5" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q6" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q8" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="Q7" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2"/>
+<part name="LS1" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS8" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS3" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS6" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS5" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS2" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS4" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
+<part name="LS7" library="zaan-Electromechanical" deviceset="F/CM12P" device="" package3d_urn="urn:adsk.eagle:package:16672571/7"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3399,14 +3403,14 @@ chip</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R20" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R22" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R16" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R18" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R24" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R26" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R30" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
-<part name="R28" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R20" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R22" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R16" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R18" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R24" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R26" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R30" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
+<part name="R28" library="zaan-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="100R"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -3414,116 +3418,116 @@ chip</description>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C7" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C11" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C15" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C15" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C10" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C14" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C9" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C9" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C13" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C8" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C12" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="Custom" deviceset="CON2" device=""/>
-<part name="FRAME1" library="zaan-Symbols" library_urn="urn:adsk.eagle:library:16759578" deviceset="A3L-LOC" device=""/>
-<part name="R19" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R23" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R25" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R21" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R29" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R15" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R17" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="R27" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
-<part name="C6" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="FRAME1" library="zaan-Symbols" deviceset="A3L-LOC" device=""/>
+<part name="R19" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R23" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R25" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R21" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R29" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R15" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R17" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="R27" library="zaan-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="10k"/>
+<part name="C6" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U1" library="zaan-IC-General" library_urn="urn:adsk.eagle:library:16759200" deviceset="CH340E" device="_MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/2"/>
-<part name="J1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/4"/>
-<part name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" deviceset="MF-PSMF" device="035X-2" package3d_urn="urn:adsk.eagle:package:17200786/3"/>
+<part name="U1" library="zaan-IC-General" deviceset="CH340E" device="_MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/2"/>
+<part name="J1" library="zaan-Connectors" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/4"/>
+<part name="F1" library="zaan-Fuses" deviceset="MF-PSMF" device="035X-2" package3d_urn="urn:adsk.eagle:package:17200786/3"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="5.1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k"/>
-<part name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="5.1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k"/>
+<part name="R3" library="zaan-Resistors" deviceset="5.1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k"/>
+<part name="R2" library="zaan-Resistors" deviceset="5.1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="5.1k"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D12" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:16759422/3" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes"/>
-<part name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R6" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="U2" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="ATMEGA4809" device="" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809"/>
-<part name="DEBUG" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-UPDI-6" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16760574/1"/>
-<part name="C5" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="D12" library="zaan-Optoelectronics" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:16759422/3" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes"/>
+<part name="R4" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R6" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="U2" library="zaan-IC-Microcontroller" deviceset="ATMEGA4809" device="" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809"/>
+<part name="DEBUG" library="zaan-Connectors" deviceset="AVR-UPDI-6" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16760574/1" value="DNP"/>
+<part name="C5" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="D2" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="R5" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="D2" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="R5" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="C3" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP6" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7"/>
-<part name="JP5" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7"/>
-<part name="JP4" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7"/>
-<part name="JP3" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7"/>
-<part name="JP2" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7"/>
-<part name="C4" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="JP6" library="zaan-No-Category" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7" value="DNP"/>
+<part name="JP5" library="zaan-No-Category" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7" value="DNP"/>
+<part name="JP4" library="zaan-No-Category" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7" value="DNP"/>
+<part name="JP3" library="zaan-No-Category" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7" value="DNP"/>
+<part name="JP2" library="zaan-No-Category" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7" value="DNP"/>
+<part name="C4" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u"/>
-<part name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u"/>
+<part name="C1" library="zaan-Capacitors" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u"/>
+<part name="C2" library="zaan-Capacitors" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/4" value="22u"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D4" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D6" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D8" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D7" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D9" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D11" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D10" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="D5" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="JP1" library="zaan-No-Category" library_urn="urn:adsk.eagle:library:16759360" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7"/>
-<part name="D3" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:31106145/1"/>
+<part name="D4" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D6" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D8" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D7" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D9" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D11" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D10" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="D5" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="JP1" library="zaan-No-Category" deviceset="PINROW-1X5" device="" package3d_urn="urn:adsk.eagle:package:31104797/7" value="DNP"/>
+<part name="D3" library="zaan-Optoelectronics" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:31106145/1"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
-<part name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="D1" library="zaan-Optoelectronics" deviceset="CHIP-FLAT-Y" device="_0603-0.55MM" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW"/>
+<part name="R1" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J4" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/3"/>
-<part name="J3" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/3"/>
-<part name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R13" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R14" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R12" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R35" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="DNP" device="-0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="DNP"/>
-<part name="R34" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="DNP" device="-0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="DNP"/>
-<part name="Q9" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DNP"/>
-<part name="U3" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="MSP432P401RIZXHR" device="" package3d_urn="urn:adsk.eagle:package:31294788/1" value="DNP"/>
-<part name="R33" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R31" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R32" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="J4" library="zaan-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/3"/>
+<part name="J3" library="zaan-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:31106542/3"/>
+<part name="R10" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R9" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R8" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R13" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R14" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R7" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R11" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R12" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R35" library="zaan-Resistors" deviceset="DNP" device="-0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="DNP"/>
+<part name="R34" library="zaan-Resistors" deviceset="DNP" device="-0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="DNP"/>
+<part name="Q9" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DNP"/>
+<part name="U3" library="zaan-IC-Microcontroller" deviceset="MSP432P401RIZXHR" device="" package3d_urn="urn:adsk.eagle:package:31294788/1" value="DNP"/>
+<part name="R33" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R31" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R32" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 </parts>
 <sheets>
 <sheet>
