@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -298,13 +298,13 @@ ante in dui porttitor consequat. In hac habitasse platea dictumst. Donec auctor 
 vel elit tristique hendrerit. Pellentesque et faucibus quam. Vivamus at turpis laoreet, 
 ornare magna eget, malesuada nunc. Fusce malesuada massa felis, cursus finibus dui 
 viverra ut. Duis commodo finibus commodo. Morbi sodales vulputate mauris, eget 
-molestie ex gravida quis. Phasellus tempus velit eu orci lacinia imperdiet. Proin eget 
-ipsum non lectus mattis mollis vitae id arcu. Curabitur semper tempus dignissim. Nunc 
+molestie ex gravida quis. Phasellus  tempus velit eu orci lacinia imperdiet. Proin eget 
+ipsum non lectus mattis mollis vitae   arcu. Curabitur semper tempus dignissim. Nunc 
 efficitur magna vel nisi maximus, rhoncus laoreet leo vestibulum. Proin maximus convallis 
 est ut eleifend. Etiam sollicitudin sem id congue rutrum. Integer suscipit, ante in 
 consequat condimentum, est erat tempus purus, sed fringilla tortor augue sed justo. 
 Ut non nisl sit amet arcu cursus commodo eget et metus.</text>
-<text x="88.75" y="19" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">V1.2</text>
+<text x="88.75" y="19" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">V1.3</text>
 <text x="57.25" y="27.25" size="1.27" layer="21" font="vector" ratio="15">Piezo Piano</text>
 <text x="10.5" y="51" size="1.016" layer="21" font="vector" ratio="15" align="center-left">For starting, try:
 D4   = First Button
@@ -1249,11 +1249,12 @@ chip</description>
 <text x="0" y="0" size="1.016" layer="25" font="vector" ratio="15" align="center">JLCJLCJLCJLC</text>
 </package>
 <package name="QR-SPACE">
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.15" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.15" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.15" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-2.625" y1="2.625" x2="2.625" y2="2.625" width="0.15" layer="21"/>
+<wire x1="2.625" y1="2.625" x2="2.625" y2="-2.625" width="0.15" layer="21"/>
+<wire x1="2.625" y1="-2.625" x2="-2.625" y2="-2.625" width="0.15" layer="21"/>
+<wire x1="-2.625" y1="-2.625" x2="-2.625" y2="2.625" width="0.15" layer="21"/>
 <text x="0" y="3.5" size="0.8128" layer="21" font="vector" ratio="15" align="center">Marking</text>
+<rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="51"/>
 </package>
 <package name="STACKUP-2L">
 <wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
@@ -21735,7 +21736,7 @@ chip</description>
 <rectangle x1="3.98045" y1="8.638640625" x2="4.05045" y2="8.645" layer="21"/>
 <rectangle x1="4.005909375" y1="8.645" x2="4.025" y2="8.651359375" layer="21"/>
 </package>
-<package name="EXPLANATION-2-2MM" urn="urn:adsk.eagle:footprint:31668744/2" library_version="10">
+<package name="EXPLANATION-2-2MM" urn="urn:adsk.eagle:footprint:31668744/2" locally_modified="yes">
 <rectangle x1="-1" y1="1" x2="1" y2="3" layer="21"/>
 <rectangle x1="-1" y1="-3" x2="1" y2="-1" layer="1"/>
 <rectangle x1="-1" y1="-3" x2="1" y2="-1" layer="29"/>
@@ -21769,6 +21770,7 @@ chip</description>
 <vertex x="2.125" y="2.25"/>
 <vertex x="2.125" y="1.75"/>
 </polygon>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="41"/>
 </package>
 </packages>
 <packages3d>
@@ -23305,69 +23307,10 @@ Your Multi-CB Team
 <wire x1="57.5" y1="53.5" x2="56.5" y2="53.5" width="0.254" layer="1"/>
 <via x="56.5" y="53.5" extent="1-16" drill="0.3"/>
 <contactref element="J2" pad="1"/>
-<wire x1="39.75" y1="96.5" x2="40.75" y2="96.5" width="0" layer="19" extent="1-1"/>
-<wire x1="35.57" y1="98.095" x2="38.75" y2="96.5" width="0" layer="19" extent="16-16"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="35.57" y1="93.915" x2="39.25" y2="95.7" width="0" layer="19" extent="1-16"/>
 <wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="34.475" y1="92.99" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="38" y1="90.5" x2="34.475" y2="91.75" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5" y1="86.25" x2="38" y2="90.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30" y1="89" x2="34.475" y2="91.75" width="0" layer="19" extent="1-1"/>
-<wire x1="29.75" y1="86.5" x2="30" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="28.025" y1="91.75" x2="28" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="93.915" x2="28.025" y2="92.99" width="0" layer="19" extent="1-16"/>
-<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="25" y1="96.5" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="23.5" y1="97.25" x2="25" y2="97.25" width="0" layer="19" extent="1-1"/>
-<wire x1="26.93" y1="98.095" x2="25" y2="97.25" width="0" layer="19" extent="16-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
-<wire x1="20.25" y1="95" x2="23.5" y2="96.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.601971875" y1="88.351971875" x2="20.25" y2="94.25" width="0" layer="19" extent="1-1"/>
-<wire x1="56.5" y1="62.5" x2="36.5" y2="86.25" width="0" layer="19" extent="1-1"/>
-<wire x1="57.5" y1="53.5" x2="57.5" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="52.2" y1="35" x2="56.5" y2="53.5" width="0" layer="19" extent="1-1"/>
-<wire x1="46.7" y1="33.9" x2="52.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="41.2" y1="33.9" x2="46.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="35.7" y1="33.9" x2="41.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="35.419415625" y1="28.980075" x2="35.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="30.2" y1="33.9" x2="35.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="24.75" y1="35" x2="30.2" y2="35" width="0" layer="19" extent="1-1"/>
-<wire x1="19.2" y1="33.9" x2="24.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="33.9" x2="19.2" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33.49255" y1="19.9467875" x2="33.846103125" y2="26.69965625" width="0" layer="19" extent="1-1"/>
-<wire x1="26.73968125" y1="21.714553125" x2="33.49255" y2="19.9467875" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="25.5" x2="13.7" y2="33.9" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="25.5" x2="12" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="25.5" x2="9.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="25.5" x2="7" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="25.5" x2="4.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="3.35" y1="35.75" x2="4.5" y2="25.5" width="0" layer="19" extent="1-1"/>
-<wire x1="40.25" y1="8" x2="35.77296875" y2="18.373475" width="0" layer="19" extent="1-1"/>
-<wire x1="42.15" y1="6.155" x2="41" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="46.75" y1="6.155" x2="43.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="51.75" y1="8" x2="47.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="53.65" y1="6.155" x2="52.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="58.25" y1="6.155" x2="54.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="63.25" y1="8" x2="59.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="65.15" y1="6.155" x2="64" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="69.75" y1="6.155" x2="66.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="74.75" y1="8" x2="70.85" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="76.65" y1="6.155" x2="75.5" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="81.25" y1="6.155" x2="77.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="86.25" y1="8" x2="82.35" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="88.15" y1="6.155" x2="87" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="36.35" y1="6.155" x2="40.25" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="6.155" x2="35.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="29.5" y1="8" x2="30.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="24.85" y1="6.155" x2="28.75" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="6.155" x2="23.75" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="18" y1="8" x2="19.15" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="13.35" y1="6.155" x2="17.25" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="8.75" y1="6.155" x2="12.25" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="6.5" y1="8" x2="7.65" y2="6.155" width="0" layer="19" extent="1-1"/>
-<wire x1="1.85" y1="6.155" x2="5.75" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="80.9490125" y1="23.754934375" x2="86.25" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D2">
 <contactref element="U2" pad="44"/>
