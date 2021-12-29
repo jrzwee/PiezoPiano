@@ -5,7 +5,7 @@
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
     <ProjectGuid>dce6c7e3-ee26-4d79-826b-08594b9ad897</ProjectGuid>
-    <avrdevice>ATmega328PB</avrdevice>
+    <avrdevice>ATmega4809</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
     <Language>C</Language>
@@ -36,19 +36,19 @@
   <documentation help="" />
   <offline-documentation help="" />
   <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.26.0" />
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.42.0" />
   </dependencies>
 </framework-data>
     </AsfFrameworkConfig>
-    <avrtool>com.atmel.avrdbg.tool.ispmk2</avrtool>
-    <avrtoolserialnumber>000200121798</avrtoolserialnumber>
-    <avrdeviceexpectedsignature>0x1E9516</avrdeviceexpectedsignature>
-    <avrtoolinterface>ISP</avrtoolinterface>
-    <avrtoolinterfaceclock>125000</avrtoolinterfaceclock>
+    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <avrtoolserialnumber>J41800103729</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x1E9651</avrdeviceexpectedsignature>
+    <avrtoolinterface>UPDI</avrtoolinterface>
+    <avrtoolinterfaceclock>500000</avrtoolinterfaceclock>
     <com_atmel_avrdbg_tool_ispmk2>
       <ToolOptions>
         <InterfaceProperties>
-          <IspClock>125000</IspClock>
+          <IspClock>0</IspClock>
         </InterfaceProperties>
         <InterfaceName>ISP</InterfaceName>
       </ToolOptions>
@@ -56,11 +56,23 @@
       <ToolNumber>000200121798</ToolNumber>
       <ToolName>AVRISP mkII</ToolName>
     </com_atmel_avrdbg_tool_ispmk2>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <IspClock>125000</IspClock>
+          <UpdiClock>500000</UpdiClock>
+        </InterfaceProperties>
+        <InterfaceName>UPDI</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800103729</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=atmega328pb -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega328pb"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=atmega4809 -B "%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\gcc\dev\atmega4809"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -75,7 +87,7 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include\</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -89,7 +101,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include\</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
 </AvrGcc>
@@ -98,7 +110,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGcc>
-  <avrgcc.common.Device>-mmcu=atmega328pb -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega328pb"</avrgcc.common.Device>
+  <avrgcc.common.Device>-mmcu=atmega4809 -B "%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\gcc\dev\atmega4809"</avrgcc.common.Device>
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -114,7 +126,7 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../HAL</Value>
-      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include\</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize most (-O3)</avrgcc.compiler.optimization.level>
@@ -129,7 +141,7 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\include</Value>
+      <Value>%24(PackRepoDir)\Atmel\ATmega_DFP\1.7.374\include\</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
   <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
