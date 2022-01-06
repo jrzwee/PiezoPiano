@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -24029,7 +24029,20 @@ Your Multi-CB Team
 <signal name="RESETN">
 <contactref element="U2" pad="40"/>
 <contactref element="C17" pad="2"/>
-<wire x1="34.9067625" y1="25.638996875" x2="25.75" y2="90.25" width="0" layer="19" extent="1-1"/>
+<wire x1="34.9067625" y1="25.638996875" x2="34.258884375" y2="24.99111875" width="0.254" layer="1"/>
+<via x="34.258884375" y="24.99111875" extent="1-16" drill="0.3"/>
+<wire x1="34.258884375" y1="24.99111875" x2="33.50888125" y2="24.99111875" width="0.254" layer="16"/>
+<wire x1="33.50888125" y1="24.99111875" x2="31.5" y2="27" width="0.254" layer="16"/>
+<wire x1="25.75" y1="90.25" x2="25" y2="90.25" width="0.254" layer="1"/>
+<via x="25" y="90.25" extent="1-16" drill="0.3"/>
+<wire x1="25" y1="90.25" x2="25" y2="76" width="0.254" layer="16"/>
+<wire x1="25" y1="76" x2="25.5" y2="75.5" width="0.254" layer="16"/>
+<via x="25.5" y="75.5" extent="1-16" drill="0.3"/>
+<wire x1="31.5" y1="40" x2="27" y2="44.5" width="0.254" layer="16"/>
+<via x="27" y="44.5" extent="1-16" drill="0.3"/>
+<wire x1="27" y1="44.5" x2="25.5" y2="46" width="0.254" layer="1"/>
+<wire x1="25.5" y1="46" x2="25.5" y2="75.5" width="0.254" layer="1"/>
+<wire x1="31.5" y1="27" x2="31.5" y2="40" width="0.254" layer="16"/>
 </signal>
 <signal name="D3~">
 <contactref element="U2" pad="39"/>
