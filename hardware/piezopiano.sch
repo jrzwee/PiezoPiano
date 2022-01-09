@@ -3539,6 +3539,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <part name="D2" library="zaan-Discrete" deviceset="B5819WSL" device="" package3d_urn="urn:adsk.eagle:package:16759130/1"/>
 <part name="D3" library="zaan-Discrete" deviceset="B5819WSL" device="" package3d_urn="urn:adsk.eagle:package:16759130/1"/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="C18" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C19" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
+<part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4319,6 +4323,28 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <instance part="P+18" gate="1" x="119.38" y="147.32" smashed="yes">
 <attribute name="VALUE" x="116.84" y="147.32" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C18" gate="G$1" x="50.8" y="48.26" smashed="yes">
+<attribute name="NAME" x="49.53" y="49.784" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="54.102" y="50.038" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="54.102" y="48.514" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="54.102" y="46.99" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="54.102" y="45.466" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="54.102" y="43.942" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="GND33" gate="1" x="50.8" y="38.1" smashed="yes">
+<attribute name="VALUE" x="48.26" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="C19" gate="G$1" x="66.04" y="48.26" smashed="yes">
+<attribute name="NAME" x="64.77" y="49.784" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="69.342" y="50.038" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="69.342" y="48.514" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="69.342" y="46.99" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="69.342" y="45.466" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="69.342" y="43.942" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="GND38" gate="1" x="66.04" y="38.1" smashed="yes">
+<attribute name="VALUE" x="63.5" y="35.56" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4703,6 +4729,16 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <pinref part="GND31" gate="1" pin="GND"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="43.18" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="43.18" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -4924,6 +4960,16 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <wire x1="119.38" y1="142.24" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+18" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="50.8" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="50.8" y="53.34" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<label x="66.04" y="53.34" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -5028,18 +5074,18 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <label x="134.62" y="217.17" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="358.14" y1="132.08" x2="353.06" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="132.08" x2="353.06" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="134.62" x2="358.14" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="134.62" x2="345.44" y2="134.62" width="0.1524" layer="91"/>
-<junction x="353.06" y="134.62"/>
-<wire x1="345.44" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="132.08" x2="345.44" y2="134.62" width="0.1524" layer="91"/>
-<junction x="345.44" y="134.62"/>
-<label x="340.36" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="S6" gate="G$1" pin="P"/>
-<pinref part="S6" gate="G$1" pin="P@1"/>
+<wire x1="358.14" y1="81.28" x2="353.06" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="81.28" x2="353.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="83.82" x2="358.14" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
+<junction x="353.06" y="83.82"/>
+<wire x1="345.44" y1="83.82" x2="340.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="81.28" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
+<junction x="345.44" y="83.82"/>
+<label x="340.36" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="S5" gate="G$1" pin="P"/>
+<pinref part="S5" gate="G$1" pin="P@1"/>
 </segment>
 </net>
 <net name="D24/A2" class="0">
@@ -5162,20 +5208,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <wire x1="115.57" y1="182.88" x2="115.57" y2="177.8" width="0.1524" layer="91"/>
 <label x="115.57" y="177.8" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<wire x1="358.14" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="157.48" x2="353.06" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="160.02" x2="358.14" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="160.02" x2="345.44" y2="160.02" width="0.1524" layer="91"/>
-<junction x="353.06" y="160.02"/>
-<wire x1="345.44" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="157.48" x2="345.44" y2="160.02" width="0.1524" layer="91"/>
-<junction x="345.44" y="160.02"/>
-<label x="340.36" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<pinref part="S3" gate="G$1" pin="P"/>
-<pinref part="S3" gate="G$1" pin="P@1"/>
-</segment>
 </net>
 <net name="D11" class="0">
 <segment>
@@ -5295,6 +5327,20 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <wire x1="97.79" y1="182.88" x2="97.79" y2="177.8" width="0.1524" layer="91"/>
 <label x="97.79" y="177.8" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<wire x1="358.14" y1="55.88" x2="353.06" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="55.88" x2="353.06" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="58.42" x2="358.14" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="58.42" x2="345.44" y2="58.42" width="0.1524" layer="91"/>
+<junction x="353.06" y="58.42"/>
+<wire x1="345.44" y1="58.42" x2="340.36" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="55.88" x2="345.44" y2="58.42" width="0.1524" layer="91"/>
+<junction x="345.44" y="58.42"/>
+<label x="340.36" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="P"/>
+<pinref part="S1" gate="G$1" pin="P@1"/>
+</segment>
 </net>
 <net name="D18~" class="0">
 <segment>
@@ -5337,6 +5383,13 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <wire x1="129.54" y1="196.85" x2="134.62" y2="196.85" width="0.1524" layer="91"/>
 <label x="134.62" y="196.85" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="D32/A10" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PE02"/>
+<wire x1="129.54" y1="214.63" x2="134.62" y2="214.63" width="0.1524" layer="91"/>
+<label x="134.62" y="214.63" size="1.27" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="S4" gate="G$1" pin="P@1"/>
 <wire x1="358.14" y1="233.68" x2="353.06" y2="233.68" width="0.1524" layer="91"/>
@@ -5352,18 +5405,32 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <label x="340.36" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D32/A10" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PE02"/>
-<wire x1="129.54" y1="214.63" x2="134.62" y2="214.63" width="0.1524" layer="91"/>
-<label x="134.62" y="214.63" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="D34" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PF00"/>
 <wire x1="129.54" y1="219.71" x2="134.62" y2="219.71" width="0.1524" layer="91"/>
 <label x="134.62" y="219.71" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="358.14" y1="132.08" x2="353.06" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="132.08" x2="353.06" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="134.62" x2="358.14" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="134.62" x2="345.44" y2="134.62" width="0.1524" layer="91"/>
+<junction x="353.06" y="134.62"/>
+<wire x1="345.44" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="132.08" x2="345.44" y2="134.62" width="0.1524" layer="91"/>
+<junction x="345.44" y="134.62"/>
+<label x="340.36" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="S6" gate="G$1" pin="P"/>
+<pinref part="S6" gate="G$1" pin="P@1"/>
+</segment>
+</net>
+<net name="D35" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PF01"/>
+<wire x1="129.54" y1="222.25" x2="134.62" y2="222.25" width="0.1524" layer="91"/>
+<label x="134.62" y="222.25" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="358.14" y1="182.88" x2="353.06" y2="182.88" width="0.1524" layer="91"/>
@@ -5378,27 +5445,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="S7" gate="G$1" pin="P"/>
 <pinref part="S7" gate="G$1" pin="P@1"/>
-</segment>
-</net>
-<net name="D35" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PF01"/>
-<wire x1="129.54" y1="222.25" x2="134.62" y2="222.25" width="0.1524" layer="91"/>
-<label x="134.62" y="222.25" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="358.14" y1="208.28" x2="353.06" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="208.28" x2="353.06" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="210.82" x2="358.14" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
-<junction x="353.06" y="210.82"/>
-<wire x1="345.44" y1="210.82" x2="340.36" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="208.28" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
-<junction x="345.44" y="210.82"/>
-<label x="340.36" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="S8" gate="G$1" pin="P"/>
-<pinref part="S8" gate="G$1" pin="P@1"/>
 </segment>
 </net>
 <net name="RESETN" class="0">
@@ -5528,6 +5574,20 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <wire x1="129.54" y1="224.79" x2="134.62" y2="224.79" width="0.1524" layer="91"/>
 <label x="134.62" y="224.79" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="358.14" y1="208.28" x2="353.06" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="208.28" x2="353.06" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="210.82" x2="358.14" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="210.82" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
+<junction x="353.06" y="210.82"/>
+<wire x1="345.44" y1="210.82" x2="340.36" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="208.28" x2="345.44" y2="210.82" width="0.1524" layer="91"/>
+<junction x="345.44" y="210.82"/>
+<label x="340.36" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="S8" gate="G$1" pin="P"/>
+<pinref part="S8" gate="G$1" pin="P@1"/>
+</segment>
 </net>
 <net name="N$22" class="0">
 <segment>
@@ -5617,27 +5677,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <label x="100.33" y="177.8" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="358.14" y1="55.88" x2="353.06" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="55.88" x2="353.06" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="58.42" x2="358.14" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="58.42" x2="345.44" y2="58.42" width="0.1524" layer="91"/>
-<junction x="353.06" y="58.42"/>
-<wire x1="345.44" y1="58.42" x2="340.36" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="55.88" x2="345.44" y2="58.42" width="0.1524" layer="91"/>
-<junction x="345.44" y="58.42"/>
-<label x="340.36" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="S1" gate="G$1" pin="P"/>
-<pinref part="S1" gate="G$1" pin="P@1"/>
-</segment>
-</net>
-<net name="D21" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PC07"/>
-<wire x1="102.87" y1="182.88" x2="102.87" y2="177.8" width="0.1524" layer="91"/>
-<label x="102.87" y="177.8" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <wire x1="358.14" y1="106.68" x2="353.06" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="106.68" x2="353.06" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="109.22" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
@@ -5650,6 +5689,27 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="S2" gate="G$1" pin="P"/>
 <pinref part="S2" gate="G$1" pin="P@1"/>
+</segment>
+</net>
+<net name="D21" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PC07"/>
+<wire x1="102.87" y1="182.88" x2="102.87" y2="177.8" width="0.1524" layer="91"/>
+<label x="102.87" y="177.8" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<wire x1="358.14" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="157.48" x2="353.06" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="160.02" x2="358.14" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="160.02" x2="345.44" y2="160.02" width="0.1524" layer="91"/>
+<junction x="353.06" y="160.02"/>
+<wire x1="345.44" y1="160.02" x2="340.36" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="157.48" x2="345.44" y2="160.02" width="0.1524" layer="91"/>
+<junction x="345.44" y="160.02"/>
+<label x="340.36" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="S3" gate="G$1" pin="P"/>
+<pinref part="S3" gate="G$1" pin="P@1"/>
 </segment>
 </net>
 <net name="D25/A3" class="0">
@@ -5669,20 +5729,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <pinref part="U2" gate="G$1" pin="PD06"/>
 <wire x1="129.54" y1="199.39" x2="134.62" y2="199.39" width="0.1524" layer="91"/>
 <label x="134.62" y="199.39" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="358.14" y1="81.28" x2="353.06" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="81.28" x2="353.06" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="83.82" x2="358.14" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
-<junction x="353.06" y="83.82"/>
-<wire x1="345.44" y1="83.82" x2="340.36" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="81.28" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
-<junction x="345.44" y="83.82"/>
-<label x="340.36" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="S5" gate="G$1" pin="P"/>
-<pinref part="S5" gate="G$1" pin="P@1"/>
 </segment>
 </net>
 <net name="D39~/A15" class="0">
