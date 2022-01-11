@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -1205,7 +1205,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="WS2812B" urn="urn:adsk.eagle:footprint:31106143/1" library_version="11">
+<package name="WS2812B" urn="urn:adsk.eagle:footprint:31106143/1" locally_modified="yes" library_version="11">
 <description>&lt;b&gt;WS2812B&lt;/b&gt;&lt;br&gt;</description>
 <text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
@@ -1222,7 +1222,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="-2.5" y1="2.3768" x2="-2.5" y2="2.4892" width="0.12" layer="21"/>
 <wire x1="2.5038" y1="2.3768" x2="2.5038" y2="2.4892" width="0.12" layer="21"/>
 <circle x="0" y="0" radius="1.7" width="0.12" layer="21"/>
-<circle x="-3.7206" y="1.65" radius="0.25" width="0" layer="21"/>
+<circle x="3.25" y="-2.75" radius="0.25" width="0" layer="21"/>
 <smd name="3" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="4" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="2" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
@@ -1242,7 +1242,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <packageinstance name="LEDC1608X55N_FLAT-Y"/>
 </packageinstances>
 </package3d>
-<package3d name="WS2812B" urn="urn:adsk.eagle:package:31106145/1" type="model" library_version="10" library_locally_modified="yes">
+<package3d name="WS2812B" urn="urn:adsk.eagle:package:31106145/1" type="model">
 <description>&lt;b&gt;WS2812B&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="WS2812B"/>
@@ -1268,7 +1268,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
 <wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
 <text x="-0.75" y="0" size="1.1" layer="1" font="vector" ratio="20" align="center">1</text>
-<text x="0.75" y="0" size="1.1" layer="16" font="vector" ratio="20" align="center">2</text>
+<text x="0.75" y="0" size="1.1" layer="16" font="vector" ratio="20" rot="MR0" align="center">2</text>
 <wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="0" y1="-0.75" x2="0" y2="0.75" width="0.127" layer="21"/>
 <text x="0" y="1" size="0.3048" layer="51" font="vector" ratio="15" align="center">Layer Stackup Info</text>

@@ -2837,7 +2837,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
-<package name="WS2812B" urn="urn:adsk.eagle:footprint:31106143/1" library_version="11">
+<package name="WS2812B" urn="urn:adsk.eagle:footprint:31106143/1" locally_modified="yes" library_version="11">
 <description>&lt;b&gt;WS2812B&lt;/b&gt;&lt;br&gt;</description>
 <text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
@@ -2854,7 +2854,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="-2.5" y1="2.3768" x2="-2.5" y2="2.4892" width="0.12" layer="21"/>
 <wire x1="2.5038" y1="2.3768" x2="2.5038" y2="2.4892" width="0.12" layer="21"/>
 <circle x="0" y="0" radius="1.7" width="0.12" layer="21"/>
-<circle x="-3.7206" y="1.65" radius="0.25" width="0" layer="21"/>
+<circle x="3.25" y="-2.75" radius="0.25" width="0" layer="21"/>
 <smd name="3" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="4" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="2" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
@@ -2909,7 +2909,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <packageinstance name="LEDC1005X25N_FLAT-Y"/>
 </packageinstances>
 </package3d>
-<package3d name="WS2812B" urn="urn:adsk.eagle:package:31106145/1" type="model" library_version="10" library_locally_modified="yes">
+<package3d name="WS2812B" urn="urn:adsk.eagle:package:31106145/1" type="model">
 <description>&lt;b&gt;WS2812B&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="WS2812B"/>
