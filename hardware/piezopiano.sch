@@ -5329,11 +5329,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <wire x1="73.66" y1="196.85" x2="68.58" y2="196.85" width="0.1524" layer="91"/>
 <label x="68.58" y="196.85" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="25.4" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
-<label x="109.22" y="33.02" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="D19~" class="0">
 <segment>
@@ -5347,6 +5342,11 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <pinref part="U2" gate="G$1" pin="PC04"/>
 <wire x1="95.25" y1="182.88" x2="95.25" y2="177.8" width="0.1524" layer="91"/>
 <label x="95.25" y="177.8" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="25.4" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
+<label x="109.22" y="33.02" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="D17~" class="0">
