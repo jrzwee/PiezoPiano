@@ -4455,7 +4455,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
 <attribute name="DRAWN_BY" value="Andreas Zapfl"/>
-<attribute name="REV" value="1.1"/>
+<attribute name="REV" value="1.3"/>
 <attribute name="TITLE" value="PiezoPiano"/>
 </attributes>
 <variantdefs>
@@ -4635,8 +4635,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5446,14 +5444,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP2" gate="G$1" x="104.14" y="73.66" smashed="yes">
 <attribute name="NAME" x="103.124" y="67.31" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="105.41" y="71.12" size="1.778" layer="97"/>
-</instance>
-<instance part="TP3" gate="G$1" x="111.76" y="73.66" smashed="yes">
-<attribute name="NAME" x="110.744" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="113.03" y="71.12" size="1.778" layer="97"/>
-</instance>
-<instance part="TP4" gate="G$1" x="119.38" y="73.66" smashed="yes">
-<attribute name="NAME" x="118.364" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="120.65" y="71.12" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -6885,18 +6875,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
 <label x="170.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="111.76" y1="76.2" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="119.38" y1="76.2" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
