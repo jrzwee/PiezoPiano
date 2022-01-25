@@ -191,8 +191,6 @@
 <wire x1="0" y1="0" x2="90" y2="0" width="0" layer="20"/>
 <wire x1="77.5" y1="35.5" x2="90" y2="23" width="0" layer="20" curve="-90"/>
 <wire x1="90" y1="23" x2="90" y2="0" width="0" layer="20"/>
-<dimension x1="-1" y1="100" x2="-1" y2="0" x3="-2.5" y3="50" textsize="1.016" layer="51"/>
-<dimension x1="0" y1="-1" x2="90" y2="-1" x3="45" y3="-5.5" textsize="1.016" layer="51" dtype="horizontal"/>
 <wire x1="0" y1="0" x2="0" y2="68.5" width="0" layer="20"/>
 <wire x1="62.5" y1="68.5" x2="62.5" y2="50.5" width="0" layer="20"/>
 <wire x1="62.5" y1="50.5" x2="77.5" y2="35.5" width="0" layer="20" curve="90"/>
@@ -22787,7 +22785,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.75" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="14.25" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22803,7 +22801,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.25" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="25.75" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22819,7 +22817,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="36.75" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="37.25" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22835,7 +22833,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="31.5" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22851,7 +22849,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="42.5" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="43" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22867,7 +22865,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="54.5" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -22899,7 +22897,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.5" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="20" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23337,8 +23335,6 @@ Your Multi-CB Team
 <via x="24.5" y="36" extent="1-16" drill="0.3"/>
 <wire x1="30.2" y1="34.9" x2="30.2" y2="36" width="0.254" layer="1"/>
 <via x="30.2" y="36" extent="1-16" drill="0.3"/>
-<wire x1="41.7" y1="34.9" x2="41.7" y2="36" width="0.254" layer="1"/>
-<via x="41.7" y="36" extent="1-16" drill="0.3"/>
 <wire x1="35.95" y1="34.9" x2="35.95" y2="36" width="0.254" layer="1"/>
 <via x="35.95" y="36" extent="1-16" drill="0.3"/>
 <wire x1="18.7" y1="34.9" x2="18.7" y2="36" width="0.254" layer="1"/>
@@ -23544,11 +23540,12 @@ Your Multi-CB Team
 <via x="48" y="33.25" extent="1-16" drill="0.3"/>
 <wire x1="53" y1="33.25" x2="53.75" y2="33.25" width="0.254" layer="1"/>
 <via x="53.75" y="33.25" extent="1-16" drill="0.3"/>
+<wire x1="41.7" y1="34.9" x2="42.5" y2="34.9" width="0.254" layer="1"/>
+<via x="42.5" y="34.9" extent="1-16" drill="0.3"/>
 <wire x1="35.57" y1="98.095" x2="35.57" y2="98.095" width="0" layer="19" extent="1-16"/>
 <wire x1="35.57" y1="93.915" x2="35.57" y2="93.915" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="98.095" x2="26.93" y2="98.095" width="0" layer="19" extent="1-16"/>
 <wire x1="26.93" y1="93.915" x2="26.93" y2="93.915" width="0" layer="19" extent="1-16"/>
-<wire x1="41.7" y1="34.9" x2="41.5" y2="33.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D0">
 <contactref element="U2" pad="44"/>
@@ -24227,24 +24224,25 @@ Your Multi-CB Team
 <contactref element="J3" pad="3"/>
 <wire x1="56.5" y1="66.25" x2="58.75" y2="66.25" width="0.254" layer="1"/>
 <wire x1="58.75" y1="66.25" x2="59.5" y2="65.5" width="0.254" layer="1" curve="-90"/>
-<wire x1="59.5" y1="65.5" x2="59.5" y2="56.06065625" width="0.254" layer="1"/>
-<wire x1="59.5" y1="56.06065625" x2="59.3357875" y2="55.6642125" width="0.254" layer="1" curve="-45"/>
-<wire x1="59.3357875" y1="55.6642125" x2="58.93934375" y2="55.5" width="0.254" layer="1" curve="-45"/>
-<wire x1="58.93934375" y1="55.5" x2="57.5" y2="55.5" width="0.254" layer="1"/>
-<wire x1="54.50000625" y1="51.499996875" x2="54.50000625" y2="55.00000625" width="0.254" layer="1"/>
-<wire x1="54.50000625" y1="55.00000625" x2="55" y2="55.5" width="0.254" layer="1" curve="-90"/>
-<wire x1="55" y1="55.5" x2="57.5" y2="55.5" width="0.254" layer="1"/>
 <wire x1="32.78544375" y1="27.260315625" x2="34.012565625" y2="28.4874375" width="0.254" layer="1"/>
 <via x="34.012565625" y="28.4874375" extent="1-16" drill="0.3"/>
-<wire x1="54.50000625" y1="51.499996875" x2="54.50000625" y2="49.207103125" width="0.254" layer="16"/>
-<wire x1="54.50000625" y1="49.207103125" x2="54.353559375" y2="48.85355" width="0.254" layer="16" curve="-45"/>
-<via x="54.50000625" y="51.499996875" extent="1-16" drill="0.3"/>
 <wire x1="57.5" y1="64.5" x2="56.5" y2="64.5" width="0.254" layer="1"/>
 <wire x1="56.5" y1="64.5" x2="56" y2="65" width="0.254" layer="1" curve="-90"/>
 <wire x1="56" y1="65" x2="56" y2="65.75" width="0.254" layer="1"/>
 <wire x1="56" y1="65.75" x2="56.5" y2="66.25" width="0.254" layer="1" curve="-90"/>
 <wire x1="34.012565625" y1="28.4874375" x2="54.012565625" y2="48.4874375" width="0.254" layer="16"/>
 <wire x1="54.012565625" y1="48.4874375" x2="54.353559375" y2="48.85355" width="0.254" layer="16" curve="4.06896"/>
+<wire x1="57.5" y1="55.5" x2="58.5" y2="55.5" width="0.254" layer="1"/>
+<via x="58.5" y="55.5" extent="1-16" drill="0.3"/>
+<wire x1="59.5" y1="65.5" x2="59.5" y2="56" width="0.254" layer="1"/>
+<wire x1="58.5" y1="55.5" x2="59" y2="55.5" width="0.254" layer="1"/>
+<wire x1="59" y1="55.5" x2="59.5" y2="56" width="0.254" layer="1" curve="90"/>
+<wire x1="54.353559375" y1="48.853559375" x2="57.20710625" y2="51.70710625" width="0.254" layer="16"/>
+<wire x1="57.20710625" y1="51.70710625" x2="57.5" y2="52.4142125" width="0.254" layer="16" curve="45"/>
+<wire x1="54.353559375" y1="48.85355" x2="54.353559375" y2="48.853559375" width="0.254" layer="16"/>
+<wire x1="57.5" y1="52.4142125" x2="57.5" y2="55" width="0.254" layer="16"/>
+<wire x1="57.5" y1="55" x2="58" y2="55.5" width="0.254" layer="16" curve="-90"/>
+<wire x1="58" y1="55.5" x2="58.5" y2="55.5" width="0.254" layer="16"/>
 </signal>
 <signal name="D3/SCL">
 <contactref element="U2" pad="47"/>
@@ -24252,19 +24250,17 @@ Your Multi-CB Team
 <contactref element="J3" pad="4"/>
 <wire x1="57.5" y1="65.5" x2="58.5" y2="65.5" width="0.254" layer="1"/>
 <wire x1="58.5" y1="65.5" x2="59" y2="65" width="0.254" layer="1" curve="-90"/>
-<wire x1="59" y1="65" x2="59" y2="57" width="0.254" layer="1"/>
-<wire x1="59" y1="57" x2="58.5" y2="56.5" width="0.254" layer="1" curve="-90"/>
-<wire x1="58.5" y1="56.5" x2="57.5" y2="56.5" width="0.254" layer="1"/>
-<wire x1="53.896" y1="56" x2="53.896" y2="52.104003125" width="0.254" layer="1"/>
-<wire x1="53.9090125" y1="52.090990625" x2="53.896" y2="52.104003125" width="0.254" layer="1"/>
-<wire x1="53.896" y1="56" x2="54.396" y2="56.5" width="0.254" layer="1" curve="-90"/>
-<wire x1="54.396" y1="56.5" x2="57.5" y2="56.5" width="0.254" layer="1"/>
 <wire x1="32.431890625" y1="27.61386875" x2="33.1590125" y2="28.340990625" width="0.254" layer="1"/>
 <via x="33.1590125" y="28.340990625" extent="1-16" drill="0.3"/>
-<via x="53.9090125" y="52.090990625" extent="1-16" drill="0.3"/>
-<wire x1="53.9090125" y1="52.090990625" x2="53.9090125" y2="49.298096875" width="0.254" layer="16"/>
-<wire x1="53.9090125" y1="49.298096875" x2="53.762565625" y2="48.94454375" width="0.254" layer="16" curve="-45"/>
-<wire x1="53.762565625" y1="48.94454375" x2="33.1590125" y2="28.340990625" width="0.254" layer="16"/>
+<wire x1="57.5" y1="56.5" x2="58.5" y2="56.5" width="0.254" layer="1"/>
+<via x="58.5" y="56.5" extent="1-16" drill="0.3"/>
+<wire x1="59" y1="57" x2="59" y2="65" width="0.254" layer="1"/>
+<wire x1="58.5" y1="56.5" x2="59" y2="57" width="0.254" layer="1" curve="90"/>
+<wire x1="57" y1="52.596190625" x2="57" y2="56" width="0.254" layer="16"/>
+<wire x1="57" y1="56" x2="57.5" y2="56.5" width="0.254" layer="16" curve="-90"/>
+<wire x1="57.5" y1="56.5" x2="58.5" y2="56.5" width="0.254" layer="16"/>
+<wire x1="33.1590125" y1="28.340990625" x2="56.70710625" y2="51.889084375" width="0.254" layer="16"/>
+<wire x1="56.70710625" y1="51.889084375" x2="57" y2="52.596190625" width="0.254" layer="16" curve="45"/>
 </signal>
 <signal name="UPDI">
 <contactref element="DEBUG" pad="3"/>
