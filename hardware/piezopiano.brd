@@ -186,7 +186,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:wrSTytUWShWvSD5_4HioLQ" pcbguid="9b567df2-9422-494b-8919-3f782ec38421" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="235b10af-fb7b-3b42-9247-68e8bfa2362a" lastpushedtime="2021-10-24T19:44:28Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:wrSTytUWShWvSD5_4HioLQ" pcbguid="9b567df2-9422-494b-8919-3f782ec38421" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="ba82dcf6-a9bc-feb0-06a7-7ccc4142867f" lastpushedtime="2022-02-05T12:25:37Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="90" y2="0" width="0" layer="20"/>
 <wire x1="77.5" y1="35.5" x2="90" y2="23" width="0" layer="20" curve="-90"/>
@@ -383,7 +383,7 @@ max!</text>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="SOD123" urn="urn:adsk.eagle:footprint:25891326/1" locally_modified="yes">
+<package name="SOD123" urn="urn:adsk.eagle:footprint:33898336/1">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>
 <wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
 <wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
@@ -412,7 +412,7 @@ max!</text>
 <packageinstance name="SOT23"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD123" urn="urn:adsk.eagle:package:16759130/1" locally_modified="yes" type="box">
+<package3d name="SOD123" urn="urn:adsk.eagle:package:33898334/2" type="model">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="SOD123"/>
@@ -1170,7 +1170,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </library>
 <library name="zaan-Optoelectronics">
 <packages>
-<package name="WL-SFCX_1210" urn="urn:adsk.eagle:footprint:16759399/3" library_version="11">
+<package name="WL-SFCX_1210" urn="urn:adsk.eagle:footprint:16759399/3">
 <smd name="2" x="1.45" y="-1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
 <smd name="1" x="-1.45" y="-1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
 <smd name="4" x="-1.45" y="1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
@@ -1230,7 +1230,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-SFCX_1210" urn="urn:adsk.eagle:package:16759422/3" type="box" library_version="11">
+<package3d name="WL-SFCX_1210" urn="urn:adsk.eagle:package:26749650/5" type="model">
 <packageinstances>
 <packageinstance name="WL-SFCX_1210"/>
 </packageinstances>
@@ -22577,8 +22577,12 @@ Your Multi-CB Team
 <attribute name="VALUE" value="5.1k" x="22" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="23.5" y="95.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D14" library="zaan-Optoelectronics" package="WL-SFCX_1210" package3d_urn="urn:adsk.eagle:package:16759422/3" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes" value="" x="57" y="19" smashed="yes" rot="R270">
+<element name="D14" library="zaan-Optoelectronics" package="WL-SFCX_1210" package3d_urn="urn:adsk.eagle:package:26749650/5" value="" x="57" y="19" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="RGB SMD LED" x="57" y="19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Wurth Electronics" x="57" y="19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="150121M173000" x="57" y="19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="59.5" y="19" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="1210" x="57" y="19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="54.5" y="19" size="1.016" layer="27" font="vector" ratio="13" rot="R270" align="center"/>
 </element>
 <element name="R4" library="zaan-Resistors" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="23.5" y="88.25" smashed="yes">
@@ -23163,7 +23167,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="26.5" y="91.75" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="26.5" y="90.25" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="D2" library="zaan-Discrete" package="SOD123" package3d_urn="urn:adsk.eagle:package:16759130/1" value="B5819WSL" x="37.5" y="95" smashed="yes" rot="R90">
+<element name="D2" library="zaan-Discrete" package="SOD123" package3d_urn="urn:adsk.eagle:package:33898334/2" value="B5819WSL" x="37.5" y="95" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Schottky Diode" x="37.5" y="95" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="LCSC" value="C8598" x="37.5" y="95" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MF" value="Changjiang Electronics Tech (CJ)" x="37.5" y="95" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -23173,7 +23177,7 @@ Your Multi-CB Team
 <attribute name="VALUE" x="39" y="95" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE_FORWARD" value="600mV" x="37.5" y="95" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D3" library="zaan-Discrete" package="SOD123" package3d_urn="urn:adsk.eagle:package:16759130/1" value="B5819WSL" x="22.25" y="90.25" smashed="yes">
+<element name="D3" library="zaan-Discrete" package="SOD123" package3d_urn="urn:adsk.eagle:package:33898334/2" value="B5819WSL" x="22.25" y="90.25" smashed="yes">
 <attribute name="DESCRIPTION" value="Schottky Diode" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="LCSC" value="C8598" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="Changjiang Electronics Tech (CJ)" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -24533,7 +24537,7 @@ Your Multi-CB Team
 <mfgpreviewcolor name="soldermaskcolor" color="0xC82A2A2A"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFD1D1D1"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
@@ -24594,11 +24598,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="9.4" severity="warning">
-Since Version 9.4, EAGLE supports the overriding of 3D packages
-in schematics and board files. Those overridden 3d packages
-will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

@@ -311,7 +311,7 @@
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="SOD123" urn="urn:adsk.eagle:footprint:25891326/1" locally_modified="yes">
+<package name="SOD123" urn="urn:adsk.eagle:footprint:33898336/1">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>
 <wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
 <wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
@@ -340,7 +340,7 @@
 <packageinstance name="SOT23"/>
 </packageinstances>
 </package3d>
-<package3d name="SOD123" urn="urn:adsk.eagle:package:16759130/1" locally_modified="yes" type="box">
+<package3d name="SOD123" urn="urn:adsk.eagle:package:33898334/2" type="model">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="SOD123"/>
@@ -466,7 +466,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759130/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33898334/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2727,7 +2727,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </library>
 <library name="zaan-Optoelectronics">
 <packages>
-<package name="WL-SFCX_1210" urn="urn:adsk.eagle:footprint:16759399/3" library_version="11">
+<package name="WL-SFCX_1210" urn="urn:adsk.eagle:footprint:16759399/3">
 <smd name="2" x="1.45" y="-1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
 <smd name="1" x="-1.45" y="-1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
 <smd name="4" x="-1.45" y="1" dx="1.1" dy="1.6" layer="1" roundness="15" rot="R180"/>
@@ -2862,7 +2862,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </package>
 </packages>
 <packages3d>
-<package3d name="WL-SFCX_1210" urn="urn:adsk.eagle:package:16759422/3" type="box" library_version="11">
+<package3d name="WL-SFCX_1210" urn="urn:adsk.eagle:package:26749650/5" type="model">
 <packageinstances>
 <packageinstance name="WL-SFCX_1210"/>
 </packageinstances>
@@ -3030,7 +3030,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="150121" urn="urn:adsk.eagle:component:16759438/3" prefix="D" uservalue="yes" library_version="11">
+<deviceset name="150121" urn="urn:adsk.eagle:component:16759438/3" locally_modified="yes" prefix="D" uservalue="yes">
 <description>&lt;b&gt;WL-SFCW SMD Full-color Chip LED Waterclear
 &lt;br&gt;
 &lt;br&gt;
@@ -3051,10 +3051,15 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <connect gate="G$1" pin="R" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759422/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26749650/5"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="RGB SMD LED"/>
+<attribute name="MF" value="Wurth Electronics"/>
+<attribute name="MPN" value="150121M173000"/>
+<attribute name="PACKAGE" value="1210"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4564,7 +4569,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D14" library="zaan-Optoelectronics" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:16759422/3" override_package3d_urn="urn:adsk.eagle:package:26749650/2" override_package_urn="urn:adsk.eagle:footprint:16759399/1" override_locally_modified="yes"/>
+<part name="D14" library="zaan-Optoelectronics" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:26749650/5"/>
 <part name="R4" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R6" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="U2" library="zaan-IC-Microcontroller" deviceset="ATMEGA4809" device="" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809"/>
@@ -4626,8 +4631,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C8" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
-<part name="D2" library="zaan-Discrete" deviceset="B5819WSL" device="" package3d_urn="urn:adsk.eagle:package:16759130/1"/>
-<part name="D3" library="zaan-Discrete" deviceset="B5819WSL" device="" package3d_urn="urn:adsk.eagle:package:16759130/1"/>
+<part name="D2" library="zaan-Discrete" deviceset="B5819WSL" device="" package3d_urn="urn:adsk.eagle:package:33898334/2"/>
+<part name="D3" library="zaan-Discrete" deviceset="B5819WSL" device="" package3d_urn="urn:adsk.eagle:package:33898334/2"/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C6" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7060,11 +7065,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="9.4" severity="warning">
-Since Version 9.4, EAGLE supports the overriding of 3D packages
-in schematics and board files. Those overridden 3d packages
-will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
