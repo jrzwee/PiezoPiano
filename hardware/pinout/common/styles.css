@@ -1,0 +1,170 @@
+
+ svg {
+    fill-opacity: 1;
+    font-family: 'Roboto', Helvetica, Verdana, monospace;
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 1;
+    
+}
+
+path{
+    fill: none;
+}
+rect {
+    fill: rgba(0, 0, 0, 0);
+}
+
+text {
+    dominant-baseline: auto;
+}
+
+.pinlabel__body{
+    fill: rgb(36, 36, 36);
+}
+.pinlabel__bodyinner{
+    fill: none;
+    stroke-linejoin: "miter";
+}
+.pinlabel .pinlabel__leader{
+    stroke-width: 0;
+}
+.pinlabel__text{
+    dominant-baseline: central;
+    fill: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    stroke-width: 0;
+    text-anchor: middle;
+}
+
+.legend rect{
+    fill: none;
+}
+.legend .swatch__body{
+    fill: rgba(0,0,0,0);
+}
+.legendentry text{
+    dominant-baseline: central;
+    fill: #000;
+}
+
+.diagram__bg{
+    fill: #333;
+}
+.panel--main .panel__bg{
+    fill: #fff;
+}
+.panel--notes .panel__bg{
+    fill: #e4e4e2;
+}
+
+.pinheader g .pinlabel:first-child .pinlabel__leader,
+.pinlabel.show-leader  .pinlabel__leader{
+    stroke-width: 2px;
+    stroke: #bcc6c6;
+}
+
+.led .pinlabel__body,
+.led .swatch__body{
+    fill: #1da086;
+}
+.mu-port .pinlabel__body,
+.mu-port .swatch__body{
+    fill: #f39c12;
+}
+.default .pinlabel__body,
+.default .swatch__body{
+    fill: #f1c40f;
+}
+.default .pinlabel__text{
+    fill: #000;
+}
+.digital .pinlabel__body,
+.digital .swatch__body{
+    fill: url("#stripe-a");
+}
+    
+    #stripe-a rect{
+        fill: #d35400;
+    }
+
+    #stripe-a path{
+        fill: #de7f40;
+    }
+
+.analog .pinlabel__body{
+    fill: url("#stripe-b");
+}
+    
+    #stripe-b rect{
+        fill: #ffffff;
+    }
+    #stripe-b path{
+        fill: #f8e6d9;
+    }
+
+.analog .pinlabel__bodyinner{
+    fill: none;
+    stroke: #d35400;
+    stroke-width: 2;
+}
+.analog .pinlabel__text{
+    fill: #d35400;
+}
+.analog .swatch__body{
+    fill: url("#stripe-b");
+    stroke: #d35400;
+    stroke-width: 2;   
+}
+.pwr .pinlabel__body,
+.pwr .swatch__body{
+    fill: #c11f09;
+}
+
+.other .pinlabel__body,
+.other .swatch__body{
+    fill: #fff;
+}
+.other .pinlabel__bodyinner,
+.other .swatch__body{
+    stroke: #d86e29;
+    stroke-width: 2;
+}
+.other .pinlabel__text{
+    fill: #d86e29;
+}
+.gnd .pinlabel__body,
+.gnd .swatch__body{
+    fill: #000;
+}
+.internal .pinlabel__body,
+.internal .swatch__body{
+    fill: #94a3a6;
+}
+.swd .pinlabel__body,
+.swd .swatch__body{
+    fill: #9e856e;
+}
+.nc .pinlabel__body,
+.nc .swatch__body{
+    fill: #fff;
+}
+.nc .pinlabel__text{
+    fill: #ccc;
+}
+.nc .pinlabel__bodyinner,
+.nc .swatch__body{
+    stroke: #ccc;
+    stroke-width: 2;
+}
+
+.h1{
+    font-size: 28px;
+    font-weight: 900;
+}
+.p{
+    fill: #333;
+}
+.strong{ font-weight: bold; }
+.italic{ font-style: italic; }
