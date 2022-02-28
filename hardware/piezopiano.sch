@@ -2842,23 +2842,24 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.12" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.12" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="2.5" y1="-1.5" x2="1.5" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.12" layer="51"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.12" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="1.5126" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="1.5126" y1="-2.5" x2="1.625" y2="-2.375" width="0.12" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.3876" width="0.12" layer="21"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.12" layer="21"/>
 <wire x1="-2.5" y1="-0.7112" x2="-2.5" y2="0.7112" width="0.12" layer="21"/>
-<wire x1="2.5" y1="-0.7112" x2="2.5" y2="0.7112" width="0.12" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3876" width="0.12" layer="21"/>
 <wire x1="-2.5" y1="2.3768" x2="-2.5" y2="2.4892" width="0.12" layer="21"/>
 <wire x1="2.5038" y1="2.3768" x2="2.5038" y2="2.4892" width="0.12" layer="21"/>
 <circle x="0" y="0" radius="1.7" width="0.12" layer="21"/>
-<circle x="3.25" y="-2.75" radius="0.25" width="0" layer="21"/>
+<circle x="-3.25" y="2.75" radius="0.25" width="0" layer="21"/>
 <smd name="3" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="4" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="2" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
 <smd name="1" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" roundness="15" rot="R180"/>
+<wire x1="2.5" y1="-0.7112" x2="2.5" y2="0.7112" width="0.12" layer="21"/>
 </package>
 </packages>
 <packages3d>
