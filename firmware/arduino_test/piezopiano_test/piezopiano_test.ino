@@ -12,12 +12,41 @@
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-#define DELAYVAL 500 // Time (in milliseconds) to pause between pixels
+#define DELAYVAL 400 // Time (in milliseconds) to pause between pixels
+int noteDuration = 100;
+
+int piezoPlacementV12[] = {9, 11, 7, 6, 5, 4, 1, 0};
+int piezoPlacementV13[] = {9, 8, 7, 6, 5, 4, 1, 0};
+
+int buttonPlacementV13[] = {20,21,22,32,33,34,35,36};
 
 void setup() 
 {
+  pinMode(buttonPlacementV13[0], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[1], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[2], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[3], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[4], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[5], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[6], INPUT_PULLUP);
+  pinMode(buttonPlacementV13[7], INPUT_PULLUP);
+
+  attachInterrupt(buttonPlacementV13[0], tone_1, LOW);
+  attachInterrupt(buttonPlacementV13[1], tone_1, LOW);
+  attachInterrupt(buttonPlacementV13[2], tone_1, LOW);
+
+  pinMode(37, OUTPUT);
+  pinMode(39, OUTPUT);
+  pinMode(38, OUTPUT);
+
+  digitalWrite(37, HIGH);
+  digitalWrite(38, HIGH);
+  digitalWrite(39, HIGH);
+
   Serial1.begin(9600);
   pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+
+
 
   // ----------------- WS2812 TEST -----------------
   Serial1.print("WS2812 TEST");
@@ -47,10 +76,6 @@ void setup()
 
   // ----------------- PIEZO TEST -----------------
   Serial1.print("Piezo TEST");
-  int noteDuration = 250;
-
-  int piezoPlacementV12[] = {9, 11, 7, 6, 5, 4, 1, 0};
-  int piezoPlacementV13[] = {9, 8, 7, 6, 5, 4, 1, 0};
 
   for(int i = 0; i <= 7; i++)
   {
@@ -63,23 +88,45 @@ void setup()
 
   Serial1.println(" - DONE!");
 
-  Serial1.println("Serial1 TEST: Send number between 0 to 100.");
+  // ----------------- RGB TEST -----------------
+  Serial1.print("RGB TEST");
+
+  delay(DELAYVAL);
+  digitalWrite(37, LOW);
+
+  delay(DELAYVAL);
+  digitalWrite(37, HIGH);
+  digitalWrite(38, LOW);
+  
+  delay(DELAYVAL);
+  digitalWrite(38, HIGH);
+  digitalWrite(39, LOW);
+
+  delay(DELAYVAL);
+  digitalWrite(37, LOW);
+  digitalWrite(38, LOW);
+  digitalWrite(39, LOW);
+
+  Serial1.println(" - DONE!");
+
 }
 
 void loop() 
 {
-  int brightness;
-  int ledPin = 9;
+  if(digitalRead(buttonPlacementV13[0])==1)
+    noTone(piezoPlacementV13[0]);
 
-  // check if data has been sent from the computer:
-  if (Serial1.available()) {
-    // read the most recent byte (which will be from 0 to 255):
-    brightness = Serial1.parseInt();
+  if(digitalRead(buttonPlacementV13[1])==1)
+    noTone(piezoPlacementV13[1]);
 
-    // set the brightness of the LED:
-    analogWrite(ledPin, map(brightness, 0, 100, 0, 255));
+  if(digitalRead(buttonPlacementV13[2])==1)
+    noTone(piezoPlacementV13[2]);
 
-    Serial1.println(brightness);
+}
 
-  }
+void tone_1()
+{
+  tone(piezoPlacementV13[0], NOTE_C4);
+  tone(piezoPlacementV13[1], NOTE_C4);
+  tone(piezoPlacementV13[2], NOTE_C4);
 }
