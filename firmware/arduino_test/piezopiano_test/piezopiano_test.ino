@@ -3,27 +3,23 @@
 #include <Adafruit_NeoPixel.h>
 #include "pitches.h"
 
-#ifdef __AVR__
- #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
-#endif
-
 #define PIN         10    // Which pin on the Arduino is connected to the NeoPixels?
 #define NUMPIXELS   1     // How many NeoPixels are attached to the Arduino?
 
-Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+#define F_TIMER				44000
+#define TCA_LIMIT			((F_CPU/F_TIMER)+1)
 
-#define DELAYVAL 400 // Time (in milliseconds) to pause between pixels
-int noteDuration = 100;
+#define DELAYVAL 400      // Time (in milliseconds) to pause between pixels
 
-int pos_piezo_V12[] = {9, 11, 7, 6, 5, 4, 1, 0};
-int pos_piezo[] = {9, 8, 7, 6, 5, 4, 1, 0};
+int noteDuration = 100;   // Note dauration for the test
 
-int pos_button[] = {20,21,22,32,33,34,35,36};
+int pos_piezo_V12[] = {9, 11, 7, 6, 5, 4, 1, 0};  // Digital pin location for the piezos starting from left to right V1.2
+int pos_piezo[] = {9, 8, 7, 6, 5, 4, 1, 0};       // Digital pin location for the piezos starting from left to right V1.3 +
+int pos_button[] = {20, 21, 22, 32, 33, 34, 35, 36};     // Digital pin location for the buttons starting from left to right V1.3 +
 
 int melody[] = {NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5};
 
-#define F_TIMER				44000
-#define TCA_LIMIT			((F_CPU/F_TIMER)+1)
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 unsigned int notes[8] = {0};
 
@@ -35,6 +31,7 @@ void setup()
   // ----------------- INIT -----------------
   GPIO_Init();
   TimerC0_Init();
+  TimerC0_Start();
 
   // ----------------- ACTIVATE SERIAL -----------------
   Serial1.begin(9600);
@@ -45,7 +42,6 @@ void setup()
   RGB_Test();
 
   // ----------------- ENABLE GLBAL INTERRUPTS -----------------
-  TimerC0_Start();
   sei();
 }
 
@@ -90,6 +86,7 @@ void GPIO_Init()
   pinMode(37, OUTPUT);
   pinMode(39, OUTPUT);
   pinMode(38, OUTPUT);
+
   digitalWrite(37, HIGH);
   digitalWrite(38, HIGH);
   digitalWrite(39, HIGH);
