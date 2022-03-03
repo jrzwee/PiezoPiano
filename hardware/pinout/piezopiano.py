@@ -181,7 +181,7 @@ pinout_graphic.add(
 pinout_graphic.add(
     pinlabel.PinLabelGroup(
         x=startpoint_x + 250,
-        y=startpoint_y + 154,
+        y=startpoint_y + 173,
         pin_pitch=(0, 38),
         scale=(1, 1),
         label_start=(90+105, 70),

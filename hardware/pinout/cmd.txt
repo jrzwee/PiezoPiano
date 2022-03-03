@@ -1,0 +1,1 @@
+py -m pinout.manager --export piezopiano.py pinout_diagram.svg
