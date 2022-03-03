@@ -16,40 +16,77 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 int noteDuration = 100;
 
 int piezoPlacementV12[] = {9, 11, 7, 6, 5, 4, 1, 0};
-int piezoPlacementV13[] = {9, 8, 7, 6, 5, 4, 1, 0};
+int pos_piezo[] = {9, 8, 7, 6, 5, 4, 1, 0};
 
-int buttonPlacementV13[] = {20,21,22,32,33,34,35,36};
+int pos_button[] = {20,21,22,32,33,34,35,36};
+
+int melody[] = {NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5};
+
 
 void setup() 
 {
-  pinMode(buttonPlacementV13[0], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[1], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[2], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[3], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[4], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[5], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[6], INPUT_PULLUP);
-  pinMode(buttonPlacementV13[7], INPUT_PULLUP);
+  pinMode(pos_button[0], INPUT_PULLUP);
+  pinMode(pos_button[1], INPUT_PULLUP);
+  pinMode(pos_button[2], INPUT_PULLUP);
+  pinMode(pos_button[3], INPUT_PULLUP);
+  pinMode(pos_button[4], INPUT_PULLUP);
+  pinMode(pos_button[5], INPUT_PULLUP);
+  pinMode(pos_button[6], INPUT_PULLUP);
+  pinMode(pos_button[7], INPUT_PULLUP);
 
-  attachInterrupt(buttonPlacementV13[0], tone_1, LOW);
-  attachInterrupt(buttonPlacementV13[1], tone_1, LOW);
-  attachInterrupt(buttonPlacementV13[2], tone_1, LOW);
+  pinMode(pos_piezo[0], OUTPUT);
+  pinMode(pos_piezo[1], OUTPUT);
+  pinMode(pos_piezo[2], OUTPUT);
+  pinMode(pos_piezo[3], OUTPUT);
+  pinMode(pos_piezo[4], OUTPUT);
+  pinMode(pos_piezo[5], OUTPUT);
+  pinMode(pos_piezo[6], OUTPUT);
+  pinMode(pos_piezo[7], OUTPUT);
 
+  // RGB LED
   pinMode(37, OUTPUT);
   pinMode(39, OUTPUT);
   pinMode(38, OUTPUT);
-
   digitalWrite(37, HIGH);
   digitalWrite(38, HIGH);
   digitalWrite(39, HIGH);
 
   Serial1.begin(9600);
-  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+  
+  // ----------------- TESTING -----------------
+  wsLedTest();
+  piezoTest();
+  rgbTest();
 
+  // ----------------- ENABLE INTERRUPT -----------------
+  attachInterrupt(pos_button[0], tone_1, LOW);
+  attachInterrupt(pos_button[1], tone_1, LOW);
+  attachInterrupt(pos_button[2], tone_1, LOW);
+  attachInterrupt(pos_button[3], tone_1, LOW);
+  attachInterrupt(pos_button[4], tone_1, LOW);
+  attachInterrupt(pos_button[5], tone_1, LOW);
+  attachInterrupt(pos_button[6], tone_1, LOW);
+  attachInterrupt(pos_button[7], tone_1, LOW);
+}
 
+void loop() 
+{
+  for(int i = 0; i <= 7; i++)
+  {
+    if(digitalRead(pos_button[i])==1)
+    {
+      noTone(pos_piezo[i]);
+      digitalWrite(pos_piezo[i], LOW);
+    }
+  }
+}
 
+void wsLedTest()
+{
   // ----------------- WS2812 TEST -----------------
   Serial1.print("WS2812 TEST");
+
+  pixels.begin();
   pixels.clear(); // Set all pixel colors to 'off'
 
   // RED
@@ -73,21 +110,29 @@ void setup()
   delay(DELAYVAL); // Pause before next pass through loop
   
   Serial1.println(" - DONE!");
+}
 
+void piezoTest()
+{
   // ----------------- PIEZO TEST -----------------
   Serial1.print("Piezo TEST");
 
   for(int i = 0; i <= 7; i++)
   {
-    tone(piezoPlacementV13[i], NOTE_C4, noteDuration);
+    tone(pos_piezo[i], melody[i], noteDuration);
     // to distinguish the notes, set a minimum time between them.
     // the note's duration + 30% seems to work well:
     int pauseBetweenNotes = noteDuration * 1.30;
     delay(pauseBetweenNotes);
+    
+    noTone(pos_piezo[i]);
   }
 
   Serial1.println(" - DONE!");
+}
 
+void rgbTest()
+{
   // ----------------- RGB TEST -----------------
   Serial1.print("RGB TEST");
 
@@ -108,25 +153,13 @@ void setup()
   digitalWrite(39, LOW);
 
   Serial1.println(" - DONE!");
-
-}
-
-void loop() 
-{
-  if(digitalRead(buttonPlacementV13[0])==1)
-    noTone(piezoPlacementV13[0]);
-
-  if(digitalRead(buttonPlacementV13[1])==1)
-    noTone(piezoPlacementV13[1]);
-
-  if(digitalRead(buttonPlacementV13[2])==1)
-    noTone(piezoPlacementV13[2]);
-
 }
 
 void tone_1()
 {
-  tone(piezoPlacementV13[0], NOTE_C4);
-  tone(piezoPlacementV13[1], NOTE_C4);
-  tone(piezoPlacementV13[2], NOTE_C4);
+  for(int i = 0; i <= 7; i++)
+  {
+    if(digitalRead(pos_button[i])==0)
+      digitalWrite(pos_piezo[i], HIGH);
+  }
 }
