@@ -19,90 +19,140 @@ legend = [
 
 #########################################################
 #
-# Header: Right-hand-side
+# Buttons: Bottom
 #
 #########################################################
 
-
-header_rhs_a = [
+buttons_left_bottom = [
     [
-        ("D19/SCL", "digital"),
-        ("PC5", "mu-port"),
-        ("SCL", "default"),
+        ("D20", "digital"),
+        ("PC6", "mu-port"),
     ],
     [
-        ("D18/SDA", "digital"),
-        ("PC4", "mu-port"),
-        ("SDA", "default"),
+        ("D21", "digital"),
+        ("PC7", "mu-port"),
     ],
     [
-        ("AREF", "other"),
+        ("D22", "digital"),
+        ("A0", "analog"),
+        ("PD0", "mu-port"),
     ],
     [
-        ("GND", "gnd"),
-    ],
-    [
-        ("D13", "digital"),
-        ("PB5", "mu-port"),
-        ("SCK", "default"),
-    ],
-    [
-        ("D12", "digital"),
-        ("PB4", "mu-port"),
-        ("MISO", "default"),
-    ],
-    [
-        ("~D11", "digital"),
-        ("PB3", "mu-port"),
-        ("MOSI", "default"),
-    ],
-    [
-        ("~D10", "digital"),
-        ("PB2", "mu-port"),
-        ("SS", "default"),
-    ],
-    [
-        ("~D9", "digital"),
-        ("PB1", "mu-port"),
-    ],
-    [
-        ("D8", "digital"),
-        ("PB0", "mu-port"),
+        ("D32", "digital"),
+        ("A10", "analog"),
+        ("PE2", "mu-port"),
     ],
 ]
 
-header_rhs_b = [
+buttons_right_bottom = [
+    [
+        ("D36", "digital"),
+        ("PF2", "mu-port"),
+    ],
+    [
+        ("D35", "digital"),
+        ("PF1", "mu-port"),
+    ],
+    [
+        ("D34", "digital"),
+        ("PF0", "mu-port"),
+    ],
+    [
+        ("D33", "digital"),
+        ("A11", "analog"),
+        ("PE3", "mu-port"),
+    ],
+]
+
+#########################################################
+#
+# Piezos: Left-hand-side
+#
+#########################################################
+
+piezo_01 = [
+    [
+        ("D9", "digital"),
+        ("PB1", "mu-port"),
+        ("LED", "led"),
+    ],
+]
+
+piezo_02 = [
+    [
+        ("D8", "digital"),
+        ("PB0", "mu-port"),
+        ("LED", "led"),
+    ],
+]
+
+piezo_03 = [
     [
         ("D7", "digital"),
-        ("PD7", "default"),
+        ("PA7", "mu-port"),
+        ("LED", "led"),
     ],
+]
+
+piezo_04 = [
     [
-        ("~D6", "digital"),
-        ("PD6", "default"),
+        ("D6", "digital"),
+        ("PA6", "mu-port"),
+        ("LED", "led"),
     ],
+]
+
+
+#########################################################
+#
+# Piezos: Right-hand-side
+#
+#########################################################
+
+piezo_05 = [
     [
-        ("~D5", "digital"),
-        ("PD5", "mu-port"),
+        ("D5", "digital"),
+        ("PA5", "mu-port"),
+        ("LED", "led"),
     ],
+]
+
+piezo_06 = [
     [
         ("D4", "digital"),
-        ("PD4", "mu-port"),
+        ("PA4", "mu-port"),
+        ("LED", "led"),
+    ],
+]
+
+piezo_07 = [
+    [
+        ("D1", "digital"),
+        ("PA1", "mu-port"),
+        ("LED", "led"),
+    ],
+]
+
+piezo_08 = [
+    [
+        ("D0", "digital"),
+        ("PA0", "mu-port"),
+        ("LED", "led"),
+    ],
+]
+
+#########################################################
+#
+# I2C: Right-hand-side
+#
+#########################################################
+
+i2c_con = [
+    [
+        ("QWIIC", "default"),
     ],
     [
-        ("~D3", "digital"),
-        ("PD3", "mu-port"),
-    ],
-    [
-        ("D2", "digital"),
-        ("PD2", "mu-port"),
-    ],
-    [
-        ("D1/TX", "digital"),
-        ("PD1", "mu-port"),
-    ],
-    [
-        ("D0/RX", "digital"),
-        ("PD0", "mu-port"),
+        ("QWIIC", "default"),
     ],
 ]
 
@@ -113,31 +163,30 @@ header_rhs_b = [
 #########################################################
 
 header_lhs_a = [
-    [("NC", "nc")],
-    [("IOREF", "other")],
-    [
-        ("RESET", "other"),
-        ("PC6", "default"),
-    ],
-    [("+3V3", "pwr")],
     [("+5", "pwr")],
     [("GND", "gnd")],
-    [("GND", "gnd")],
-    [("VIN", "pwr")],
-]
-
-# Example of using a list comprehension to generate pin data
-
-
-header_lhs_b = [
     [
-        (f"D{14 + i}", "digital"),
-        (f"A{i}", "analog"),
-        (f"PC{i}", "mu-port"),
-        (f"ADC[{i}]", "default"),
-    ]
-    for i in range(6)
+        ("D18~", "digital"),
+        ("PC4", "mu-port"),
+    ],
+    [
+        ("D23", "digital"),
+        ("A1", "analog"),
+        ("PD0", "mu-port"),
+    ],
+        [
+        ("D24", "digital"),
+        ("A2", "analog"),
+        ("PD1", "mu-port"),
+    ],
+        [
+        ("D25", "digital"),
+        ("A3", "analog"),
+        ("PD2", "mu-port"),
+    ],
 ]
+
+
 
 #########################################################
 #
@@ -145,25 +194,45 @@ header_lhs_b = [
 #
 #########################################################
 
-leds_a = [
+led_txrx = [
     [
-        ("RX LED", "led"),
-        ("PD4", "default"),
-    ],
-    [
-        ("TX LED", "led"),
-        ("PD5", "default"),
+        ("TX RX LED", "led"),
     ],
 ]
 
 
-leds_b = [
-    [
+led_power = [
+    [   
         ("POWER", "led"),
     ],
+]
+
+led_ws = [
     [
-        ("LED_BUILTIN", "led"),
-        ("PB5", "default"),
+        ("D10", "digital"),
+        ("PB2", "mu-port"),
+        ("WS2812B", "led"),
+    ],
+]
+
+led_rgb = [
+    [
+        ("D39~", "digital"),
+        ("A15", "analog"),
+        ("PF5", "mu-port"),
+        ("RED", "led"),
+    ],
+        [
+        ("D38~", "digital"),
+        ("A14", "analog"),
+        ("PF4", "mu-port"),
+        ("BLUE", "led"),
+    ],
+        [
+        ("D37", "digital"),
+        ("A13", "analog"),
+        ("PF3", "mu-port"),
+        ("GREEN", "led"),
     ],
 ]
 
