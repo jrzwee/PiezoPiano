@@ -45,15 +45,14 @@ void setup()
   RGB_Test();
 
   // ----------------- ENABLE GLBAL INTERRUPTS -----------------
+  TimerC0_Start();
   sei();
 }
 
 void loop() {
   for(int i = 0; i <= 7; i++)
-  {
     if(digitalRead(pos_button[i]))
       digitalWrite(pos_piezo[i], LOW);
-  }
 }
 
 void GPIO_Init()
@@ -98,20 +97,29 @@ void GPIO_Init()
 
 void TimerC0_Init()
 {
-    /* enable overflow interrupt */
-    TCA0.SINGLE.INTCTRL = TCA_SINGLE_OVF_bm;
-    
-    /* set Normal mode */
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_WGMODE_NORMAL_gc;
-    
-    /* disable event counting */
-    TCA0.SINGLE.EVCTRL &= ~(TCA_SINGLE_CNTEI_bm);
-    
-    /* set the period */
-    TCA0.SINGLE.PER = TCA_LIMIT;  
-    
-    TCA0.SINGLE.CTRLA = TCA_SINGLE_CLKSEL_DIV1_gc         /* set clock source (sys_clk/1) */
-                      | TCA_SINGLE_ENABLE_bm;             /* start timer */
+  /* enable overflow interrupt */
+  TCA0.SINGLE.INTCTRL = TCA_SINGLE_OVF_bm;
+  
+  /* set Normal mode */
+  TCA0.SINGLE.CTRLB = TCA_SINGLE_WGMODE_NORMAL_gc;
+  
+  /* disable event counting */
+  TCA0.SINGLE.EVCTRL &= ~(TCA_SINGLE_CNTEI_bm);
+  
+  /* set the period */
+  TCA0.SINGLE.PER = TCA_LIMIT;  
+  
+  TCA0.SINGLE.CTRLA = TCA_SINGLE_CLKSEL_DIV1_gc;         /* set clock source (sys_clk/1) */
+}
+
+void TimerC0_Start()
+{
+  TCA0.SINGLE.CTRLA = TCA_SINGLE_ENABLE_bm;             /* start timer */
+}
+
+void TimerC0_Stop()
+{
+  TCA0.SINGLE.CTRLA = ~(TCA_SINGLE_ENABLE_bm);             /* stop timer */
 }
 
 ISR(TCA0_OVF_vect)
