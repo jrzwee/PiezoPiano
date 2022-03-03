@@ -149,7 +149,7 @@ void Piezo_Test()
   Serial1.println(" - DONE!");
 }
 
-void   RGB_Test()
+void RGB_Test()
 {
   // ----------------- RGB TEST -----------------
   Serial1.print("RGB TEST");
