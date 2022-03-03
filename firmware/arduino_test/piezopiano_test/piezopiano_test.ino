@@ -22,41 +22,21 @@ int pos_button[] = {20,21,22,32,33,34,35,36};
 
 int melody[] = {NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5};
 
+unsigned char notes[8] = {0};
 
 void setup() 
 {
-  pinMode(pos_button[0], INPUT_PULLUP);
-  pinMode(pos_button[1], INPUT_PULLUP);
-  pinMode(pos_button[2], INPUT_PULLUP);
-  pinMode(pos_button[3], INPUT_PULLUP);
-  pinMode(pos_button[4], INPUT_PULLUP);
-  pinMode(pos_button[5], INPUT_PULLUP);
-  pinMode(pos_button[6], INPUT_PULLUP);
-  pinMode(pos_button[7], INPUT_PULLUP);
 
-  pinMode(pos_piezo[0], OUTPUT);
-  pinMode(pos_piezo[1], OUTPUT);
-  pinMode(pos_piezo[2], OUTPUT);
-  pinMode(pos_piezo[3], OUTPUT);
-  pinMode(pos_piezo[4], OUTPUT);
-  pinMode(pos_piezo[5], OUTPUT);
-  pinMode(pos_piezo[6], OUTPUT);
-  pinMode(pos_piezo[7], OUTPUT);
+  GPIO_Init();
+  TimerC0_Init();
 
-  // RGB LED
-  pinMode(37, OUTPUT);
-  pinMode(39, OUTPUT);
-  pinMode(38, OUTPUT);
-  digitalWrite(37, HIGH);
-  digitalWrite(38, HIGH);
-  digitalWrite(39, HIGH);
-
+  // ----------------- ACTIVATE SERIAL -----------------
   Serial1.begin(9600);
   
   // ----------------- TESTING -----------------
-  wsLedTest();
-  piezoTest();
-  rgbTest();
+  WS_LED_Test();
+  Piezo_Test();
+  RGB_Test();
 
   // ----------------- ENABLE INTERRUPT -----------------
   attachInterrupt(pos_button[0], tone_1, LOW);
@@ -67,6 +47,8 @@ void setup()
   attachInterrupt(pos_button[5], tone_1, LOW);
   attachInterrupt(pos_button[6], tone_1, LOW);
   attachInterrupt(pos_button[7], tone_1, LOW);
+
+
 }
 
 void loop() 
@@ -81,7 +63,43 @@ void loop()
   }
 }
 
-void wsLedTest()
+void GPIO_Init()
+{
+  // Buttons
+  pinMode(pos_button[0], INPUT_PULLUP);
+  pinMode(pos_button[1], INPUT_PULLUP);
+  pinMode(pos_button[2], INPUT_PULLUP);
+  pinMode(pos_button[3], INPUT_PULLUP);
+  pinMode(pos_button[4], INPUT_PULLUP);
+  pinMode(pos_button[5], INPUT_PULLUP);
+  pinMode(pos_button[6], INPUT_PULLUP);
+  pinMode(pos_button[7], INPUT_PULLUP);
+
+  // Piezos
+  pinMode(pos_piezo[0], OUTPUT);
+  pinMode(pos_piezo[1], OUTPUT);
+  pinMode(pos_piezo[2], OUTPUT);
+  pinMode(pos_piezo[3], OUTPUT);
+  pinMode(pos_piezo[4], OUTPUT);
+  pinMode(pos_piezo[5], OUTPUT);
+  pinMode(pos_piezo[6], OUTPUT);
+  pinMode(pos_piezo[7], OUTPUT);
+
+  // RGB LED = Common Anode
+  pinMode(37, OUTPUT);
+  pinMode(39, OUTPUT);
+  pinMode(38, OUTPUT);
+  digitalWrite(37, HIGH);
+  digitalWrite(38, HIGH);
+  digitalWrite(39, HIGH);
+}
+
+void TimerC0_Init()
+{
+
+}
+
+void WS_LED_Test()
 {
   // ----------------- WS2812 TEST -----------------
   Serial1.print("WS2812 TEST");
@@ -112,7 +130,7 @@ void wsLedTest()
   Serial1.println(" - DONE!");
 }
 
-void piezoTest()
+void Piezo_Test()
 {
   // ----------------- PIEZO TEST -----------------
   Serial1.print("Piezo TEST");
@@ -124,14 +142,14 @@ void piezoTest()
     // the note's duration + 30% seems to work well:
     int pauseBetweenNotes = noteDuration * 1.30;
     delay(pauseBetweenNotes);
-    
+
     noTone(pos_piezo[i]);
   }
 
   Serial1.println(" - DONE!");
 }
 
-void rgbTest()
+void   RGB_Test()
 {
   // ----------------- RGB TEST -----------------
   Serial1.print("RGB TEST");
