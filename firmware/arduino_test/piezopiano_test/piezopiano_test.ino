@@ -15,18 +15,24 @@ Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 #define DELAYVAL 400 // Time (in milliseconds) to pause between pixels
 int noteDuration = 100;
 
-int piezoPlacementV12[] = {9, 11, 7, 6, 5, 4, 1, 0};
+int pos_piezo_V12[] = {9, 11, 7, 6, 5, 4, 1, 0};
 int pos_piezo[] = {9, 8, 7, 6, 5, 4, 1, 0};
 
 int pos_button[] = {20,21,22,32,33,34,35,36};
 
 int melody[] = {NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5};
 
-unsigned char notes[8] = {0};
+#define F_TIMER				44000
+#define TCA_LIMIT			((F_CPU/F_TIMER)+1)
+
+unsigned int notes[8] = {0};
 
 void setup() 
 {
+  // ----------------- CLEAR INT -----------------
+  cli();
 
+  // ----------------- INIT -----------------
   GPIO_Init();
   TimerC0_Init();
 
@@ -38,28 +44,15 @@ void setup()
   Piezo_Test();
   RGB_Test();
 
-  // ----------------- ENABLE INTERRUPT -----------------
-  attachInterrupt(pos_button[0], tone_1, LOW);
-  attachInterrupt(pos_button[1], tone_1, LOW);
-  attachInterrupt(pos_button[2], tone_1, LOW);
-  attachInterrupt(pos_button[3], tone_1, LOW);
-  attachInterrupt(pos_button[4], tone_1, LOW);
-  attachInterrupt(pos_button[5], tone_1, LOW);
-  attachInterrupt(pos_button[6], tone_1, LOW);
-  attachInterrupt(pos_button[7], tone_1, LOW);
-
-
+  // ----------------- ENABLE GLBAL INTERRUPTS -----------------
+  sei();
 }
 
-void loop() 
-{
+void loop() {
   for(int i = 0; i <= 7; i++)
   {
-    if(digitalRead(pos_button[i])==1)
-    {
-      noTone(pos_piezo[i]);
+    if(digitalRead(pos_button[i]))
       digitalWrite(pos_piezo[i], LOW);
-    }
   }
 }
 
@@ -85,6 +78,15 @@ void GPIO_Init()
   pinMode(pos_piezo[6], OUTPUT);
   pinMode(pos_piezo[7], OUTPUT);
 
+  digitalWrite(pos_piezo[0], LOW);
+  digitalWrite(pos_piezo[1], LOW);
+  digitalWrite(pos_piezo[2], LOW);
+  digitalWrite(pos_piezo[3], LOW);
+  digitalWrite(pos_piezo[4], LOW);
+  digitalWrite(pos_piezo[5], LOW);
+  digitalWrite(pos_piezo[6], LOW);
+  digitalWrite(pos_piezo[7], LOW);
+
   // RGB LED = Common Anode
   pinMode(37, OUTPUT);
   pinMode(39, OUTPUT);
@@ -96,7 +98,91 @@ void GPIO_Init()
 
 void TimerC0_Init()
 {
+    /* enable overflow interrupt */
+    TCA0.SINGLE.INTCTRL = TCA_SINGLE_OVF_bm;
+    
+    /* set Normal mode */
+    TCA0.SINGLE.CTRLB = TCA_SINGLE_WGMODE_NORMAL_gc;
+    
+    /* disable event counting */
+    TCA0.SINGLE.EVCTRL &= ~(TCA_SINGLE_CNTEI_bm);
+    
+    /* set the period */
+    TCA0.SINGLE.PER = TCA_LIMIT;  
+    
+    TCA0.SINGLE.CTRLA = TCA_SINGLE_CLKSEL_DIV1_gc         /* set clock source (sys_clk/1) */
+                      | TCA_SINGLE_ENABLE_bm;             /* start timer */
+}
 
+ISR(TCA0_OVF_vect)
+{
+  notes[0]++;
+	notes[1]++;
+	notes[2]++;
+	notes[3]++;
+	notes[4]++;
+	notes[5]++;
+	notes[6]++;
+	notes[7]++;
+	
+	//NOTE 1
+	if(!(PORTC.IN & PIN6_bm) && (notes[0] >= (F_TIMER/(NOTE_C4))))
+	{
+		PORTB.OUTTGL = PIN1_bm; // Toggle Pin
+		notes[0] = 0;
+	}
+
+	// NOTE 2
+	if(!(PORTC.IN & PIN7_bm) && (notes[1] >= (F_TIMER/(NOTE_D4))))
+	{
+		PORTB.OUTTGL = PIN0_bm;
+		notes[1] = 0;
+	}
+
+	// NOTE 3
+	if(!(PORTD.IN & PIN0_bm) && (notes[2] >= (F_TIMER/(NOTE_E4))))
+	{
+		PORTA.OUTTGL = PIN7_bm;
+		notes[2] = 0;
+	}
+
+	// NOTE 4
+	if(!(PORTE.IN & PIN2_bm) && (notes[3] >= (F_TIMER/(NOTE_F4))))
+	{
+		PORTA.OUTTGL = PIN6_bm;
+		notes[3] = 0;
+	}
+
+	// NOTE 5
+	if(!(PORTE.IN & PIN3_bm) && (notes[4] >= (F_TIMER/(NOTE_G4))))
+	{
+		PORTA.OUTTGL = PIN5_bm;
+		notes[4] = 0;
+	}
+
+	// NOTE 6
+	if(!(PORTF.IN & PIN0_bm) && (notes[5] >= (F_TIMER/(NOTE_A4))))
+	{
+		PORTA.OUTTGL = PIN4_bm;
+		notes[5] = 0;
+	}
+	
+	// NOTE 7
+	if(!(PORTF.IN & PIN1_bm) && (notes[6] >= (F_TIMER/(NOTE_B4))))
+	{
+		PORTA.OUTTGL = PIN1_bm;
+		notes[6] = 0;
+	}
+
+	// NOTE 8
+	if(!(PORTF.IN & PIN2_bm) && (notes[7] >= (F_TIMER/(NOTE_C5))))
+	{
+		PORTA.OUTTGL = PIN0_bm;
+		notes[7] = 0;
+	}
+
+  /* The interrupt flag has to be cleared manually */
+  TCA0.SINGLE.INTFLAGS = TCA_SINGLE_OVF_bm;
 }
 
 void WS_LED_Test()
@@ -171,13 +257,4 @@ void RGB_Test()
   digitalWrite(39, LOW);
 
   Serial1.println(" - DONE!");
-}
-
-void tone_1()
-{
-  for(int i = 0; i <= 7; i++)
-  {
-    if(digitalRead(pos_button[i])==0)
-      digitalWrite(pos_piezo[i], HIGH);
-  }
 }
