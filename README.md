@@ -30,5 +30,8 @@ TBD as there is a refactoring in the making.
 ## Renders
 ![PCB Piano](/hardware/renders/20211024_PiezoPiano_A_V1.2.png)
 
+## Pinout
+![PCB Pinout](/hardware/pinout/piezopiano_pinout.svg)
+
 ## License
 [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
