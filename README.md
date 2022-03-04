@@ -1,8 +1,11 @@
 # PiezoPiano
-Piezo Piano Project
+
+<p align="center">
+  <img width="512" height="512" src="/hardware/renders/20211024_PiezoPiano_A_V1.2.png">
+</p>
 
 ## What´s this?
-PiezoPiano is a PCB piano which can play one octave - all at once.
+PiezoPiano is a PCB piano which can play one octave - all at once. It is programmed via Arduino.
 
 ## Implementation
 The processor generates a square wave for every note which is played. This is realised via timers and a interrupt.
@@ -27,11 +30,14 @@ This code snippet gives an insight how the waveform is generated. The algorithm 
 ## Build of Material - BOM
 TBD as there is a refactoring in the making.
 
-## Renders
-![PCB Piano](/hardware/renders/20211024_PiezoPiano_A_V1.2.png)
-
 ## Pinout
 ![PCB Pinout](/hardware/pinout/piezopiano_pinout.svg)
+
+## Renders
+<p align="center">
+  <img width="512" height="512" src="/hardware/renders/piezopiano_v13_direct_side.png">
+  <img width="512" height="512" src="/hardware/renders/piezopiano_v13_render.png">
+</p>
 
 ## License
 [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
