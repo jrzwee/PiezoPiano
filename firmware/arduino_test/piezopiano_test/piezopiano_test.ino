@@ -6,7 +6,7 @@
 #define PIN         10    // Which pin on the Arduino is connected to the NeoPixels?
 #define NUMPIXELS   1     // How many NeoPixels are attached to the Arduino?
 
-#define F_TIMER				44000
+#define F_TIMER				65536/2
 #define TCA_LIMIT			((F_CPU/F_TIMER)+1)
 
 #define DELAYVAL 400      // Time (in milliseconds) to pause between pixels
@@ -19,30 +19,37 @@ int pos_button[] = {20, 21, 22, 32, 33, 34, 35, 36};     // Digital pin location
 
 int melody[] = {NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5};
 
+#define REAL_NOTE_C4 F_TIMER/(NOTE_C4)
+#define REAL_NOTE_D4 F_TIMER/(NOTE_D4)
+#define REAL_NOTE_E4 F_TIMER/(NOTE_E4)
+#define REAL_NOTE_F4 F_TIMER/(NOTE_F4)
+#define REAL_NOTE_G4 F_TIMER/(NOTE_G4)
+#define REAL_NOTE_A4 F_TIMER/(NOTE_A4)
+#define REAL_NOTE_B4 F_TIMER/(NOTE_B4)
+#define REAL_NOTE_C5 F_TIMER/(NOTE_C5)
+
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 unsigned int notes[8] = {0};
 
 void setup() 
 {
-  // ----------------- CLEAR INT -----------------
-  cli();
-
-  // ----------------- INIT -----------------
+  // ----------------- INIT GPIO -----------------
   GPIO_Init();
-  TimerC0_Init();
-  TimerC0_Start();
 
   // ----------------- ACTIVATE SERIAL -----------------
   Serial1.begin(9600);
-  
+    
   // ----------------- TESTING -----------------
   WS_LED_Test();
   Piezo_Test();
   RGB_Test();
 
-  // ----------------- ENABLE GLBAL INTERRUPTS -----------------
-  sei();
+  // ----------------- INIT TIMER -----------------
+  // Must be here due to cap discharge at the buttons
+  // Triggers LEDs otherwise
+  TimerC0_Init();
+  TimerC0_Start();
 }
 
 void loop() {
@@ -94,9 +101,6 @@ void GPIO_Init()
 
 void TimerC0_Init()
 {
-  /* enable overflow interrupt */
-  TCA0.SINGLE.INTCTRL = TCA_SINGLE_OVF_bm;
-  
   /* set Normal mode */
   TCA0.SINGLE.CTRLB = TCA_SINGLE_WGMODE_NORMAL_gc;
   
@@ -107,6 +111,9 @@ void TimerC0_Init()
   TCA0.SINGLE.PER = TCA_LIMIT;  
   
   TCA0.SINGLE.CTRLA = TCA_SINGLE_CLKSEL_DIV1_gc;         /* set clock source (sys_clk/1) */
+
+  /* enable overflow interrupt */
+  TCA0.SINGLE.INTCTRL = TCA_SINGLE_OVF_bm;
 }
 
 void TimerC0_Start()
@@ -131,56 +138,56 @@ ISR(TCA0_OVF_vect)
 	notes[7]++;
 	
 	//NOTE 1
-	if(!(PORTC.IN & PIN6_bm) && (notes[0] >= (F_TIMER/(NOTE_C4))))
+	if(!(PORTC.IN & PIN6_bm) && (notes[0] >= (REAL_NOTE_C4)))
 	{
 		PORTB.OUTTGL = PIN1_bm; // Toggle Pin
 		notes[0] = 0;
 	}
 
 	// NOTE 2
-	if(!(PORTC.IN & PIN7_bm) && (notes[1] >= (F_TIMER/(NOTE_D4))))
+	if(!(PORTC.IN & PIN7_bm) && (notes[1] >= (REAL_NOTE_D4)))
 	{
 		PORTB.OUTTGL = PIN0_bm;
 		notes[1] = 0;
 	}
 
 	// NOTE 3
-	if(!(PORTD.IN & PIN0_bm) && (notes[2] >= (F_TIMER/(NOTE_E4))))
+	if(!(PORTD.IN & PIN0_bm) && (notes[2] >= (REAL_NOTE_E4)))
 	{
 		PORTA.OUTTGL = PIN7_bm;
 		notes[2] = 0;
 	}
 
 	// NOTE 4
-	if(!(PORTE.IN & PIN2_bm) && (notes[3] >= (F_TIMER/(NOTE_F4))))
+	if(!(PORTE.IN & PIN2_bm) && (notes[3] >= (REAL_NOTE_F4)))
 	{
 		PORTA.OUTTGL = PIN6_bm;
 		notes[3] = 0;
 	}
 
 	// NOTE 5
-	if(!(PORTE.IN & PIN3_bm) && (notes[4] >= (F_TIMER/(NOTE_G4))))
+	if(!(PORTE.IN & PIN3_bm) && (notes[4] >= (REAL_NOTE_G4)))
 	{
 		PORTA.OUTTGL = PIN5_bm;
 		notes[4] = 0;
 	}
 
 	// NOTE 6
-	if(!(PORTF.IN & PIN0_bm) && (notes[5] >= (F_TIMER/(NOTE_A4))))
+	if(!(PORTF.IN & PIN0_bm) && (notes[5] >= (REAL_NOTE_A4)))
 	{
 		PORTA.OUTTGL = PIN4_bm;
 		notes[5] = 0;
 	}
 	
 	// NOTE 7
-	if(!(PORTF.IN & PIN1_bm) && (notes[6] >= (F_TIMER/(NOTE_B4))))
+	if(!(PORTF.IN & PIN1_bm) && (notes[6] >= (REAL_NOTE_B4)))
 	{
 		PORTA.OUTTGL = PIN1_bm;
 		notes[6] = 0;
 	}
 
 	// NOTE 8
-	if(!(PORTF.IN & PIN2_bm) && (notes[7] >= (F_TIMER/(NOTE_C5))))
+	if(!(PORTF.IN & PIN2_bm) && (notes[7] >= (REAL_NOTE_C5)))
 	{
 		PORTA.OUTTGL = PIN0_bm;
 		notes[7] = 0;
