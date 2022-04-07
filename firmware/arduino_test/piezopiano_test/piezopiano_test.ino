@@ -11,7 +11,7 @@
 
 #define DELAYVAL 400      // Time (in milliseconds) to pause between pixels
 
-#define OFFSET 10         // Tuned by pianist
+#define OFFSET 8          // Tuned by pianist
 
 int noteDuration = 100;   // Note dauration for the test
 
@@ -25,9 +25,9 @@ int melody[] = {NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, N
 #define REAL_NOTE_D4 F_TIMER/(NOTE_D4+OFFSET)
 #define REAL_NOTE_E4 F_TIMER/(NOTE_E4+OFFSET)
 #define REAL_NOTE_F4 F_TIMER/(NOTE_F4+OFFSET)
-#define REAL_NOTE_G4 F_TIMER/(NOTE_G4+OFFSET)
+#define REAL_NOTE_G4 F_TIMER/(NOTE_A4+OFFSET)
 #define REAL_NOTE_A4 F_TIMER/(NOTE_A4+OFFSET)
-#define REAL_NOTE_B4 F_TIMER/(NOTE_B4+OFFSET)
+#define REAL_NOTE_B4 F_TIMER/(NOTE_A4+OFFSET)
 #define REAL_NOTE_C5 F_TIMER/(NOTE_C5+OFFSET)
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
@@ -244,6 +244,7 @@ void Piezo_Test()
     delay(pauseBetweenNotes);
 
     noTone(pos_piezo[i]);
+    digitalWrite(pos_piezo[i], HIGH);    // Turn on LED
   }
 
   Serial1.println(" - DONE!");
