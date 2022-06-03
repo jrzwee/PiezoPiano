@@ -7,6 +7,11 @@
 ## What´s this?
 PiezoPiano is a PCB piano which can play one octave - all at once. It is programmed via Arduino.
 
+If you like this project, feel free to support me 😇
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zaan)
+
+
 ## Implementation
 The processor generates a square wave for every note which is played. This is realised via timers and a interrupt.
 
