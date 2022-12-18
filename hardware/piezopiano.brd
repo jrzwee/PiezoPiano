@@ -252,10 +252,10 @@
 <text x="13.25" y="22.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center-right">D18~</text>
 <text x="19.25" y="21.25" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">Prototype
 Area</text>
-<wire x1="19.25" y1="27" x2="19.25" y2="27.5" width="0.127" layer="25"/>
-<wire x1="19.25" y1="27.5" x2="17" y2="27.5" width="0.127" layer="25"/>
-<wire x1="19.25" y1="15.5" x2="19.25" y2="15" width="0.127" layer="25"/>
-<wire x1="19.25" y1="15" x2="17" y2="15" width="0.127" layer="25"/>
+<wire x1="19.25" y1="27" x2="18.75" y2="27.5" width="0.127" layer="25" curve="90"/>
+<wire x1="18.75" y1="27.5" x2="17" y2="27.5" width="0.127" layer="25"/>
+<wire x1="19.25" y1="15.5" x2="18.75" y2="15" width="0.127" layer="25" curve="-90"/>
+<wire x1="18.75" y1="15" x2="17" y2="15" width="0.127" layer="25"/>
 <text x="40.5" y="28" size="1.016" layer="25" font="vector" ratio="15" align="center-left">Microcontroller
 ATmega4809</text>
 <text x="5" y="34.75" size="1.016" layer="25" font="vector" ratio="15" align="center">RGB LED
@@ -346,6 +346,8 @@ max!</text>
 <wire x1="39.5" y1="28" x2="38.75" y2="27.25" width="0.1524" layer="21" curve="90"/>
 <wire x1="38.75" y1="27.25" x2="38.75" y2="23.75" width="0.1524" layer="21"/>
 <wire x1="38.75" y1="23.75" x2="38" y2="23" width="0.1524" layer="21" curve="-90"/>
+<wire x1="19.25" y1="27" x2="19.25" y2="26.5" width="0.1524" layer="25"/>
+<wire x1="19.25" y1="15.5" x2="19.25" y2="16" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="Custom">
@@ -23263,7 +23265,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.25" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
+<attribute name="NAME" x="48.75" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHS_COMPLIANT" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
