@@ -6823,6 +6823,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="129.54" y1="209.55" x2="134.62" y2="209.55" width="0.1524" layer="91"/>
 <label x="134.62" y="209.55" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="91.44" y1="-30.48" x2="86.36" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-30.48" x2="86.36" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-27.94" x2="91.44" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-27.94" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="86.36" y="-27.94"/>
+<wire x1="78.74" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-30.48" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="78.74" y="-27.94"/>
+<label x="73.66" y="-27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="S9" gate="G$1" pin="P"/>
+<pinref part="S9" gate="G$1" pin="P@1"/>
+</segment>
 </net>
 <net name="D29/A7/AREF" class="0">
 <segment>
@@ -7237,22 +7251,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
 <label x="170.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="XXXX" class="0">
-<segment>
-<wire x1="91.44" y1="-30.48" x2="86.36" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-30.48" x2="86.36" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-27.94" x2="91.44" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-27.94" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="86.36" y="-27.94"/>
-<wire x1="78.74" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-30.48" x2="78.74" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="78.74" y="-27.94"/>
-<label x="73.66" y="-27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="S9" gate="G$1" pin="P"/>
-<pinref part="S9" gate="G$1" pin="P@1"/>
 </segment>
 </net>
 </nets>
