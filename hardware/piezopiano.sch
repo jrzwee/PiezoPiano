@@ -4557,7 +4557,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
 <attribute name="DRAWN_BY" value="Andreas Zapfl"/>
-<attribute name="REV" value="1.3"/>
+<attribute name="REV" value="1.4"/>
 <attribute name="TITLE" value="PiezoPiano"/>
 </attributes>
 <variantdefs>
