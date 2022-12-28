@@ -3359,25 +3359,22 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="150121" urn="urn:adsk.eagle:component:16759438/3" locally_modified="yes" prefix="D" uservalue="yes">
+<deviceset name="E6C1209RGBC3UDA" prefix="D" uservalue="yes">
 <description>&lt;b&gt;WL-SFCW SMD Full-color Chip LED Waterclear
 &lt;br&gt;
 &lt;br&gt;
 
-Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://katalog.we-online.de/en/led/WL-SFCW&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Created By Yingchun,Shan&lt;br&gt;
-&lt;/b&gt;2016 (C) Wurth Elektronik</description>
+Details see: &lt;a href="https://datasheet.lcsc.com/lcsc/2203301730_EKINGLUX-E6C1209RGBC3UDA_C375572.pdf"&gt;DATASHEET&lt;/a&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="WL-SFCX" x="0" y="0"/>
 </gates>
 <devices>
 <device name="M173000" package="WL-SFCX_1210">
 <connects>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="R" pad="1"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="R" pad="4"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:26749650/5"/>
@@ -3385,8 +3382,9 @@ Details see: &lt;a href="http://katalog.we-online.de/en/led/WL-SFCW"&gt;http://k
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="RGB SMD LED"/>
-<attribute name="MF" value="Wurth Electronics"/>
-<attribute name="MPN" value="150121M173000"/>
+<attribute name="LCSC" value="C375572"/>
+<attribute name="MF" value="EKINGLUX"/>
+<attribute name="MPN" value="E6C1209RGBC3UDA"/>
 <attribute name="PACKAGE" value="1210"/>
 </technology>
 </technologies>
@@ -4968,7 +4966,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="zaan-Optoelectronics" deviceset="150121" device="M173000" package3d_urn="urn:adsk.eagle:package:26749650/5"/>
+<part name="D1" library="zaan-Optoelectronics" deviceset="E6C1209RGBC3UDA" device="M173000" package3d_urn="urn:adsk.eagle:package:26749650/5"/>
 <part name="R39" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="R38" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="U1" library="zaan-IC-Microcontroller" deviceset="ATMEGA4809" device="" package3d_urn="urn:adsk.eagle:package:31336350/2" value="ATMEGA4809"/>
@@ -5024,9 +5022,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="REFX2" library="zaan-Resistors" deviceset="DNP" device="-0805" package3d_urn="urn:adsk.eagle:package:16759454/7" value="DNP"/>
 <part name="REFX4" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DNP"/>
 <part name="REFX3" library="zaan-IC-Microcontroller" deviceset="MSP432P401RIZXHR" device="" package3d_urn="urn:adsk.eagle:package:31294788/1" value="DNP"/>
-<part name="R1" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R3" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
-<part name="R2" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 <part name="C13" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="zaan-Capacitors" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n"/>
@@ -5068,6 +5063,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="R2" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R3" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
+<part name="R1" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5802,19 +5800,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="170.18" y="132.588" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="177.8" y="187.96" smashed="yes">
-<attribute name="NAME" x="173.99" y="190.5" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="R3" gate="G$1" x="177.8" y="193.04" smashed="yes">
-<attribute name="NAME" x="173.99" y="195.58" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="R2" gate="G$1" x="177.8" y="182.88" smashed="yes">
-<attribute name="NAME" x="173.99" y="185.42" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="173.99" y="180.34" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="173.99" y="178.816" size="1.27" layer="96" align="center-left"/>
-<attribute name="POWER" x="173.99" y="177.292" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="173.99" y="175.768" size="1.27" layer="96" align="center-left"/>
-</instance>
 <instance part="C13" gate="G$1" x="160.02" y="215.9" smashed="yes">
 <attribute name="NAME" x="158.75" y="217.424" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="163.322" y="217.678" size="1.27" layer="96" align="center-left"/>
@@ -6018,6 +6003,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP5" gate="G$1" x="124.46" y="78.74" smashed="yes">
 <attribute name="NAME" x="123.444" y="72.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="125.73" y="76.2" size="1.778" layer="97"/>
+</instance>
+<instance part="R2" gate="G$1" x="177.8" y="193.04" smashed="yes">
+<attribute name="NAME" x="173.99" y="195.58" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R3" gate="G$1" x="177.8" y="187.96" smashed="yes">
+<attribute name="NAME" x="173.99" y="190.5" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="177.8" y="182.88" smashed="yes">
+<attribute name="NAME" x="173.99" y="185.42" size="1.778" layer="95" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -7379,8 +7373,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="187.96" x2="170.18" y2="187.96" width="0.1524" layer="91"/>
-<label x="170.18" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="172.72" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
+<label x="170.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D36/A12" class="0">
@@ -7460,24 +7454,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="312.42" y1="45.72" x2="312.42" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="R"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="G"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="B"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U2" gate="U1" pin="!RTS"/>
@@ -7554,8 +7530,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="193.04" x2="170.18" y2="193.04" width="0.1524" layer="91"/>
-<label x="170.18" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="172.72" y1="187.96" x2="170.18" y2="187.96" width="0.1524" layer="91"/>
+<label x="170.18" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -7582,8 +7558,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
-<label x="170.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="172.72" y1="193.04" x2="170.18" y2="193.04" width="0.1524" layer="91"/>
+<label x="170.18" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="R"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="B"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="G"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
