@@ -354,6 +354,8 @@ max!</text>
 <wire x1="38.75" y1="23.75" x2="38" y2="23" width="0.1524" layer="21" curve="-90"/>
 <wire x1="19.25" y1="27" x2="19.25" y2="26.5" width="0.1524" layer="25"/>
 <wire x1="19.25" y1="15.5" x2="19.25" y2="16" width="0.1524" layer="25"/>
+<text x="94" y="100" size="1.9304" layer="51" font="vector" ratio="15" distance="100" align="top-left">INFO:
+- Renumber from bottom left to top right</text>
 </plain>
 <libraries>
 <library name="Custom">
@@ -1203,7 +1205,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="-2.2" y1="2" x2="2.2" y2="2" width="0.127" layer="39"/>
 <wire x1="2.2" y1="2" x2="2.2" y2="-2" width="0.127" layer="39"/>
 </package>
-<package name="LEDC1608X55N_FLAT-Y" urn="urn:adsk.eagle:footprint:31105124/2" library_version="11">
+<package name="LEDC1608X55N_FLAT" urn="urn:adsk.eagle:footprint:31105124/2" locally_modified="yes" library_version="11">
 <description>Chip LED, 1.60 X 0.80 X 0.55 mm body
  &lt;p&gt;Chip LED package with body size 1.60 X 0.80 X 0.55 mm&lt;/p&gt;</description>
 <smd name="C" x="-0.75" y="0" dx="0.6118" dy="0.9118" layer="1" roundness="15"/>
@@ -1249,11 +1251,11 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <packageinstance name="WL-SFCX_1210"/>
 </packageinstances>
 </package3d>
-<package3d name="LEDC1608X55N_FLAT-Y" urn="urn:adsk.eagle:package:31105136/2" type="model" library_version="9">
+<package3d name="LEDC1608X55N_FLAT-Y" urn="urn:adsk.eagle:package:31105136/2" type="model">
 <description>Chip LED, 1.60 X 0.80 X 0.55 mm body
  &lt;p&gt;Chip LED package with body size 1.60 X 0.80 X 0.55 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="LEDC1608X55N_FLAT-Y"/>
+<packageinstance name="LEDC1608X55N_FLAT"/>
 </packageinstances>
 </package3d>
 <package3d name="WS2812B" urn="urn:adsk.eagle:package:31106145/1" type="model">
@@ -22488,72 +22490,81 @@ Your Multi-CB Team
 <attribute name="NAME" x="54.25" y="4.25" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="50.75" y="7.75" size="1.016" layer="27" font="vector" ratio="13" rot="R180" align="center"/>
 </element>
-<element name="Q3" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="23.5" y="36" smashed="yes">
+<element name="Q3" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="23.5" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="23.5" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="23.5" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="23.5" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="23.5" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="23.5" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="23.5" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="21.25" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="23.5" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.5" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q4" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="29.25" y="36" smashed="yes">
+<element name="Q4" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="29.25" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="29.25" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="29.25" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="29.25" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="29.25" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="29.25" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="29.25" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="29.25" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.25" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q1" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="12" y="36" smashed="yes">
+<element name="Q1" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="12" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="12" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="12" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="12" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="12" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="12" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="12" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.75" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="12" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="12" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q2" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="17.75" y="36" smashed="yes">
+<element name="Q2" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="17.75" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="17.75" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="17.75" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="17.75" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="17.75" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="17.75" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="17.75" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.5" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="17.75" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.75" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q5" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="35" y="36" smashed="yes">
+<element name="Q5" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="35" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="35" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="35" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="35" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="35" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="35" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="35" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.75" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="35" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="35" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q6" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="40.75" y="36" smashed="yes">
+<element name="Q6" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="40.75" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="40.75" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="40.75" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="40.75" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="40.75" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="40.75" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="40.75" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.5" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="40.75" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="40.75" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q8" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="52.25" y="36" smashed="yes">
+<element name="Q8" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="52.25" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="52.25" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="52.25" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="52.25" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="52.25" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="52.25" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="52.25" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="50" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="52.25" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.25" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
-<element name="Q7" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="DMN3404L" x="46.5" y="36" smashed="yes">
+<element name="Q7" library="zaan-Discrete" package="SOT23" package3d_urn="urn:adsk.eagle:package:16759132/2" value="AO3400A" x="46.5" y="36" smashed="yes">
 <attribute name="DESCRIPTION" value="N-CHANNEL MOSFET" x="46.5" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Diodes Incorporated" x="46.5" y="36" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="DMN3404L-7" x="46.5" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C20917" x="46.5" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Alpha &amp; Omega Semicon" x="46.5" y="36" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AO3400A" x="46.5" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="44.25" y="36" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT-23" x="46.5" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.5" y="33.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 </element>
 <element name="LS7" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="24.5" y="77.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="24.5" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.5" y="82.5" size="1.016" layer="25" font="vector" ratio="15" rot="R225" align="center"/>
@@ -22561,6 +22572,7 @@ Your Multi-CB Team
 </element>
 <element name="LS1" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="53.25" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="53.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.25" y="58.25" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
@@ -22568,6 +22580,7 @@ Your Multi-CB Team
 </element>
 <element name="LS5" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="12" y="73" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="12" y="73" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="12" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="12" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="12" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="7" y="78" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
@@ -22575,6 +22588,7 @@ Your Multi-CB Team
 </element>
 <element name="LS2" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="19" y="62" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="19" y="62" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="19" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="19" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="19" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12" y="62" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
@@ -22582,6 +22596,7 @@ Your Multi-CB Team
 </element>
 <element name="LS4" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="31.25" y="66.25" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="31.25" y="66.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.25" y="73.5" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
@@ -22589,6 +22604,7 @@ Your Multi-CB Team
 </element>
 <element name="LS8" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="38" y="77.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="38" y="77.5" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="38" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="38" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="38" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.25" y="82.75" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
@@ -22596,6 +22612,7 @@ Your Multi-CB Team
 </element>
 <element name="LS6" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="50.5" y="73" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="50.5" y="73" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="50.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="50.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="50.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.5" y="78" size="1.016" layer="25" font="vector" ratio="15" rot="R45" align="center"/>
@@ -22603,6 +22620,7 @@ Your Multi-CB Team
 </element>
 <element name="LS3" library="zaan-Electromechanical" package="CM12P/5.0P" package3d_urn="urn:adsk.eagle:package:16672571/7" value="F/CM12P" x="43.5" y="62" smashed="yes">
 <attribute name="DESCRIPTION" value="Piezo Buzzer" x="43.5" y="62" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C219727" x="43.5" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="ZLFY" x="43.5" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZL-YDW1207-4005PA-5.0" x="43.5" y="62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="50.5" y="62" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
@@ -22926,6 +22944,7 @@ Your Multi-CB Team
 </element>
 <element name="U2" library="zaan-IC-General" package="MSOP10" package3d_urn="urn:adsk.eagle:package:16759223/2" value="CH340E_MSOP10" x="31.25" y="89" smashed="yes">
 <attribute name="DESCRIPTION" value="UART Converter" x="31.25" y="89" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C99652" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Jiangsu Qin Heng" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CH340E" x="31.25" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.25" y="91.25" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
@@ -22934,8 +22953,9 @@ Your Multi-CB Team
 </element>
 <element name="J4" library="zaan-Connectors" package="USB-C-16P" package3d_urn="urn:adsk.eagle:package:16672513/4" value="" x="31.25" y="97" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="USB Type C Female" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Jing Extension" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="C167321" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C2927300" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="YIYUAN" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="YTC-TC16S-23" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.875" y="92.125" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="USB-C 16P" x="31.25" y="97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="31.25" y="98" size="1.016" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
@@ -23004,6 +23024,7 @@ Your Multi-CB Team
 <attribute name="DESCRIPTION" value="ATmega4809 Microcontroller" x="31" y="23" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756" x="31" y="23" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTRIBUTOR-PN" value="ATMEGA4809-AFRCT-ND" x="31" y="23" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="LCSC" value="C189475" x="31" y="23" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MANUFACTURER" value="Microchip" x="31" y="23" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MPN" value="ATMEGA4809-AFR" x="31" y="23" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="31" y="28.656853125" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
@@ -23024,12 +23045,13 @@ Your Multi-CB Team
 <attribute name="VALUE" x="36.480075" y="28.480075" size="1.016" layer="27" font="vector" ratio="15" rot="R135" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="35.419415625" y="27.419415625" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="D11" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="36.25" y="86.25" smashed="yes">
+<element name="D11" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_BLUE" x="36.25" y="86.25" smashed="yes">
 <attribute name="CATEGORY" value="LED" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
-<attribute name="COLOR" value="YELLOW" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="BLUE" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C72043" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="19-217/GHC-YR1S2/3T" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="36.25" y="84.75" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="PART_STATUS" value="" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
@@ -23038,18 +23060,18 @@ Your Multi-CB Team
 <attribute name="SUB-CATEGORY" value="CHIP" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="THERMALLOSS" value="" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="FLAT_TOP" x="36.25" y="86.25" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="LED_YELLOW" x="37.75" y="86.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" value="LED_BLUE" x="37.75" y="86.25" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R40" library="zaan-Resistors" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="36.25" y="88" smashed="yes">
+<element name="R40" library="zaan-Resistors" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1.6k" x="36.25" y="88" smashed="yes">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="36.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="36.25" y="88" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="36.25" y="88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-071K6L" x="36.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="36.25" y="89.25" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="36.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0603" x="36.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="POWER" value="0.1W" x="36.25" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="36.25" y="88" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="36.25" y="86.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" value="1.6k" x="36.25" y="86.5" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="36.25" y="88" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C18" library="zaan-Capacitors" package="C0603" package3d_urn="urn:adsk.eagle:package:16758953/4" value="100n" x="36.25" y="90.5" smashed="yes">
@@ -23170,12 +23192,13 @@ Your Multi-CB Team
 <attribute name="VALUE" value="100n" x="24.625" y="94.5" size="0.8128" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="50V" x="23.125" y="94.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D3" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="13.75" y="39.75" smashed="yes" rot="R90">
+<element name="D3" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="13.75" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.25" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23186,12 +23209,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="13.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.25" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D5" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="25.25" y="39.75" smashed="yes" rot="R90">
+<element name="D5" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="25.25" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.75" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23202,12 +23226,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="25.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.75" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D7" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="36.75" y="39.75" smashed="yes" rot="R90">
+<element name="D7" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="36.75" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="37.25" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23218,12 +23243,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="36.75" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="38.25" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D6" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="31" y="39.75" smashed="yes" rot="R90">
+<element name="D6" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="31" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.5" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23234,12 +23260,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="31" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="32.5" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D8" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="42.5" y="39.75" smashed="yes" rot="R90">
+<element name="D8" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="42.5" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23250,12 +23277,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="42.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="44" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D10" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="54" y="39.75" smashed="yes" rot="R90">
+<element name="D10" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="54" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="54.5" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23266,12 +23294,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="54" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="55.5" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D9" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="48.25" y="39.75" smashed="yes" rot="R90">
+<element name="D9" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="48.25" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="48.75" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23282,12 +23311,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="FLAT_TOP" x="48.25" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="49.75" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="D4" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="19.5" y="39.75" smashed="yes" rot="R90">
+<element name="D4" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="19.5" y="39.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COLOR" value="YELLOW" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72038" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-213/Y2C-CQ2R2L/3T(CY)" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20" y="38.125" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="19.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23316,8 +23346,9 @@ Your Multi-CB Team
 <attribute name="CATEGORY" value="LED" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COLOR" value="RGB" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="WS2812 RGB LED" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC" value="C2761795" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Worldsemi" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="WS2812B" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="WS2812B-B/W" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="1.75" y="39.75" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="OPERATING_TEMP" value="-25 ℃ to +80℃(TJ)" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_STATUS" value="Active" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -23328,12 +23359,13 @@ Your Multi-CB Team
 <attribute name="TYPE" value="" x="5" y="39.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="1.5" y="39.75" size="1.016" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="D14" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT-Y" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_YELLOW" x="42" y="95.75" smashed="yes" rot="R90">
+<element name="D14" library="zaan-Optoelectronics" package="LEDC1608X55N_FLAT" package3d_urn="urn:adsk.eagle:package:31105136/2" value="LED_EMERALD" x="42" y="95.75" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="LED" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COLOR" value="YELLOW" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COLOR" value="EMERALD" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CHIP LED FLAT" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C72041" x="42" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Everlight Elec" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="19-217/BHC-ZL1M2RY/3T" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="42" y="94" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="OPERATING_TEMP" value="" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_STATUS" value="" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
@@ -23342,22 +23374,23 @@ Your Multi-CB Team
 <attribute name="SUB-CATEGORY" value="CHIP" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="THERMALLOSS" value="" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="FLAT_TOP" x="42" y="94.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="43.5" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" value="LED_EMERALD" x="43.5" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R44" library="zaan-Resistors" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="1k" x="40.25" y="95.75" smashed="yes" rot="R90">
+<element name="R44" library="zaan-Resistors" package="R0603" package3d_urn="urn:adsk.eagle:package:16759452/3" value="2.2k" x="40.25" y="95.75" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Chip Resistor" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-072K2L" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="40.25" y="94" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center-left"/>
 <attribute name="PACKAGE" value="1608" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE-IN" value="0603" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="0.1W" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="41.75" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" value="2.2k" x="41.75" y="95.75" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VOLTAGE" value="75V" x="40.25" y="95.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J1" library="zaan-Connectors" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="55" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Header SMD 1MM 4Pin" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C145956" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="BOOMELE" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="C145956" x="57.5" y="55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.5" y="59" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
@@ -23365,6 +23398,7 @@ Your Multi-CB Team
 </element>
 <element name="J2" library="zaan-Connectors" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:31106542/3" value="" x="57.5" y="64" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Header SMD 1MM 4Pin" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC" value="C145956" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="BOOMELE" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="C145956" x="57.5" y="64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.5" y="68" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
