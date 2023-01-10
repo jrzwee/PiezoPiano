@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
@@ -253,7 +253,7 @@
 <wire x1="89.75" y1="11.9" x2="89.75" y2="10.6" width="0.1" layer="21" style="shortdash"/>
 <wire x1="89.75" y1="10.6" x2="0.25" y2="10.6" width="0.1" layer="21" style="shortdash"/>
 <text x="45" y="11.25" size="0.8128" layer="21" font="vector" ratio="15" align="center">Needed space for mounting</text>
-<text x="45" y="13.5" size="1.4224" layer="25" font="vector" ratio="15" rot="R180" align="center">ZΔ⅗ 2022</text>
+<text x="45" y="13.5" size="1.4224" layer="25" font="vector" ratio="15" rot="R180" align="center">ZΔ⅗ 2023</text>
 <text x="13.25" y="15" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center-right">A3</text>
 <text x="13.25" y="17.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center-right">A2</text>
 <text x="13.25" y="20" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center-right">A1</text>
@@ -23080,7 +23080,7 @@ Your Multi-CB Team
 <attribute name="DIELECTRIC" value="X7R" x="36.75" y="90.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="36.75" y="90.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0603JRX7R9BB104" x="36.75" y="90.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="37.75" y="90.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left"/>
+<attribute name="NAME" x="38" y="90.5" size="1.016" layer="25" font="vector" ratio="15" align="center-left"/>
 <attribute name="PACKAGE" value="1606" x="36.75" y="90.5" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE-IN" value="0603" x="36.75" y="90.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="36.75" y="90.5" size="1.778" layer="27" display="off"/>
@@ -23568,7 +23568,7 @@ Your Multi-CB Team
 <attribute name="LCSC" value="C8598" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="Changjiang Electronics Tech (CJ)" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="B5819W SL" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="NAME" x="18.75" y="90.25" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="18.5" y="90.25" size="1.016" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="SOD-123" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="22.25" y="88.75" size="1.016" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VOLTAGE_FORWARD" value="600mV" x="22.25" y="90.25" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
